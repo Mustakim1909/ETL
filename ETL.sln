@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETL", "ETLDEMO\ETL.csproj", "{7D1DF617-CF21-4D19-B506-131D4938BD87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETL.Service", "ETLDemo.Service\ETL.Service.csproj", "{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D1DF617-CF21-4D19-B506-131D4938BD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D1DF617-CF21-4D19-B506-131D4938BD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D1DF617-CF21-4D19-B506-131D4938BD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D1DF617-CF21-4D19-B506-131D4938BD87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

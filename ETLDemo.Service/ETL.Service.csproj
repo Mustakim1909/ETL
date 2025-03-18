@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="33.0.1" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="4.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.36" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.36">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.36" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.36">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="NLog" Version="5.3.4" />
+    <PackageReference Include="Npgsql" Version="9.0.2" />
+    <PackageReference Include="Polly" Version="8.5.2" />
+    <PackageReference Include="Serilog" Version="4.1.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="Common.Config">
+			<HintPath>..\..\Common\bin\Release\net6.0\Common.Config.dll</HintPath>
+		</Reference>
+		<Reference Include="Common.DataAccess">
+			<HintPath>..\..\Common\bin\Release\net6.0\Common.DataAccess.dll</HintPath>
+		</Reference>
+		<Reference Include="Common.DataAccess.MsSql">
+			<HintPath>..\..\Common\bin\Release\net6.0\Common.DataAccess.MsSql.dll</HintPath>
+		</Reference>
+		<Reference Include="Common.DataAccess.Oracle">
+			<HintPath>..\..\Common\bin\Release\net6.0\Common.DataAccess.Oracle.dll</HintPath>
+		</Reference>
+		<Reference Include="Common.DataAccess.PostgreSql">
+			<HintPath>..\..\Common\bin\Release\net6.0\Common.DataAccess.PostgreSql.dll</HintPath>
+		</Reference>
+		<Reference Include="Common.DataAccess.Oracle">
+			<HintPath>..\..\Common\bin\Release\net6.0\Common.Security.dll</HintPath>
+		</Reference>
+
+	</ItemGroup>
+
+</Project>

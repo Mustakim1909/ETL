@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\BackOffice\\ETL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|c:\\backoffice\\etl\\etldemo\\etl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|solutionrelative:etldemo\\etl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|c:\\backoffice\\etl\\etldemo.service\\etl.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|solutionrelative:etldemo.service\\etl.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|c:\\backoffice\\etl\\etldemo\\etlhelperprocess\\etlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|solutionrelative:etldemo\\etlhelperprocess\\etlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|c:\\backoffice\\etl\\etldemo.service\\model\\invoicemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|solutionrelative:etldemo.service\\model\\invoicemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|c:\\backoffice\\etl\\etldemo\\etlworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|solutionrelative:etldemo\\etlworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|c:\\backoffice\\etl\\etldemo.service\\repo\\postgresql\\etlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|solutionrelative:etldemo.service\\repo\\postgresql\\etlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|c:\\backoffice\\etl\\etldemo.service\\repo\\interface\\ietlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|solutionrelative:etldemo.service\\repo\\interface\\ietlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|c:\\backoffice\\etl\\etldemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|solutionrelative:etldemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|c:\\backoffice\\etl\\etldemo.service\\model\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|solutionrelative:etldemo.service\\model\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|c:\\backoffice\\etl\\etldemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|solutionrelative:etldemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|c:\\backoffice\\etl\\etldemo.service\\etlfactorysetting\\etlservicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|solutionrelative:etldemo.service\\etlfactorysetting\\etlservicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IETLService.cs",
+              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDemo.Service\\Repo\\Interface\\IETLService.cs",
+              "RelativeDocumentMoniker": "ETLDemo.Service\\Repo\\Interface\\IETLService.cs",
+              "ToolTip": "C:\\BackOffice\\ETL\\ETLDemo.Service\\Repo\\Interface\\IETLService.cs",
+              "RelativeToolTip": "ETLDemo.Service\\Repo\\Interface\\IETLService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA6wCQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T03:09:49.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDEMO\\Program.cs",
+              "RelativeDocumentMoniker": "ETLDEMO\\Program.cs",
+              "ToolTip": "C:\\BackOffice\\ETL\\ETLDEMO\\Program.cs",
+              "RelativeToolTip": "ETLDEMO\\Program.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAgwGcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T05:13:33.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ETLServiceFactory.cs",
+              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDemo.Service\\ETLFactorySetting\\ETLServiceFactory.cs",
+              "RelativeDocumentMoniker": "ETLDemo.Service\\ETLFactorySetting\\ETLServiceFactory.cs",
+              "ToolTip": "C:\\BackOffice\\ETL\\ETLDemo.Service\\ETLFactorySetting\\ETLServiceFactory.cs",
+              "RelativeToolTip": "ETLDemo.Service\\ETLFactorySetting\\ETLServiceFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T03:52:13.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ETL.Service.csproj",
+              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDemo.Service\\ETL.Service.csproj",
+              "RelativeDocumentMoniker": "ETLDemo.Service\\ETL.Service.csproj",
+              "ToolTip": "C:\\BackOffice\\ETL\\ETLDemo.Service\\ETL.Service.csproj",
+              "RelativeToolTip": "ETLDemo.Service\\ETL.Service.csproj",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwCYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-08T03:48:09.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ETL.csproj",
+              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDEMO\\ETL.csproj",
+              "RelativeDocumentMoniker": "ETLDEMO\\ETL.csproj",
+              "ToolTip": "C:\\BackOffice\\ETL\\ETLDEMO\\ETL.csproj",
+              "RelativeToolTip": "ETLDEMO\\ETL.csproj",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-08T03:47:50.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ETLService.cs",
+              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDemo.Service\\Repo\\PostgreSql\\ETLService.cs",
+              "RelativeDocumentMoniker": "ETLDemo.Service\\Repo\\PostgreSql\\ETLService.cs",
+              "ToolTip": "C:\\BackOffice\\ETL\\ETLDemo.Service\\Repo\\PostgreSql\\ETLService.cs",
+              "RelativeToolTip": "ETLDemo.Service\\Repo\\PostgreSql\\ETLService.cs",
+              "ViewState": "AgIAACcGAAAAAAAAAAArwDQGAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T05:47:33.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDEMO\\appsettings.json",
+              "RelativeDocumentMoniker": "ETLDEMO\\appsettings.json",
+              "ToolTip": "C:\\BackOffice\\ETL\\ETLDEMO\\appsettings.json",
+              "RelativeToolTip": "ETLDEMO\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-28T10:01:03.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDemo.Service\\Model\\Invoice.cs",
+              "RelativeDocumentMoniker": "ETLDemo.Service\\Model\\Invoice.cs",
+              "ToolTip": "C:\\BackOffice\\ETL\\ETLDemo.Service\\Model\\Invoice.cs",
+              "RelativeToolTip": "ETLDemo.Service\\Model\\Invoice.cs",
+              "ViewState": "AgIAAHoBAAAAAAAAAADgv64BAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T03:40:18.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InvoiceMap.cs",
+              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDemo.Service\\Model\\InvoiceMap.cs",
+              "RelativeDocumentMoniker": "ETLDemo.Service\\Model\\InvoiceMap.cs",
+              "ToolTip": "C:\\BackOffice\\ETL\\ETLDemo.Service\\Model\\InvoiceMap.cs",
+              "RelativeToolTip": "ETLDemo.Service\\Model\\InvoiceMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0BAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T03:55:51.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ETLHelper.cs",
+              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDEMO\\ETLHelperProcess\\ETLHelper.cs",
+              "RelativeDocumentMoniker": "ETLDEMO\\ETLHelperProcess\\ETLHelper.cs",
+              "ToolTip": "C:\\BackOffice\\ETL\\ETLDEMO\\ETLHelperProcess\\ETLHelper.cs",
+              "RelativeToolTip": "ETLDEMO\\ETLHelperProcess\\ETLHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T03:44:57.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ETLWorker.cs",
+              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDEMO\\ETLWorker.cs",
+              "RelativeDocumentMoniker": "ETLDEMO\\ETLWorker.cs",
+              "ToolTip": "C:\\BackOffice\\ETL\\ETLDEMO\\ETLWorker.cs",
+              "RelativeToolTip": "ETLDEMO\\ETLWorker.cs",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAjwBEBAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T03:42:41.523Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

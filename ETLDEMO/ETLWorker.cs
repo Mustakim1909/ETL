@@ -113,14 +113,15 @@ namespace ETLDEMO
                             //DomainName = path[path.Count - 5],  // Get the domain name
                             //InvoiceType = path[path.Count - 4]  // Extract the invoice type
 
-                            DomainName = path[path.Count - 5],  // Get the domain name
-                            InvoiceType = path[path.Count - 4]  // Extract the invoice type
+                            DomainName = path[path.Count - 6],  // Get the domain name
+                            InvoiceType = path[path.Count - 5]  // Extract the invoice type
                         };
                     })
                     .ToDictionary(g => g.Key, g => g.ToList());
 
                 var failedTasks = new List<string>();
 
+                var domainCheck = false;
                 // Iterate over each domain and process the files concurrently
                 foreach (var domainGroup in domainFileGroups)
                 {
@@ -131,10 +132,14 @@ namespace ETLDEMO
                     LogThreadSafe($"Processing files for domain: {domainName}, invoiceType: {invoiceType}");
 
                     try
-                    {                     
-                            // Read all lines from the CSV file into a list
-
+                    {
+                        // Read all lines from the CSV file into a list
+                        if (!domainCheck)
+                        {
                             await _etlDemoService.GetConnectionString(domainName);
+                            domainCheck = true;
+                        }
+                            
 
                             await ProcessFileAsync(domainFiles, domainName, invoiceType, temp);
                             // Pass all files for the domain and invoice type in a single call to ProcessFileAsync

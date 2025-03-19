@@ -270,7 +270,23 @@ namespace ETL.Service.Repo.PostgreSql
             var exec = _queryHelper.ExecuteStoredProc("ETLProcess", parameters1);
             return exec;
         }
+        public async Task<List<CsvFieldConfiguration>> GetInvoiceMappingColumns()
+        {
+            string sql = $"SELECT * FROM InvoiceCsvFieldConfiguration WHERE Status = 'Active' ORDER BY Sequence";
 
+            try
+            {
+                var data = (await _queryHelper.Read(sql, null, MappingColumnsList))?.ToList();
+
+                return data;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+
+        }
         public Task<List<InvoiceData>> GetInvoiceData(string einvoicenumber, string invoicetypecode)
         {
             throw new NotImplementedException();
@@ -1587,7 +1603,7 @@ namespace ETL.Service.Repo.PostgreSql
         }
         public async Task<TenantDetails> GetConnectionString(string Domain)
         {
-            string sql = $"SELECT * FROM public.\"TenantDetails\" Where \"Domain\"=@Domain";
+            string sql = $"SELECT * FROM TenantDetails Where Domain = @Domain";
             var parameters = new List<IDataParameter>
         {
             QueryHelper.CreateSqlParameter("@Domain", Domain, NpgsqlDbType.Varchar)
@@ -1636,7 +1652,7 @@ namespace ETL.Service.Repo.PostgreSql
 
         public async Task SetConnectionString(string connectionstring)
         {
-            var encPassword = connectionstring.Split(';')[2].Substring(9);
+            var encPassword = connectionstring.Split(';')[3].Substring(9);
             var password = SecurityHelper.DecryptWithEmbedKey(encPassword);
             connectionstring = connectionstring.Replace(encPassword, password);
 
@@ -1659,6 +1675,14 @@ namespace ETL.Service.Repo.PostgreSql
         new TenantDetails
         {
             ConnectionString = reader["ConnectionString"].ToString(),
+        };
+        private readonly Func<IDataReader, CsvFieldConfiguration> MappingColumnsList = reader =>
+        new CsvFieldConfiguration
+        {
+            CsvFieldName = reader["CsvFieldName"].ToString(),
+            TableFieldName = reader["TableFieldName"].ToString(),
+            Status = reader["Status"].ToString(),
+            TableName = reader["TableName"].ToString(),
         };
     }
 }

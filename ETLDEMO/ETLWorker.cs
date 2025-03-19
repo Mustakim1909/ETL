@@ -29,7 +29,6 @@ using System.Text.RegularExpressions;
 using Microsoft.VisualBasic.FileIO;
 using System.Runtime.CompilerServices;
 using System.Collections.Generic;
-using static ETL_Demo.Models.InvoiceMap;
 using Azure.Core;
 using Npgsql;
 using Polly;
@@ -114,8 +113,8 @@ namespace ETLDEMO
                             //DomainName = path[path.Count - 5],  // Get the domain name
                             //InvoiceType = path[path.Count - 4]  // Extract the invoice type
 
-                            DomainName = path[path.Count - 6],  // Get the domain name
-                            InvoiceType = path[path.Count - 5]  // Extract the invoice type
+                            DomainName = path[path.Count - 5],  // Get the domain name
+                            InvoiceType = path[path.Count - 4]  // Extract the invoice type
                         };
                     })
                     .ToDictionary(g => g.Key, g => g.ToList());
@@ -271,7 +270,7 @@ namespace ETLDEMO
 
 
 
-                var invoiceCSVData = await _eTLHelper.ReadCsv<InvoiceCSVData>(tasktype, new InvoiceMap.InvoiceDataMap());
+                var invoiceCSVData = await _eTLHelper.ReadCsv<InvoiceCSVData>(tasktype, new InvoiceDataMap(_etlDemoService));
 
 
                 if (invoiceCSVData.Count() == 0)

@@ -9572,6 +9572,11 @@ namespace ETL.Service.Repo.MSSQL
             throw new NotImplementedException();
         }
 
+        public Task<List<CsvFieldConfiguration>> GetInvoiceMappingColumns()
+        {
+            throw new NotImplementedException();
+        }
+
         private readonly Func<IDataReader, InvoiceData> InvoiceByIdMake = reader =>
         new InvoiceData
         {

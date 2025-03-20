@@ -13,19 +13,19 @@ public class InvoiceDataMap : ClassMap<InvoiceCSVData>
     private readonly IETLService _etlDemoService;
     private Dictionary<string, string> _columnMappings;
 
-    public InvoiceDataMap(IETLService eTLDemoService)
+    public InvoiceDataMap(IETLService eTLDemoService, string documentType)
     {
         _etlDemoService = eTLDemoService;
         _columnMappings = new Dictionary<string, string>();
-        InitializeMapping().Wait(); // Ensure mappings are loaded
+        InitializeMapping(documentType).Wait(); // Ensure mappings are loaded
         ConfigureMapping(); // Apply mappings to CsvHelper
     }
 
-    private async Task InitializeMapping()
+    private async Task InitializeMapping(string documentType)
     {
         try
         {
-            var columnNames = await _etlDemoService.GetInvoiceMappingColumns();
+            var columnNames = await _etlDemoService.GetInvoiceMappingColumns(documentType);
             if (columnNames.Count > 0)
             {
                 foreach (var col in columnNames)
@@ -33,10 +33,15 @@ public class InvoiceDataMap : ClassMap<InvoiceCSVData>
                     _columnMappings[col.CsvFieldName] = col.TableFieldName;
                 }
             }
+            else
+            {
+                Log.Error($"Mapping is have for : {documentType}");
+                Console.WriteLine($"Mapping is have for : {documentType}");
+            }
         }
         catch (Exception ex)
         {
-            Log.Information($"Exception in InvoiceDataMapping: {ex.Message}");
+            Log.Error($"Exception in InvoiceDataMapping: {ex.Message}");
             Console.WriteLine($"Exception in InvoiceDataMapping: {ex.Message}");
         }
     }
@@ -51,6 +56,16 @@ public class InvoiceDataMap : ClassMap<InvoiceCSVData>
         {
             var csvField = mapping.Key;     // CSV column name
             var modelField = mapping.Value; // Model property name
+
+            //if(modelField == "CbcInvoiceLineNetAmount")
+            //{
+            //    Console.WriteLine(modelField);
+            //}
+
+            //if (csvField == "Invoice line net amount")
+            //{
+            //    Console.WriteLine(modelField);
+            //}
 
             // Use reflection to check if the property exists in InvoiceCSVData
             var property = typeof(InvoiceCSVData).GetProperty(modelField, BindingFlags.Public | BindingFlags.Instance | BindingFlags.IgnoreCase);

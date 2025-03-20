@@ -228,7 +228,7 @@ namespace ETL.Service.Repo.Oracle
             throw new NotImplementedException();
         }
 
-        public Task<List<CsvFieldConfiguration>> GetInvoiceMappingColumns()
+        public Task<List<CsvFieldConfiguration>> GetInvoiceMappingColumns(string documentType)
         {
             throw new NotImplementedException();
         }

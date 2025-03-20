@@ -9572,7 +9572,7 @@ namespace ETL.Service.Repo.MSSQL
             throw new NotImplementedException();
         }
 
-        public Task<List<CsvFieldConfiguration>> GetInvoiceMappingColumns()
+        public Task<List<CsvFieldConfiguration>> GetInvoiceMappingColumns(string documentType)
         {
             throw new NotImplementedException();
         }

@@ -270,9 +270,9 @@ namespace ETL.Service.Repo.PostgreSql
             var exec = _queryHelper.ExecuteStoredProc("ETLProcess", parameters1);
             return exec;
         }
-        public async Task<List<CsvFieldConfiguration>> GetInvoiceMappingColumns()
+        public async Task<List<CsvFieldConfiguration>> GetInvoiceMappingColumns(string documentType)
         {
-            string sql = $"SELECT * FROM InvoiceCsvFieldConfiguration WHERE Status = 'Active' ORDER BY Sequence";
+            string sql = $"SELECT * FROM InvoiceCsvFieldConfiguration WHERE Status = 'Active' AND SourceName = '{documentType}' ORDER BY Sequence";
 
             try
             {

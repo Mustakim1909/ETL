@@ -109,7 +109,7 @@ namespace ETL_Demo.Models
         public string CacAddress2 { get; set; }
         public string CacAddress3 { get; set; }
         public string CacAddress4 { get; set; }
-        public string CacSellerEmail { get; set; }
+        //public string CacSellerEmail { get; set; }
         public int? ReltedInvoiceId { get; set; }
         public string EInvoiceNumber { get; set; }
         public int? TaxOfficeSchedulerId { get; set; }
@@ -430,6 +430,16 @@ namespace ETL_Demo.Models
         public List<InvoiceLineItems> InvoiceLineItems { get; set; }
         public DocTaxSubTotal DocTaxSubTotal { get; set; }
         //public string CbcTaxSchemeAgencyCode { get; set; }
+
+
+
+        //public string CacBuyerEmail { get; set; }
+        public string UnitPrice { get; set; }
+        public string CbcItemTaxCategory { get; set; }
+        public string CbcItemTaxSchemeID { get; set; }
+        public string CbcItemTaxSchemeAgencyID { get; set; }
+        public string CbcItemTaxSchemeAgencyCode { get; set; }
+        public string NettAmount { get; set; }
     }
 
 
@@ -869,4 +879,5 @@ namespace ETL_Demo.Models
 
         //Static Field
     }
+
 }

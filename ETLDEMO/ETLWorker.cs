@@ -275,7 +275,7 @@ namespace ETLDEMO
 
 
 
-                var invoiceCSVData = await _eTLHelper.ReadCsv<InvoiceCSVData>(tasktype, new InvoiceDataMap(_etlDemoService));
+                var invoiceCSVData = await _eTLHelper.ReadCsv<InvoiceCSVData>(tasktype, new InvoiceDataMap(_etlDemoService, invoicetype));
 
 
                 if (invoiceCSVData.Count() == 0)
@@ -526,7 +526,7 @@ namespace ETLDEMO
                             CacAddress2 = invoiceCSVData.Select(x => x.CacAddress2).FirstOrDefault(),
                             CacAddress3 = invoiceCSVData.Select(x => x.CacAddress3).FirstOrDefault(),
                             CacAddress4 = invoiceCSVData.Select(x => x.CacAddress4).FirstOrDefault(),
-                            CacSellerEmail = invoiceCSVData.Select(x => x.CacSellerEmail).FirstOrDefault(),
+                            CacSellerEmail = invoiceCSVData.Select(x => x.CbcSellerElectronicMail).FirstOrDefault(),
                             ReltedInvoiceId = invoiceCSVData.Select(x => x.ReltedInvoiceId).FirstOrDefault(),
                             EInvoiceNumber = invoiceCSVData.Select(x => x.EInvoiceNumber).FirstOrDefault(),
                             TaxOfficeSchedulerId = invoiceCSVData.Select(x => x.TaxOfficeSchedulerId).FirstOrDefault(),
@@ -847,7 +847,7 @@ namespace ETLDEMO
                                     CbcChargeBaseAmount = itemline.CbcChargeBaseAmount,
                                     CbcChargeMultiplierFactor = itemline.CbcChargeMultiplierFactor,
                                     CbcChargeAmount = itemline.CbcChargeAmount,
-                                    CbcPrice = itemline.CbcPrice,
+                                    CbcPrice = itemline.UnitPrice,
                                     CbcTaxExemptionDetails = itemline.CbcTaxExemptionDetails,
                                     CbcTaxExemptedAmount = itemline.CbcTaxExemptedAmount,
                                     CbcTotalExcludingTax = itemline.CbcTotalExcludingTax,

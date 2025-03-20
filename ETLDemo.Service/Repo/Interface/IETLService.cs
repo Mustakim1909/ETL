@@ -44,7 +44,7 @@ namespace ETL.Service.Repo.Interface
         Task<int> InsertInvData(string InvoiceNumber, List<string> filepath);
         Task<int> TempInsertStoreProc2(string InvoiceNumber, string TotalAmount, string TotalLines);
         Task<int> InsertInvoiceData(string InvoiceNumber, string TotalAmount, string TotalLines, List<string> filepath);
-        Task<List<CsvFieldConfiguration>> GetInvoiceMappingColumns();
+        Task<List<CsvFieldConfiguration>> GetInvoiceMappingColumns(string documentType);
     }
 }
  

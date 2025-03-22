@@ -25,15 +25,16 @@ namespace ETL.Service.Repo.PostgreSql
     {
         private QueryHelper _queryHelper = null;
         private string _connectionString = null;
+        private readonly ETLAppSettings _appSettings;
         public int count = 0;
-        public ETLService(DbConfig dbConfig)    
+        public ETLService(DbConfig dbConfig, ETLAppSettings appsettings)    
         {
-            //_queryHelper = new QueryHelper(databaseConfig.ConnectionString);
             var initialConnectionString = ConnectionStringManager.IsConnectionStringCached()
                                     ? ConnectionStringManager.GetConnectionString()
                                     : dbConfig.ConnectionString;
             _connectionString = initialConnectionString;
             _queryHelper = new QueryHelper(initialConnectionString);
+            _appSettings = appsettings;
         }
 
         public Task<int> ExecStorProcForInsert(List<InvoiceData> invoicedatajson, List<List<InvoiceLineItems>> invoicelineitemsjson, List<DocTaxSubTotal> doctaxsubtotaljson)
@@ -177,11 +178,13 @@ namespace ETL.Service.Repo.PostgreSql
             var paramName1 = "p_invoice_number";
             var paramName3 = "p_totalamount";
             var paramName4 = "p_totallineitems";
+            var paramName5 = "p_splitCount";
             var parameters1 = new List<NpgsqlParameter>
               {
                 (NpgsqlParameter)QueryHelper.CreateSqlParameter(paramName1, InvoiceNumber, NpgsqlDbType.Text),
                 (NpgsqlParameter)QueryHelper.CreateSqlParameter(paramName3, TotalAmount, NpgsqlDbType.Text),
-                (NpgsqlParameter)QueryHelper.CreateSqlParameter(paramName4, TotalLines, NpgsqlDbType.Text)
+                (NpgsqlParameter)QueryHelper.CreateSqlParameter(paramName4, TotalLines, NpgsqlDbType.Text),
+                (NpgsqlParameter)QueryHelper.CreateSqlParameter(paramName5, _appSettings.LineSplitCount, NpgsqlDbType.Integer)
                };
             var exec = _queryHelper.ExecuteStoredProc("split_and_store_invoice", parameters1);
             count++;

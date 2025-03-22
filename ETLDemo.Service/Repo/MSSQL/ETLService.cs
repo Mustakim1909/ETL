@@ -20,7 +20,7 @@ namespace ETL.Service.Repo.MSSQL
     {
         public QueryHelper _queryHelper = null;
         public string conectionstring = null;
-        public ETLService(DbConfig dbConfig)
+        public ETLService(DbConfig dbConfig, ETLAppSettings appsettings)
         {
             //_queryHelper = new QueryHelper(databaseConfig.ConnectionString);
             var initialConnectionString = ConnectionStringManager.IsConnectionStringCached()

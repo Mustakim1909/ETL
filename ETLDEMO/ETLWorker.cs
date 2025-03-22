@@ -302,113 +302,7 @@ namespace ETLDEMO
                         // Update CbcInvoiceTypeCode for all items
                         invoiceCSVData.ForEach(x => x.CbcInvoiceTypeCode = $"0{x.CbcInvoiceTypeCode}");
                     }
-                    /*if (item.EInvoiceNumber == extractedInvoiceNumber && item.CbcInvoiceTypeCode == extractInvoiceTypeCode)
-                    {
-                        var InvoiceData = new InvoiceCSVData()
-                        {
-                            InvoiceVersion = item.InvoiceVersion,
-                            CbcInvoiceTypeCode = item.CbcInvoiceTypeCode,
-                            EInvoiceNumber = item.EInvoiceNumber,
-                            InvoiceDate = item.InvoiceDate,
-                            InvoiceTime = item.InvoiceTime,
-                            CbcDocumentCurrencyCode = item.CbcDocumentCurrencyCode,
-                            CbcCurrencyExchangeRate = item.CbcCurrencyExchangeRate,
-                            PaymentMode = item.PaymentMode,
-                            CbcSupplierBankAccountNumber = item.CbcSupplierBankAccountNumber,
-                            CacPaymentTerms = item.CacPaymentTerms,
-                            paymentDueDate = item.paymentDueDate,
-                            CbcBuyerName = item.CbcBuyerName,
-                            CbcBuyerVATID = item.CbcBuyerVATID,
-                            CbcBCategory = item.CbcBCategory,
-                            CbcBBRNNumber = item.CbcBBRNNumber,
-                            CbcIdentificationCode = item.CbcIdentificationCode,
-                            CbcBSSTRegistrationNumber = item.CbcBSSTRegistrationNumber,
-                            BuyerContactPerson = item.BuyerContactPerson,
-                            CbcBuyerElectronicMail = item.CbcBuyerElectronicMail,
-                            CbcBuyerTelephone = item.CbcBuyerTelephone,
-                            CbcBStreetName = item.CbcBStreetName,
-                            CbcBAdditionalStreetName1 = item.CbcBAdditionalStreetName1,
-                            CbcBAdditionalStreetName2 = item.CbcBAdditionalStreetName2,
-                            CbcBPostalZone = item.CbcBPostalZone,
-                            CbcBCityName = item.CbcBCityName,
-                            CbcBCountrySubentity = item.CbcBCountrySubentity,
-                            CbcBCountryIdentificationCode = item.CbcBCountryIdentificationCode,
-                            RefNo = item.RefNo,
-                            BP_CODE = item.BP_CODE,
-                            CbcItemClassificationClass = item.CbcItemClassificationClass,
-                            CbcItemClassificationCode = item.CbcItemClassificationCode,
-                            ProductId = item.ProductId,
-                            CbcDescription = item.CbcDescription,
-                            CbcProductTariffCode = item.CbcProductTariffCode,
-                            CbcIDItemCountryOfOrigin = item.CbcIDItemCountryOfOrigin,
-                            CbcPrice = item.CbcPrice,
-                            CbcBaseQuantity = item.CbcBaseQuantity,
-                            CbcMeasure = item.CbcMeasure,
-                            CbcSubtotal = item.CbcSubtotal,
-                            TaxCategoryUNECE5153 = item.TaxCategoryUNECE5153,
-                            TaxCategoryUNCL5305 = item.TaxCategoryUNCL5305,
-                            CbcSSTTaxCategory = item.CbcSSTTaxCategory,
-                            CbcTaxType = item.CbcTaxType,
-                            CbcTaxRate = item.CbcTaxRate,
-                            TaxRateApplicable = item.TaxRateApplicable,
-                            CbcTaxAmount = item.CbcTaxAmount,
-                            CbcTaxExemptionDetails = item.CbcTaxExemptionDetails,
-                            CbcTaxExemptedAmount = item.CbcTaxExemptedAmount,
-                            CbcDiscountRate = item.CbcDiscountRate,
-                            CbcDiscountAmount = item.CbcDiscountAmount,
-                            CbcTotalExcludingTax = item.CbcTotalExcludingTax,
-                            CbcAllowanceReasonCode = item.CbcAllowanceReasonCode,
-                            CbcAllowanceText = item.CbcAllowanceText,
-                            CbcAllowanceBaseAmount = item.CbcAllowanceBaseAmount,
-                            AllowancePercentage = item.AllowancePercentage,
-                            CbcAllowanceAmount = item.CbcAllowanceAmount,
-                            CbcChargeReasonCode = item.CbcChargeReasonCode,
-                            CbcChargeText = item.CbcChargeText,
-                            CbcChargeBaseAmount = item.CbcChargeBaseAmount,
-                            CbcChargeRate = item.CbcChargeRate,
-                            CbcChargeAmount = item.CbcChargeAmount,
-                            CbcInvoiceLineNetAmount = item.CbcInvoiceLineNetAmount,
-                            CbcNetAmount = item.CbcNetAmount,
-                            CbcSumOfInvoiceLineNetAmount = item.CbcSumOfInvoiceLineNetAmount,
-                            TotalAllowanceAmount = item.TotalAllowanceAmount,
-                            TotalFeeChargeAmount = item.TotalFeeChargeAmount,
-                            NetAmount = item.NetAmount,
-                            TotalTaxAmount = item.TotalTaxAmount,
-                            TotalIncludingTax = item.TotalIncludingTax,
-                            PrePaidAmount = item.PrePaidAmount,
-                            PayableRoundingAmount = item.PayableRoundingAmount,
-                            TotalPayableAmount = item.TotalPayableAmount,
-                            TotalDiscountValue = item.TotalDiscountValue,
-                            InvoiceAdditionalDiscount = item.InvoiceAdditionalDiscount,
-                            InvoiceAdditionalFee = item.InvoiceAdditionalFee,
-                            CategoryTaxAmount = item.CategoryTaxAmount,
-                            TaxCatCodeForTaxAmount = item.TaxCatCodeForTaxAmount,
-                            CategoryTaxCategory = item.CategoryTaxCategory,
-                            TaxAmountPerTaxType = item.TaxAmountPerTaxType,
-                            CategoryTaxRate = item.CategoryTaxRate,
-                            FrequencyOfBilling = item.FrequencyOfBilling,
-                            BillingPeriodStartDate = item.BillingPeriodStartDate,
-                            BillingPeriodEndDate = item.BillingPeriodEndDate,
-                            CbcBillReferenceNumber = item.CbcBillReferenceNumber,
-                            SupplierContactPerson = item.SupplierContactPerson,
-                            TotalNumberOfInvoiceLines = item.TotalNumberOfInvoiceLines,
-                            CustomerAccount = item.CustomerAccount,
-                            BuyerFaxNo = item.BuyerFaxNo,
-                            InvoicePreparedDate = item.InvoicePreparedDate,
-                            InvoicePreparedTime = item.InvoicePreparedTime,
-                            SupplierBankAccountName = item.SupplierBankAccountName,
-                            SupplierBankSWIFTCode = item.SupplierBankSWIFTCode,
-                            LineItemTaxCode = item.LineItemTaxCode,
-                            InvoiceLevelTaxSummary = item.InvoiceLevelTaxSummary,
-                            InvoiceLevelTaxBaseAmountperTaxCode = item.InvoiceLevelTaxBaseAmountperTaxCode,
-                            InvoiceLevelTaxAmountperTaxCode = item.InvoiceLevelTaxAmountperTaxCode,
-                            InvoiceLevelTotalAmountDueperTaxCode = item.InvoiceLevelTotalAmountDueperTaxCode,
-
-                        };
-
-                        invoiceCSVDatas.Add(InvoiceData);
-                    }*/
-                    //totalamount = invoiceCSVData.Sum(x => Convert.ToDecimal(x.CbcInvoiceLineNetAmount)).ToString();
+                  
                     if (invoiceCSVData.Any(item => item.EInvoiceNumber.Contains(extractedInvoiceNumber) && item.CbcInvoiceTypeCode == extractInvoiceTypeCode))
                     {
                         #region InvoiceData
@@ -952,39 +846,7 @@ namespace ETLDEMO
                                 finalJsonArray = JsonConvert.SerializeObject(invoicelineitemsjson);
 
                                 InvoiceLineItems invoicelineitemdata1 = new InvoiceLineItems();
-                                /* if (item.CbcInvoiceTypeCode == "01")
-                                 {
-                                     //invoicelineitemdata1 = await _etlDemoService.InsertInvoicelineData(lineItems);
-                                 }
-                                 else if (item.CbcInvoiceTypeCode == "02")
-                                 {
-                                     invoicelineitemdata1 = await _etlDemoService.InsertCreditNotelineData(lineItems);
-                                 }
-                                 else if (item.CbcInvoiceTypeCode == "03")
-                                 {
-                                     invoicelineitemdata1 = await _etlDemoService.InsertDebitNotelineData(lineItems);
-                                 }
-                                 else if (item.CbcInvoiceTypeCode == "04")
-                                 {
-                                     invoicelineitemdata1 = await _etlDemoService.InsertRefundNotelineData(lineItems);
-                                 }
-                                 else if (item.CbcInvoiceTypeCode == "11")
-                                 {
-                                     invoicelineitemdata1 = await _etlDemoService.InsertSBInvoicelineData(lineItems);
-                                 }
-                                 else if (item.CbcInvoiceTypeCode == "12")
-                                 {
-                                     invoicelineitemdata1 = await _etlDemoService.InsertSBCreditNotelineData(lineItems);
-                                 }
-                                 else if (item.CbcInvoiceTypeCode == "13")
-                                 {
-                                     invoicelineitemdata1 = await _etlDemoService.InsertSBDebitNotelineData(lineItems);
-                                 }
-                                 else if (item.CbcInvoiceTypeCode == "14")
-                                 {
-                                     invoicelineitemdata1 = await _etlDemoService.InsertSBRefundNotelineData(lineItems);
-                                 }*/
-                                //}
+
                             }
                             else
                             {
@@ -1041,105 +903,9 @@ namespace ETLDEMO
                         InvoiceCSVData.DocTaxSubTotal = docTaxSubTotal1;
                         invoicedata.Add(InvoiceCSVData);
                         DocTaxSubTotal docTaxSubTotal = new DocTaxSubTotal();
-                        /* if (item.CbcInvoiceTypeCode == "01")
-                         {
-                             //await _etlDemoService.ExecStorProcForInsert(invoicedata, invoicelineitems, doctaxsubtotal);
-                         }
-                         else if (item.CbcInvoiceTypeCode == "02")
-                         {
-                             docTaxSubTotal = await _etlDemoService.InsertCreditNoteDocTaxSubTotal(docTaxSubTotal1);
-                         }
-                         else if (item.CbcInvoiceTypeCode == "03")
-                         {
-                             docTaxSubTotal = await _etlDemoService.InsertDebitNoteDocTaxSubTotal(docTaxSubTotal1);
-                         }
-                         else if (item.CbcInvoiceTypeCode == "04")
-                         {
-                             docTaxSubTotal = await _etlDemoService.InsertRefundNoteDocTaxSubTotal(docTaxSubTotal1);
-                         }
-                         else if (item.CbcInvoiceTypeCode == "11")
-                         {
-                             docTaxSubTotal = await _etlDemoService.InsertSBInvoiceDocTaxSubTotal(docTaxSubTotal1);
-                         }
-                         else if (item.CbcInvoiceTypeCode == "12")
-                         {
-                             docTaxSubTotal = await _etlDemoService.InsertSBCreditNoteTaxSubTotal(docTaxSubTotal1);
-                         }
-                         else if (item.CbcInvoiceTypeCode == "13")
-                         {
-                             docTaxSubTotal = await _etlDemoService.InsertSBDebitNoteTaxSubTotal(docTaxSubTotal1);
-                         }
-                         else if (item.CbcInvoiceTypeCode == "14")
-                         {
-                             docTaxSubTotal = await _etlDemoService.InsertSBRefundNoteTaxSubTotal(docTaxSubTotal1);
-                         }*/
+
                         #endregion DocTaxSubTotal
-                        //await _etlDemoService.ExecStorProc(invoicedata, invoicelineitems, doctaxsubtotal);
-                        //ETL Process
-                        /*                        var etprocessdata = await _eTLHelper.ETLProcess(item, lineItems);
-                                                var etlstatus = await _eTLHelper.ETLStatus(etprocessdata);  // Get Data validation status
-                                                                                                            //await _etlDemoService.InsertETLProcess(etprocessdata);
-                                                                                                            //await _etlDemoService.InsertETLStatus(etlstatus);
-                                                string Status = string.Empty;
-                                                if (etlstatus.Status == "ReadyForIRB")
-                                                {
-                                                    Console.WriteLine(etlstatus.Status);
-
-                                                    var invoicedatacheck = await _etlDemoService.GetInvoiceData(item.EInvoiceNumber, item.CbcInvoiceTypeCode);
-                                                    if (invoicedatacheck.Count() > 0)
-                                                    {
-                                                        foreach (var invoice in invoicedatacheck)
-                                                        {
-
-
-                                                            if (invoicedatacheck.Any(invoice => invoice.Status.Equals("ReadyForIRB")) || invoicedatacheck.Any(invoice => invoice.Status.Equals("IRBResponseSuccess")) ||
-                                                            invoicedatacheck.Any(invoice => invoice.Status.Equals("SubmittedToIRB")) || invoicedatacheck.Any(invoice => invoice.Status.Equals("IRBValidationPending")))
-                                                            {
-                                                                Status = "DuplicateInvoiceNumber";
-                                                            }
-                                                            else if (invoicedatacheck.Any(invoice => invoice.Status.Equals("InputDataError")) || invoicedatacheck.Any(invoice => invoice.Status.Equals("IRBResponseFailed")) ||
-                                                                invoice.Status.Equals("Cancelled"))
-                                                            {               
-                                                                Status = "ReadyForIRB";
-                                                            }
-                                                            else if (invoicedatacheck.Any(invoice => invoice.Status.Equals("DuplicateInvoiceNumber")))
-                                                            {
-                                                                Status = "DuplicateInvoiceNumber";
-                                                            }
-                                                        }
-                                                    }
-                                                    else
-                                                    {
-                                                        Status = "ReadyForIRB";
-                                                    }
-
-                                                }
-                                                else
-                                                {
-                                                    Console.WriteLine(etlstatus.Status);
-                                                    Status = "InputDataError";
-                                                }*/
-                        //await _etlDemoService.UpdateInvoiceDataStatus(Status, invoicedata.Id, item.CbcInvoiceTypeCode);
-
-                        //}
-                        /* Console.WriteLine($"Process file path :- {tasktype}");
-                         Log.Information($"Process file path :- {tasktype}");
-                         var fileName1 = Path.GetFileName(tasktype);
-                         Log.Information($"Process file name :- {fileName1}");
-                         Console.WriteLine($"Process file name :- {fileName1}");
-                         var despath1 = Path.Combine(_appSettings.ProcessedFolderPath, domainname, tasktype, "Input", "Processed");
-                         if (!Directory.Exists(despath))
-                         {
-                             Directory.CreateDirectory(despath);
-                         }
-                         var destinationPath = Path.Combine(despath, fileName1);
-                         Log.Information($"Destination Path :- {destinationPath}");
-                         Console.WriteLine($"Destination Path :- {destinationPath}");
-                         File.Move(tasktype, destinationPath);
-                         Log.Information("File Moved Successfully");
-                         Console.WriteLine("File Moved Successfully");
-                         Environment.Exit(0);
-*/
+                        
                         file = Path.Combine(_appSettings.ProcessedFolderPath, domainname, invoicetype, "Input", "DataError", $"{extractedInvoiceNumber}", $"{filename}_{DateTime.Now:yyyyMMdd_HHmmss}" + ".csv");
                         var directory = Path.GetDirectoryName(file);
                         if (!Directory.Exists(directory))
@@ -1194,50 +960,13 @@ namespace ETLDEMO
                 stopwatch.Stop();
                 Log.Information($"Total time taken in process: {stopwatch.Elapsed.TotalSeconds} seconds");
                 Console.WriteLine($"Total time taken in process: {stopwatch.Elapsed.TotalSeconds} seconds");
-                // }
-                // Console.WriteLine($"Invoicedata {invoicedata.Count}");
-                ////Console.WriteLine($"invoicelineitems {invoicelineitems.Count}");
-                //Console.WriteLine($"doctaxsubtotal {doctaxsubtotal.Count}");
 
-
-
-                // If the number of records is more than 250, call SplitCsvFile
-                if (csvRecords.Count > 251)
+                if (csvRecords.Count > _appSettings.LineSplitCount)
                 {
                     var totalamount1 = invoiceCSVData.Select(x => Convert.ToDecimal(x.CbcInvoiceLineNetAmount)).Sum().ToString();
 
                     var einvnum = invoiceCSVData.Select(x => x.EInvoiceNumber).FirstOrDefault();
                     var totallines = invoiceCSVData.Count.ToString();
-
-
-                    //const int maxRetries = 10; // Number of times to retry
-                    //int retryCount = 0;
-                    //bool dbConnection = false;
-
-                    //// Retry logic for database connection
-                    //while (retryCount < maxRetries)
-                    //{
-                    //    dbConnection = await EnsureDatabaseConnectionAsync();
-
-                    //    if (dbConnection)
-                    //        break; // Exit loop if connection is successful
-
-                    //    retryCount++;
-                    //    await Task.Delay(3000); // Optional: Delay before retrying
-                    //}
-
-                    //if (dbConnection)
-                    //{
-                    //    // Execute stored procedures sequentially
-                    //    await _etlDemoService.TempInsertStoreProc(invoicedata);
-                    //    await _etlDemoService.TempInsertStoreProc2(einvnum, totalamount1, totallines);
-                    //    await _etlDemoService.InsertInvData(invoiceCSVData.Select(x => x.EInvoiceNumber).FirstOrDefault()?.ToString(), filepath);
-                    //}
-                    //else
-                    //{
-                    //    // Log failure or take alternative action
-                    //    Console.WriteLine("Database connection failed after multiple attempts.");
-                    //}
 
                     int retryCount = 0;
                     bool success = false;

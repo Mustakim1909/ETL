@@ -137,7 +137,7 @@ namespace ETLDEMO
 
                        dbConfig.ConnectionString = dbConfig.ConnectionString.Replace(encPassword, password);
                        
-                       return ETLDemoServiceFactory.GetETLDemoService(dbConfig);
+                       return ETLDemoServiceFactory.GetETLDemoService(dbConfig, appSetting);
                    });
 
 

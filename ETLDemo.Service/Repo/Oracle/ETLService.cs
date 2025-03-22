@@ -18,7 +18,7 @@ namespace ETL.Service.Repo.Oracle
     {
         private readonly QueryHelper _queryHelper = null;
         private readonly string _connectionString = null;
-        public ETLService(DbConfig dbConfig)
+        public ETLService(DbConfig dbConfig, ETLAppSettings appsettings)
         {
             var encPassword = string.Empty;
             encPassword = dbConfig.ConnectionString.Split(';')[3].Substring(10);

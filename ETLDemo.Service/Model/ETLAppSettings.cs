@@ -8,5 +8,6 @@
         public string LogDirectory { get; set; }
         public string PythonExe { get; set; }
         public string PythonScript { get; set; }
+        public int LineSplitCount { get; set; }
     }
 }

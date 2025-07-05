@@ -40,10 +40,10 @@ namespace ETL.Service.Repo.Interface
         Task<int> ExecStoreProc(List<InvoiceData> invoicedata, List<List<InvoiceLineItems>> invoicelineitemsjson, List<DocTaxSubTotal> doctaxsubtotaljson,  List<string> filepath);
         Task<int> InsertStoreProc(List<InvoiceData> invoicedata, List<string> filepath);
         Task<int> ValidateETL(List<InvoiceData> invoicedatajson, List<List<InvoiceLineItems>> invoicelineitemsjson);
-        Task<int> TempInsertStoreProc(List<InvoiceData> invoicedata);
-        Task<int> InsertInvData(string InvoiceNumber, List<string> filepath);
-        Task<int> TempInsertStoreProc2(string InvoiceNumber, string TotalAmount, string TotalLines);
-        Task<int> InsertInvoiceData(string InvoiceNumber, string TotalAmount, string TotalLines, List<string> filepath);
+        Task<int> TempInsertStoreProc(List<InvoiceData> invoicedata, string documentType,object invfields,object invlinefields,string invoicetypecode);
+        Task<int> InsertInvData(string InvoiceNumber, List<string> filepath, string documentType, string invoicetypecode);
+        Task<int> TempInsertStoreProc2(string InvoiceNumber, string TotalAmount, string TotalLines, string documentType, string invoicetypecode);
+        Task<int> InsertInvoiceData(string InvoiceNumber, string TotalAmount, string TotalLines, List<string> filepath, string documentType, string invoicetypecode);
         Task<List<CsvFieldConfiguration>> GetInvoiceMappingColumns(string documentType);
     }
 }

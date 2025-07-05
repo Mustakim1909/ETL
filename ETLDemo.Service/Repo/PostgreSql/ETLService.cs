@@ -103,68 +103,82 @@ namespace ETL.Service.Repo.PostgreSql
             return exec;
         }
 
-        public async Task<int> TempInsertStoreProc(List<InvoiceData> invoicedata)
-        {
-            int totalCount = 0; // Initialize the total counter
-            int chunkSize = 1000; // Adjust the chunk size as needed
-
-            // Define a retry policy
-            var retryPolicy = Policy
-                .Handle<NpgsqlException>() // Retry on database connection issues
-                .WaitAndRetryAsync(3, retryAttempt =>
-                    TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)), // Exponential backoff
-                    (exception, timeSpan, retryCount, context) =>
-                    {
-                        Console.WriteLine($"Retry {retryCount} after {timeSpan.TotalSeconds} sec due to: {exception.Message}");
-                    });
-
-            // Process each invoice in the list
-            foreach (var invoice in invoicedata)
+        public async Task<int> TempInsertStoreProc(List<InvoiceData> invoicedata, string documentType, object invfields, object invlinefields, string invoicetypecode)
             {
-                int invoiceCount = 0; // Counter for the current invoice
+            try
+            {
+                int totalCount = 0; // Initialize the total counter
+                int chunkSize = 1000; // Adjust the chunk size as needed
 
-                // Split the InvoiceLineItems into smaller chunks
-                var lineItemsChunks = invoice.InvoiceLineItems
-                    .Select((x, i) => new { Index = i, Value = x })
-                    .GroupBy(x => x.Index / chunkSize)
-                    .Select(x => x.Select(v => v.Value).ToList())
-                    .ToList();
+                // Define a retry policy
+                var retryPolicy = Policy
+                    .Handle<NpgsqlException>() // Retry on database connection issues
+                    .WaitAndRetryAsync(3, retryAttempt =>
+                        TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)), // Exponential backoff
+                        (exception, timeSpan, retryCount, context) =>
+                        {
+                            Console.WriteLine($"Retry {retryCount} after {timeSpan.TotalSeconds} sec due to: {exception.Message}");
+                        });
 
-                // Process each chunk of InvoiceLineItems for the current invoice
-                foreach (var chunk in lineItemsChunks)
+                // Process each invoice in the list
+                foreach (var invoice in invoicedata)
                 {
-                    // Temporarily replace the InvoiceLineItems with the current chunk
-                    var originalLineItems = invoice.InvoiceLineItems; // Save the original list
-                    invoice.InvoiceLineItems = chunk; // Assign the current chunk
+                    int invoiceCount = 0; // Counter for the current invoice
 
-                    // Serialize the modified invoice data to JSON
-                    var invoicedatajson = JsonConvert.SerializeObject(new List<InvoiceData> {invoice});
+                    // Split the InvoiceLineItems into smaller chunks
+                    var lineItemsChunks = invoice.InvoiceLineItems
+                        .Select((x, i) => new { Index = i, Value = x })
+                        .GroupBy(x => x.Index / chunkSize)
+                        .Select(x => x.Select(v => v.Value).ToList())
+                        .ToList();
 
-                    // Create the parameter for the stored procedure
-                    var paramName1 = "invoicedata";
-                    var parameters1 = new List<NpgsqlParameter>
+                    // Process each chunk of InvoiceLineItems for the current invoice
+                    foreach (var chunk in lineItemsChunks)
+                    {
+                        // Temporarily replace the InvoiceLineItems with the current chunk
+                        var originalLineItems = invoice.InvoiceLineItems; // Save the original list
+                        invoice.InvoiceLineItems = chunk; // Assign the current chunk
+
+                        // Serialize the modified invoice data to JSON
+                        var invoicedatajson = JsonConvert.SerializeObject(new List<InvoiceData> { invoice });
+                        var invfieldsJson = JsonConvert.SerializeObject(invfields);
+                        var invlinefieldsJson = JsonConvert.SerializeObject(invlinefields);
+
+                        // Create the parameter for the stored procedure
+                        var paramName1 = "invoicedata";
+                        var paramName2 = "invfield";
+                        var paramName3 = "invlinfield";
+                        var parameters1 = new List<NpgsqlParameter>
                     {
                         (NpgsqlParameter)QueryHelper.CreateSqlParameter(paramName1, invoicedatajson, NpgsqlDbType.Json),
+                        (NpgsqlParameter)QueryHelper.CreateSqlParameter(paramName2, invfieldsJson, NpgsqlDbType.Json),
+                        (NpgsqlParameter)QueryHelper.CreateSqlParameter(paramName3, invlinefieldsJson, NpgsqlDbType.Json),
                     };
 
 
-                    // Execute the stored procedure for the current chunk
-                    var exec = await _queryHelper.ExecuteStoredProc("insert_temp_invoices", parameters1);
-                    invoiceCount += exec; // Increment the count for the current invoice
-                    totalCount += exec; // Increment the total count
+                        // Execute the stored procedure for the current chunk
+                        var exec = await _queryHelper.ExecuteStoredProc($"{documentType}_insert_temp_invoices", parameters1);
+                        invoiceCount += exec; // Increment the count for the current invoice
+                        totalCount += exec; // Increment the total count
 
-                    // Restore the original InvoiceLineItems for the next iteration
-                    invoice.InvoiceLineItems = originalLineItems;
+                        // Restore the original InvoiceLineItems for the next iteration
+                        invoice.InvoiceLineItems = originalLineItems;
+                    }
+
+                    Console.WriteLine("Finished processing Invoice");
                 }
 
-                Console.WriteLine("Finished processing Invoice");
+                Console.WriteLine("All invoices processed");
+                return totalCount;
+            }catch(Exception ex)
+            {
+                Log.Warning($"Exception In TempInsertStoreProc: {ex.Message}");
+               Console.WriteLine($"Exception In TempInsertStoreProc: {ex.Message}");
+                throw ex;
             }
-
-            Console.WriteLine("All invoices processed");
-            return totalCount;
         }
-        public Task<int> TempInsertStoreProc2(string InvoiceNumber, string TotalAmount, string TotalLines)
-        {
+        public Task<int> TempInsertStoreProc2(string InvoiceNumber, string TotalAmount, string TotalLines, string documentType, string invoicetypecode)
+         {
             // Define a retry policy
             var retryPolicy = Policy
                 .Handle<NpgsqlException>() // Retry on database connection issues
@@ -178,21 +192,21 @@ namespace ETL.Service.Repo.PostgreSql
             var paramName1 = "p_invoice_number";
             var paramName3 = "p_totalamount";
             var paramName4 = "p_totallineitems";
-            var paramName5 = "p_splitCount";
+            var paramName5 = "p_splitcount";
             var parameters1 = new List<NpgsqlParameter>
               {
                 (NpgsqlParameter)QueryHelper.CreateSqlParameter(paramName1, InvoiceNumber, NpgsqlDbType.Text),
                 (NpgsqlParameter)QueryHelper.CreateSqlParameter(paramName3, TotalAmount, NpgsqlDbType.Text),
                 (NpgsqlParameter)QueryHelper.CreateSqlParameter(paramName4, TotalLines, NpgsqlDbType.Text),
-                (NpgsqlParameter)QueryHelper.CreateSqlParameter(paramName5, _appSettings.LineSplitCount, NpgsqlDbType.Integer)
+                (NpgsqlParameter)QueryHelper.CreateSqlParameter(paramName5, _appSettings.LineSplitCount.ToString(), NpgsqlDbType.Text)
                };
-            var exec = _queryHelper.ExecuteStoredProc("split_and_store_invoice", parameters1);
+            var exec = _queryHelper.ExecuteStoredProc($"{documentType}_split_and_store_{invoicetypecode.ToLower()}", parameters1);
             count++;
             Console.WriteLine($"Count = {count}");
             return exec;
         }
 
-        public Task<int> InsertInvData(string InvoiceNumber, List<string> filepath)
+        public Task<int> InsertInvData(string InvoiceNumber, List<string> filepath, string documentType, string invoicetypecode)
         {
             // Define a retry policy
             var retryPolicy = Policy
@@ -201,7 +215,7 @@ namespace ETL.Service.Repo.PostgreSql
                     TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)), // Exponential backoff
                     (exception, timeSpan, retryCount, context) =>
                     {
-                        Console.WriteLine($"Retry {retryCount} after {timeSpan.TotalSeconds} sec due to: {exception.Message}");
+                        Console.WriteLine($"Retry {retryCount} after    {timeSpan.TotalSeconds} sec due to: {exception.Message}");
                     });
 
 
@@ -213,13 +227,13 @@ namespace ETL.Service.Repo.PostgreSql
                                 (NpgsqlParameter)QueryHelper.CreateSqlParameter(paramName1, InvoiceNumber, NpgsqlDbType.Text),
                                 (NpgsqlParameter)QueryHelper.CreateSqlParameter(paramName2, filepathjson, NpgsqlDbType.Json)
                                };
-            var exec = _queryHelper.ExecuteStoredProc("invoice_validation", parameters1);
+            var exec = _queryHelper.ExecuteStoredProc($"{documentType}_{invoicetypecode.ToLower()}_validation", parameters1);
             count++;
             Console.WriteLine($"Count = {count}");
             return exec;
         }
-        public Task<int> InsertInvoiceData(string InvoiceNumber, string TotalAmount, string TotalLines, List<string> filepath)
-        {
+        public Task<int> InsertInvoiceData(string InvoiceNumber, string TotalAmount, string TotalLines, List<string> filepath,string documentType, string invoicetypecode)
+            {
             // Define a retry policy
             var retryPolicy = Policy
                 .Handle<NpgsqlException>() // Retry on database connection issues
@@ -242,7 +256,7 @@ namespace ETL.Service.Repo.PostgreSql
                                 (NpgsqlParameter)QueryHelper.CreateSqlParameter(paramName3, TotalLines, NpgsqlDbType.Text),
                                 (NpgsqlParameter)QueryHelper.CreateSqlParameter(paramName4, filepathjson, NpgsqlDbType.Json)
                                };
-            var exec = _queryHelper.ExecuteStoredProc("insert_invoicedata", parameters1);
+            var exec = _queryHelper.ExecuteStoredProc($"{documentType}_insert_{invoicetypecode}data", parameters1);
             count++;
             Console.WriteLine($"Count = {count}");
             return exec;
@@ -1030,7 +1044,7 @@ namespace ETL.Service.Repo.PostgreSql
             QueryHelper.CreateSqlParameter("@eTemplateId", field.eTemplateId, NpgsqlDbType.Integer),
             QueryHelper.CreateSqlParameter("@templateId", field.templateId, NpgsqlDbType.Integer),
             QueryHelper.CreateSqlParameter("@Status", field.Status, NpgsqlDbType.Varchar),
-            QueryHelper.CreateSqlParameter("@eInvoiceDate", field.eInvoiceDateTime, NpgsqlDbType.Date),
+            QueryHelper.CreateSqlParameter("@eInvoiceDate", field.EInvoiceDateTime, NpgsqlDbType.Date),
             QueryHelper.CreateSqlParameter("@invoiceValidator", field.invoiceValidator, NpgsqlDbType.Varchar),
             QueryHelper.CreateSqlParameter("@taxOfficeSubmitter", field.TaxOfficeSubmitter, NpgsqlDbType.Varchar),
             QueryHelper.CreateSqlParameter("@WorkflowStatus", field.WorkflowStatus, NpgsqlDbType.Varchar),

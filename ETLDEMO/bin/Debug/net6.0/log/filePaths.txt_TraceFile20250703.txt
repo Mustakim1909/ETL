@@ -1,0 +1,685 @@
+2025-07-03 16:01:53.541 +05:30 [INF] Application starting up
+2025-07-03 16:02:11.753 +05:30 [INF] Application starting up
+2025-07-03 16:02:41.139 +05:30 [INF] Application starting up
+2025-07-03 16:03:24.778 +05:30 [INF] Application starting up
+2025-07-03 16:06:44.533 +05:30 [INF] Application starting up
+2025-07-03 16:06:44.740 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:06:44.740 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP.csv
+2025-07-03 16:06:44.742 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:06:46.813 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '1/31/2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 2746
+   Row: 2
+   RawRow: 2
+   Count: 93
+   RawRecord:
+1,1,INV00001,1/31/2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,161,0,0,161,161,0,161,,,161,,,,,,,6,,,UN/ECE 5153,6,OTH,0,0,,,1,22,OTHERS,,,Fresh Organic Vegetables,,6,5,,30,,UN/ECE 5153,6,OTH,,6,0,0,,,30,30,30
+
+
+2025-07-03 16:06:46.814 +05:30 [WRN] Skipping invalid record at row 2: The conversion cannot be performed.
+    Text: '1/31/2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 3221
+   Row: 3
+   RawRow: 3
+   Count: 93
+   RawRecord:
+1,1,INV00001,1/31/2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,2,22,OTHERS,,,FRUITS,,26,1,,26,,UN/ECE 5153,6,OTH,,6,0,0,,,26,26,26
+
+
+2025-07-03 16:06:46.814 +05:30 [WRN] Skipping invalid record at row 3: The conversion cannot be performed.
+    Text: '1/31/2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 3694
+   Row: 4
+   RawRow: 4
+   Count: 93
+   RawRecord:
+1,1,INV00001,1/31/2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,3,22,OTHERS,,,EGGS,,60,1,,60,,UN/ECE 5153,6,OTH,,6,0,0,,,60,60,60
+
+
+2025-07-03 16:06:46.814 +05:30 [WRN] Skipping invalid record at row 4: The conversion cannot be performed.
+    Text: '1/31/2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 4173
+   Row: 5
+   RawRow: 5
+   Count: 93
+   RawRecord:
+1,1,INV00001,1/31/2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,4,22,OTHERS,,,Vegetables,,15,1,,15,,UN/ECE 5153,6,OTH,,6,0,0,,,15,15,15
+
+
+2025-07-03 16:06:46.814 +05:30 [WRN] Skipping invalid record at row 5: The conversion cannot be performed.
+    Text: '1/31/2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 4652
+   Row: 6
+   RawRow: 6
+   Count: 93
+   RawRecord:
+1,1,INV00001,1/31/2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,5,22,OTHERS,,,Vegetables,,30,1,,30,,UN/ECE 5153,6,OTH,,6,0,0,,,30,30,30
+
+
+2025-07-03 16:07:17.934 +05:30 [INF] Application starting up
+2025-07-03 16:09:58.075 +05:30 [INF] Application starting up
+2025-07-03 16:09:58.273 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:09:58.273 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:09:58.274 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:09:59.900 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '1/31/2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 2746
+   Row: 2
+   RawRow: 2
+   Count: 93
+   RawRecord:
+1,1,INV00001,1/31/2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,161,0,0,161,161,0,161,,,161,,,,,,,6,,,UN/ECE 5153,6,OTH,0,0,,,1,22,OTHERS,,,Fresh Organic Vegetables,,6,5,,30,,UN/ECE 5153,6,OTH,,6,0,0,,,30,30,30
+
+
+2025-07-03 16:09:59.900 +05:30 [WRN] Skipping invalid record at row 2: The conversion cannot be performed.
+    Text: '1/31/2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 3221
+   Row: 3
+   RawRow: 3
+   Count: 93
+   RawRecord:
+1,1,INV00001,1/31/2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,2,22,OTHERS,,,FRUITS,,26,1,,26,,UN/ECE 5153,6,OTH,,6,0,0,,,26,26,26
+
+
+2025-07-03 16:09:59.900 +05:30 [WRN] Skipping invalid record at row 3: The conversion cannot be performed.
+    Text: '1/31/2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 3694
+   Row: 4
+   RawRow: 4
+   Count: 93
+   RawRecord:
+1,1,INV00001,1/31/2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,3,22,OTHERS,,,EGGS,,60,1,,60,,UN/ECE 5153,6,OTH,,6,0,0,,,60,60,60
+
+
+2025-07-03 16:09:59.901 +05:30 [WRN] Skipping invalid record at row 4: The conversion cannot be performed.
+    Text: '1/31/2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 4173
+   Row: 5
+   RawRow: 5
+   Count: 93
+   RawRecord:
+1,1,INV00001,1/31/2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,4,22,OTHERS,,,Vegetables,,15,1,,15,,UN/ECE 5153,6,OTH,,6,0,0,,,15,15,15
+
+
+2025-07-03 16:09:59.901 +05:30 [WRN] Skipping invalid record at row 5: The conversion cannot be performed.
+    Text: '1/31/2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 4652
+   Row: 6
+   RawRow: 6
+   Count: 93
+   RawRecord:
+1,1,INV00001,1/31/2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,5,22,OTHERS,,,Vegetables,,30,1,,30,,UN/ECE 5153,6,OTH,,6,0,0,,,30,30,30
+
+
+2025-07-03 16:10:37.970 +05:30 [INF] Application starting up
+2025-07-03 16:10:38.569 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:10:38.569 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:10:38.571 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:15:03.125 +05:30 [INF] Application starting up
+2025-07-03 16:15:03.740 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:15:03.740 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:15:03.742 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:18:53.856 +05:30 [INF] Application starting up
+2025-07-03 16:18:54.725 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:18:54.725 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:18:54.728 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:21:18.942 +05:30 [INF] Application starting up
+2025-07-03 16:21:19.600 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:21:19.600 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:21:19.602 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:21:50.075 +05:30 [WRN] Skipping invalid record at row 1: An unexpected error occurred.
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 4
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 2746
+   Row: 2
+   RawRow: 2
+   Count: 93
+   RawRecord:
+1,1,INV00001,1-31-2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,161,0,0,161,161,0,161,,,161,,,,,,,6,,,UN/ECE 5153,6,OTH,0,0,,,1,22,OTHERS,,,Fresh Organic Vegetables,,6,5,,30,,UN/ECE 5153,6,OTH,,6,0,0,,,30,30,30
+
+
+2025-07-03 16:21:50.098 +05:30 [WRN] Skipping invalid record at row 2: An unexpected error occurred.
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 4
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 3221
+   Row: 3
+   RawRow: 3
+   Count: 93
+   RawRecord:
+1,1,INV00001,1-31-2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,2,22,OTHERS,,,FRUITS,,26,1,,26,,UN/ECE 5153,6,OTH,,6,0,0,,,26,26,26
+
+
+2025-07-03 16:21:50.121 +05:30 [WRN] Skipping invalid record at row 3: An unexpected error occurred.
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 4
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 3694
+   Row: 4
+   RawRow: 4
+   Count: 93
+   RawRecord:
+1,1,INV00001,1-31-2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,3,22,OTHERS,,,EGGS,,60,1,,60,,UN/ECE 5153,6,OTH,,6,0,0,,,60,60,60
+
+
+2025-07-03 16:21:50.146 +05:30 [WRN] Skipping invalid record at row 4: An unexpected error occurred.
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 4
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 4173
+   Row: 5
+   RawRow: 5
+   Count: 93
+   RawRecord:
+1,1,INV00001,1-31-2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,4,22,OTHERS,,,Vegetables,,15,1,,15,,UN/ECE 5153,6,OTH,,6,0,0,,,15,15,15
+
+
+2025-07-03 16:21:50.168 +05:30 [WRN] Skipping invalid record at row 5: An unexpected error occurred.
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 4
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 4652
+   Row: 6
+   RawRow: 6
+   Count: 93
+   RawRecord:
+1,1,INV00001,1-31-2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,5,22,OTHERS,,,Vegetables,,30,1,,30,,UN/ECE 5153,6,OTH,,6,0,0,,,30,30,30
+
+
+2025-07-03 16:21:57.029 +05:30 [INF] Application starting up
+2025-07-03 16:21:57.594 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:21:57.595 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:21:57.596 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:21:59.938 +05:30 [WRN] Skipping invalid record at row 1: An unexpected error occurred.
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 4
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 2746
+   Row: 2
+   RawRow: 2
+   Count: 93
+   RawRecord:
+1,1,INV00001,1-31-2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,161,0,0,161,161,0,161,,,161,,,,,,,6,,,UN/ECE 5153,6,OTH,0,0,,,1,22,OTHERS,,,Fresh Organic Vegetables,,6,5,,30,,UN/ECE 5153,6,OTH,,6,0,0,,,30,30,30
+
+
+2025-07-03 16:21:59.976 +05:30 [WRN] Skipping invalid record at row 2: An unexpected error occurred.
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 4
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 3221
+   Row: 3
+   RawRow: 3
+   Count: 93
+   RawRecord:
+1,1,INV00001,1-31-2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,2,22,OTHERS,,,FRUITS,,26,1,,26,,UN/ECE 5153,6,OTH,,6,0,0,,,26,26,26
+
+
+2025-07-03 16:21:59.999 +05:30 [WRN] Skipping invalid record at row 3: An unexpected error occurred.
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 4
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 3694
+   Row: 4
+   RawRow: 4
+   Count: 93
+   RawRecord:
+1,1,INV00001,1-31-2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,3,22,OTHERS,,,EGGS,,60,1,,60,,UN/ECE 5153,6,OTH,,6,0,0,,,60,60,60
+
+
+2025-07-03 16:22:00.022 +05:30 [WRN] Skipping invalid record at row 4: An unexpected error occurred.
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 4
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 4173
+   Row: 5
+   RawRow: 5
+   Count: 93
+   RawRecord:
+1,1,INV00001,1-31-2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,4,22,OTHERS,,,Vegetables,,15,1,,15,,UN/ECE 5153,6,OTH,,6,0,0,,,15,15,15
+
+
+2025-07-03 16:22:00.044 +05:30 [WRN] Skipping invalid record at row 5: An unexpected error occurred.
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 4
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 4652
+   Row: 6
+   RawRow: 6
+   Count: 93
+   RawRecord:
+1,1,INV00001,1-31-2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,5,22,OTHERS,,,Vegetables,,30,1,,30,,UN/ECE 5153,6,OTH,,6,0,0,,,30,30,30
+
+
+2025-07-03 16:22:22.500 +05:30 [INF] Application starting up
+2025-07-03 16:22:23.002 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:22:23.002 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:22:23.004 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:23:37.008 +05:30 [WRN] Skipping invalid record at row 1: An unexpected error occurred.
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 4
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 2746
+   Row: 2
+   RawRow: 2
+   Count: 93
+   RawRecord:
+1,1,INV00001,1-31-2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,161,0,0,161,161,0,161,,,161,,,,,,,6,,,UN/ECE 5153,6,OTH,0,0,,,1,22,OTHERS,,,Fresh Organic Vegetables,,6,5,,30,,UN/ECE 5153,6,OTH,,6,0,0,,,30,30,30
+
+
+2025-07-03 16:23:37.051 +05:30 [WRN] Skipping invalid record at row 2: An unexpected error occurred.
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 4
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 3221
+   Row: 3
+   RawRow: 3
+   Count: 93
+   RawRecord:
+1,1,INV00001,1-31-2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,2,22,OTHERS,,,FRUITS,,26,1,,26,,UN/ECE 5153,6,OTH,,6,0,0,,,26,26,26
+
+
+2025-07-03 16:23:37.076 +05:30 [WRN] Skipping invalid record at row 3: An unexpected error occurred.
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 4
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 3694
+   Row: 4
+   RawRow: 4
+   Count: 93
+   RawRecord:
+1,1,INV00001,1-31-2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,3,22,OTHERS,,,EGGS,,60,1,,60,,UN/ECE 5153,6,OTH,,6,0,0,,,60,60,60
+
+
+2025-07-03 16:23:37.106 +05:30 [WRN] Skipping invalid record at row 4: An unexpected error occurred.
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 4
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 4173
+   Row: 5
+   RawRow: 5
+   Count: 93
+   RawRecord:
+1,1,INV00001,1-31-2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,4,22,OTHERS,,,Vegetables,,15,1,,15,,UN/ECE 5153,6,OTH,,6,0,0,,,15,15,15
+
+
+2025-07-03 16:23:37.134 +05:30 [WRN] Skipping invalid record at row 5: An unexpected error occurred.
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 4
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration  Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption","Amount Exempted from Tax","Total Excluding Tax2","Invoice line net amount ","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 4652
+   Row: 6
+   RawRow: 6
+   Count: 93
+   RawRecord:
+1,1,INV00001,1-31-2025,00:00:00Z,MYR,3,ABC Bank Malaysia_1230000123,XYZ SDN. BHD.,C987654321,BRN,19XXXXXXXX00,,NA,NA,XYZ@gmail.com,15000,Mixed Farming,6.10E+11,"No. 45, Jalan Ladang",Taman Pertanian,Blok C,35400,Ipoh,8,MYS,Tan M XXX,EI00000000020,PASSPORT,,,PXXXXXXABC,NA,,rkkpp@cfarms.my,6.01E+11,"No. 30, Jalan Tani,Kampung Jaya",Gerai 8, Block B,21300,Kuala Terengganu,11,MYS,,,,,,,,,,,,,,,,,6,,,,,,,,,,5,22,OTHERS,,,Vegetables,,30,1,,30,,UN/ECE 5153,6,OTH,,6,0,0,,,30,30,30
+
+
+2025-07-03 16:23:52.024 +05:30 [INF] Application starting up
+2025-07-03 16:23:52.644 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:23:52.644 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:23:52.645 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:24:24.169 +05:30 [INF] Application starting up
+2025-07-03 16:24:24.734 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:24:24.734 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:24:24.736 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:26:22.198 +05:30 [INF] Application starting up
+2025-07-03 16:26:22.928 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:26:22.928 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:26:22.929 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:33:06.142 +05:30 [INF] Application starting up
+2025-07-03 16:33:06.905 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:33:06.905 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:33:06.907 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:33:57.115 +05:30 [INF] Application starting up
+2025-07-03 16:33:57.685 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:33:57.685 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:33:57.687 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:34:47.770 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "00:00:00"
+2025-07-03 16:34:47.819 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-03 16:34:47.819 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "00:00:00"
+2025-07-03 16:34:52.956 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "00:00:00"
+2025-07-03 16:34:52.989 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-07-03 16:34:52.989 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "00:00:00"
+2025-07-03 16:35:40.389 +05:30 [INF] Application starting up
+2025-07-03 16:35:40.976 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:35:40.977 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:35:40.978 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:35:44.870 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "12:00:00"
+2025-07-03 16:35:44.918 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-03 16:35:44.918 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "12:00:00"
+2025-07-03 16:35:50.043 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "12:00:00"
+2025-07-03 16:35:50.078 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-07-03 16:35:50.078 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "12:00:00"
+2025-07-03 16:40:27.666 +05:30 [INF] Application starting up
+2025-07-03 16:40:28.248 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:40:28.249 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:40:28.250 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:40:33.687 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "12:00:00"
+2025-07-03 16:40:33.737 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-03 16:40:33.738 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "12:00:00"
+2025-07-03 16:40:38.889 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "12:00:00"
+2025-07-03 16:41:16.061 +05:30 [INF] Application starting up
+2025-07-03 16:41:16.662 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:41:16.663 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:41:16.664 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:51:24.132 +05:30 [INF] Application starting up
+2025-07-03 16:51:24.761 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:51:24.761 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:51:24.763 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:51:29.795 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "12:00:00"
+2025-07-03 16:51:29.852 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-03 16:51:29.852 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "12:00:00"
+2025-07-03 16:52:33.293 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "12:00:00"
+2025-07-03 16:52:33.326 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-07-03 16:52:33.326 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "12:00:00"
+2025-07-03 16:52:53.627 +05:30 [INF] Application starting up
+2025-07-03 16:52:54.316 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:52:54.316 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:52:54.317 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:52:58.363 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "12:00:00"
+2025-07-03 16:52:58.414 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-03 16:52:58.414 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "12:00:00"
+2025-07-03 16:53:44.606 +05:30 [INF] Application starting up
+2025-07-03 16:53:45.299 +05:30 [INF] Main thread ID: 1
+2025-07-03 16:53:45.299 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 16:53:45.300 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 16:53:49.189 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "12:00:00"
+2025-07-03 16:53:49.241 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-03 16:53:49.241 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "12:00:00"
+2025-07-03 17:02:29.359 +05:30 [INF] Application starting up
+2025-07-03 17:02:30.241 +05:30 [INF] Main thread ID: 1
+2025-07-03 17:02:30.241 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 17:02:30.243 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 17:02:34.126 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-03 17:02:34.126 +05:30 [ERR] Exception: 42883: procedure advintek_insert_invoicedata(p_invoice_number => text, p_totalamount => text, p_totallineitems => text, filepath => json) does not exist
+
+POSITION: 6
+2025-07-03 17:02:41.543 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-07-03 17:02:41.544 +05:30 [ERR] Exception: 42883: procedure advintek_insert_invoicedata(p_invoice_number => text, p_totalamount => text, p_totallineitems => text, filepath => json) does not exist
+
+POSITION: 6
+2025-07-03 17:04:47.395 +05:30 [INF] Application starting up
+2025-07-03 17:04:47.966 +05:30 [INF] Main thread ID: 1
+2025-07-03 17:04:47.966 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 17:04:47.968 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 17:04:54.595 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-03 17:04:54.596 +05:30 [ERR] Exception: 42883: procedure advintek_insert_invoicedata(p_invoice_number => text, p_totalamount => text, p_totallineitems => text, filepath => json) does not exist
+
+POSITION: 6
+2025-07-03 17:04:59.846 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-07-03 17:04:59.847 +05:30 [ERR] Exception: 42883: procedure advintek_insert_invoicedata(p_invoice_number => text, p_totalamount => text, p_totallineitems => text, filepath => json) does not exist
+
+POSITION: 6
+2025-07-03 17:07:17.258 +05:30 [INF] Application starting up
+2025-07-03 17:07:17.880 +05:30 [INF] Main thread ID: 1
+2025-07-03 17:07:17.880 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 17:07:17.882 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 17:07:20.274 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 17:07:20.274 +05:30 [INF] Process file name :- Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 17:07:20.274 +05:30 [INF] Total time taken in process: 1.1745004 seconds
+2025-07-03 17:07:20.276 +05:30 [INF] Total time taken in moving: 0.0015816 seconds
+2025-07-03 17:10:34.471 +05:30 [INF] Application starting up
+2025-07-03 17:10:35.105 +05:30 [INF] Main thread ID: 1
+2025-07-03 17:10:35.105 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 17:10:35.107 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 17:10:36.547 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv'.
+2025-07-03 17:10:36.593 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv'.
+2025-07-03 17:10:36.645 +05:30 [INF] Error processing files for domain DemoDB: Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv'.
+2025-07-03 17:10:36.646 +05:30 [INF] The following files were not found and skipped:
+2025-07-03 17:10:36.646 +05:30 [INF] C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_NV00001_WIP_WIP.csv
+2025-07-03 17:11:30.514 +05:30 [INF] Application starting up
+2025-07-03 17:11:31.165 +05:30 [INF] Main thread ID: 1
+2025-07-03 17:11:31.165 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001.WIPcsv
+2025-07-03 17:11:31.166 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 17:11:32.384 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001.WIPcsv'.
+2025-07-03 17:11:32.431 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001.WIPcsv'.
+2025-07-03 17:11:32.472 +05:30 [INF] Error processing files for domain DemoDB: Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001.WIPcsv'.
+2025-07-03 17:11:32.472 +05:30 [INF] The following files were not found and skipped:
+2025-07-03 17:11:32.472 +05:30 [INF] C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001.WIPcsv
+2025-07-03 17:12:10.908 +05:30 [INF] Application starting up
+2025-07-03 17:12:11.510 +05:30 [INF] Main thread ID: 1
+2025-07-03 17:12:11.510 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001.WIPcsv
+2025-07-03 17:12:11.512 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 17:12:12.764 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001.WIPcsv'.
+2025-07-03 17:12:12.825 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001.WIPcsv'.
+2025-07-03 17:12:12.864 +05:30 [INF] Error processing files for domain DemoDB: Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001.WIPcsv'.
+2025-07-03 17:12:12.865 +05:30 [INF] The following files were not found and skipped:
+2025-07-03 17:12:12.865 +05:30 [INF] C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001.WIPcsv
+2025-07-03 17:12:48.490 +05:30 [INF] Application starting up
+2025-07-03 17:12:49.093 +05:30 [INF] Main thread ID: 1
+2025-07-03 17:12:49.093 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001.WIP.csv
+2025-07-03 17:12:49.095 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 17:12:50.342 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001.WIP.csv'.
+2025-07-03 17:12:50.389 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001.WIP.csv'.
+2025-07-03 17:12:50.429 +05:30 [INF] Error processing files for domain DemoDB: Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001.WIP.csv'.
+2025-07-03 17:12:50.429 +05:30 [INF] The following files were not found and skipped:
+2025-07-03 17:12:50.430 +05:30 [INF] C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001.WIP.csv
+2025-07-03 17:13:21.752 +05:30 [INF] Application starting up
+2025-07-03 17:13:22.456 +05:30 [INF] Main thread ID: 1
+2025-07-03 17:13:22.456 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001.WIP.csv
+2025-07-03 17:13:22.457 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 17:13:25.339 +05:30 [INF] Invoice Number Not Match
+2025-07-03 17:13:25.360 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001.WIP.csv
+2025-07-03 17:13:25.360 +05:30 [INF] Process file name :- Advintek_01_V1_01312025_INV00001.WIP.csv
+2025-07-03 17:13:25.360 +05:30 [INF] Total time taken in process: 1.818396 seconds
+2025-07-03 17:13:25.361 +05:30 [INF] Total time taken in moving: 0.0010913 seconds
+2025-07-03 17:15:07.992 +05:30 [INF] Application starting up
+2025-07-03 17:15:08.662 +05:30 [INF] Main thread ID: 1
+2025-07-03 17:15:08.663 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001_WIP.csv
+2025-07-03 17:15:08.664 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 17:20:02.730 +05:30 [INF] Application starting up
+2025-07-03 17:20:03.330 +05:30 [INF] Main thread ID: 1
+2025-07-03 17:20:03.330 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001_WIP.csv
+2025-07-03 17:20:03.332 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 17:20:04.929 +05:30 [INF] Exception in ProcessTaskAsync : The process cannot access the file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001_WIP.csv' because it is being used by another process.
+2025-07-03 17:20:04.976 +05:30 [INF] Exception in ProcessFileAsync : The process cannot access the file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001_WIP.csv' because it is being used by another process.
+2025-07-03 17:20:05.018 +05:30 [INF] Error processing files for domain DemoDB: The process cannot access the file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001_WIP.csv' because it is being used by another process.
+2025-07-03 17:20:05.019 +05:30 [INF] The following files were not found and skipped:
+2025-07-03 17:20:05.019 +05:30 [INF] C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001_WIP.csv
+2025-07-03 17:20:17.920 +05:30 [INF] Application starting up
+2025-07-03 17:20:18.968 +05:30 [INF] Main thread ID: 1
+2025-07-03 17:20:18.968 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001_WIP.csv
+2025-07-03 17:20:18.970 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 17:21:23.452 +05:30 [INF] Application starting up
+2025-07-03 17:21:24.032 +05:30 [INF] Main thread ID: 1
+2025-07-03 17:21:24.032 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001_WIP.csv
+2025-07-03 17:21:24.033 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 17:22:05.737 +05:30 [INF] Application starting up
+2025-07-03 17:22:06.392 +05:30 [INF] Main thread ID: 1
+2025-07-03 17:22:06.392 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001_WIP.csv
+2025-07-03 17:22:06.395 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 17:23:43.827 +05:30 [INF] Application starting up
+2025-07-03 17:23:44.437 +05:30 [INF] Main thread ID: 1
+2025-07-03 17:23:44.438 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001_WIP.csv
+2025-07-03 17:23:44.439 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 17:23:52.823 +05:30 [INF] Application starting up
+2025-07-03 17:23:53.521 +05:30 [INF] Main thread ID: 1
+2025-07-03 17:23:53.521 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001_WIP.csv
+2025-07-03 17:23:53.522 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 17:25:59.385 +05:30 [INF] Application starting up
+2025-07-03 17:26:00.218 +05:30 [INF] Main thread ID: 1
+2025-07-03 17:26:00.218 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001_WIP.csv
+2025-07-03 17:26:00.219 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 17:27:38.195 +05:30 [INF] Application starting up
+2025-07-03 17:27:38.768 +05:30 [INF] Main thread ID: 1
+2025-07-03 17:27:38.768 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001_WIP.csv
+2025-07-03 17:27:38.770 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 17:27:49.120 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-03 17:27:49.120 +05:30 [ERR] Exception: 42P01: relation "advintek_invoicedata_validation" does not exist
+2025-07-03 17:30:34.855 +05:30 [INF] Application starting up
+2025-07-03 17:30:35.039 +05:30 [INF] Main thread ID: 1
+2025-07-03 17:30:35.039 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001_WIP.csv
+2025-07-03 17:30:35.040 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 17:30:38.386 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_01312025_INV00001_WIP.csv
+2025-07-03 17:30:38.387 +05:30 [INF] Process file name :- Advintek_01_V1_01312025_INV00001_WIP.csv
+2025-07-03 17:30:38.387 +05:30 [INF] Total time taken in process: 2.3089763 seconds
+2025-07-03 17:30:38.389 +05:30 [INF] Total time taken in moving: 0.0014954 seconds
+2025-07-03 18:01:19.685 +05:30 [INF] Application starting up
+2025-07-03 18:01:19.891 +05:30 [INF] Main thread ID: 1
+2025-07-03 18:01:19.891 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:01:19.893 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 18:01:22.094 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:01:22.094 +05:30 [INF] Process file name :- Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:01:22.095 +05:30 [INF] Total time taken in process: 1.2579746 seconds
+2025-07-03 18:01:22.099 +05:30 [INF] Total time taken in moving: 0.0042584 seconds

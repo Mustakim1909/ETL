@@ -1,0 +1,90 @@
+2025-06-14 08:51:44.010 +05:30 [INF] Application starting up
+2025-06-14 09:03:19.906 +05:30 [INF] Application starting up
+2025-06-14 09:03:20.287 +05:30 [INF] Main thread ID: 1
+2025-06-14 09:03:20.287 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:03:20.289 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 09:03:22.578 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1268
+   Row: 2
+   RawRow: 2
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B23SKSI009,SHOES : MINI ANGELICA JB,#BLU000,Blue,29,29,,,,WEBMYONL,WEB,MY-ONLINE,1,81.33,89,89,89,81.33,,,81.33,0,0,,7.67,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,0,0,#Shoe,Jelly Bunny,#Fashion,,,Posted to GL,11820224,1124100050372,,2504244WQM0JPP,01
+
+
+2025-06-14 09:03:22.579 +05:30 [WRN] Skipping invalid record at row 2: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1609
+   Row: 3
+   RawRow: 3
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B23SKSI009,SHOES : MINI ANGELICA JB,#PNK100,Light Pink,29,29,,,,WEBMYONL,WEB,MY-ONLINE,1,72.64,89,89,89,72.64,,,72.64,0,0,,16.36,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,33.9258,33.93,#Shoe,Jelly Bunny,#Fashion,,,Posted to GL,11820224,1123000181308,,2504244WQM0JPP,01
+
+
+2025-06-14 09:03:22.579 +05:30 [WRN] Skipping invalid record at row 3: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1951
+   Row: 4
+   RawRow: 4
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B23WLBL006,SHOES : SOPHIE DEEP SUMMER,#BLK000,Black,40,40,,,,WEBMYONL,WEB,MY-ONLINE,1,86.17,89,89,89,86.17,,,86.17,0,0,,2.83,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,34.4504,34.45,#Shoe,Jelly Bunny,#Contemporary,,,Posted to GL,11820224,1123100010355,,2504244WQM0JPP,01
+
+
+2025-06-14 09:03:22.579 +05:30 [WRN] Skipping invalid record at row 4: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 2309
+   Row: 5
+   RawRow: 5
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B24WLBI016,SHOES : MORGANA GLITTER,#PNK950,Glitter Pink Variation 3,40,40,,,,WEBMYONL,WEB,MY-ONLINE,1,95.86,99,99,99,95.86,,,95.86,0,0,,3.14,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,27.2091,27.21,#Shoe,Jelly Bunny,#Contemporary,,,Posted to GL,11820224,1124100026407,,2504244WQM0JPP,01
+
+
+2025-06-14 09:03:22.581 +05:30 [INF] Invoice Number Not Match
+2025-06-14 09:03:22.594 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:03:22.594 +05:30 [INF] Process file name :- JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:03:22.595 +05:30 [INF] Total time taken in process: 1.1961239 seconds
+2025-06-14 09:03:22.597 +05:30 [INF] Total time taken in moving: 0.0018687 seconds

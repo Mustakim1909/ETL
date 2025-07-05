@@ -1,0 +1,88 @@
+2025-06-17 16:58:27.236 +05:30 [INF] Application starting up
+2025-06-17 16:58:28.000 +05:30 [INF] Main thread ID: 1
+2025-06-17 16:58:28.000 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPSIH\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-17 16:58:28.002 +05:30 [INF] Processing files for domain: JPSIH, invoiceType: JPS
+2025-06-17 16:58:29.245 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-06-17 16:58:29.245 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 16:58:34.325 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-06-17 16:58:34.325 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 16:58:39.387 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 3
+2025-06-17 16:58:39.388 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 16:58:44.461 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 4
+2025-06-17 16:58:44.461 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 16:58:49.589 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 5
+2025-06-17 16:58:49.589 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 16:58:54.657 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 6
+2025-06-17 16:58:54.658 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 16:58:59.721 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 7
+2025-06-17 16:58:59.721 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 16:59:04.793 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 8
+2025-06-17 16:59:04.793 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 16:59:09.875 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 9
+2025-06-17 16:59:09.875 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 16:59:14.951 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 10
+2025-06-17 16:59:14.951 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 16:59:20.034 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 11
+2025-06-17 16:59:20.034 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 16:59:25.091 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 12
+2025-06-17 16:59:25.091 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 16:59:30.156 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 13
+2025-06-17 16:59:30.156 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 16:59:35.227 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 14
+2025-06-17 16:59:35.227 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 16:59:40.292 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 15
+2025-06-17 16:59:40.292 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 16:59:45.355 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 16
+2025-06-17 16:59:45.355 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 16:59:50.429 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 17
+2025-06-17 16:59:50.429 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 16:59:55.497 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 18
+2025-06-17 16:59:55.497 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:00:00.577 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 19
+2025-06-17 17:00:00.577 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:00:05.667 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 20
+2025-06-17 17:00:05.668 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:00:10.738 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 21
+2025-06-17 17:00:10.738 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:00:15.811 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 22
+2025-06-17 17:00:15.812 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:00:20.872 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 23
+2025-06-17 17:00:20.872 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:00:25.942 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 24
+2025-06-17 17:00:25.942 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:00:31.010 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 25
+2025-06-17 17:00:31.010 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:00:36.078 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 26
+2025-06-17 17:00:36.079 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:00:41.141 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 27
+2025-06-17 17:00:41.141 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:00:46.202 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 28
+2025-06-17 17:00:46.203 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:00:51.268 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 29
+2025-06-17 17:00:51.269 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:00:56.339 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 30
+2025-06-17 17:00:56.339 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:01:01.401 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 31
+2025-06-17 17:01:01.401 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:01:06.470 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 32
+2025-06-17 17:01:06.470 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:01:11.530 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 33
+2025-06-17 17:01:11.530 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:01:16.598 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 34
+2025-06-17 17:01:16.598 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:01:21.672 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 35
+2025-06-17 17:01:21.672 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:01:26.737 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 36
+2025-06-17 17:01:26.737 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:01:31.801 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 37
+2025-06-17 17:01:31.801 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:01:36.884 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 38
+2025-06-17 17:01:36.884 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:01:41.959 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 39
+2025-06-17 17:01:41.959 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:01:47.033 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 40
+2025-06-17 17:01:47.033 +05:30 [ERR] Exception: Invalid object name 'Jps_ReceiptsData_validation'.
+2025-06-17 17:01:52.118 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPSIH\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-17 17:01:52.119 +05:30 [INF] Process file name :- JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-17 17:01:52.119 +05:30 [INF] Total time taken in process: 203.6684569 seconds
+2025-06-17 17:01:52.121 +05:30 [INF] Total time taken in moving: 0.00199 seconds

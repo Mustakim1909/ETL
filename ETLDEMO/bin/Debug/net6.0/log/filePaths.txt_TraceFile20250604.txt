@@ -1,0 +1,322 @@
+2025-06-04 13:44:27.586 +05:30 [INF] Application starting up
+2025-06-04 13:44:28.225 +05:30 [INF] Main thread ID: 1
+2025-06-04 13:44:28.225 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_S2504244WQM0JPP_-_Copy_WIP.csv
+2025-06-04 13:44:28.227 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 13:44:31.848 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '04-06-2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding Amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id_1","TaxCategory schemeID_1","TaxCategory schemeAgencyID_1","TaxCategory schemeAgency code_1","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption_1","Amount Exempted from Tax_1","Total Excluding Tax2","Invoice line net amount","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 2847
+   Row: 2
+   RawRow: 2
+   Count: 93
+   RawRecord:
+1.0,01,INV01,04-06-2025,1:37,MYR,3,357-039338-101,Sirva Relocation Malaysia Sdn Bhd,636952576,BRN,200701009255 (767257-U),,W10-2410-32000006,N/A,ASMERemitInfo.SIRVA@sirva.com,74142,Business Management Consultancy Service,60 (3) 6252 8333,A-20-10 The Met Corporate Towers,No 20 Jalan Dutamas 2,,50480,Kuala Lumpur,14,MYS,Oracle Corporation Sdn. Bhd. - Malaysia,AAA877482935,BRN,198101006941 (73056-D) ,,,NA,,NA,***,,Level 23 The Gardens North Tower,,,,10,MYS,2536.92,0,0,2536.92,2536.92,0,2536.92,,0,2536.92,0,,,1,,,6,,,,,,0,0,,,5,22,OTHERS,,,File Initiation - SIRVA Mgmt Fee,,2349,1,,2349,,,,,,6,0,0,,,2349,2349,2349
+
+
+2025-06-04 13:44:31.850 +05:30 [WRN] Skipping invalid record at row 2: The conversion cannot be performed.
+    Text: '04-06-2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding Amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id_1","TaxCategory schemeID_1","TaxCategory schemeAgencyID_1","TaxCategory schemeAgency code_1","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption_1","Amount Exempted from Tax_1","Total Excluding Tax2","Invoice line net amount","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 3451
+   Row: 3
+   RawRow: 3
+   Count: 93
+   RawRecord:
+1.0,01,INV01,04-06-2025,1:37,MYR,3,357-039338-101,Sirva Relocation Malaysia Sdn Bhd,636952576,BRN,200701009255 (767257-U),,W10-2410-32000006,N/A,ASMERemitInfo.SIRVA@sirva.com,74142,Business Management Consultancy Service,60 (3) 6252 8333,A-20-10 The Met Corporate Towers,No 20 Jalan Dutamas 2,,50480,Kuala Lumpur,14,MYS,INTEL TECHNOLOGY SDN BHD,1201995776,BRN,198101006941 (73056-D) ,,,NA,,NA,***,,"KM2 Lot 10-12, Jalan Hi-Tech 2/3",,,,10,MYS,4298.4,0,0,4298.4,4298.4,0,4298.4,,0,4298.4,0,,,2,,,6,,,,,,0,0,,,5,22,OTHERS,,,Mgmt Fee - SIRVA Bundled Fee,,4298.4,2,,8596.8,,,,,,6,0,0,,,8596.8,8596.8,8596.8
+
+
+2025-06-04 13:44:31.851 +05:30 [WRN] Skipping invalid record at row 3: The conversion cannot be performed.
+    Text: '04-06-2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding Amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id_1","TaxCategory schemeID_1","TaxCategory schemeAgencyID_1","TaxCategory schemeAgency code_1","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption_1","Amount Exempted from Tax_1","Total Excluding Tax2","Invoice line net amount","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 4039
+   Row: 4
+   RawRow: 4
+   Count: 93
+   RawRecord:
+1.0,01,INV01,04-06-2025,1:37,MYR,3,357-039338-101,Sirva Relocation Malaysia Sdn Bhd,636952576,BRN,200701009255 (767257-U),,W10-2410-32000006,N/A,ASMERemitInfo.SIRVA@sirva.com,74142,Business Management Consultancy Service,60 (3) 6252 8333,A-20-10 The Met Corporate Towers,No 20 Jalan Dutamas 2,,50480,Kuala Lumpur,14,MYS,INTEL TECHNOLOGY SDN BHD,1201995776,BRN,198101006941 (73056-D) ,,,NA,,NA,***,,"KM2 Lot 10-12, Jalan Hi-Tech 2/3",,,,10,MYS,432,0,0,432,432,0,432,,0,432,0,,,2,,,6,,,,,,0,0,,,5,22,OTHERS,,,Mgmt Fee - Pre-D/Pre-Assignment Initiation,,432,2,,864,,,,,,6,0,0,,,864,864,864
+
+
+2025-06-04 13:44:31.851 +05:30 [WRN] Skipping invalid record at row 4: The conversion cannot be performed.
+    Text: '04-06-2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding Amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id_1","TaxCategory schemeID_1","TaxCategory schemeAgencyID_1","TaxCategory schemeAgency code_1","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption_1","Amount Exempted from Tax_1","Total Excluding Tax2","Invoice line net amount","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 4619
+   Row: 5
+   RawRow: 5
+   Count: 93
+   RawRecord:
+1.0,01,INV01,04-06-2025,1:37,MYR,3,357-039338-101,Sirva Relocation Malaysia Sdn Bhd,636952576,BRN,200701009255 (767257-U),,W10-2410-32000006,N/A,ASMERemitInfo.SIRVA@sirva.com,74142,Business Management Consultancy Service,60 (3) 6252 8333,A-20-10 The Met Corporate Towers,No 20 Jalan Dutamas 2,,50480,Kuala Lumpur,14,MYS,INTEL TECHNOLOGY SDN BHD,1201995776,BRN,198101006941 (73056-D) ,,,NA,,NA,***,,"KM2 Lot 10-12, Jalan Hi-Tech 2/3",,,,10,MYS,648,0,0,648,648,0,648,,0,648,0,,,1,,,6,,,,,,0,0,,,5,22,OTHERS,,,Mgmt Fee - Letter/Form Preparation,,648,1,,648,,,,,,6,0,0,,,648,648,648
+
+
+2025-06-04 13:44:31.851 +05:30 [WRN] Skipping invalid record at row 5: The conversion cannot be performed.
+    Text: '04-06-2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding Amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id_1","TaxCategory schemeID_1","TaxCategory schemeAgencyID_1","TaxCategory schemeAgency code_1","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption_1","Amount Exempted from Tax_1","Total Excluding Tax2","Invoice line net amount","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 5195
+   Row: 6
+   RawRow: 6
+   Count: 93
+   RawRecord:
+1.0,01,INV01,04-06-2025,1:37,MYR,3,357-039338-101,Sirva Relocation Malaysia Sdn Bhd,636952576,BRN,200701009255 (767257-U),,W10-2410-32000006,N/A,ASMERemitInfo.SIRVA@sirva.com,74142,Business Management Consultancy Service,60 (3) 6252 8333,A-20-10 The Met Corporate Towers,No 20 Jalan Dutamas 2,,50480,Kuala Lumpur,14,MYS,INTEL TECHNOLOGY SDN BHD,1201995776,BRN,198101006941 (73056-D) ,,,NA,,NA,***,,"KM2 Lot 10-12, Jalan Hi-Tech 2/3",,,,10,MYS,864,0,0,864,864,0,864,,0,864,0,,,2,,,6,,,,,,0,0,,,5,22,OTHERS,,,Mgmt Fee - File Initiation,,864,2,,1728,,,,,,6,0,0,,,1728,1728,1728
+
+
+2025-06-04 13:44:31.851 +05:30 [WRN] Skipping invalid record at row 6: The conversion cannot be performed.
+    Text: '04-06-2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding Amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id_1","TaxCategory schemeID_1","TaxCategory schemeAgencyID_1","TaxCategory schemeAgency code_1","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption_1","Amount Exempted from Tax_1","Total Excluding Tax2","Invoice line net amount","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 5809
+   Row: 7
+   RawRow: 7
+   Count: 93
+   RawRecord:
+1.0,01,INV01,04-06-2025,1:37,MYR,3,357-039338-101,Sirva Relocation Malaysia Sdn Bhd,636952576,BRN,200701009255 (767257-U),,W10-2410-32000006,N/A,ASMERemitInfo.SIRVA@sirva.com,74142,Business Management Consultancy Service,60 (3) 6252 8333,A-20-10 The Met Corporate Towers,No 20 Jalan Dutamas 2,,50480,Kuala Lumpur,14,MYS,INTEL TECHNOLOGY SDN BHD,1201995776,BRN,198101006941 (73056-D) ,,,NA,,NA,***,,"KM2 Lot 10-12, Jalan Hi-Tech 2/3",,,,10,MYS,1706.4,0,0,1706.4,1706.4,0,1706.4,,0,1706.4,0,,,1,,,6,,,,,,0,0,,,5,22,OTHERS,,,Mgmt Fee - Employee Expense Management,,1706.4,1,,1706.4,,,,,,6,0,0,,,1706.4,1706.4,1706.4
+
+
+2025-06-04 14:48:45.260 +05:30 [INF] Application starting up
+2025-06-04 14:48:46.884 +05:30 [INF] Main thread ID: 1
+2025-06-04 14:48:46.926 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_S2504244WQM0JPP_-_Copy_WIP.csv
+2025-06-04 14:48:46.941 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 14:48:51.610 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '04-06-2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding Amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id_1","TaxCategory schemeID_1","TaxCategory schemeAgencyID_1","TaxCategory schemeAgency code_1","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption_1","Amount Exempted from Tax_1","Total Excluding Tax2","Invoice line net amount","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 2847
+   Row: 2
+   RawRow: 2
+   Count: 93
+   RawRecord:
+1.0,01,INV01,04-06-2025,1:37,MYR,3,357-039338-101,Sirva Relocation Malaysia Sdn Bhd,636952576,BRN,200701009255 (767257-U),,W10-2410-32000006,N/A,ASMERemitInfo.SIRVA@sirva.com,74142,Business Management Consultancy Service,60 (3) 6252 8333,A-20-10 The Met Corporate Towers,No 20 Jalan Dutamas 2,,50480,Kuala Lumpur,14,MYS,Oracle Corporation Sdn. Bhd. - Malaysia,AAA877482935,BRN,198101006941 (73056-D) ,,,NA,,NA,***,,Level 23 The Gardens North Tower,,,,10,MYS,2536.92,0,0,2536.92,2536.92,0,2536.92,,0,2536.92,0,,,1,,,6,,,,,,0,0,,,5,22,OTHERS,,,File Initiation - SIRVA Mgmt Fee,,2349,1,,2349,,,,,,6,0,0,,,2349,2349,2349
+
+
+2025-06-04 14:48:51.655 +05:30 [WRN] Skipping invalid record at row 2: The conversion cannot be performed.
+    Text: '04-06-2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding Amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id_1","TaxCategory schemeID_1","TaxCategory schemeAgencyID_1","TaxCategory schemeAgency code_1","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption_1","Amount Exempted from Tax_1","Total Excluding Tax2","Invoice line net amount","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 3451
+   Row: 3
+   RawRow: 3
+   Count: 93
+   RawRecord:
+1.0,01,INV01,04-06-2025,1:37,MYR,3,357-039338-101,Sirva Relocation Malaysia Sdn Bhd,636952576,BRN,200701009255 (767257-U),,W10-2410-32000006,N/A,ASMERemitInfo.SIRVA@sirva.com,74142,Business Management Consultancy Service,60 (3) 6252 8333,A-20-10 The Met Corporate Towers,No 20 Jalan Dutamas 2,,50480,Kuala Lumpur,14,MYS,INTEL TECHNOLOGY SDN BHD,1201995776,BRN,198101006941 (73056-D) ,,,NA,,NA,***,,"KM2 Lot 10-12, Jalan Hi-Tech 2/3",,,,10,MYS,4298.4,0,0,4298.4,4298.4,0,4298.4,,0,4298.4,0,,,2,,,6,,,,,,0,0,,,5,22,OTHERS,,,Mgmt Fee - SIRVA Bundled Fee,,4298.4,2,,8596.8,,,,,,6,0,0,,,8596.8,8596.8,8596.8
+
+
+2025-06-04 14:48:51.703 +05:30 [WRN] Skipping invalid record at row 3: The conversion cannot be performed.
+    Text: '04-06-2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding Amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id_1","TaxCategory schemeID_1","TaxCategory schemeAgencyID_1","TaxCategory schemeAgency code_1","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption_1","Amount Exempted from Tax_1","Total Excluding Tax2","Invoice line net amount","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 4039
+   Row: 4
+   RawRow: 4
+   Count: 93
+   RawRecord:
+1.0,01,INV01,04-06-2025,1:37,MYR,3,357-039338-101,Sirva Relocation Malaysia Sdn Bhd,636952576,BRN,200701009255 (767257-U),,W10-2410-32000006,N/A,ASMERemitInfo.SIRVA@sirva.com,74142,Business Management Consultancy Service,60 (3) 6252 8333,A-20-10 The Met Corporate Towers,No 20 Jalan Dutamas 2,,50480,Kuala Lumpur,14,MYS,INTEL TECHNOLOGY SDN BHD,1201995776,BRN,198101006941 (73056-D) ,,,NA,,NA,***,,"KM2 Lot 10-12, Jalan Hi-Tech 2/3",,,,10,MYS,432,0,0,432,432,0,432,,0,432,0,,,2,,,6,,,,,,0,0,,,5,22,OTHERS,,,Mgmt Fee - Pre-D/Pre-Assignment Initiation,,432,2,,864,,,,,,6,0,0,,,864,864,864
+
+
+2025-06-04 14:48:51.747 +05:30 [WRN] Skipping invalid record at row 4: The conversion cannot be performed.
+    Text: '04-06-2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding Amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id_1","TaxCategory schemeID_1","TaxCategory schemeAgencyID_1","TaxCategory schemeAgency code_1","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption_1","Amount Exempted from Tax_1","Total Excluding Tax2","Invoice line net amount","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 4619
+   Row: 5
+   RawRow: 5
+   Count: 93
+   RawRecord:
+1.0,01,INV01,04-06-2025,1:37,MYR,3,357-039338-101,Sirva Relocation Malaysia Sdn Bhd,636952576,BRN,200701009255 (767257-U),,W10-2410-32000006,N/A,ASMERemitInfo.SIRVA@sirva.com,74142,Business Management Consultancy Service,60 (3) 6252 8333,A-20-10 The Met Corporate Towers,No 20 Jalan Dutamas 2,,50480,Kuala Lumpur,14,MYS,INTEL TECHNOLOGY SDN BHD,1201995776,BRN,198101006941 (73056-D) ,,,NA,,NA,***,,"KM2 Lot 10-12, Jalan Hi-Tech 2/3",,,,10,MYS,648,0,0,648,648,0,648,,0,648,0,,,1,,,6,,,,,,0,0,,,5,22,OTHERS,,,Mgmt Fee - Letter/Form Preparation,,648,1,,648,,,,,,6,0,0,,,648,648,648
+
+
+2025-06-04 14:48:51.795 +05:30 [WRN] Skipping invalid record at row 5: The conversion cannot be performed.
+    Text: '04-06-2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding Amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id_1","TaxCategory schemeID_1","TaxCategory schemeAgencyID_1","TaxCategory schemeAgency code_1","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption_1","Amount Exempted from Tax_1","Total Excluding Tax2","Invoice line net amount","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 5195
+   Row: 6
+   RawRow: 6
+   Count: 93
+   RawRecord:
+1.0,01,INV01,04-06-2025,1:37,MYR,3,357-039338-101,Sirva Relocation Malaysia Sdn Bhd,636952576,BRN,200701009255 (767257-U),,W10-2410-32000006,N/A,ASMERemitInfo.SIRVA@sirva.com,74142,Business Management Consultancy Service,60 (3) 6252 8333,A-20-10 The Met Corporate Towers,No 20 Jalan Dutamas 2,,50480,Kuala Lumpur,14,MYS,INTEL TECHNOLOGY SDN BHD,1201995776,BRN,198101006941 (73056-D) ,,,NA,,NA,***,,"KM2 Lot 10-12, Jalan Hi-Tech 2/3",,,,10,MYS,864,0,0,864,864,0,864,,0,864,0,,,2,,,6,,,,,,0,0,,,5,22,OTHERS,,,Mgmt Fee - File Initiation,,864,2,,1728,,,,,,6,0,0,,,1728,1728,1728
+
+
+2025-06-04 14:48:51.840 +05:30 [WRN] Skipping invalid record at row 6: The conversion cannot be performed.
+    Text: '04-06-2025'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 3
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding Amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id_1","TaxCategory schemeID_1","TaxCategory schemeAgencyID_1","TaxCategory schemeAgency code_1","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption_1","Amount Exempted from Tax_1","Total Excluding Tax2","Invoice line net amount","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 5809
+   Row: 7
+   RawRow: 7
+   Count: 93
+   RawRecord:
+1.0,01,INV01,04-06-2025,1:37,MYR,3,357-039338-101,Sirva Relocation Malaysia Sdn Bhd,636952576,BRN,200701009255 (767257-U),,W10-2410-32000006,N/A,ASMERemitInfo.SIRVA@sirva.com,74142,Business Management Consultancy Service,60 (3) 6252 8333,A-20-10 The Met Corporate Towers,No 20 Jalan Dutamas 2,,50480,Kuala Lumpur,14,MYS,INTEL TECHNOLOGY SDN BHD,1201995776,BRN,198101006941 (73056-D) ,,,NA,,NA,***,,"KM2 Lot 10-12, Jalan Hi-Tech 2/3",,,,10,MYS,1706.4,0,0,1706.4,1706.4,0,1706.4,,0,1706.4,0,,,1,,,6,,,,,,0,0,,,5,22,OTHERS,,,Mgmt Fee - Employee Expense Management,,1706.4,1,,1706.4,,,,,,6,0,0,,,1706.4,1706.4,1706.4
+
+
+2025-06-04 14:49:29.353 +05:30 [INF] Application starting up
+2025-06-04 14:49:30.608 +05:30 [INF] Main thread ID: 1
+2025-06-04 14:49:30.609 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_S2504244WQM0JPP_-_Copy_WIP.csv
+2025-06-04 14:49:30.616 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 14:53:03.185 +05:30 [INF] Application starting up
+2025-06-04 14:53:04.868 +05:30 [INF] Main thread ID: 1
+2025-06-04 14:53:04.868 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_S2504244WQM0JPP_-_Copy_WIP.csv
+2025-06-04 14:53:04.870 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 14:55:09.742 +05:30 [INF] Application starting up
+2025-06-04 14:55:10.707 +05:30 [INF] Main thread ID: 1
+2025-06-04 14:55:10.708 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_S2504244WQM0JPP_-_Copy_WIP.csv
+2025-06-04 14:55:10.712 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 15:01:43.654 +05:30 [INF] Application starting up
+2025-06-04 15:01:44.486 +05:30 [INF] Main thread ID: 1
+2025-06-04 15:01:44.486 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_S2504244WQM0JPP_-_Copy_WIP.csv
+2025-06-04 15:01:44.497 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 15:02:03.478 +05:30 [INF] Application starting up
+2025-06-04 15:02:04.505 +05:30 [INF] Main thread ID: 1
+2025-06-04 15:02:04.505 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_S2504244WQM0JPP_-_Copy_WIP.csv
+2025-06-04 15:02:04.508 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 15:09:20.585 +05:30 [INF] Application starting up
+2025-06-04 15:09:32.729 +05:30 [INF] Application starting up
+2025-06-04 15:09:33.986 +05:30 [INF] Main thread ID: 1
+2025-06-04 15:09:33.986 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_S2504244WQM0JPP_-_Copy_WIP.csv
+2025-06-04 15:09:33.991 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 15:09:41.310 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '01:37:55'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: 4
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Payment Mode","Supplier's Bank Account Number","Supplier's Name","Supplier's TIN","Supplier's Category","Supplier's Business Registration Number","Supplier's Identification Number / Passport Number","Supplier's SST Registration Number","Supplier's Tourism Tax Registration Number","Supplier's e-mail","Supplier's Malaysia Standard Industrial Classification (MSIC) Code","Supplier's Business Activity Description","Supplier's Contact Number","Supplier's Address Line 0","Supplier's Address Line 1","Supplier's Address Line 2","Supplier's Postal Zone","Supplier's City Name","Supplier's State","Supplier's Country","Buyer's Name","Buyer's TIN","Buyer's Category","Buyer's Subcategory","Buyer's Business Registration Number","Buyer's Identification Number / Passport Number","Buyer's SST Registration Number","Buyer's contact point (Person Name)","Buyer's e-mail","Buyer's Contact Number","Buyer's Address Line 0","Buyer's Address Line 1","Buyer's Address Line 2","Buyer's Postal Zone","Buyer's City Name","Buyer's State","Buyer's Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding Amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","TaxCategory Id_1","TaxCategory schemeID_1","TaxCategory schemeAgencyID_1","TaxCategory schemeAgency code_1","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Details of Tax Exemption_1","Amount Exempted from Tax_1","Total Excluding Tax2","Invoice line net amount","Nett Amount"]
+IParser state:
+   ByteCount: 0
+   CharCount: 2851
+   Row: 2
+   RawRow: 2
+   Count: 93
+   RawRecord:
+1.0,01,INV01,24-06-2025,01:37:55,MYR,3,357-039338-101,Sirva Relocation Malaysia Sdn Bhd,636952576,BRN,200701009255 (767257-U),,W10-2410-32000006,N/A,ASMERemitInfo.SIRVA@sirva.com,74142,Business Management Consultancy Service,60 (3) 6252 8333,A-20-10 The Met Corporate Towers,No 20 Jalan Dutamas 2,,50480,Kuala Lumpur,14,MYS,Oracle Corporation Sdn. Bhd. - Malaysia,AAA877482935,BRN,198101006941 (73056-D) ,,,NA,,NA,***,,Level 23 The Gardens North Tower,,,,10,MYS,2536.92,0,0,2536.92,2536.92,0,2536.92,,0,2536.92,0,,,1,,,6,,,,,,0,0,,,5,22,OTHERS,,,File Initiation - SIRVA Mgmt Fee,,2349,1,,2349,,,,,,6,0,0,,,2349,2349,2349
+
+
+2025-06-04 15:14:08.695 +05:30 [INF] Application starting up
+2025-06-04 15:14:10.177 +05:30 [INF] Main thread ID: 1
+2025-06-04 15:14:10.178 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_S2504244WQM0JPP_-_Copy_WIP.csv
+2025-06-04 15:14:10.183 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 15:14:47.699 +05:30 [INF] Application starting up
+2025-06-04 15:14:49.233 +05:30 [INF] Main thread ID: 1
+2025-06-04 15:14:49.234 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_S2504244WQM0JPP_-_Copy_WIP.csv
+2025-06-04 15:14:49.236 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 15:16:29.636 +05:30 [INF] Application starting up
+2025-06-04 15:16:30.807 +05:30 [INF] Main thread ID: 1
+2025-06-04 15:16:30.807 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_S2504244WQM0JPP_-_Copy_WIP.csv
+2025-06-04 15:16:30.811 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 15:21:03.313 +05:30 [INF] Application starting up
+2025-06-04 15:21:04.490 +05:30 [INF] Main thread ID: 1
+2025-06-04 15:21:04.490 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_S2504244WQM0JPP_-_Copy_WIP.csv
+2025-06-04 15:21:04.493 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 15:21:20.874 +05:30 [INF] Invoice Number Not Match
+2025-06-04 15:21:20.895 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_S2504244WQM0JPP_-_Copy_WIP.csv
+2025-06-04 15:21:20.895 +05:30 [INF] Process file name :- SLV_01_v1_20250530_S2504244WQM0JPP_-_Copy_WIP.csv
+2025-06-04 15:21:20.896 +05:30 [INF] Total time taken in process: 14.6198714 seconds
+2025-06-04 15:21:20.902 +05:30 [INF] Total time taken in moving: 0.0052851 seconds
+2025-06-04 15:24:05.894 +05:30 [INF] Application starting up
+2025-06-04 15:24:06.171 +05:30 [INF] Main thread ID: 1
+2025-06-04 15:24:06.171 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 15:24:06.173 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 15:24:08.887 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 15:24:08.887 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 15:24:08.887 +05:30 [INF] Total time taken in process: 1.6808018 seconds
+2025-06-04 15:24:08.889 +05:30 [INF] Total time taken in moving: 0.0020455 seconds

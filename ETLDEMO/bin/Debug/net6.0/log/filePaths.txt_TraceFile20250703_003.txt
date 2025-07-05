@@ -1,0 +1,25 @@
+2025-07-03 19:23:01.899 +05:30 [INF] Application starting up
+2025-07-03 19:23:02.095 +05:30 [INF] Main thread ID: 1
+2025-07-03 19:23:02.096 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_03_V1_01312025_DN00001_WIP.csv
+2025-07-03 19:23:02.097 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 19:23:03.029 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_03_V1_01312025_DN00001_WIP.csv'.
+2025-07-03 19:23:03.029 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_03_V1_01312025_DN00001_WIP.csv'.
+2025-07-03 19:23:03.030 +05:30 [INF] Error processing files for domain DemoDB: Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_03_V1_01312025_DN00001_WIP.csv'.
+2025-07-03 19:23:03.031 +05:30 [INF] The following files were not found and skipped:
+2025-07-03 19:23:03.031 +05:30 [INF] C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_03_V1_01312025_DN00001_WIP.csv
+2025-07-03 19:23:38.687 +05:30 [INF] Application starting up
+2025-07-03 19:23:38.873 +05:30 [INF] Main thread ID: 1
+2025-07-03 19:23:38.873 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_03_V1_01312025_DN00001_WIP.csv
+2025-07-03 19:23:38.874 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 19:23:41.450 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_03_V1_01312025_DN00001_WIP.csv
+2025-07-03 19:23:41.450 +05:30 [INF] Process file name :- Advintek_03_V1_01312025_DN00001_WIP.csv
+2025-07-03 19:23:41.451 +05:30 [INF] Total time taken in process: 1.6482286 seconds
+2025-07-03 19:23:41.453 +05:30 [INF] Total time taken in moving: 0.0020044 seconds
+2025-07-03 19:25:39.047 +05:30 [INF] Application starting up
+2025-07-03 19:25:39.240 +05:30 [INF] Main thread ID: 1
+2025-07-03 19:25:39.241 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_03_V1_01312025_DN00001_WIP.csv
+2025-07-03 19:25:39.242 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 19:25:41.792 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_03_V1_01312025_DN00001_WIP.csv
+2025-07-03 19:25:41.792 +05:30 [INF] Process file name :- Advintek_03_V1_01312025_DN00001_WIP.csv
+2025-07-03 19:25:41.792 +05:30 [INF] Total time taken in process: 1.5078266 seconds
+2025-07-03 19:25:41.794 +05:30 [INF] Total time taken in moving: 0.0011697 seconds

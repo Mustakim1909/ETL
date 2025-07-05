@@ -1,0 +1,374 @@
+2025-05-31 11:43:02.152 +05:30 [INF] Application starting up
+2025-05-31 11:43:04.837 +05:30 [INF] Main thread ID: 1
+2025-05-31 11:43:04.838 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-05-31 11:43:04.840 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-05-31 11:43:06.684 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv'.
+2025-05-31 11:43:06.685 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv'.
+2025-05-31 11:43:06.687 +05:30 [INF] Error processing files for domain PIL: Could not find file 'C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv'.
+2025-05-31 11:43:06.687 +05:30 [INF] The following files were not found and skipped:
+2025-05-31 11:43:06.687 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-05-31 12:11:50.585 +05:30 [INF] Application starting up
+2025-05-31 12:11:50.893 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:11:50.893 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv
+2025-05-31 12:11:50.895 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:11:52.636 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '29/03/2025 3:53:55 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 48
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1201
+   Row: 2
+   RawRow: 2
+   Count: 48
+   RawRecord:
+C35,CPS CTL SURATHANI,00449982,29/03/2025 3:53:55 PM,C25SFTC804,Top,#BEG010,Printed Beige,M,M,,,,J6601085,ชินกฤต,วิมูลชาติ,1,990,990,990,925.23,925.23,,,990,0,0,,0,0,64.77,64.77,7,Sale,3/29/2025,29/03/2025 3:55:04 PM,270,270,#Apparel,CPS,#Closet 4,,,Posted to GL,,0225100012429,,
+
+
+2025-05-31 12:11:52.640 +05:30 [INF] Exception in ProcessTaskAsync : Object reference not set to an instance of an object.
+2025-05-31 12:11:52.641 +05:30 [INF] Exception in ProcessFileAsync : Object reference not set to an instance of an object.
+2025-05-31 12:11:52.641 +05:30 [INF] Error processing files for domain JPS: Object reference not set to an instance of an object.
+2025-05-31 12:11:52.641 +05:30 [INF] The following files were not found and skipped:
+2025-05-31 12:11:52.641 +05:30 [INF] C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv
+2025-05-31 12:13:18.581 +05:30 [INF] Application starting up
+2025-05-31 12:13:20.355 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:13:20.355 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv
+2025-05-31 12:13:20.357 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:13:23.172 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '29/03/2025 3:53:55 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 48
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1201
+   Row: 2
+   RawRow: 2
+   Count: 48
+   RawRecord:
+C35,CPS CTL SURATHANI,00449982,29/03/2025 3:53:55 PM,C25SFTC804,Top,#BEG010,Printed Beige,M,M,,,,J6601085,ชินกฤต,วิมูลชาติ,1,990,990,990,925.23,925.23,,,990,0,0,,0,0,64.77,64.77,7,Sale,3/29/2025,29/03/2025 3:55:04 PM,270,270,#Apparel,CPS,#Closet 4,,,Posted to GL,,0225100012429,,
+
+
+2025-05-31 12:14:03.095 +05:30 [INF] Application starting up
+2025-05-31 12:14:04.254 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:14:04.256 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv
+2025-05-31 12:14:04.262 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:14:27.330 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '29/03/2025 3:53:55 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 48
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1201
+   Row: 2
+   RawRow: 2
+   Count: 48
+   RawRecord:
+C35,CPS CTL SURATHANI,00449982,29/03/2025 3:53:55 PM,C25SFTC804,Top,#BEG010,Printed Beige,M,M,,,,J6601085,ชินกฤต,วิมูลชาติ,1,990,990,990,925.23,925.23,,,990,0,0,,0,0,64.77,64.77,7,Sale,3/29/2025,29/03/2025 3:55:04 PM,270,270,#Apparel,CPS,#Closet 4,,,Posted to GL,,0225100012429,,
+
+
+2025-05-31 12:16:01.889 +05:30 [INF] Application starting up
+2025-05-31 12:16:03.071 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:16:03.073 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv
+2025-05-31 12:16:03.077 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:17:30.110 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '29/03/2025 3:53:55 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 48
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1201
+   Row: 2
+   RawRow: 2
+   Count: 48
+   RawRecord:
+C35,CPS CTL SURATHANI,00449982,29/03/2025 3:53:55 PM,C25SFTC804,Top,#BEG010,Printed Beige,M,M,,,,J6601085,ชินกฤต,วิมูลชาติ,1,990,990,990,925.23,925.23,,,990,0,0,,0,0,64.77,64.77,7,Sale,3/29/2025,29/03/2025 3:55:04 PM,270,270,#Apparel,CPS,#Closet 4,,,Posted to GL,,0225100012429,,
+
+
+2025-05-31 12:21:34.318 +05:30 [INF] Application starting up
+2025-05-31 12:21:35.665 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:21:35.669 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv
+2025-05-31 12:21:35.673 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:22:19.421 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '29/03/2025 3:53:55 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 48
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1201
+   Row: 2
+   RawRow: 2
+   Count: 48
+   RawRecord:
+C35,CPS CTL SURATHANI,00449982,29/03/2025 3:53:55 PM,C25SFTC804,Top,#BEG010,Printed Beige,M,M,,,,J6601085,ชินกฤต,วิมูลชาติ,1,990,990,990,925.23,925.23,,,990,0,0,,0,0,64.77,64.77,7,Sale,3/29/2025,29/03/2025 3:55:04 PM,270,270,#Apparel,CPS,#Closet 4,,,Posted to GL,,0225100012429,,
+
+
+2025-05-31 12:24:51.459 +05:30 [INF] Application starting up
+2025-05-31 12:24:52.493 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:24:52.493 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv
+2025-05-31 12:24:52.495 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:24:58.396 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '29/03/2025 3:53:55 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 48
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1201
+   Row: 2
+   RawRow: 2
+   Count: 48
+   RawRecord:
+C35,CPS CTL SURATHANI,00449982,29/03/2025 3:53:55 PM,C25SFTC804,Top,#BEG010,Printed Beige,M,M,,,,J6601085,ชินกฤต,วิมูลชาติ,1,990,990,990,925.23,925.23,,,990,0,0,,0,0,64.77,64.77,7,Sale,3/29/2025,29/03/2025 3:55:04 PM,270,270,#Apparel,CPS,#Closet 4,,,Posted to GL,,0225100012429,,
+
+
+2025-05-31 12:25:17.200 +05:30 [INF] Invoice Number Not Match
+2025-05-31 12:25:21.569 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv
+2025-05-31 12:25:21.853 +05:30 [INF] Process file name :- C35_-_sample_sale_WIP.csv
+2025-05-31 12:30:56.807 +05:30 [INF] Application starting up
+2025-05-31 12:30:57.901 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:30:57.901 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv
+2025-05-31 12:30:57.904 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:30:59.711 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv'.
+2025-05-31 12:30:59.856 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv'.
+2025-05-31 12:30:59.987 +05:30 [INF] Error processing files for domain JPS: Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv'.
+2025-05-31 12:30:59.988 +05:30 [INF] The following files were not found and skipped:
+2025-05-31 12:30:59.988 +05:30 [INF] C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv
+2025-05-31 12:32:01.972 +05:30 [INF] Application starting up
+2025-05-31 12:32:02.244 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:32:02.244 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP.csv
+2025-05-31 12:32:02.246 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:32:03.972 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '29/03/2025 3:53:55 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 48
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1201
+   Row: 2
+   RawRow: 2
+   Count: 48
+   RawRecord:
+C35,CPS CTL SURATHANI,00449982,29/03/2025 3:53:55 PM,C25SFTC804,Top,#BEG010,Printed Beige,M,M,,,,J6601085,ชินกฤต,วิมูลชาติ,1,990,990,990,925.23,925.23,,,990,0,0,,0,0,64.77,64.77,7,Sale,3/29/2025,29/03/2025 3:55:04 PM,270,270,#Apparel,CPS,#Closet 4,,,Posted to GL,,0225100012429,,
+
+
+2025-05-31 12:32:03.975 +05:30 [INF] Exception in ProcessTaskAsync : Object reference not set to an instance of an object.
+2025-05-31 12:32:03.976 +05:30 [INF] Exception in ProcessFileAsync : Object reference not set to an instance of an object.
+2025-05-31 12:32:03.976 +05:30 [INF] Error processing files for domain JPS: Object reference not set to an instance of an object.
+2025-05-31 12:32:03.976 +05:30 [INF] The following files were not found and skipped:
+2025-05-31 12:32:03.976 +05:30 [INF] C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP.csv
+2025-05-31 12:32:34.950 +05:30 [INF] Application starting up
+2025-05-31 12:32:36.225 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:32:36.225 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP.csv
+2025-05-31 12:32:36.229 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:32:43.227 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '29/03/2025 3:53:55 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 48
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1201
+   Row: 2
+   RawRow: 2
+   Count: 48
+   RawRecord:
+C35,CPS CTL SURATHANI,00449982,29/03/2025 3:53:55 PM,C25SFTC804,Top,#BEG010,Printed Beige,M,M,,,,J6601085,ชินกฤต,วิมูลชาติ,1,990,990,990,925.23,925.23,,,990,0,0,,0,0,64.77,64.77,7,Sale,3/29/2025,29/03/2025 3:55:04 PM,270,270,#Apparel,CPS,#Closet 4,,,Posted to GL,,0225100012429,,
+
+
+2025-05-31 12:34:31.625 +05:30 [INF] Application starting up
+2025-05-31 12:34:31.928 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:34:31.928 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-05-31 12:34:31.930 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-05-31 12:34:34.976 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-05-31 12:34:34.976 +05:30 [INF] Process file name :- INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-05-31 12:34:34.976 +05:30 [INF] Total time taken in process: 2.0770213 seconds
+2025-05-31 12:34:34.979 +05:30 [INF] Total time taken in moving: 0.0024118 seconds
+2025-05-31 12:35:24.495 +05:30 [INF] Application starting up
+2025-05-31 12:35:26.057 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:35:26.057 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-05-31 12:35:26.060 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-05-31 12:35:27.802 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv'.
+2025-05-31 12:35:27.930 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv'.
+2025-05-31 12:35:28.107 +05:30 [INF] Error processing files for domain PIL: Could not find file 'C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv'.
+2025-05-31 12:35:28.108 +05:30 [INF] The following files were not found and skipped:
+2025-05-31 12:35:28.108 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-05-31 12:36:02.285 +05:30 [INF] Application starting up
+2025-05-31 12:36:03.544 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:36:03.549 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-05-31 12:36:03.567 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-05-31 12:36:05.485 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv'.
+2025-05-31 12:36:05.611 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv'.
+2025-05-31 12:36:05.700 +05:30 [INF] Error processing files for domain PIL: Could not find file 'C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv'.
+2025-05-31 12:36:05.700 +05:30 [INF] The following files were not found and skipped:
+2025-05-31 12:36:05.700 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-05-31 12:36:38.505 +05:30 [INF] Application starting up
+2025-05-31 12:36:39.453 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:36:39.453 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-05-31 12:36:39.455 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-05-31 12:37:10.152 +05:30 [INF] Application starting up
+2025-05-31 12:37:11.418 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:37:11.418 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-05-31 12:37:11.422 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-05-31 12:37:34.025 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-05-31 12:37:34.025 +05:30 [INF] Process file name :- INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-05-31 12:37:34.026 +05:30 [INF] Total time taken in process: 20.8516303 seconds
+2025-05-31 12:37:34.028 +05:30 [INF] Total time taken in moving: 0.0025028 seconds
+2025-05-31 12:38:31.589 +05:30 [INF] Application starting up
+2025-05-31 12:38:31.888 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:38:31.889 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv
+2025-05-31 12:38:31.890 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:38:33.556 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '29/03/2025 3:53:55 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 48
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1201
+   Row: 2
+   RawRow: 2
+   Count: 48
+   RawRecord:
+C35,CPS CTL SURATHANI,00449982,29/03/2025 3:53:55 PM,C25SFTC804,Top,#BEG010,Printed Beige,M,M,,,,J6601085,ชินกฤต,วิมูลชาติ,1,990,990,990,925.23,925.23,,,990,0,0,,0,0,64.77,64.77,7,Sale,3/29/2025,29/03/2025 3:55:04 PM,270,270,#Apparel,CPS,#Closet 4,,,Posted to GL,,0225100012429,,
+
+
+2025-05-31 12:38:33.561 +05:30 [INF] Exception in ProcessTaskAsync : Object reference not set to an instance of an object.
+2025-05-31 12:38:33.562 +05:30 [INF] Exception in ProcessFileAsync : Object reference not set to an instance of an object.
+2025-05-31 12:38:33.563 +05:30 [INF] Error processing files for domain JPS: Object reference not set to an instance of an object.
+2025-05-31 12:38:33.563 +05:30 [INF] The following files were not found and skipped:
+2025-05-31 12:38:33.563 +05:30 [INF] C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv
+2025-05-31 12:38:54.158 +05:30 [INF] Application starting up
+2025-05-31 12:38:55.437 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:38:55.438 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv
+2025-05-31 12:38:55.440 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:39:36.488 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '29/03/2025 3:53:55 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 48
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1201
+   Row: 2
+   RawRow: 2
+   Count: 48
+   RawRecord:
+C35,CPS CTL SURATHANI,00449982,29/03/2025 3:53:55 PM,C25SFTC804,Top,#BEG010,Printed Beige,M,M,,,,J6601085,ชินกฤต,วิมูลชาติ,1,990,990,990,925.23,925.23,,,990,0,0,,0,0,64.77,64.77,7,Sale,3/29/2025,29/03/2025 3:55:04 PM,270,270,#Apparel,CPS,#Closet 4,,,Posted to GL,,0225100012429,,
+
+
+2025-05-31 12:43:35.310 +05:30 [INF] Application starting up
+2025-05-31 12:43:36.924 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:43:36.924 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv
+2025-05-31 12:43:36.927 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:51:57.544 +05:30 [INF] Application starting up
+2025-05-31 12:51:58.889 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:51:58.889 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv
+2025-05-31 12:51:58.892 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:54:51.435 +05:30 [INF] Application starting up
+2025-05-31 12:54:52.820 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:54:52.821 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv
+2025-05-31 12:54:52.824 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:57:53.482 +05:30 [INF] Application starting up
+2025-05-31 12:57:54.832 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:57:54.832 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv
+2025-05-31 12:57:54.836 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:59:15.165 +05:30 [INF] Application starting up
+2025-05-31 12:59:16.595 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:59:16.595 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv
+2025-05-31 12:59:16.597 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:59:18.175 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv'.
+2025-05-31 12:59:18.260 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv'.
+2025-05-31 12:59:18.347 +05:30 [INF] Error processing files for domain JPS: Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv'.
+2025-05-31 12:59:18.347 +05:30 [INF] The following files were not found and skipped:
+2025-05-31 12:59:18.347 +05:30 [INF] C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv
+2025-05-31 12:59:46.719 +05:30 [INF] Application starting up
+2025-05-31 12:59:47.568 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:59:47.569 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv
+2025-05-31 12:59:47.571 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:59:49.106 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv'.
+2025-05-31 12:59:49.188 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv'.
+2025-05-31 12:59:49.263 +05:30 [INF] Error processing files for domain JPS: Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv'.
+2025-05-31 12:59:49.264 +05:30 [INF] The following files were not found and skipped:
+2025-05-31 12:59:49.264 +05:30 [INF] C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv
+2025-05-31 12:59:54.112 +05:30 [INF] Application starting up
+2025-05-31 12:59:55.763 +05:30 [INF] Main thread ID: 1
+2025-05-31 12:59:55.763 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv
+2025-05-31 12:59:55.789 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 12:59:57.394 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv'.
+2025-05-31 12:59:57.541 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv'.
+2025-05-31 12:59:57.631 +05:30 [INF] Error processing files for domain JPS: Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv'.
+2025-05-31 12:59:57.631 +05:30 [INF] The following files were not found and skipped:
+2025-05-31 12:59:57.631 +05:30 [INF] C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_00449982_WIP_WIP.csv
+2025-05-31 13:01:06.875 +05:30 [INF] Application starting up
+2025-05-31 13:01:08.279 +05:30 [INF] Main thread ID: 1
+2025-05-31 13:01:08.287 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP_WIP.csv
+2025-05-31 13:01:08.289 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 13:04:52.330 +05:30 [INF] Application starting up
+2025-05-31 13:04:53.475 +05:30 [INF] Main thread ID: 1
+2025-05-31 13:04:53.478 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP_WIP.csv
+2025-05-31 13:04:53.483 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 13:40:26.681 +05:30 [INF] Application starting up
+2025-05-31 13:40:27.009 +05:30 [INF] Main thread ID: 1
+2025-05-31 13:40:27.009 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv
+2025-05-31 13:40:27.011 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 13:40:28.965 +05:30 [INF] Exception in ProcessTaskAsync : Object reference not set to an instance of an object.
+2025-05-31 13:40:28.966 +05:30 [INF] Exception in ProcessFileAsync : Object reference not set to an instance of an object.
+2025-05-31 13:40:28.966 +05:30 [INF] Error processing files for domain JPS: Object reference not set to an instance of an object.
+2025-05-31 13:40:28.966 +05:30 [INF] The following files were not found and skipped:
+2025-05-31 13:40:28.966 +05:30 [INF] C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\C35_-_sample_sale_WIP.csv

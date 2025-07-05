@@ -1,0 +1,76 @@
+2025-07-04 10:08:57.899 +05:30 [INF] Application starting up
+2025-07-04 10:08:58.084 +05:30 [INF] Main thread ID: 1
+2025-07-04 10:08:58.084 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_2345092518_WIP.csv
+2025-07-04 10:08:58.085 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 10:08:59.620 +05:30 [WRN] Skipping invalid record at row 1: No members are mapped for type 'ETL_Demo.Models.InvoiceCSVData'.
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: -1
+   HeaderRecord:
+["Invoice Header","","","","","","Payment Information","Supplier Information","","","","","","","","","","","","","","","","","","","Buyer Information","","","","","","","","","","","","","","","","","Legal Monetary Totals","","","","","","","","","","","","","Line Count","Tax Totals","","","","","","","","","","","","Invoice Line Items","","","","","","","","","","","","","","","","","","","","","","",""]
+IParser state:
+   ByteCount: 0
+   CharCount: 2442
+   Row: 2
+   RawRow: 2
+   Count: 93
+   RawRecord:
+e-Invoice Version,e-Invoice Type Code,e-Invoice Number,e-Invoice Date,e-Invoice Time,Invoice Currency Code,Payment Mode,Supplier's Bank Account Number,Supplier's Name,Supplier's TIN,Supplier's Category,Supplier's Business Registration Number,Supplier's Identification Number / Passport Number,Supplier's SST Registration Number,Supplier's Tourism Tax Registration Number,Supplier's e-mail,Supplier's Malaysia Standard Industrial Classification (MSIC) Code,Supplier's Business Activity Description,Supplier's Contact Number,Supplier's Address Line 0,Supplier's Address Line 1,Supplier's Address Line 2,Supplier's Postal Zone,Supplier's City Name,Supplier's State,Supplier's Country,Buyer's Name,Buyer's TIN,Buyer's Category,Buyer's Subcategory,Buyer's Business Registration  Number,Buyer's Identification Number / Passport Number,Buyer's SST Registration Number,Buyer's contact point (Person Name),Buyer's e-mail,Buyer's Contact Number,Buyer's Address Line 0,Buyer's Address Line 1,Buyer's Address Line 2,Buyer's Postal Zone,Buyer's City Name,Buyer's State,Buyer's Country,Sum of Invoice line net amount,Sum of allowances on document level,Total Fee / Charge Amount,Total Net Amount,Total Excluding Tax,Total Tax Amount,Total Including Tax,Paid amount,Rounding amount,Total Payable Amount,Total Discount Value,Invoice Additional Discount Amount,Invoice Additional Fee Amount,Total number of invoice lines,TAX category tax amount in accounting currency,No of lines based on TAX category code,TAX category code for tax category tax amount in accounting currency,Total Taxable Amount Per Tax Type,TaxCategory Id,TaxCategory schemeID,TaxCategory schemeAgencyID,TaxCategory schemeAgency code,Total Tax Amount Per Tax Type,TAX category rate,Amount Exempted from Tax,Details of Tax Exemption,InvoiceLineID,ClassificationCode,ClassificationClass,Product Tariff Code,Product Tariff Class,Description of Product or Service,Country of Origin,Unit Price,Quantity,Measurement,Subtotal,TaxCategory Id,TaxCategory schemeID,TaxCategory schemeAgencyID,TaxCategory schemeAgency code,SST Tax Category,Tax Type,Tax Rate,Tax Amount,Details of Tax Exemption,Amount Exempted from Tax,Total Excluding Tax2,Invoice line net amount ,Nett Amount
+
+
+2025-07-04 10:08:59.621 +05:30 [WRN] Skipping invalid record at row 2: No members are mapped for type 'ETL_Demo.Models.InvoiceCSVData'.
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: -1
+   HeaderRecord:
+["Invoice Header","","","","","","Payment Information","Supplier Information","","","","","","","","","","","","","","","","","","","Buyer Information","","","","","","","","","","","","","","","","","Legal Monetary Totals","","","","","","","","","","","","","Line Count","Tax Totals","","","","","","","","","","","","Invoice Line Items","","","","","","","","","","","","","","","","","","","","","","",""]
+IParser state:
+   ByteCount: 0
+   CharCount: 3133
+   Row: 3
+   RawRow: 3
+   Count: 93
+   RawRecord:
+1,1,2345092518,06-10-25,16:07:10Z,MYR,3,3.12193E+11,K-PLASTICS INDUSTRIES SDN. BHD.,C6874330000,BRN,2.00E+11,,N10-1808-21026883,N/A,einv.client@dynapackasia.com,22209,Manufacture and Sale of Plastics and Packaging Products,6067995578,Lot 749,Kawasan Perindustrian Nilai,,71800,Nilai,5,MYS,Aspac Lubricants (Malaysia) Sdn Bhd,C870544050,BRN,,1.97E+11,,W10-1808-21010316,,APDocuTeamBSCAsia@se1.bp.com,+60322818181,"Level 9, Tower 5, Avenue 7",The Horizon Bangsar South City No. 8,,59200,Kuala Terengganu,11,MYS,716.33,0,0,716.33,716.33,0,716.33,,,716.33,,,,,,,6,0,06,UN/ECE 5153,6,OTH,0,0,,,1,22,OTHERS,,,Bottle Sample,,14.24106,47,H87,669.33,,UN/ECE 5153,6,OTH,,6,0,0,,,669.33,669.33,669.33
+
+
+2025-07-04 10:08:59.621 +05:30 [WRN] Skipping invalid record at row 3: No members are mapped for type 'ETL_Demo.Models.InvoiceCSVData'.
+IReader state:
+   ColumnCount: 93
+   CurrentIndex: -1
+   HeaderRecord:
+["Invoice Header","","","","","","Payment Information","Supplier Information","","","","","","","","","","","","","","","","","","","Buyer Information","","","","","","","","","","","","","","","","","Legal Monetary Totals","","","","","","","","","","","","","Line Count","Tax Totals","","","","","","","","","","","","Invoice Line Items","","","","","","","","","","","","","","","","","","","","","","",""]
+IParser state:
+   ByteCount: 0
+   CharCount: 3803
+   Row: 4
+   RawRow: 4
+   Count: 93
+   RawRecord:
+1,1,2345092518,06-10-25,16:07:10Z,MYR,3,3.12193E+11,K-PLASTICS INDUSTRIES SDN. BHD.,C6874330000,BRN,2.00E+11,,N10-1808-21026883,N/A,einv.client@dynapackasia.com,22209,Manufacture and Sale of Plastics and Packaging Products,6067995578,Lot 749,Kawasan Perindustrian Nilai,,71800,Nilai,5,MYS,Aspac Lubricants (Malaysia) Sdn Bhd,C870544050,BRN,,1.97E+11,,W10-1808-21010316,,APDocuTeamBSCAsia@se1.bp.com,+60322818181,"Level 9, Tower 5, Avenue 7",The Horizon Bangsar South City No. 8,,59200,Kuala Terengganu,11,MYS,716.33,0,0,716.33,716.33,0,716.33,,,716.33,,,,,,,6,0,06,UN/ECE 5153,6,OTH,0,0,,,2,22,OTHERS,,,Bottle Sample 2,,1,47,H87,47,,UN/ECE 5153,6,OTH,,6,0,0,,,47,47,47
+
+
+2025-07-04 10:10:09.973 +05:30 [INF] Application starting up
+2025-07-04 10:10:10.662 +05:30 [INF] Main thread ID: 1
+2025-07-04 10:10:10.663 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_2345092518_WIP.csv
+2025-07-04 10:10:10.665 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 10:10:56.976 +05:30 [INF] Application starting up
+2025-07-04 10:10:57.169 +05:30 [INF] Main thread ID: 1
+2025-07-04 10:10:57.170 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_2345092518_WIP.csv
+2025-07-04 10:10:57.171 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 10:10:59.287 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_2345092518_WIP.csv
+2025-07-04 10:10:59.287 +05:30 [INF] Process file name :- Advintek_01_V1_6102025_2345092518_WIP.csv
+2025-07-04 10:10:59.287 +05:30 [INF] Total time taken in process: 1.2736226 seconds
+2025-07-04 10:10:59.289 +05:30 [INF] Total time taken in moving: 0.0018771 seconds
+2025-07-04 10:12:07.926 +05:30 [INF] Application starting up
+2025-07-04 10:12:08.498 +05:30 [INF] Main thread ID: 1
+2025-07-04 10:12:08.498 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_2345092518_WIP.csv
+2025-07-04 10:12:08.500 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 10:15:45.529 +05:30 [INF] Application starting up
+2025-07-04 10:15:45.717 +05:30 [INF] Main thread ID: 1
+2025-07-04 10:15:45.717 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV1_WIP.csv
+2025-07-04 10:15:45.718 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 10:15:48.521 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV1_WIP.csv
+2025-07-04 10:15:48.521 +05:30 [INF] Process file name :- Advintek_01_V1_6102025_INV1_WIP.csv
+2025-07-04 10:15:48.521 +05:30 [INF] Total time taken in process: 1.6310576 seconds
+2025-07-04 10:15:48.522 +05:30 [INF] Total time taken in moving: 0.0011318 seconds

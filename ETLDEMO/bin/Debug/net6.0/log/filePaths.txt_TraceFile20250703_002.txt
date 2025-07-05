@@ -1,0 +1,123 @@
+2025-07-03 18:04:26.275 +05:30 [INF] Application starting up
+2025-07-03 18:04:26.465 +05:30 [INF] Main thread ID: 1
+2025-07-03 18:04:26.465 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:04:26.466 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 18:04:28.363 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-03 18:04:28.363 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:04:33.570 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-07-03 18:04:33.570 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:04:38.745 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 3
+2025-07-03 18:04:38.746 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:05:13.382 +05:30 [INF] Application starting up
+2025-07-03 18:05:13.568 +05:30 [INF] Main thread ID: 1
+2025-07-03 18:05:13.568 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:05:13.569 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 18:05:17.198 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-03 18:05:17.198 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:08:31.671 +05:30 [INF] Application starting up
+2025-07-03 18:08:31.855 +05:30 [INF] Main thread ID: 1
+2025-07-03 18:08:31.855 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:08:31.856 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 18:08:33.849 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-03 18:08:33.850 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:10:39.214 +05:30 [INF] Application starting up
+2025-07-03 18:10:39.399 +05:30 [INF] Main thread ID: 1
+2025-07-03 18:10:39.399 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:10:39.401 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 18:10:41.501 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-03 18:10:41.502 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:10:46.839 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-07-03 18:10:46.839 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:13:06.310 +05:30 [INF] Application starting up
+2025-07-03 18:13:06.500 +05:30 [INF] Main thread ID: 1
+2025-07-03 18:13:06.500 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:13:06.501 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 18:13:08.558 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-03 18:13:08.558 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:13:13.779 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-07-03 18:13:13.779 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:14:21.831 +05:30 [INF] Application starting up
+2025-07-03 18:14:22.019 +05:30 [INF] Main thread ID: 1
+2025-07-03 18:14:22.019 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:14:22.020 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 18:14:24.323 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:14:24.323 +05:30 [INF] Process file name :- Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:14:24.323 +05:30 [INF] Total time taken in process: 1.1421426 seconds
+2025-07-03 18:14:24.324 +05:30 [INF] Total time taken in moving: 0.0010074 seconds
+2025-07-03 18:55:32.019 +05:30 [INF] Application starting up
+2025-07-03 18:55:32.214 +05:30 [INF] Main thread ID: 1
+2025-07-03 18:55:32.214 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:55:32.216 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 18:55:33.280 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv'.
+2025-07-03 18:55:33.280 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv'.
+2025-07-03 18:55:33.281 +05:30 [INF] Error processing files for domain DemoDB: Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv'.
+2025-07-03 18:55:33.281 +05:30 [INF] The following files were not found and skipped:
+2025-07-03 18:55:33.281 +05:30 [INF] C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:57:06.811 +05:30 [INF] Application starting up
+2025-07-03 18:57:06.994 +05:30 [INF] Main thread ID: 1
+2025-07-03 18:57:06.994 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:57:06.995 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 18:57:10.647 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:57:10.647 +05:30 [INF] Process file name :- Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:57:10.647 +05:30 [INF] Total time taken in process: 2.6353012 seconds
+2025-07-03 18:57:10.649 +05:30 [INF] Total time taken in moving: 0.0013302 seconds
+2025-07-03 18:59:13.650 +05:30 [INF] Application starting up
+2025-07-03 18:59:13.839 +05:30 [INF] Main thread ID: 1
+2025-07-03 18:59:13.839 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:59:13.840 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 18:59:17.063 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:59:17.063 +05:30 [INF] Process file name :- Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:59:17.064 +05:30 [INF] Total time taken in process: 2.2651823 seconds
+2025-07-03 18:59:17.067 +05:30 [INF] Total time taken in moving: 0.0025592 seconds
+2025-07-03 19:20:51.249 +05:30 [INF] Application starting up
+2025-07-03 19:20:51.430 +05:30 [INF] Main thread ID: 1
+2025-07-03 19:20:51.430 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_03_V1_01312025_DN00001_WIP.csv
+2025-07-03 19:20:51.432 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 19:20:54.387 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-03 19:20:54.387 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:20:59.816 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-07-03 19:20:59.816 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:21:05.264 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 3
+2025-07-03 19:21:05.264 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:21:10.597 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 4
+2025-07-03 19:21:10.597 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:21:16.313 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 5
+2025-07-03 19:21:16.313 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:21:21.801 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 6
+2025-07-03 19:21:21.801 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:21:27.299 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 7
+2025-07-03 19:21:27.299 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:21:32.746 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 8
+2025-07-03 19:21:32.746 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:21:38.309 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 9
+2025-07-03 19:21:38.309 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:21:43.840 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 10
+2025-07-03 19:21:43.841 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:21:49.163 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 11
+2025-07-03 19:21:49.163 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:21:54.570 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 12
+2025-07-03 19:21:54.570 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:22:00.058 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 13
+2025-07-03 19:22:00.058 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:22:05.564 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 14
+2025-07-03 19:22:05.564 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:22:10.974 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 15
+2025-07-03 19:22:10.974 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:22:17.517 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 16
+2025-07-03 19:22:17.517 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:22:22.949 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 17
+2025-07-03 19:22:22.949 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:22:28.399 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 18
+2025-07-03 19:22:28.399 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:22:33.760 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 19
+2025-07-03 19:22:33.760 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:22:39.172 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 20
+2025-07-03 19:22:39.172 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:22:44.534 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 21
+2025-07-03 19:22:44.534 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:22:49.931 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 22
+2025-07-03 19:22:49.931 +05:30 [ERR] Exception: 42P01: relation "advintek_debitnotedata_validation" does not exist
+2025-07-03 19:22:55.434 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_03_V1_01312025_DN00001_WIP.csv
+2025-07-03 19:22:55.435 +05:30 [INF] Process file name :- Advintek_03_V1_01312025_DN00001_WIP.csv
+2025-07-03 19:22:55.435 +05:30 [INF] Total time taken in process: 123.0370021 seconds
+2025-07-03 19:22:55.439 +05:30 [INF] Total time taken in moving: 0.0039827 seconds

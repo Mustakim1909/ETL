@@ -1,0 +1,44 @@
+2025-05-31 14:49:35.327 +05:30 [INF] Application starting up
+2025-05-31 14:49:36.195 +05:30 [INF] Main thread ID: 1
+2025-05-31 14:49:36.200 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv
+2025-05-31 14:49:36.213 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 14:49:42.874 +05:30 [WRN] Exception In TempInsertStoreProc: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"
+2025-05-31 14:49:42.949 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-05-31 14:49:42.949 +05:30 [ERR] Exception: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"
+2025-05-31 15:36:59.140 +05:30 [INF] Application starting up
+2025-05-31 15:37:00.249 +05:30 [INF] Main thread ID: 1
+2025-05-31 15:37:00.249 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv
+2025-05-31 15:37:00.251 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 15:39:44.843 +05:30 [WRN] Exception In TempInsertStoreProc: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"
+2025-05-31 15:42:27.611 +05:30 [INF] Application starting up
+2025-05-31 15:42:27.885 +05:30 [INF] Main thread ID: 1
+2025-05-31 15:42:27.885 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv
+2025-05-31 15:42:27.887 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 15:42:29.962 +05:30 [WRN] Exception In TempInsertStoreProc: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"
+2025-05-31 15:42:29.963 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-05-31 15:42:29.963 +05:30 [ERR] Exception: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"
+2025-05-31 15:42:35.061 +05:30 [WRN] Exception In TempInsertStoreProc: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"
+2025-05-31 15:42:35.575 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-05-31 15:42:35.575 +05:30 [ERR] Exception: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"
+2025-05-31 15:55:59.745 +05:30 [INF] Application starting up
+2025-05-31 15:56:00.010 +05:30 [INF] Main thread ID: 1
+2025-05-31 15:56:00.010 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv
+2025-05-31 15:56:00.012 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 15:56:02.010 +05:30 [WRN] Exception In TempInsertStoreProc: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"
+2025-05-31 15:56:02.011 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-05-31 15:56:02.011 +05:30 [ERR] Exception: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"
+2025-05-31 15:56:07.100 +05:30 [WRN] Exception In TempInsertStoreProc: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"
+2025-05-31 15:56:07.101 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-05-31 15:56:07.101 +05:30 [ERR] Exception: 22008: date/time field value out of range: "29-03-2025 03:53:55 PM"
+2025-05-31 16:12:15.815 +05:30 [INF] Application starting up
+2025-05-31 16:12:18.499 +05:30 [INF] Main thread ID: 1
+2025-05-31 16:12:18.500 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv
+2025-05-31 16:12:18.502 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 16:16:08.579 +05:30 [INF] Application starting up
+2025-05-31 16:16:09.606 +05:30 [INF] Main thread ID: 1
+2025-05-31 16:16:09.606 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv
+2025-05-31 16:16:09.608 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-05-31 16:16:49.835 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv
+2025-05-31 16:16:49.835 +05:30 [INF] Process file name :- JPS_01_v1_20250530_449982_WIP.csv
+2025-05-31 16:16:49.836 +05:30 [INF] Total time taken in process: 38.7242588 seconds
+2025-05-31 16:16:49.838 +05:30 [INF] Total time taken in moving: 0.0020427 seconds

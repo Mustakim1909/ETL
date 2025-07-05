@@ -1,0 +1,21 @@
+2025-07-04 21:01:57.518 +05:30 [INF] Application starting up
+2025-07-04 21:01:58.199 +05:30 [INF] Main thread ID: 1
+2025-07-04 21:01:58.199 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_2345092518_WIP.csv
+2025-07-04 21:01:58.201 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 21:01:59.382 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_2345092518_WIP.csv'.
+2025-07-04 21:01:59.430 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_2345092518_WIP.csv'.
+2025-07-04 21:01:59.472 +05:30 [INF] Error processing files for domain DemoDB: Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_2345092518_WIP.csv'.
+2025-07-04 21:01:59.472 +05:30 [INF] The following files were not found and skipped:
+2025-07-04 21:01:59.472 +05:30 [INF] C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_2345092518_WIP.csv
+2025-07-04 21:03:03.581 +05:30 [INF] Application starting up
+2025-07-04 21:03:04.128 +05:30 [INF] Main thread ID: 1
+2025-07-04 21:03:04.128 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_2345092518_WIP.csv
+2025-07-04 21:03:04.130 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 21:10:40.875 +05:30 [INF] Application starting up
+2025-07-04 21:12:00.038 +05:30 [INF] Main thread ID: 1
+2025-07-04 21:12:02.448 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_2345092518_WIP.csv
+2025-07-04 21:12:35.336 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 21:12:59.445 +05:30 [INF] Application starting up
+2025-07-04 21:13:04.144 +05:30 [INF] Main thread ID: 1
+2025-07-04 21:13:04.417 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_2345092518_WIP.csv
+2025-07-04 21:13:09.969 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek

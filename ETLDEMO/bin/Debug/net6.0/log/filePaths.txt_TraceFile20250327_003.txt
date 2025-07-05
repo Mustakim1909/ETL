@@ -1,0 +1,127 @@
+2025-03-27 16:11:05.458 +05:30 [INF] Application starting up
+2025-03-27 16:11:05.744 +05:30 [INF] Main thread ID: 1
+2025-03-27 16:11:05.744 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-03-27 16:11:05.746 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-03-27 16:11:10.830 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-03-27 16:11:10.830 +05:30 [INF] Process file name :- INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-03-27 16:11:10.830 +05:30 [INF] Total time taken in process: 2.8880395 seconds
+2025-03-27 16:11:10.833 +05:30 [INF] Total time taken in moving: 0.0023038 seconds
+2025-03-27 16:12:21.911 +05:30 [INF] Application starting up
+2025-03-27 16:12:22.182 +05:30 [INF] Main thread ID: 1
+2025-03-27 16:12:22.182 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-03-27 16:12:22.182 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-013A_WIP.csv
+2025-03-27 16:12:22.182 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-05_WIP.csv
+2025-03-27 16:12:22.182 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_WIP.csv
+2025-03-27 16:12:22.182 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-13B_WIP.csv
+2025-03-27 16:12:22.182 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-13K2_WIP.csv
+2025-03-27 16:12:22.182 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-A13B_WIP.csv
+2025-03-27 16:12:22.182 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250206_INSunTF18-03_WIP.csv
+2025-03-27 16:12:22.182 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250206_INSunTF18-04_WIP.csv
+2025-03-27 16:12:22.182 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-11_WIP.csv
+2025-03-27 16:12:22.182 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-12_WIP.csv
+2025-03-27 16:12:22.182 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-13_WIP.csv
+2025-03-27 16:12:22.182 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-03-27 16:12:22.182 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-16_WIP.csv
+2025-03-27 16:12:22.182 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-18_WIP.csv
+2025-03-27 16:12:22.183 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-25_WIP.csv
+2025-03-27 16:12:22.183 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v2_20241030_SUNT-INV-01_WIP.csv
+2025-03-27 16:12:22.183 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v2_20241030_SUNT-INV-013A_WIP.csv
+2025-03-27 16:12:22.183 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v2_20241030_SUNT-INV-05_WIP.csv
+2025-03-27 16:12:22.183 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v2_20241030_SUNT-INV-0E_WIP.csv
+2025-03-27 16:12:22.185 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-03-27 16:12:38.556 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-03-27 16:12:38.556 +05:30 [INF] Process file name :- INSUN_01_v1_20241030_SUNT-INV-01_WIP.csv
+2025-03-27 16:12:38.557 +05:30 [INF] Total time taken in process: 10.5045729 seconds
+2025-03-27 16:12:38.559 +05:30 [INF] Total time taken in moving: 0.0020205 seconds
+2025-03-27 16:12:40.974 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-013A_WIP.csv
+2025-03-27 16:12:40.974 +05:30 [INF] Process file name :- INSUN_01_v1_20241030_SUNT-INV-013A_WIP.csv
+2025-03-27 16:12:40.974 +05:30 [INF] Total time taken in process: 2.415519 seconds
+2025-03-27 16:12:40.976 +05:30 [INF] Total time taken in moving: 0.0011033 seconds
+2025-03-27 16:12:50.161 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-05_WIP.csv
+2025-03-27 16:12:50.161 +05:30 [INF] Process file name :- INSUN_01_v1_20241030_SUNT-INV-05_WIP.csv
+2025-03-27 16:12:50.161 +05:30 [INF] Total time taken in process: 9.1854177 seconds
+2025-03-27 16:12:50.162 +05:30 [INF] Total time taken in moving: 0.0009203 seconds
+2025-03-27 16:12:53.310 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-0E_WIP.csv
+2025-03-27 16:12:53.310 +05:30 [INF] Process file name :- INSUN_01_v1_20241030_SUNT-INV-0E_WIP.csv
+2025-03-27 16:12:53.310 +05:30 [INF] Total time taken in process: 3.1477144 seconds
+2025-03-27 16:12:53.311 +05:30 [INF] Total time taken in moving: 0.0009461 seconds
+2025-03-27 16:12:58.333 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-13B_WIP.csv
+2025-03-27 16:12:58.333 +05:30 [INF] Process file name :- INSUN_01_v1_20241030_SUNT-INV-13B_WIP.csv
+2025-03-27 16:12:58.334 +05:30 [INF] Total time taken in process: 5.0226897 seconds
+2025-03-27 16:12:58.335 +05:30 [INF] Total time taken in moving: 0.0009223 seconds
+2025-03-27 16:13:00.455 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-13K2_WIP.csv
+2025-03-27 16:13:00.455 +05:30 [INF] Process file name :- INSUN_01_v1_20241030_SUNT-INV-13K2_WIP.csv
+2025-03-27 16:13:00.455 +05:30 [INF] Total time taken in process: 2.1206263 seconds
+2025-03-27 16:13:00.456 +05:30 [INF] Total time taken in moving: 0.001005 seconds
+2025-03-27 16:13:01.695 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20241030_SUNT-INV-A13B_WIP.csv
+2025-03-27 16:13:01.695 +05:30 [INF] Process file name :- INSUN_01_v1_20241030_SUNT-INV-A13B_WIP.csv
+2025-03-27 16:13:01.695 +05:30 [INF] Total time taken in process: 1.2387499 seconds
+2025-03-27 16:13:01.696 +05:30 [INF] Total time taken in moving: 0.0009107 seconds
+2025-03-27 16:13:04.117 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250206_INSunTF18-03_WIP.csv
+2025-03-27 16:13:04.117 +05:30 [INF] Process file name :- INSUN_01_v1_20250206_INSunTF18-03_WIP.csv
+2025-03-27 16:13:04.117 +05:30 [INF] Total time taken in process: 2.4214065 seconds
+2025-03-27 16:13:04.119 +05:30 [INF] Total time taken in moving: 0.0011227 seconds
+2025-03-27 16:13:26.262 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250206_INSunTF18-04_WIP.csv
+2025-03-27 16:13:26.262 +05:30 [INF] Process file name :- INSUN_01_v1_20250206_INSunTF18-04_WIP.csv
+2025-03-27 16:13:26.262 +05:30 [INF] Total time taken in process: 22.1430389 seconds
+2025-03-27 16:13:26.263 +05:30 [INF] Total time taken in moving: 0.0009783 seconds
+2025-03-27 16:13:32.170 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-11_WIP.csv
+2025-03-27 16:13:32.170 +05:30 [INF] Process file name :- INSUN_01_v1_20250221_INVSTest-11_WIP.csv
+2025-03-27 16:13:32.170 +05:30 [INF] Total time taken in process: 5.9075251 seconds
+2025-03-27 16:13:32.171 +05:30 [INF] Total time taken in moving: 0.0009332 seconds
+2025-03-27 16:13:33.122 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-12_WIP.csv
+2025-03-27 16:13:33.122 +05:30 [INF] Process file name :- INSUN_01_v1_20250221_INVSTest-12_WIP.csv
+2025-03-27 16:13:33.122 +05:30 [INF] Total time taken in process: 0.9504212 seconds
+2025-03-27 16:13:33.123 +05:30 [INF] Total time taken in moving: 0.0009392 seconds
+2025-03-27 16:13:34.422 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-13_WIP.csv
+2025-03-27 16:13:34.422 +05:30 [INF] Process file name :- INSUN_01_v1_20250221_INVSTest-13_WIP.csv
+2025-03-27 16:13:34.422 +05:30 [INF] Total time taken in process: 1.2996265 seconds
+2025-03-27 16:13:34.423 +05:30 [INF] Total time taken in moving: 0.0009332 seconds
+2025-03-27 16:13:37.159 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-03-27 16:13:37.159 +05:30 [INF] Process file name :- INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-03-27 16:13:37.159 +05:30 [INF] Total time taken in process: 2.735235 seconds
+2025-03-27 16:13:37.160 +05:30 [INF] Total time taken in moving: 0.0009415 seconds
+2025-03-27 16:13:45.558 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-16_WIP.csv
+2025-03-27 16:13:45.558 +05:30 [INF] Process file name :- INSUN_01_v1_20250221_INVSTest-16_WIP.csv
+2025-03-27 16:13:45.559 +05:30 [INF] Total time taken in process: 8.3988314 seconds
+2025-03-27 16:13:45.560 +05:30 [INF] Total time taken in moving: 0.0010042 seconds
+2025-03-27 16:13:46.093 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-18_WIP.csv
+2025-03-27 16:13:46.093 +05:30 [INF] Process file name :- INSUN_01_v1_20250221_INVSTest-18_WIP.csv
+2025-03-27 16:13:46.093 +05:30 [INF] Total time taken in process: 0.5332273 seconds
+2025-03-27 16:13:46.094 +05:30 [INF] Total time taken in moving: 0.0009183 seconds
+2025-03-27 16:13:48.332 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-25_WIP.csv
+2025-03-27 16:13:48.332 +05:30 [INF] Process file name :- INSUN_01_v1_20250221_INVSTest-25_WIP.csv
+2025-03-27 16:13:48.332 +05:30 [INF] Total time taken in process: 2.2385502 seconds
+2025-03-27 16:13:48.333 +05:30 [INF] Total time taken in moving: 0.0009459 seconds
+2025-03-27 16:13:48.956 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v2_20241030_SUNT-INV-01_WIP.csv
+2025-03-27 16:13:48.956 +05:30 [INF] Process file name :- INSUN_01_v2_20241030_SUNT-INV-01_WIP.csv
+2025-03-27 16:13:48.956 +05:30 [INF] Total time taken in process: 0.6230851 seconds
+2025-03-27 16:13:48.958 +05:30 [INF] Total time taken in moving: 0.0010126 seconds
+2025-03-27 16:13:49.467 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v2_20241030_SUNT-INV-013A_WIP.csv
+2025-03-27 16:13:49.467 +05:30 [INF] Process file name :- INSUN_01_v2_20241030_SUNT-INV-013A_WIP.csv
+2025-03-27 16:13:49.467 +05:30 [INF] Total time taken in process: 0.509808 seconds
+2025-03-27 16:13:49.468 +05:30 [INF] Total time taken in moving: 0.0009184 seconds
+2025-03-27 16:13:50.534 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v2_20241030_SUNT-INV-05_WIP.csv
+2025-03-27 16:13:50.534 +05:30 [INF] Process file name :- INSUN_01_v2_20241030_SUNT-INV-05_WIP.csv
+2025-03-27 16:13:50.534 +05:30 [INF] Total time taken in process: 1.0654122 seconds
+2025-03-27 16:13:50.535 +05:30 [INF] Total time taken in moving: 0.0009306 seconds
+2025-03-27 16:13:51.161 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v2_20241030_SUNT-INV-0E_WIP.csv
+2025-03-27 16:13:51.161 +05:30 [INF] Process file name :- INSUN_01_v2_20241030_SUNT-INV-0E_WIP.csv
+2025-03-27 16:13:51.161 +05:30 [INF] Total time taken in process: 0.6260934 seconds
+2025-03-27 16:13:51.162 +05:30 [INF] Total time taken in moving: 0.000898 seconds
+2025-03-27 16:16:22.056 +05:30 [INF] Application starting up
+2025-03-27 16:16:22.338 +05:30 [INF] Main thread ID: 1
+2025-03-27 16:16:22.338 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-03-27 16:16:22.340 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-03-27 16:16:31.519 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-03-27 16:16:31.519 +05:30 [INF] Process file name :- INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-03-27 16:16:31.520 +05:30 [INF] Total time taken in process: 8.0098291 seconds
+2025-03-27 16:16:31.522 +05:30 [INF] Total time taken in moving: 0.0019379 seconds
+2025-03-27 16:17:25.320 +05:30 [INF] Application starting up
+2025-03-27 16:17:25.603 +05:30 [INF] Main thread ID: 1
+2025-03-27 16:17:25.603 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-03-27 16:17:25.605 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-03-27 16:17:33.143 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-03-27 16:17:33.143 +05:30 [INF] Process file name :- INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-03-27 16:17:33.144 +05:30 [INF] Total time taken in process: 6.5011247 seconds
+2025-03-27 16:17:33.146 +05:30 [INF] Total time taken in moving: 0.0019455 seconds

@@ -1,0 +1,17 @@
+2025-04-02 11:01:10.712 +05:30 [INF] Application starting up
+2025-04-02 11:01:10.985 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:01:10.985 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:01:10.987 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:01:12.029 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv'.
+2025-04-02 11:01:12.030 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv'.
+2025-04-02 11:01:12.032 +05:30 [INF] Error processing files for domain PIL: Could not find file 'C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv'.
+2025-04-02 11:01:12.032 +05:30 [INF] The following files were not found and skipped:
+2025-04-02 11:01:12.032 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:01:28.969 +05:30 [INF] Application starting up
+2025-04-02 11:01:29.255 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:01:29.256 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:01:29.259 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:01:31.699 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:01:31.699 +05:30 [INF] Process file name :- INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:01:31.700 +05:30 [INF] Total time taken in process: 1.3956134 seconds
+2025-04-02 11:01:31.702 +05:30 [INF] Total time taken in moving: 0.0023235 seconds

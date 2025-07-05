@@ -1,0 +1,125 @@
+2025-07-04 10:53:34.547 +05:30 [INF] Application starting up
+2025-07-04 10:53:35.136 +05:30 [INF] Main thread ID: 1
+2025-07-04 10:53:35.136 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 10:53:35.137 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 11:00:06.486 +05:30 [INF] Application starting up
+2025-07-04 11:00:07.048 +05:30 [INF] Main thread ID: 1
+2025-07-04 11:00:07.048 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 11:00:07.049 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 11:00:12.594 +05:30 [INF] Exception in ProcessTaskAsync : The process cannot access the file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv' because it is being used by another process.
+2025-07-04 11:00:12.644 +05:30 [INF] Exception in ProcessFileAsync : The process cannot access the file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv' because it is being used by another process.
+2025-07-04 11:00:12.687 +05:30 [INF] Error processing files for domain DemoDB: The process cannot access the file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv' because it is being used by another process.
+2025-07-04 11:00:12.687 +05:30 [INF] The following files were not found and skipped:
+2025-07-04 11:00:12.687 +05:30 [INF] C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 11:00:27.486 +05:30 [INF] Application starting up
+2025-07-04 11:00:28.153 +05:30 [INF] Main thread ID: 1
+2025-07-04 11:00:28.154 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 11:00:28.155 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 11:00:31.522 +05:30 [INF] Exception in ProcessTaskAsync : The process cannot access the file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv' because it is being used by another process.
+2025-07-04 11:00:31.572 +05:30 [INF] Exception in ProcessFileAsync : The process cannot access the file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv' because it is being used by another process.
+2025-07-04 11:00:31.612 +05:30 [INF] Error processing files for domain DemoDB: The process cannot access the file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv' because it is being used by another process.
+2025-07-04 11:00:31.612 +05:30 [INF] The following files were not found and skipped:
+2025-07-04 11:00:31.613 +05:30 [INF] C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 11:00:46.978 +05:30 [INF] Application starting up
+2025-07-04 11:00:47.616 +05:30 [INF] Main thread ID: 1
+2025-07-04 11:00:47.616 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 11:00:47.617 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 11:08:09.415 +05:30 [INF] Application starting up
+2025-07-04 11:08:09.976 +05:30 [INF] Main thread ID: 1
+2025-07-04 11:08:09.976 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 11:08:09.977 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 11:09:35.173 +05:30 [INF] Application starting up
+2025-07-04 11:09:35.775 +05:30 [INF] Main thread ID: 1
+2025-07-04 11:09:35.776 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 11:09:35.777 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 11:14:30.113 +05:30 [INF] Application starting up
+2025-07-04 11:14:30.710 +05:30 [INF] Main thread ID: 1
+2025-07-04 11:14:30.710 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 11:14:30.712 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 11:14:52.877 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:14:52.932 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-04 11:14:52.933 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:17:24.555 +05:30 [INF] Application starting up
+2025-07-04 11:17:25.156 +05:30 [INF] Main thread ID: 1
+2025-07-04 11:17:25.156 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 11:17:25.158 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 11:20:23.705 +05:30 [INF] Application starting up
+2025-07-04 11:20:24.361 +05:30 [INF] Main thread ID: 1
+2025-07-04 11:20:24.361 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 11:20:24.362 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 11:24:19.055 +05:30 [INF] Application starting up
+2025-07-04 11:24:19.637 +05:30 [INF] Main thread ID: 1
+2025-07-04 11:24:19.638 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 11:24:19.639 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 11:26:38.105 +05:30 [INF] Application starting up
+2025-07-04 11:26:38.706 +05:30 [INF] Main thread ID: 1
+2025-07-04 11:26:38.706 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 11:26:38.708 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 11:28:08.444 +05:30 [INF] Application starting up
+2025-07-04 11:28:09.040 +05:30 [INF] Main thread ID: 1
+2025-07-04 11:28:09.040 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 11:28:09.042 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 11:32:32.609 +05:30 [INF] Application starting up
+2025-07-04 11:32:33.240 +05:30 [INF] Main thread ID: 1
+2025-07-04 11:32:33.240 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 11:32:33.242 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 11:32:59.520 +05:30 [WRN] Exception In TempInsertStoreProc: 42701: column "cbcssttaxcategory" specified more than once
+2025-07-04 11:32:59.567 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-04 11:32:59.567 +05:30 [ERR] Exception: 42701: column "cbcssttaxcategory" specified more than once
+2025-07-04 11:33:04.736 +05:30 [WRN] Exception In TempInsertStoreProc: 42701: column "cbcssttaxcategory" specified more than once
+2025-07-04 11:36:14.969 +05:30 [INF] Application starting up
+2025-07-04 11:36:15.501 +05:30 [INF] Main thread ID: 1
+2025-07-04 11:36:15.501 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 11:36:15.503 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 11:36:19.917 +05:30 [WRN] Exception In TempInsertStoreProc: 42701: column "cbctaxtype" specified more than once
+2025-07-04 11:36:19.966 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-04 11:36:19.966 +05:30 [ERR] Exception: 42701: column "cbctaxtype" specified more than once
+2025-07-04 11:39:10.062 +05:30 [INF] Application starting up
+2025-07-04 11:39:10.253 +05:30 [INF] Main thread ID: 1
+2025-07-04 11:39:10.253 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 11:39:10.254 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 11:39:12.452 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 11:39:12.452 +05:30 [INF] Process file name :- Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 11:39:12.452 +05:30 [INF] Total time taken in process: 1.292253 seconds
+2025-07-04 11:39:12.454 +05:30 [INF] Total time taken in moving: 0.0013752 seconds
+2025-07-04 14:51:06.227 +05:30 [INF] Application starting up
+2025-07-04 15:19:09.847 +05:30 [INF] Application starting up
+2025-07-04 15:23:11.107 +05:30 [INF] Application starting up
+2025-07-04 15:23:11.713 +05:30 [INF] Main thread ID: 1
+2025-07-04 15:23:11.713 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 15:23:11.715 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 15:23:13.246 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv'.
+2025-07-04 15:23:13.292 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv'.
+2025-07-04 15:23:13.332 +05:30 [INF] Error processing files for domain DemoDB: Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv'.
+2025-07-04 15:23:13.332 +05:30 [INF] The following files were not found and skipped:
+2025-07-04 15:23:13.333 +05:30 [INF] C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 15:23:25.394 +05:30 [INF] Application starting up
+2025-07-04 15:23:26.208 +05:30 [INF] Main thread ID: 1
+2025-07-04 15:23:26.208 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 15:23:26.214 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 15:23:27.440 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv'.
+2025-07-04 15:23:27.485 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv'.
+2025-07-04 15:23:27.525 +05:30 [INF] Error processing files for domain DemoDB: Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv'.
+2025-07-04 15:23:27.525 +05:30 [INF] The following files were not found and skipped:
+2025-07-04 15:23:27.525 +05:30 [INF] C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 15:24:00.665 +05:30 [INF] Application starting up
+2025-07-04 15:24:00.851 +05:30 [INF] Main thread ID: 1
+2025-07-04 15:24:00.851 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 15:24:00.852 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 15:24:04.711 +05:30 [INF] Application starting up
+2025-07-04 15:24:05.386 +05:30 [INF] Main thread ID: 1
+2025-07-04 15:24:05.386 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 15:24:05.388 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 15:24:06.912 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv'.
+2025-07-04 15:24:06.958 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv'.
+2025-07-04 15:24:06.999 +05:30 [INF] Error processing files for domain DemoDB: Could not find file 'C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv'.
+2025-07-04 15:24:07.000 +05:30 [INF] The following files were not found and skipped:
+2025-07-04 15:24:07.000 +05:30 [INF] C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 15:24:44.759 +05:30 [INF] Application starting up
+2025-07-04 15:24:44.952 +05:30 [INF] Main thread ID: 1
+2025-07-04 15:24:44.952 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV02_WIP.csv
+2025-07-04 15:24:44.953 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 15:24:47.420 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV02_WIP.csv
+2025-07-04 15:24:47.420 +05:30 [INF] Process file name :- Advintek_01_V1_6102025_INV02_WIP.csv
+2025-07-04 15:24:47.420 +05:30 [INF] Total time taken in process: 1.3398478 seconds
+2025-07-04 15:24:47.422 +05:30 [INF] Total time taken in moving: 0.0015236 seconds

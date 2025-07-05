@@ -1,0 +1,802 @@
+2025-07-04 10:50:54.000 +05:30 [INF] Application starting up
+2025-07-04 10:50:56.559 +05:30 [INF] Main thread ID: 1
+2025-07-04 10:50:56.559 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_01_V1_6102025_INV01_WIP.csv
+2025-07-04 10:50:56.560 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-04 10:50:58.537 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:50:58.538 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-04 10:50:58.538 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:03.654 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:03.654 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-07-04 10:51:03.655 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:08.765 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:08.765 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 3
+2025-07-04 10:51:08.765 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:13.880 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:13.881 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 4
+2025-07-04 10:51:13.881 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:18.998 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:18.999 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 5
+2025-07-04 10:51:18.999 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:24.118 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:24.118 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 6
+2025-07-04 10:51:24.118 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:29.233 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:29.233 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 7
+2025-07-04 10:51:29.234 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:34.751 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:34.751 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 8
+2025-07-04 10:51:34.751 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:39.872 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:39.873 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 9
+2025-07-04 10:51:39.873 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:44.996 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:44.997 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 10
+2025-07-04 10:51:44.997 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:50.122 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:50.123 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 11
+2025-07-04 10:51:50.123 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:55.328 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:51:55.328 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 12
+2025-07-04 10:51:55.328 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:00.538 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:00.538 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 13
+2025-07-04 10:52:00.538 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:05.736 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:05.737 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 14
+2025-07-04 10:52:05.737 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:10.934 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:10.934 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 15
+2025-07-04 10:52:10.934 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:16.145 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:16.146 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 16
+2025-07-04 10:52:16.146 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:21.265 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:21.266 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 17
+2025-07-04 10:52:21.266 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:26.382 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:26.382 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 18
+2025-07-04 10:52:26.382 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:31.499 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:31.499 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 19
+2025-07-04 10:52:31.499 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:36.615 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:36.615 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 20
+2025-07-04 10:52:36.615 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:41.754 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:41.755 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 21
+2025-07-04 10:52:41.755 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:46.872 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:46.872 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 22
+2025-07-04 10:52:46.872 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:52.007 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:52.007 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 23
+2025-07-04 10:52:52.007 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:57.121 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:52:57.121 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 24
+2025-07-04 10:52:57.121 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:02.240 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:02.240 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 25
+2025-07-04 10:53:02.240 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:07.441 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:07.441 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 26
+2025-07-04 10:53:07.441 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:13.110 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:13.110 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 27
+2025-07-04 10:53:13.110 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:18.773 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:18.773 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 28
+2025-07-04 10:53:18.773 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:23.970 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:23.970 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 29
+2025-07-04 10:53:23.970 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:29.195 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:29.195 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 30
+2025-07-04 10:53:29.195 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:34.680 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:34.680 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 31
+2025-07-04 10:53:34.680 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:39.957 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:39.957 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 32
+2025-07-04 10:53:39.957 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:45.150 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:45.150 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 33
+2025-07-04 10:53:45.150 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:50.379 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:50.379 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 34
+2025-07-04 10:53:50.379 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:55.587 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:53:55.587 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 35
+2025-07-04 10:53:55.587 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:00.803 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:00.803 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 36
+2025-07-04 10:54:00.803 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:06.009 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:06.009 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 37
+2025-07-04 10:54:06.009 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:11.726 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:11.726 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 38
+2025-07-04 10:54:11.726 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:16.942 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:16.942 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 39
+2025-07-04 10:54:16.942 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:22.137 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:22.137 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 40
+2025-07-04 10:54:22.137 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:27.330 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:27.330 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 41
+2025-07-04 10:54:27.330 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:32.525 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:32.525 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 42
+2025-07-04 10:54:32.525 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:37.736 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:37.736 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 43
+2025-07-04 10:54:37.736 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:43.338 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:43.339 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 44
+2025-07-04 10:54:43.339 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:48.619 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:48.619 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 45
+2025-07-04 10:54:48.620 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:54.233 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:54.233 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 46
+2025-07-04 10:54:54.233 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:59.526 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:54:59.526 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 47
+2025-07-04 10:54:59.527 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:04.829 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:04.829 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 48
+2025-07-04 10:55:04.829 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:10.120 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:10.121 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 49
+2025-07-04 10:55:10.121 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:15.399 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:15.399 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 50
+2025-07-04 10:55:15.399 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:20.688 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:20.688 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 51
+2025-07-04 10:55:20.688 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:25.971 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:25.971 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 52
+2025-07-04 10:55:25.971 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:31.261 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:31.261 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 53
+2025-07-04 10:55:31.261 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:36.631 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:36.631 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 54
+2025-07-04 10:55:36.631 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:41.758 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:41.758 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 55
+2025-07-04 10:55:41.758 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:47.054 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:47.055 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 56
+2025-07-04 10:55:47.055 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:52.248 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:52.248 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 57
+2025-07-04 10:55:52.248 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:57.451 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:55:57.451 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 58
+2025-07-04 10:55:57.451 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:03.023 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:03.024 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 59
+2025-07-04 10:56:03.024 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:08.125 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:08.125 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 60
+2025-07-04 10:56:08.125 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:13.241 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:13.241 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 61
+2025-07-04 10:56:13.241 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:18.357 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:18.358 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 62
+2025-07-04 10:56:18.358 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:23.610 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:23.611 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 63
+2025-07-04 10:56:23.611 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:28.729 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:28.729 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 64
+2025-07-04 10:56:28.729 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:33.916 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:33.916 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 65
+2025-07-04 10:56:33.916 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:39.205 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:39.205 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 66
+2025-07-04 10:56:39.205 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:44.314 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:44.314 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 67
+2025-07-04 10:56:44.314 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:49.450 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:49.450 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 68
+2025-07-04 10:56:49.450 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:55.095 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:56:55.095 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 69
+2025-07-04 10:56:55.095 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:00.234 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:00.234 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 70
+2025-07-04 10:57:00.234 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:05.865 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:05.866 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 71
+2025-07-04 10:57:05.866 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:11.262 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:11.263 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 72
+2025-07-04 10:57:11.263 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:16.384 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:16.385 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 73
+2025-07-04 10:57:16.385 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:21.511 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:21.511 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 74
+2025-07-04 10:57:21.511 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:26.635 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:26.635 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 75
+2025-07-04 10:57:26.635 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:31.745 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:31.745 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 76
+2025-07-04 10:57:31.745 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:36.874 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:36.874 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 77
+2025-07-04 10:57:36.874 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:42.001 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:42.001 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 78
+2025-07-04 10:57:42.001 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:47.197 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:47.197 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 79
+2025-07-04 10:57:47.197 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:52.737 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:52.738 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 80
+2025-07-04 10:57:52.738 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:57.859 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:57:57.859 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 81
+2025-07-04 10:57:57.859 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:02.974 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:02.974 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 82
+2025-07-04 10:58:02.974 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:08.708 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:08.708 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 83
+2025-07-04 10:58:08.708 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:13.844 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:13.845 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 84
+2025-07-04 10:58:13.845 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:18.957 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:18.957 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 85
+2025-07-04 10:58:18.957 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:24.084 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:24.084 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 86
+2025-07-04 10:58:24.084 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:29.209 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:29.210 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 87
+2025-07-04 10:58:29.210 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:34.328 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:34.328 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 88
+2025-07-04 10:58:34.328 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:39.442 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:39.442 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 89
+2025-07-04 10:58:39.442 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:44.572 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:44.572 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 90
+2025-07-04 10:58:44.572 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:49.688 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:49.688 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 91
+2025-07-04 10:58:49.688 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:54.801 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:58:54.801 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 92
+2025-07-04 10:58:54.801 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:00.006 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:00.006 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 93
+2025-07-04 10:59:00.006 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:05.215 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:05.215 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 94
+2025-07-04 10:59:05.215 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:10.434 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:10.434 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 95
+2025-07-04 10:59:10.434 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:15.664 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:15.664 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 96
+2025-07-04 10:59:15.664 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:21.186 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:21.186 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 97
+2025-07-04 10:59:21.186 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:26.305 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:26.305 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 98
+2025-07-04 10:59:26.305 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:31.495 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:31.495 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 99
+2025-07-04 10:59:31.495 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:36.700 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:36.701 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 100
+2025-07-04 10:59:36.701 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:41.913 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:41.913 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 101
+2025-07-04 10:59:41.913 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:47.107 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:47.107 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 102
+2025-07-04 10:59:47.107 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:52.303 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:52.303 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 103
+2025-07-04 10:59:52.303 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:57.509 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 10:59:57.509 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 104
+2025-07-04 10:59:57.509 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:03.039 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:03.039 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 105
+2025-07-04 11:00:03.039 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:08.292 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:08.292 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 106
+2025-07-04 11:00:08.292 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:13.508 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:13.508 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 107
+2025-07-04 11:00:13.508 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:18.699 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:18.699 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 108
+2025-07-04 11:00:18.699 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:23.919 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:23.919 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 109
+2025-07-04 11:00:23.919 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:29.126 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:29.126 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 110
+2025-07-04 11:00:29.126 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:34.247 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:34.247 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 111
+2025-07-04 11:00:34.247 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:39.491 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:39.491 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 112
+2025-07-04 11:00:39.491 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:44.633 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:44.633 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 113
+2025-07-04 11:00:44.633 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:49.844 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:49.845 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 114
+2025-07-04 11:00:49.845 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:54.960 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:00:54.961 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 115
+2025-07-04 11:00:54.961 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:00.079 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:00.079 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 116
+2025-07-04 11:01:00.079 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:05.642 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:05.642 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 117
+2025-07-04 11:01:05.642 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:10.759 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:10.759 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 118
+2025-07-04 11:01:10.759 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:15.881 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:15.881 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 119
+2025-07-04 11:01:15.881 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:20.995 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:20.995 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 120
+2025-07-04 11:01:20.995 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:26.119 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:26.120 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 121
+2025-07-04 11:01:26.120 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:31.236 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:31.236 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 122
+2025-07-04 11:01:31.236 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:36.351 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:36.351 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 123
+2025-07-04 11:01:36.351 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:41.462 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:41.462 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 124
+2025-07-04 11:01:41.462 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:47.428 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:47.428 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 125
+2025-07-04 11:01:47.428 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:52.556 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:52.557 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 126
+2025-07-04 11:01:52.557 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:57.678 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:01:57.678 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 127
+2025-07-04 11:01:57.678 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:02.791 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:02.791 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 128
+2025-07-04 11:02:02.791 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:07.913 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:07.913 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 129
+2025-07-04 11:02:07.913 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:13.020 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:13.020 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 130
+2025-07-04 11:02:13.020 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:18.147 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:18.148 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 131
+2025-07-04 11:02:18.148 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:23.264 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:23.264 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 132
+2025-07-04 11:02:23.264 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:28.369 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:28.369 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 133
+2025-07-04 11:02:28.369 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:33.483 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:33.484 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 134
+2025-07-04 11:02:33.484 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:38.610 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:38.610 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 135
+2025-07-04 11:02:38.610 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:44.266 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:44.266 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 136
+2025-07-04 11:02:44.266 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:49.468 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:49.468 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 137
+2025-07-04 11:02:49.468 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:54.674 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:54.674 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 138
+2025-07-04 11:02:54.674 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:59.886 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:02:59.886 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 139
+2025-07-04 11:02:59.886 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:05.075 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:05.075 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 140
+2025-07-04 11:03:05.075 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:10.192 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:10.192 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 141
+2025-07-04 11:03:10.192 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:15.309 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:15.309 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 142
+2025-07-04 11:03:15.309 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:20.420 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:20.420 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 143
+2025-07-04 11:03:20.420 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:26.316 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:26.316 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 144
+2025-07-04 11:03:26.317 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:31.516 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:31.516 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 145
+2025-07-04 11:03:31.516 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:36.714 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:36.714 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 146
+2025-07-04 11:03:36.715 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:41.833 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:41.834 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 147
+2025-07-04 11:03:41.834 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:46.962 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:46.962 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 148
+2025-07-04 11:03:46.962 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:52.065 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:52.066 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 149
+2025-07-04 11:03:52.066 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:57.179 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:03:57.179 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 150
+2025-07-04 11:03:57.179 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:02.304 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:02.304 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 151
+2025-07-04 11:04:02.304 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:07.424 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:07.425 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 152
+2025-07-04 11:04:07.425 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:12.534 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:12.535 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 153
+2025-07-04 11:04:12.535 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:17.644 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:17.644 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 154
+2025-07-04 11:04:17.644 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:22.755 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:22.755 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 155
+2025-07-04 11:04:22.755 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:27.882 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:27.882 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 156
+2025-07-04 11:04:27.882 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:33.012 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:33.012 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 157
+2025-07-04 11:04:33.013 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:38.366 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:38.367 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 158
+2025-07-04 11:04:38.367 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:43.561 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:43.561 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 159
+2025-07-04 11:04:43.561 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:48.679 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:48.680 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 160
+2025-07-04 11:04:48.680 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:53.799 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:53.799 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 161
+2025-07-04 11:04:53.799 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:58.917 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:04:58.917 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 162
+2025-07-04 11:04:58.917 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:04.035 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:04.036 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 163
+2025-07-04 11:05:04.036 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:09.154 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:09.154 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 164
+2025-07-04 11:05:09.154 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:14.271 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:14.271 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 165
+2025-07-04 11:05:14.271 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:19.422 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:19.422 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 166
+2025-07-04 11:05:19.422 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:24.535 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:24.535 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 167
+2025-07-04 11:05:24.535 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:29.654 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:29.655 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 168
+2025-07-04 11:05:29.655 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:34.777 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:34.777 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 169
+2025-07-04 11:05:34.777 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:39.882 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:39.883 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 170
+2025-07-04 11:05:39.883 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:44.991 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:44.991 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 171
+2025-07-04 11:05:44.991 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:50.114 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:50.114 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 172
+2025-07-04 11:05:50.114 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:55.230 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:05:55.230 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 173
+2025-07-04 11:05:55.230 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:00.341 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:00.341 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 174
+2025-07-04 11:06:00.341 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:05.461 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:05.461 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 175
+2025-07-04 11:06:05.461 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:12.590 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:12.590 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 176
+2025-07-04 11:06:12.590 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:18.048 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:18.048 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 177
+2025-07-04 11:06:18.048 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:23.545 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:23.545 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 178
+2025-07-04 11:06:23.545 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:28.935 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:28.935 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 179
+2025-07-04 11:06:28.935 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:34.326 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:34.326 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 180
+2025-07-04 11:06:34.326 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:39.631 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:39.631 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 181
+2025-07-04 11:06:39.631 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:45.027 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:45.027 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 182
+2025-07-04 11:06:45.027 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:50.307 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:50.307 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 183
+2025-07-04 11:06:50.307 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:55.578 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:06:55.578 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 184
+2025-07-04 11:06:55.578 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:00.887 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:00.887 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 185
+2025-07-04 11:07:00.887 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:06.151 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:06.151 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 186
+2025-07-04 11:07:06.151 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:11.966 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:11.967 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 187
+2025-07-04 11:07:11.967 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:17.274 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:17.274 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 188
+2025-07-04 11:07:17.274 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:22.843 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:22.843 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 189
+2025-07-04 11:07:22.843 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:28.219 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:28.219 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 190
+2025-07-04 11:07:28.219 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:33.614 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:33.614 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 191
+2025-07-04 11:07:33.614 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:39.000 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:39.000 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 192
+2025-07-04 11:07:39.000 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:44.388 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:44.388 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 193
+2025-07-04 11:07:44.388 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:49.883 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:49.883 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 194
+2025-07-04 11:07:49.883 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:55.400 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:07:55.401 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 195
+2025-07-04 11:07:55.401 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:00.985 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:00.985 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 196
+2025-07-04 11:08:00.985 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:06.499 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:06.499 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 197
+2025-07-04 11:08:06.499 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:11.911 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:11.911 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 198
+2025-07-04 11:08:11.911 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:17.349 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:17.349 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 199
+2025-07-04 11:08:17.349 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:22.781 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:22.781 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 200
+2025-07-04 11:08:22.781 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:28.383 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:28.384 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 201
+2025-07-04 11:08:28.384 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:34.313 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:34.313 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 202
+2025-07-04 11:08:34.314 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:39.873 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:39.873 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 203
+2025-07-04 11:08:39.873 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:45.841 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:45.841 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 204
+2025-07-04 11:08:45.841 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:51.574 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:51.574 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 205
+2025-07-04 11:08:51.574 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:57.091 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:08:57.091 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 206
+2025-07-04 11:08:57.091 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:02.678 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:02.678 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 207
+2025-07-04 11:09:02.678 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:08.175 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:08.175 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 208
+2025-07-04 11:09:08.175 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:14.173 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:14.173 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 209
+2025-07-04 11:09:14.173 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:19.717 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:19.717 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 210
+2025-07-04 11:09:19.717 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:25.233 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:25.234 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 211
+2025-07-04 11:09:25.234 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:30.904 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:30.904 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 212
+2025-07-04 11:09:30.904 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:36.419 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:36.419 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 213
+2025-07-04 11:09:36.419 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:41.940 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:41.940 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 214
+2025-07-04 11:09:41.940 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:47.688 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:47.688 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 215
+2025-07-04 11:09:47.688 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:53.231 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:53.231 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 216
+2025-07-04 11:09:53.231 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:59.398 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:09:59.398 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 217
+2025-07-04 11:09:59.398 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:05.015 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:05.015 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 218
+2025-07-04 11:10:05.015 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:11.011 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:11.011 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 219
+2025-07-04 11:10:11.011 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:16.599 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:16.600 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 220
+2025-07-04 11:10:16.600 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:22.702 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:22.702 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 221
+2025-07-04 11:10:22.702 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:28.998 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:28.999 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 222
+2025-07-04 11:10:28.999 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:34.945 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:34.945 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 223
+2025-07-04 11:10:34.945 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:40.968 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:40.968 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 224
+2025-07-04 11:10:40.968 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:46.571 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:46.571 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 225
+2025-07-04 11:10:46.571 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:52.722 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:52.722 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 226
+2025-07-04 11:10:52.722 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:58.236 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:10:58.236 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 227
+2025-07-04 11:10:58.236 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:04.320 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:04.320 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 228
+2025-07-04 11:11:04.320 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:09.966 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:09.966 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 229
+2025-07-04 11:11:09.966 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:15.572 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:15.572 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 230
+2025-07-04 11:11:15.572 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:20.785 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:20.785 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 231
+2025-07-04 11:11:20.785 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:26.086 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:26.086 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 232
+2025-07-04 11:11:26.086 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:31.292 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:31.292 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 233
+2025-07-04 11:11:31.292 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:36.414 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:36.416 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 234
+2025-07-04 11:11:36.416 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:41.559 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:41.559 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 235
+2025-07-04 11:11:41.559 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:46.708 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:46.708 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 236
+2025-07-04 11:11:46.708 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:51.820 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:51.821 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 237
+2025-07-04 11:11:51.821 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:56.953 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:11:56.953 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 238
+2025-07-04 11:11:56.953 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:02.109 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:02.110 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 239
+2025-07-04 11:12:02.110 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:07.263 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:07.263 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 240
+2025-07-04 11:12:07.263 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:12.386 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:12.386 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 241
+2025-07-04 11:12:12.386 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:17.507 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:17.507 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 242
+2025-07-04 11:12:17.507 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:22.625 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:22.625 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 243
+2025-07-04 11:12:22.625 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:27.738 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:27.738 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 244
+2025-07-04 11:12:27.738 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:32.866 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:32.866 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 245
+2025-07-04 11:12:32.866 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:37.988 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:37.988 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 246
+2025-07-04 11:12:37.988 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:43.584 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:43.584 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 247
+2025-07-04 11:12:43.584 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:48.810 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:48.810 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 248
+2025-07-04 11:12:48.810 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:54.014 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:54.014 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 249
+2025-07-04 11:12:54.015 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:59.365 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:12:59.366 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 250
+2025-07-04 11:12:59.366 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:04.639 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:04.640 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 251
+2025-07-04 11:13:04.640 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:09.837 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:09.837 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 252
+2025-07-04 11:13:09.837 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:15.047 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:15.047 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 253
+2025-07-04 11:13:15.047 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:20.286 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:20.286 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 254
+2025-07-04 11:13:20.286 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:25.566 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:25.567 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 255
+2025-07-04 11:13:25.567 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:30.849 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:30.849 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 256
+2025-07-04 11:13:30.849 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:36.452 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:36.452 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 257
+2025-07-04 11:13:36.452 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:41.745 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:41.745 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 258
+2025-07-04 11:13:41.745 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:47.512 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:47.512 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 259
+2025-07-04 11:13:47.513 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:53.802 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:53.802 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 260
+2025-07-04 11:13:53.802 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:59.092 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:13:59.092 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 261
+2025-07-04 11:13:59.092 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:14:04.294 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:14:04.295 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 262
+2025-07-04 11:14:04.295 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:14:09.501 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:14:09.501 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 263
+2025-07-04 11:14:09.501 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:14:14.751 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:14:14.751 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 264
+2025-07-04 11:14:14.751 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:14:20.035 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:14:20.035 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 265
+2025-07-04 11:14:20.035 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:14:25.230 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist
+2025-07-04 11:14:25.230 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 266
+2025-07-04 11:14:25.230 +05:30 [ERR] Exception: 42703: column "cbcitemtaxcategory" of relation "advintek_temp_invoice1" does not exist

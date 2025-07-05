@@ -79,7 +79,7 @@ namespace ETL_Demo.Models
         public int? eTemplateId { get; set; }
         public int? templateId { get; set; }
         public string Status { get; set; }
-        public DateTime? eInvoiceDateTime { get; set; }
+        public DateTime? EInvoiceDateTime { get; set; }
         public string? InvoiceDateTime { get; set; }
         public string invoiceValidator { get; set; }
         public string TaxOfficeSubmitter { get; set; }
@@ -427,8 +427,7 @@ namespace ETL_Demo.Models
         public int TotalAmount { get; set; }
         public int TotalSourceInvoiceAmount { get; set; }
         public int TotalSourceLineItems { get; set; }
-        public List<InvoiceLineItems> InvoiceLineItems { get; set; }
-        public DocTaxSubTotal DocTaxSubTotal { get; set; }
+       
         //public string CbcTaxSchemeAgencyCode { get; set; }
 
 
@@ -440,6 +439,27 @@ namespace ETL_Demo.Models
         public string CbcItemTaxSchemeAgencyID { get; set; }
         public string CbcItemTaxSchemeAgencyCode { get; set; }
         public string NettAmount { get; set; }
+        public string LabNo { get; set; }
+        public string MRNNo { get; set; }
+        public string HVANo { get; set; }
+        public string PatientName { get; set; }
+        public string Register { get; set; }
+        public string AccountNumber { get; set; }
+        public string AccountNo { get; set; }
+        public string SettlingDate { get; set; }
+        public string CreditLimit { get; set; }
+        public string CreditTerm { get; set; }
+        public string SalesPerson { get; set; }
+        public string IssuedBy { get; set; }
+        public string TotalForInvoice { get; set; }
+        public string ReasonforCN { get; set; }
+        public string ItemCode { get; set; }
+        public string TaxCode { get; set; }
+        public string OriginalInvoiceDate { get; set; }
+        public string ReasonForDN { get; set; }
+
+        public List<InvoiceLineItems> InvoiceLineItems { get; set; }
+        public DocTaxSubTotal DocTaxSubTotal { get; set; }
     }
 
 
@@ -465,8 +485,8 @@ namespace ETL_Demo.Models
         public string CbcSellerVATID { get; set; }
         public string CbcBuyerVATID { get; set; }
         public string CbcCompanyLegalForm { get; set; }
-        public string CbcDescription { get; set; }
-        public string CbcDescriptionCode { get; set; }
+        public string CbcDescription { get; set; }  
+        public string CbcDescriptionCode { get; set; }      
         public string CbcDocumentCurrencyCode { get; set; }
         public string CbcSellerElectronicMail { get; set; }
         public string CbcBuyerElectronicMail { get; set; }
@@ -516,7 +536,7 @@ namespace ETL_Demo.Models
         public int? eTemplateId { get; set; }
         public int? templateId { get; set; }
         public string Status { get; set; }
-        public DateTime? eInvoiceDateTime { get; set; }
+        public DateTime? EInvoiceDateTime { get; set; }
         public string invoiceValidator { get; set; }
         public string TaxOfficeSubmitter { get; set; }
         public string WorkflowStatus { get; set; }
@@ -775,11 +795,12 @@ namespace ETL_Demo.Models
         public string TotalDiscountValue { get; set; }
         public string InvoiceAdditionalDiscount { get; set; }
         public string InvoiceAdditionalFee { get; set; }
-        public string TotalAmount { get; set; }
+        public string TotalAmount { get; set; } 
         public string TotalSourceInvoiceAmount { get; set; }
         public string TotalSourceLineItems { get; set; }
         public List<InvoiceLineItems> InvoiceLineItems { get; set; }
         public DocTaxSubTotal DocTaxSubTotal { get; set; }
+
     }
     public class InvoiceLineItems
     {
@@ -841,6 +862,12 @@ namespace ETL_Demo.Models
         public string CbcSubtotal { get; set; }
         public string CbcSSTTaxCategory { get; set; }
         public string CbcBaseQuantity { get; set; }
+
+        public string CbcItemTaxSchemeID { get; set; }
+        public string CbcItemTaxCategory { get; set; }
+        public string CbcItemTaxSchemeAgencyID { get; set; }
+        public string CbcItemTaxSchemeAgencyCode { get; set; }
+       
     }
     public class DocTaxSubTotal
     {
@@ -875,6 +902,7 @@ namespace ETL_Demo.Models
         public string CbcTaxSchemeAgencyCode { get; set; }
         public string TaxCatCodeForTaxAmount { get; set; }
         public string TaxAmountPerTaxType { get; set; }
+        public string CbcTaxSchemeID { get; set; }
 
 
         //Static Field

@@ -14,6 +14,7 @@ using Serilog.Events;
 using ETL.Service.ETLDemoFactorySetting;
 using System.Data.SqlClient;
 using System.Configuration;
+using ETL.ETLHelperProcess;
 
 namespace ETLDEMO
 {
@@ -22,7 +23,7 @@ namespace ETLDEMO
         public static QueryHelper _queryHelper = null;
 
         public static void Main(string[] args)
-        {
+            {
             /* string logDirectory = Path.Combine(AppContext.BaseDirectory, "log");
              //Console.WriteLine(logDirectory);
              string logFilePath = Path.Combine(logDirectory, "TraceFile.txt");
@@ -112,6 +113,7 @@ namespace ETLDEMO
                    services.Configure<ETLAppSettings>(context.Configuration.GetSection("ETLAppSettings"));
                    services.Configure<DbConfig>(context.Configuration.GetSection("DatabaseSettings"));
                    services.AddSingleton<ETLHelper>();
+                   services.AddSingleton<PDFMappingService>();
 
                    //services.AddScoped<IETLHelper, ETLHelper>();
                    services.AddScoped<IETLService>(x =>
@@ -124,7 +126,15 @@ namespace ETLDEMO
                        //string connection = configuration.GetConnectionString("Database");
                        var encPassword = string.Empty;
                        var password = string.Empty;
-                       encPassword = dbConfig.ConnectionString.Split(';')[3].Substring(9);
+                       var dbtype = dbConfig.DataProvider.ToLower().Trim();
+                       if (dbtype == "sqlserver")
+                       {
+                           encPassword = dbConfig.ConnectionString.Split(';')[3].Substring(10);
+                       }
+                       else
+                       {
+                           encPassword = dbConfig.ConnectionString.Split(';')[3].Substring(9);
+                       }
                        password = SecurityHelper.DecryptWithEmbedKey(encPassword);
                        //if (dbConfig.PasswordUtility != null && dbConfig.PasswordUtility.ToLower() == "old")
                        //{

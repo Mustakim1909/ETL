@@ -1,0 +1,274 @@
+2025-04-07 10:48:41.853 +05:30 [INF] Application starting up
+2025-04-07 10:48:42.124 +05:30 [INF] Main thread ID: 1
+2025-04-07 10:48:42.124 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-07 10:48:42.126 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-07 10:48:54.410 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-07 10:48:54.411 +05:30 [INF] Process file name :- SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-07 10:48:54.411 +05:30 [INF] Total time taken in process: 11.2363992 seconds
+2025-04-07 10:48:54.415 +05:30 [INF] Total time taken in moving: 0.0018243 seconds
+2025-04-07 10:58:40.194 +05:30 [INF] Application starting up
+2025-04-07 10:58:40.499 +05:30 [INF] Main thread ID: 1
+2025-04-07 10:58:40.500 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN10.csv
+2025-04-07 10:58:40.501 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-07 10:58:43.804 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-07 10:58:43.804 +05:30 [ERR] Exception: 42601: INSERT has more target columns than expressions
+2025-04-07 11:01:16.589 +05:30 [INF] Application starting up
+2025-04-07 11:01:17.643 +05:30 [INF] Main thread ID: 1
+2025-04-07 11:01:17.643 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN10.csv
+2025-04-07 11:01:17.646 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-07 11:01:21.946 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-07 11:01:21.946 +05:30 [ERR] Exception: 42601: INSERT has more target columns than expressions
+2025-04-07 11:03:29.818 +05:30 [INF] Application starting up
+2025-04-07 11:03:30.793 +05:30 [INF] Main thread ID: 1
+2025-04-07 11:03:30.793 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN10.csv
+2025-04-07 11:03:30.795 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-07 11:08:25.878 +05:30 [INF] Application starting up
+2025-04-07 11:08:26.150 +05:30 [INF] Main thread ID: 1
+2025-04-07 11:08:26.150 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN10.csv
+2025-04-07 11:08:26.152 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-07 11:08:28.778 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-07 11:08:28.778 +05:30 [ERR] Exception: 42P01: relation "sbsbsbcreditnotelineitems" does not exist
+2025-04-07 11:08:34.131 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-04-07 11:08:34.131 +05:30 [ERR] Exception: 42P01: relation "sbsbsbcreditnotelineitems" does not exist
+2025-04-07 11:08:39.444 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 3
+2025-04-07 11:08:39.445 +05:30 [ERR] Exception: 42P01: relation "sbsbsbcreditnotelineitems" does not exist
+2025-04-07 11:08:44.796 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 4
+2025-04-07 11:08:44.797 +05:30 [ERR] Exception: 42P01: relation "sbsbsbcreditnotelineitems" does not exist
+2025-04-07 11:08:50.111 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 5
+2025-04-07 11:08:50.111 +05:30 [ERR] Exception: 42P01: relation "sbsbsbcreditnotelineitems" does not exist
+2025-04-07 11:08:55.450 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 6
+2025-04-07 11:08:55.451 +05:30 [ERR] Exception: 42P01: relation "sbsbsbcreditnotelineitems" does not exist
+2025-04-07 11:09:00.774 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 7
+2025-04-07 11:09:00.774 +05:30 [ERR] Exception: 42P01: relation "sbsbsbcreditnotelineitems" does not exist
+2025-04-07 11:09:06.275 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 8
+2025-04-07 11:09:06.275 +05:30 [ERR] Exception: 42P01: relation "sbsbsbcreditnotelineitems" does not exist
+2025-04-07 11:09:11.647 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 9
+2025-04-07 11:09:11.648 +05:30 [ERR] Exception: 42P01: relation "sbsbsbcreditnotelineitems" does not exist
+2025-04-07 11:09:16.926 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 10
+2025-04-07 11:09:16.926 +05:30 [ERR] Exception: 42P01: relation "sbsbsbcreditnotelineitems" does not exist
+2025-04-07 11:09:22.556 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 11
+2025-04-07 11:09:22.557 +05:30 [ERR] Exception: 42P01: relation "sbsbsbcreditnotelineitems" does not exist
+2025-04-07 11:09:27.942 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 12
+2025-04-07 11:09:27.943 +05:30 [ERR] Exception: 42601: INSERT has more target columns than expressions
+2025-04-07 11:09:36.065 +05:30 [INF] Application starting up
+2025-04-07 11:09:36.365 +05:30 [INF] Main thread ID: 1
+2025-04-07 11:09:36.365 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN10.csv
+2025-04-07 11:09:36.367 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-07 11:09:38.983 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-07 11:09:38.983 +05:30 [ERR] Exception: 42601: INSERT has more target columns than expressions
+2025-04-07 11:11:34.149 +05:30 [INF] Application starting up
+2025-04-07 11:11:34.415 +05:30 [INF] Main thread ID: 1
+2025-04-07 11:11:34.415 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN10.csv
+2025-04-07 11:11:34.417 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-07 11:11:37.185 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN10.csv
+2025-04-07 11:11:37.185 +05:30 [INF] Process file name :- SBCNSUN_12_v1_20250207_TESTSBCN10.csv
+2025-04-07 11:11:37.186 +05:30 [INF] Total time taken in process: 1.7573452 seconds
+2025-04-07 11:11:37.188 +05:30 [INF] Total time taken in moving: 0.001855 seconds
+2025-04-07 11:31:49.499 +05:30 [INF] Application starting up
+2025-04-07 11:31:50.234 +05:30 [INF] Main thread ID: 1
+2025-04-07 11:31:50.234 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN10.csv
+2025-04-07 11:31:50.237 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-07 11:31:51.936 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN10.csv'.
+2025-04-07 11:31:52.045 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN10.csv'.
+2025-04-07 11:31:52.146 +05:30 [INF] Error processing files for domain PIL: Could not find file 'C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN10.csv'.
+2025-04-07 11:31:52.147 +05:30 [INF] The following files were not found and skipped:
+2025-04-07 11:31:52.147 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN10.csv
+2025-04-07 11:32:13.449 +05:30 [INF] Application starting up
+2025-04-07 11:32:13.715 +05:30 [INF] Main thread ID: 1
+2025-04-07 11:32:13.715 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN780.csv
+2025-04-07 11:32:13.717 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-07 11:32:19.783 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-07 11:32:19.783 +05:30 [ERR] Exception: 42883: procedure sbcnsun_split_and_store_sbcreditnote(p_invoice_number => text, p_totalamount => text, p_totallineitems => text, p_splitcount => text) does not exist
+
+POSITION: 6
+2025-04-07 11:32:27.062 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-04-07 11:32:27.062 +05:30 [ERR] Exception: 42883: procedure sbcnsun_split_and_store_sbcreditnote(p_invoice_number => text, p_totalamount => text, p_totallineitems => text, p_splitcount => text) does not exist
+
+POSITION: 6
+2025-04-07 11:34:12.669 +05:30 [INF] Application starting up
+2025-04-07 11:34:12.930 +05:30 [INF] Main thread ID: 1
+2025-04-07 11:34:12.930 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN780.csv
+2025-04-07 11:34:12.932 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-07 11:34:19.804 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-07 11:34:19.804 +05:30 [ERR] Exception: 42703: column "cbcbuyername" of relation "sbcnsun_temp_invoice2" does not exist
+2025-04-07 11:34:29.817 +05:30 [INF] Application starting up
+2025-04-07 11:34:30.085 +05:30 [INF] Main thread ID: 1
+2025-04-07 11:34:30.085 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN780.csv
+2025-04-07 11:34:30.087 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-07 11:34:35.631 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-07 11:34:35.632 +05:30 [ERR] Exception: 42703: column "cbcbuyername" of relation "sbcnsun_temp_invoice2" does not exist
+2025-04-07 11:37:21.256 +05:30 [INF] Application starting up
+2025-04-07 11:37:21.546 +05:30 [INF] Main thread ID: 1
+2025-04-07 11:37:21.546 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN780.csv
+2025-04-07 11:37:21.548 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-07 11:37:26.700 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-07 11:37:26.700 +05:30 [ERR] Exception: 42703: record "rec" has no field "buyerfaxno"
+2025-04-07 11:38:35.715 +05:30 [INF] Application starting up
+2025-04-07 11:38:35.978 +05:30 [INF] Main thread ID: 1
+2025-04-07 11:38:35.978 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN780.csv
+2025-04-07 11:38:35.980 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-07 11:38:41.957 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-07 11:38:41.957 +05:30 [ERR] Exception: 42703: record "rec" has no field "buyerfaxno"
+2025-04-07 11:38:49.001 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-04-07 11:38:49.002 +05:30 [ERR] Exception: 42703: record "rec" has no field "buyerfaxno"
+2025-04-07 11:41:14.264 +05:30 [INF] Application starting up
+2025-04-07 11:41:14.535 +05:30 [INF] Main thread ID: 1
+2025-04-07 11:41:14.535 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN780.csv
+2025-04-07 11:41:14.536 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-07 11:41:19.522 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-07 11:41:19.522 +05:30 [ERR] Exception: 42703: record "rec" has no field "buyerfaxno"
+2025-04-07 11:42:00.225 +05:30 [INF] Application starting up
+2025-04-07 11:42:00.487 +05:30 [INF] Main thread ID: 1
+2025-04-07 11:42:00.487 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN780.csv
+2025-04-07 11:42:00.489 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-07 11:42:05.791 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "sellerfaxno" of relation "sbcnsun_temp_invoice1" does not exist
+2025-04-07 11:42:05.792 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-07 11:42:05.792 +05:30 [ERR] Exception: 42703: column "sellerfaxno" of relation "sbcnsun_temp_invoice1" does not exist
+2025-04-07 11:42:12.534 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "sellerfaxno" of relation "sbcnsun_temp_invoice1" does not exist
+2025-04-07 11:42:12.535 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-04-07 11:42:12.535 +05:30 [ERR] Exception: 42703: column "sellerfaxno" of relation "sbcnsun_temp_invoice1" does not exist
+2025-04-07 11:43:57.919 +05:30 [INF] Application starting up
+2025-04-07 11:43:58.199 +05:30 [INF] Main thread ID: 1
+2025-04-07 11:43:58.200 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN780.csv
+2025-04-07 11:43:58.201 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-07 11:44:06.671 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-07 11:44:06.671 +05:30 [ERR] Exception: 42883: procedure sbcnsun_sbcreditnote_validation(p_invoice_number => text, filepath => json) does not exist
+
+POSITION: 6
+2025-04-07 11:44:16.045 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-04-07 11:44:16.046 +05:30 [ERR] Exception: 42883: procedure sbcnsun_sbcreditnote_validation(p_invoice_number => text, filepath => json) does not exist
+
+POSITION: 6
+2025-04-07 11:45:18.332 +05:30 [INF] Application starting up
+2025-04-07 11:45:18.596 +05:30 [INF] Main thread ID: 1
+2025-04-07 11:45:18.596 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN780.csv
+2025-04-07 11:45:18.598 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-07 11:45:26.469 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN780.csv
+2025-04-07 11:45:26.470 +05:30 [INF] Process file name :- SBCNSUN_12_v1_20250207_TESTSBCN780.csv
+2025-04-07 11:45:26.470 +05:30 [INF] Total time taken in process: 6.7761398 seconds
+2025-04-07 11:45:26.474 +05:30 [INF] Total time taken in moving: 0.0039155 seconds
+2025-04-07 12:02:44.551 +05:30 [INF] Application starting up
+2025-04-07 12:02:45.654 +05:30 [INF] Main thread ID: 1
+2025-04-07 12:02:45.655 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest10.csv
+2025-04-07 12:02:45.657 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBDNSUN
+2025-04-07 12:02:49.197 +05:30 [WRN] Exception In TempInsertStoreProc: 22023: cannot call json_array_elements on a scalar
+2025-04-07 12:02:49.273 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-07 12:02:49.273 +05:30 [ERR] Exception: 22023: cannot call json_array_elements on a scalar
+2025-04-07 12:05:21.070 +05:30 [INF] Application starting up
+2025-04-07 12:05:21.445 +05:30 [INF] Main thread ID: 1
+2025-04-07 12:05:21.445 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest10.csv
+2025-04-07 12:05:21.447 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBDNSUN
+2025-04-07 12:05:24.225 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest10.csv
+2025-04-07 12:05:24.226 +05:30 [INF] Process file name :- SBDNSUN_13_v1_20250207_SBDTest10.csv
+2025-04-07 12:05:24.226 +05:30 [INF] Total time taken in process: 1.7114567 seconds
+2025-04-07 12:05:24.228 +05:30 [INF] Total time taken in moving: 0.0016366 seconds
+2025-04-07 12:08:57.825 +05:30 [INF] Application starting up
+2025-04-07 12:08:58.094 +05:30 [INF] Main thread ID: 1
+2025-04-07 12:08:58.094 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest10.csv
+2025-04-07 12:08:58.096 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBDNSUN
+2025-04-07 12:09:01.159 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest10.csv
+2025-04-07 12:09:01.160 +05:30 [INF] Process file name :- SBDNSUN_13_v1_20250207_SBDTest10.csv
+2025-04-07 12:09:01.160 +05:30 [INF] Total time taken in process: 1.4529882 seconds
+2025-04-07 12:09:01.162 +05:30 [INF] Total time taken in moving: 0.001548 seconds
+2025-04-07 12:13:29.930 +05:30 [INF] Application starting up
+2025-04-07 12:13:30.228 +05:30 [INF] Main thread ID: 1
+2025-04-07 12:13:30.228 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest10.csv
+2025-04-07 12:13:30.230 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBDNSUN
+2025-04-07 12:13:32.817 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest10.csv
+2025-04-07 12:13:32.817 +05:30 [INF] Process file name :- SBDNSUN_13_v1_20250207_SBDTest10.csv
+2025-04-07 12:13:32.818 +05:30 [INF] Total time taken in process: 1.4759175 seconds
+2025-04-07 12:13:32.820 +05:30 [INF] Total time taken in moving: 0.0016637 seconds
+2025-04-07 12:14:07.186 +05:30 [INF] Application starting up
+2025-04-07 12:14:07.456 +05:30 [INF] Main thread ID: 1
+2025-04-07 12:14:07.456 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest10.csv
+2025-04-07 12:14:07.458 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBDNSUN
+2025-04-07 12:14:10.344 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-07 12:14:10.344 +05:30 [ERR] Exception: 42703: column "sbcreditnoteid" of relation "sbdebitnotelineitems" does not exist
+2025-04-07 12:14:38.685 +05:30 [INF] Application starting up
+2025-04-07 12:14:38.957 +05:30 [INF] Main thread ID: 1
+2025-04-07 12:14:38.957 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest10.csv
+2025-04-07 12:14:38.959 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBDNSUN
+2025-04-07 12:14:41.768 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest10.csv
+2025-04-07 12:14:41.768 +05:30 [INF] Process file name :- SBDNSUN_13_v1_20250207_SBDTest10.csv
+2025-04-07 12:14:41.768 +05:30 [INF] Total time taken in process: 1.7444684 seconds
+2025-04-07 12:14:41.770 +05:30 [INF] Total time taken in moving: 0.001746 seconds
+2025-04-07 12:28:59.678 +05:30 [INF] Application starting up
+2025-04-07 12:28:59.942 +05:30 [INF] Main thread ID: 1
+2025-04-07 12:28:59.943 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest230.csv
+2025-04-07 12:28:59.944 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBDNSUN
+2025-04-07 12:29:07.478 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest230.csv
+2025-04-07 12:29:07.478 +05:30 [INF] Process file name :- SBDNSUN_13_v1_20250207_SBDTest230.csv
+2025-04-07 12:29:07.479 +05:30 [INF] Total time taken in process: 6.4474932 seconds
+2025-04-07 12:29:07.481 +05:30 [INF] Total time taken in moving: 0.0019512 seconds
+2025-04-07 12:35:52.235 +05:30 [INF] Application starting up
+2025-04-07 12:35:52.497 +05:30 [INF] Main thread ID: 1
+2025-04-07 12:35:52.497 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest230.csv
+2025-04-07 12:35:52.499 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBDNSUN
+2025-04-07 12:36:00.214 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest230.csv
+2025-04-07 12:36:00.215 +05:30 [INF] Process file name :- SBDNSUN_13_v1_20250207_SBDTest230.csv
+2025-04-07 12:36:00.215 +05:30 [INF] Total time taken in process: 6.5601173 seconds
+2025-04-07 12:36:00.217 +05:30 [INF] Total time taken in moving: 0.0018216 seconds
+2025-04-07 12:53:17.164 +05:30 [INF] Application starting up
+2025-04-07 12:53:17.585 +05:30 [INF] Main thread ID: 1
+2025-04-07 12:53:17.585 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-07 12:53:17.586 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-07 12:53:17.586 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\CNSUN_02_v1_20250207_SUNCNT40000_WIP.csv
+2025-04-07 12:53:17.586 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT4000_WIP_WIP.csv
+2025-04-07 12:53:17.586 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\DNTEL\Input\Source\Temp_Process\DNTEL_03_V1_20250207_TelisDNT400_WIP_WIP.csv
+2025-04-07 12:53:17.586 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\DNSUN\Input\Source\Temp_Process\DNSUN_03_v1_20250207_DNTestSun400_WIP_WIP.csv
+2025-04-07 12:53:17.586 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test1001_WIP.csv
+2025-04-07 12:53:17.589 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-07 12:53:20.695 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-07 12:53:20.695 +05:30 [INF] Process file name :- INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-07 12:53:20.696 +05:30 [INF] Total time taken in process: 1.8369652 seconds
+2025-04-07 12:53:20.700 +05:30 [INF] Total time taken in moving: 0.004632 seconds
+2025-04-07 12:53:20.701 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-07 12:53:21.656 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-07 12:53:21.657 +05:30 [INF] Process file name :- INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-07 12:53:21.657 +05:30 [INF] Total time taken in process: 0.956161 seconds
+2025-04-07 12:53:21.661 +05:30 [INF] Total time taken in moving: 0.0039072 seconds
+2025-04-07 12:53:21.661 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNSUN
+2025-04-07 12:53:23.336 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\CNSUN_02_v1_20250207_SUNCNT40000_WIP.csv
+2025-04-07 12:53:23.336 +05:30 [INF] Process file name :- CNSUN_02_v1_20250207_SUNCNT40000_WIP.csv
+2025-04-07 12:53:23.337 +05:30 [INF] Total time taken in process: 1.6756458 seconds
+2025-04-07 12:53:23.340 +05:30 [INF] Total time taken in moving: 0.0036975 seconds
+2025-04-07 12:53:23.340 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-07 12:53:23.889 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: 's'
+    MemberName: LineId
+    MemberType: System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 71
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 2941
+   Row: 2
+   RawRow: 2
+   Count: 99
+   RawRecord:
+1.1,2,TelisCNT4000,07-02-2025,,MYR,NA,NA,113,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,1.99701E+11,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 60100 Kuala Lumpur",60100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,2.01301E+11,,NA,,diwakar.karanam@advintek.com.sg,6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,4,MYS,60,0,0,60,60,0,60,,,60,,,,10,0,,,,LineItem1,,1,1,,,,,s,,0,0,,,1,22,CLASS,,,EA,1,,,,6,0,02-02-2025,,,0,1,1,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-07 12:53:25.383 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT4000_WIP_WIP.csv
+2025-04-07 12:53:25.383 +05:30 [INF] Process file name :- CNTEL_02_v1_20250207_TelisCNT4000_WIP_WIP.csv
+2025-04-07 12:53:25.383 +05:30 [INF] Total time taken in process: 2.0428076 seconds
+2025-04-07 12:53:25.384 +05:30 [INF] Total time taken in moving: 0.0010099 seconds
+2025-04-07 12:53:25.384 +05:30 [INF] Processing files for domain: PIL, invoiceType: DNTEL
+2025-04-07 12:53:26.382 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\DNTEL\Input\Source\Temp_Process\DNTEL_03_V1_20250207_TelisDNT400_WIP_WIP.csv
+2025-04-07 12:53:26.382 +05:30 [INF] Process file name :- DNTEL_03_V1_20250207_TelisDNT400_WIP_WIP.csv
+2025-04-07 12:53:26.382 +05:30 [INF] Total time taken in process: 0.9978535 seconds
+2025-04-07 12:53:26.383 +05:30 [INF] Total time taken in moving: 0.0009743 seconds
+2025-04-07 12:53:26.383 +05:30 [INF] Processing files for domain: PIL, invoiceType: DNSUN
+2025-04-07 12:53:27.610 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\DNSUN\Input\Source\Temp_Process\DNSUN_03_v1_20250207_DNTestSun400_WIP_WIP.csv
+2025-04-07 12:53:27.610 +05:30 [INF] Process file name :- DNSUN_03_v1_20250207_DNTestSun400_WIP_WIP.csv
+2025-04-07 12:53:27.610 +05:30 [INF] Total time taken in process: 1.2265011 seconds
+2025-04-07 12:53:27.611 +05:30 [INF] Total time taken in moving: 0.0010354 seconds
+2025-04-07 12:53:27.611 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-07 12:53:29.163 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test1001_WIP.csv
+2025-04-07 12:53:29.163 +05:30 [INF] Process file name :- SBINSUN_11_v2_20250207_Test1001_WIP.csv
+2025-04-07 12:53:29.163 +05:30 [INF] Total time taken in process: 1.5521962 seconds
+2025-04-07 12:53:29.164 +05:30 [INF] Total time taken in moving: 0.0006643 seconds

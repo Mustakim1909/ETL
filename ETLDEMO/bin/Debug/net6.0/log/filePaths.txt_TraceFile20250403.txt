@@ -1,0 +1,881 @@
+2025-04-03 12:01:47.382 +05:30 [INF] Application starting up
+2025-04-03 12:01:51.444 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:01:51.444 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:01:51.447 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:01:54.427 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 2991
+   Row: 2
+   RawRow: 2
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,03,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem1,,1.00,1,,,,,,,0.00,0.00,,,0001,022,CLASS,,,EA,1.00,,,,06,0.00,0.00,,,0.00,1.00,1.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:01:54.465 +05:30 [WRN] Skipping invalid record at row 2: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 3709
+   Row: 3
+   RawRow: 3
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,04,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem2,,2.00,1,,,,,,,0.00,0.00,,,0002,022,CLASS,,,EA,2.00,,,,06,0.00,0.00,,,0.00,2.00,2.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:01:54.501 +05:30 [WRN] Skipping invalid record at row 3: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 4427
+   Row: 4
+   RawRow: 4
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,05,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem3,,3.00,1,,,,,,,0.00,0.00,,,0003,022,CLASS,,,EA,3.00,,,,06,0.00,0.00,,,0.00,3.00,3.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:01:54.538 +05:30 [WRN] Skipping invalid record at row 4: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 5145
+   Row: 5
+   RawRow: 5
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,06,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem4,,4.00,1,,,,,,,0.00,0.00,,,0004,022,CLASS,,,EA,4.00,,,,06,0.00,0.00,,,0.00,4.00,4.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:01:54.576 +05:30 [WRN] Skipping invalid record at row 5: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 5863
+   Row: 6
+   RawRow: 6
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,07,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem5,,5.00,1,,,,,,,0.00,0.00,,,0005,022,CLASS,,,EA,5.00,,,,06,0.00,0.00,,,0.00,5.00,5.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:01:54.621 +05:30 [WRN] Skipping invalid record at row 6: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 6581
+   Row: 7
+   RawRow: 7
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,08,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem6,,6.00,1,,,,,,,0.00,0.00,,,0006,022,CLASS,,,EA,6.00,,,,06,0.00,0.00,,,0.00,6.00,6.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:01:54.656 +05:30 [WRN] Skipping invalid record at row 7: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 7299
+   Row: 8
+   RawRow: 8
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,09,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem7,,7.00,1,,,,,,,0.00,0.00,,,0007,022,CLASS,,,EA,7.00,,,,06,0.00,0.00,,,0.00,7.00,7.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:01:54.694 +05:30 [WRN] Skipping invalid record at row 8: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 8017
+   Row: 9
+   RawRow: 9
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,10,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem8,,8.00,1,,,,,,,0.00,0.00,,,0008,022,CLASS,,,EA,8.00,,,,06,0.00,0.00,,,0.00,8.00,8.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:01:54.732 +05:30 [WRN] Skipping invalid record at row 9: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 8735
+   Row: 10
+   RawRow: 10
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,11,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem9,,9.00,1,,,,,,,0.00,0.00,,,0009,022,CLASS,,,EA,9.00,,,,06,0.00,0.00,,,0.00,9.00,9.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:01:54.768 +05:30 [WRN] Skipping invalid record at row 10: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 9458
+   Row: 11
+   RawRow: 11
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,12,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem10,,10.00,1,,,,,,,0.00,0.00,,,0010,022,CLASS,,,EA,10.00,,,,06,0.00,0.00,,,0.00,10.00,10.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:06.676 +05:30 [INF] Application starting up
+2025-04-03 12:02:07.660 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:02:07.661 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:02:07.663 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:02:10.234 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 2991
+   Row: 2
+   RawRow: 2
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,03,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem1,,1.00,1,,,,,,,0.00,0.00,,,0001,022,CLASS,,,EA,1.00,,,,06,0.00,0.00,,,0.00,1.00,1.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:10.303 +05:30 [WRN] Skipping invalid record at row 2: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 3709
+   Row: 3
+   RawRow: 3
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,04,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem2,,2.00,1,,,,,,,0.00,0.00,,,0002,022,CLASS,,,EA,2.00,,,,06,0.00,0.00,,,0.00,2.00,2.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:10.349 +05:30 [WRN] Skipping invalid record at row 3: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 4427
+   Row: 4
+   RawRow: 4
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,05,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem3,,3.00,1,,,,,,,0.00,0.00,,,0003,022,CLASS,,,EA,3.00,,,,06,0.00,0.00,,,0.00,3.00,3.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:10.450 +05:30 [WRN] Skipping invalid record at row 4: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 5145
+   Row: 5
+   RawRow: 5
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,06,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem4,,4.00,1,,,,,,,0.00,0.00,,,0004,022,CLASS,,,EA,4.00,,,,06,0.00,0.00,,,0.00,4.00,4.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:10.576 +05:30 [WRN] Skipping invalid record at row 5: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 5863
+   Row: 6
+   RawRow: 6
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,07,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem5,,5.00,1,,,,,,,0.00,0.00,,,0005,022,CLASS,,,EA,5.00,,,,06,0.00,0.00,,,0.00,5.00,5.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:10.669 +05:30 [WRN] Skipping invalid record at row 6: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 6581
+   Row: 7
+   RawRow: 7
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,08,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem6,,6.00,1,,,,,,,0.00,0.00,,,0006,022,CLASS,,,EA,6.00,,,,06,0.00,0.00,,,0.00,6.00,6.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:10.720 +05:30 [WRN] Skipping invalid record at row 7: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 7299
+   Row: 8
+   RawRow: 8
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,09,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem7,,7.00,1,,,,,,,0.00,0.00,,,0007,022,CLASS,,,EA,7.00,,,,06,0.00,0.00,,,0.00,7.00,7.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:10.779 +05:30 [WRN] Skipping invalid record at row 8: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 8017
+   Row: 9
+   RawRow: 9
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,10,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem8,,8.00,1,,,,,,,0.00,0.00,,,0008,022,CLASS,,,EA,8.00,,,,06,0.00,0.00,,,0.00,8.00,8.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:10.838 +05:30 [WRN] Skipping invalid record at row 9: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 8735
+   Row: 10
+   RawRow: 10
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,11,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem9,,9.00,1,,,,,,,0.00,0.00,,,0009,022,CLASS,,,EA,9.00,,,,06,0.00,0.00,,,0.00,9.00,9.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:10.903 +05:30 [WRN] Skipping invalid record at row 10: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 9458
+   Row: 11
+   RawRow: 11
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,12,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem10,,10.00,1,,,,,,,0.00,0.00,,,0010,022,CLASS,,,EA,10.00,,,,06,0.00,0.00,,,0.00,10.00,10.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:32.533 +05:30 [INF] Application starting up
+2025-04-03 12:02:33.517 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:02:33.517 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:02:33.520 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:02:42.813 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 2991
+   Row: 2
+   RawRow: 2
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,03,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem1,,1.00,1,,,,,,,0.00,0.00,,,0001,022,CLASS,,,EA,1.00,,,,06,0.00,0.00,,,0.00,1.00,1.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:42.848 +05:30 [WRN] Skipping invalid record at row 2: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 3709
+   Row: 3
+   RawRow: 3
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,04,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem2,,2.00,1,,,,,,,0.00,0.00,,,0002,022,CLASS,,,EA,2.00,,,,06,0.00,0.00,,,0.00,2.00,2.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:42.883 +05:30 [WRN] Skipping invalid record at row 3: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 4427
+   Row: 4
+   RawRow: 4
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,05,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem3,,3.00,1,,,,,,,0.00,0.00,,,0003,022,CLASS,,,EA,3.00,,,,06,0.00,0.00,,,0.00,3.00,3.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:42.919 +05:30 [WRN] Skipping invalid record at row 4: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 5145
+   Row: 5
+   RawRow: 5
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,06,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem4,,4.00,1,,,,,,,0.00,0.00,,,0004,022,CLASS,,,EA,4.00,,,,06,0.00,0.00,,,0.00,4.00,4.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:42.957 +05:30 [WRN] Skipping invalid record at row 5: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 5863
+   Row: 6
+   RawRow: 6
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,07,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem5,,5.00,1,,,,,,,0.00,0.00,,,0005,022,CLASS,,,EA,5.00,,,,06,0.00,0.00,,,0.00,5.00,5.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:42.992 +05:30 [WRN] Skipping invalid record at row 6: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 6581
+   Row: 7
+   RawRow: 7
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,08,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem6,,6.00,1,,,,,,,0.00,0.00,,,0006,022,CLASS,,,EA,6.00,,,,06,0.00,0.00,,,0.00,6.00,6.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:43.028 +05:30 [WRN] Skipping invalid record at row 7: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 7299
+   Row: 8
+   RawRow: 8
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,09,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem7,,7.00,1,,,,,,,0.00,0.00,,,0007,022,CLASS,,,EA,7.00,,,,06,0.00,0.00,,,0.00,7.00,7.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:43.061 +05:30 [WRN] Skipping invalid record at row 8: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 8017
+   Row: 9
+   RawRow: 9
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,10,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem8,,8.00,1,,,,,,,0.00,0.00,,,0008,022,CLASS,,,EA,8.00,,,,06,0.00,0.00,,,0.00,8.00,8.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:43.105 +05:30 [WRN] Skipping invalid record at row 9: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 8735
+   Row: 10
+   RawRow: 10
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,11,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem9,,9.00,1,,,,,,,0.00,0.00,,,0009,022,CLASS,,,EA,9.00,,,,06,0.00,0.00,,,0.00,9.00,9.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:02:43.148 +05:30 [WRN] Skipping invalid record at row 10: The conversion cannot be performed.
+    Text: '0.00'
+    MemberName: OriginalInvoiceDate
+    MemberType: System.DateTime
+    TypeConverter: 'CsvHelper.TypeConversion.DateTimeConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 89
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 9458
+   Row: 11
+   RawRow: 11
+   Count: 99
+   RawRecord:
+1.1,02,TelisCNT10,2025-02-07,,MYR,NA,NA,12,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,199701022570,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,+60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 55100 Kuala Lumpur",55100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,201301026705,,NA,,diwakar.karanam@advintek.com.sg,+6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,04,MYS,55.00,0.00,0.00,55.00,55.00,0.00,55.00,,,55.00,,,,10,0.00,,,,LineItem10,,10.00,1,,,,,,,0.00,0.00,,,0010,022,CLASS,,,EA,10.00,,,,06,0.00,0.00,,,0.00,10.00,10.00,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-03 12:03:21.437 +05:30 [INF] Application starting up
+2025-04-03 12:03:22.434 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:03:22.434 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:03:22.436 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:05:12.778 +05:30 [INF] Application starting up
+2025-04-03 12:05:13.540 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:05:13.541 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:05:13.543 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:05:29.813 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "originalinvoiceirbmuniqueno" of relation "insun_temp_invoice1" does not exist
+2025-04-03 12:06:06.343 +05:30 [INF] Application starting up
+2025-04-03 12:06:07.465 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:06:07.466 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:06:07.468 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:15:00.851 +05:30 [INF] Application starting up
+2025-04-03 12:15:01.791 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:15:01.791 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:15:01.794 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:15:20.848 +05:30 [INF] Exception in ProcessTaskAsync : The process cannot access the file 'C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv' because it is being used by another process.
+2025-04-03 12:15:20.922 +05:30 [INF] Exception in ProcessFileAsync : The process cannot access the file 'C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv' because it is being used by another process.
+2025-04-03 12:15:21.007 +05:30 [INF] Error processing files for domain PIL: The process cannot access the file 'C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv' because it is being used by another process.
+2025-04-03 12:15:21.008 +05:30 [INF] The following files were not found and skipped:
+2025-04-03 12:15:21.008 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:15:33.358 +05:30 [INF] Application starting up
+2025-04-03 12:15:34.365 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:15:34.366 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:15:34.369 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:15:40.499 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "originalinvoiceirbmuniqueno" of relation "insun_temp_invoice1" does not exist
+2025-04-03 12:15:40.589 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-03 12:15:40.589 +05:30 [ERR] Exception: 42703: column "originalinvoiceirbmuniqueno" of relation "insun_temp_invoice1" does not exist
+2025-04-03 12:15:45.781 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "originalinvoiceirbmuniqueno" of relation "insun_temp_invoice1" does not exist
+2025-04-03 12:15:45.829 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-04-03 12:15:45.830 +05:30 [ERR] Exception: 42703: column "originalinvoiceirbmuniqueno" of relation "insun_temp_invoice1" does not exist
+2025-04-03 12:15:50.989 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "originalinvoiceirbmuniqueno" of relation "insun_temp_invoice1" does not exist
+2025-04-03 12:15:51.037 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 3
+2025-04-03 12:15:51.037 +05:30 [ERR] Exception: 42703: column "originalinvoiceirbmuniqueno" of relation "insun_temp_invoice1" does not exist
+2025-04-03 12:15:57.034 +05:30 [INF] Application starting up
+2025-04-03 12:15:58.266 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:15:58.266 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:15:58.269 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:18:30.601 +05:30 [INF] Application starting up
+2025-04-03 12:18:31.667 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:18:31.667 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:18:31.669 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:18:58.758 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "originalinvoiceirbmuniqueno" of relation "insun_temp_invoice1" does not exist
+2025-04-03 12:19:16.932 +05:30 [INF] Application starting up
+2025-04-03 12:19:18.791 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:19:18.792 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:19:18.795 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:21:28.374 +05:30 [INF] Application starting up
+2025-04-03 12:21:29.332 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:21:29.333 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:21:29.336 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:21:32.593 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "originalinvoiceirbmuniqueno" of relation "insun_temp_invoice1" does not exist
+2025-04-03 12:22:07.966 +05:30 [INF] Application starting up
+2025-04-03 12:22:09.223 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:22:09.223 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:22:09.225 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:22:24.730 +05:30 [WRN] Exception In TempInsertStoreProc: 42804: column "originalinvoicedate" is of type timestamp without time zone but expression is of type text
+2025-04-03 12:22:58.795 +05:30 [INF] Application starting up
+2025-04-03 12:22:59.716 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:22:59.719 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:22:59.722 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:23:26.840 +05:30 [INF] Application starting up
+2025-04-03 12:23:27.833 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:23:27.833 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:23:27.835 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:23:31.145 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 12:23:31.220 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-03 12:23:31.220 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 12:23:36.422 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 12:23:36.468 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-04-03 12:23:36.468 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 12:23:41.699 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 12:23:41.745 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 3
+2025-04-03 12:23:41.746 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 12:23:46.969 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 12:23:47.015 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 4
+2025-04-03 12:23:47.015 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 12:27:38.552 +05:30 [INF] Application starting up
+2025-04-03 12:27:39.381 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:27:39.381 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:27:39.383 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:27:42.452 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:27:42.452 +05:30 [INF] Process file name :- CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:27:42.455 +05:30 [INF] Total time taken in process: 1.6128902 seconds
+2025-04-03 12:27:42.458 +05:30 [INF] Total time taken in moving: 0.0025209 seconds
+2025-04-03 12:42:51.849 +05:30 [INF] Application starting up
+2025-04-03 12:42:52.551 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:42:52.552 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:42:52.554 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:42:55.374 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-03 12:42:55.374 +05:30 [ERR] Exception: 42703: column "invoiceid" does not exist
+2025-04-03 12:44:25.978 +05:30 [INF] Application starting up
+2025-04-03 12:44:26.633 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:44:26.633 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:44:26.636 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:44:29.658 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-03 12:44:29.659 +05:30 [ERR] Exception: 42703: column i.accountnumber does not exist
+2025-04-03 12:45:53.292 +05:30 [INF] Application starting up
+2025-04-03 12:45:53.982 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:45:53.986 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:45:53.989 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:45:57.204 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:45:57.205 +05:30 [INF] Process file name :- CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:45:57.205 +05:30 [INF] Total time taken in process: 1.6760662 seconds
+2025-04-03 12:45:57.208 +05:30 [INF] Total time taken in moving: 0.0025218 seconds
+2025-04-03 12:51:35.196 +05:30 [INF] Application starting up
+2025-04-03 12:51:35.977 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:51:35.980 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:51:36.044 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:51:58.565 +05:30 [INF] Application starting up
+2025-04-03 12:51:59.231 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:51:59.231 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:51:59.233 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:52:02.930 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:52:02.930 +05:30 [INF] Process file name :- CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:52:02.931 +05:30 [INF] Total time taken in process: 2.0345688 seconds
+2025-04-03 12:52:02.934 +05:30 [INF] Total time taken in moving: 0.0026046 seconds
+2025-04-03 12:59:45.645 +05:30 [INF] Application starting up
+2025-04-03 12:59:46.362 +05:30 [INF] Main thread ID: 1
+2025-04-03 12:59:46.364 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:59:46.366 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 12:59:49.669 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:59:49.669 +05:30 [INF] Process file name :- CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 12:59:49.670 +05:30 [INF] Total time taken in process: 1.7555145 seconds
+2025-04-03 12:59:49.672 +05:30 [INF] Total time taken in moving: 0.0022208 seconds
+2025-04-03 13:01:50.966 +05:30 [INF] Application starting up
+2025-04-03 13:01:51.846 +05:30 [INF] Main thread ID: 1
+2025-04-03 13:01:51.846 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 13:01:51.848 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 13:02:02.706 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 13:02:02.706 +05:30 [INF] Process file name :- CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 13:02:02.707 +05:30 [INF] Total time taken in process: 7.0336694 seconds
+2025-04-03 13:02:02.709 +05:30 [INF] Total time taken in moving: 0.0022631 seconds
+2025-04-03 14:34:46.070 +05:30 [INF] Application starting up
+2025-04-03 14:34:48.680 +05:30 [INF] Main thread ID: 1
+2025-04-03 14:34:48.681 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 14:34:48.682 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 14:34:50.405 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv'.
+2025-04-03 14:34:50.481 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv'.
+2025-04-03 14:34:50.546 +05:30 [INF] Error processing files for domain PIL: Could not find file 'C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv'.
+2025-04-03 14:34:50.546 +05:30 [INF] The following files were not found and skipped:
+2025-04-03 14:34:50.547 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 14:37:50.058 +05:30 [INF] Application starting up
+2025-04-03 14:37:51.176 +05:30 [INF] Main thread ID: 1
+2025-04-03 14:37:51.176 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 14:37:51.178 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 14:37:54.216 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:37:54.294 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-03 14:37:54.294 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:37:59.494 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:37:59.542 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-04-03 14:37:59.543 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:38:04.722 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:38:04.769 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 3
+2025-04-03 14:38:04.770 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:38:52.899 +05:30 [INF] Application starting up
+2025-04-03 14:38:53.909 +05:30 [INF] Main thread ID: 1
+2025-04-03 14:38:53.909 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 14:38:53.914 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 14:38:57.101 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:38:57.174 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-03 14:38:57.175 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:39:02.373 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:39:02.423 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-04-03 14:39:02.424 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:40:54.626 +05:30 [INF] Application starting up
+2025-04-03 14:40:55.879 +05:30 [INF] Main thread ID: 1
+2025-04-03 14:40:55.880 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 14:40:55.882 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 14:41:00.084 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:41:00.158 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-03 14:41:00.158 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:41:05.317 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:41:05.364 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-04-03 14:41:05.364 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:41:10.556 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:41:10.605 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 3
+2025-04-03 14:41:10.605 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:41:15.799 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:41:15.845 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 4
+2025-04-03 14:41:15.845 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:41:21.029 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:41:21.075 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 5
+2025-04-03 14:41:21.077 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:41:26.235 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:41:26.282 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 6
+2025-04-03 14:41:26.283 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:41:31.489 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:41:31.542 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 7
+2025-04-03 14:41:31.543 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:41:36.724 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:41:36.769 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 8
+2025-04-03 14:41:36.770 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:41:41.953 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:41:41.999 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 9
+2025-04-03 14:41:42.000 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:41:47.187 +05:30 [WRN] Exception In TempInsertStoreProc: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:41:47.232 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 10
+2025-04-03 14:41:47.234 +05:30 [ERR] Exception: 22007: invalid input syntax for type timestamp: "0.00"
+2025-04-03 14:44:04.806 +05:30 [INF] Application starting up
+2025-04-03 14:44:05.620 +05:30 [INF] Main thread ID: 1
+2025-04-03 14:44:05.667 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 14:44:05.673 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 14:44:08.757 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 14:44:08.758 +05:30 [INF] Process file name :- CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 14:44:08.758 +05:30 [INF] Total time taken in process: 1.6541665 seconds
+2025-04-03 14:44:08.761 +05:30 [INF] Total time taken in moving: 0.0025207 seconds
+2025-04-03 15:03:35.704 +05:30 [INF] Application starting up
+2025-04-03 15:03:36.423 +05:30 [INF] Main thread ID: 1
+2025-04-03 15:03:36.423 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 15:03:36.427 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 15:03:41.041 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-03 15:03:41.041 +05:30 [ERR] Exception: 42703: column "reasonforcn" of relation "cntel_temp_invoice2" does not exist
+2025-04-03 15:05:11.007 +05:30 [INF] Application starting up
+2025-04-03 15:05:12.137 +05:30 [INF] Main thread ID: 1
+2025-04-03 15:05:12.137 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 15:05:12.140 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 15:05:17.159 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-03 15:05:17.159 +05:30 [ERR] Exception: 42703: column "reasonforcn" of relation "cntel_temp_invoice2" does not exist
+2025-04-03 15:08:15.969 +05:30 [INF] Application starting up
+2025-04-03 15:08:16.933 +05:30 [INF] Main thread ID: 1
+2025-04-03 15:08:16.933 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 15:08:16.938 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 15:08:22.828 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-03 15:08:22.828 +05:30 [ERR] Exception: 42703: column "accountnumber" of relation "cntel_temp_invoice2" does not exist
+2025-04-03 15:09:43.993 +05:30 [INF] Application starting up
+2025-04-03 15:09:44.267 +05:30 [INF] Main thread ID: 1
+2025-04-03 15:09:44.268 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 15:09:44.269 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-03 15:09:50.490 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 15:09:50.490 +05:30 [INF] Process file name :- CNTEL_02_v1_20250207_TelisCNT10.csv
+2025-04-03 15:09:50.491 +05:30 [INF] Total time taken in process: 5.161479 seconds
+2025-04-03 15:09:50.493 +05:30 [INF] Total time taken in moving: 0.0019182 seconds
+2025-04-03 15:53:09.183 +05:30 [INF] Application starting up
+2025-04-03 15:53:10.102 +05:30 [INF] Main thread ID: 1
+2025-04-03 15:53:10.102 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\CNSUN_02_v1_20250207_SUNCNT10.csv
+2025-04-03 15:53:10.105 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNSUN
+2025-04-03 15:53:13.112 +05:30 [WRN] Exception In TempInsertStoreProc: 22023: cannot call json_array_elements on a scalar
+2025-04-03 15:53:13.190 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-03 15:53:13.190 +05:30 [ERR] Exception: 22023: cannot call json_array_elements on a scalar
+2025-04-03 15:56:09.477 +05:30 [INF] Application starting up
+2025-04-03 15:56:10.378 +05:30 [INF] Main thread ID: 1
+2025-04-03 15:56:10.378 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\CNSUN_02_v1_20250207_SUNCNT10.csv
+2025-04-03 15:56:10.381 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNSUN
+2025-04-03 15:56:13.642 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\CNSUN_02_v1_20250207_SUNCNT10.csv
+2025-04-03 15:56:13.642 +05:30 [INF] Process file name :- CNSUN_02_v1_20250207_SUNCNT10.csv
+2025-04-03 15:56:13.642 +05:30 [INF] Total time taken in process: 1.8502821 seconds
+2025-04-03 15:56:13.645 +05:30 [INF] Total time taken in moving: 0.0021356 seconds
+2025-04-03 16:00:17.745 +05:30 [INF] Application starting up
+2025-04-03 16:00:18.807 +05:30 [INF] Main thread ID: 1
+2025-04-03 16:00:18.808 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\CNSUN_02_v1_20250207_SUNCNT10.csv
+2025-04-03 16:00:18.810 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNSUN
+2025-04-03 16:01:32.912 +05:30 [INF] Application starting up
+2025-04-03 16:01:33.733 +05:30 [INF] Main thread ID: 1
+2025-04-03 16:01:33.733 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\CNSUN_02_v1_20250207_SUNCNT10.csv
+2025-04-03 16:01:33.735 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNSUN
+2025-04-03 16:01:46.051 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\CNSUN_02_v1_20250207_SUNCNT10.csv
+2025-04-03 16:01:46.051 +05:30 [INF] Process file name :- CNSUN_02_v1_20250207_SUNCNT10.csv
+2025-04-03 16:01:46.052 +05:30 [INF] Total time taken in process: 10.7707095 seconds
+2025-04-03 16:01:46.054 +05:30 [INF] Total time taken in moving: 0.0023954 seconds
+2025-04-03 16:09:37.336 +05:30 [INF] Application starting up
+2025-04-03 16:09:38.358 +05:30 [INF] Main thread ID: 1
+2025-04-03 16:09:38.358 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\CNSUN_02_v1_20250207_SUNCNT10.csv
+2025-04-03 16:09:38.361 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNSUN
+2025-04-03 16:09:45.433 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\CNSUN_02_v1_20250207_SUNCNT10.csv
+2025-04-03 16:09:45.433 +05:30 [INF] Process file name :- CNSUN_02_v1_20250207_SUNCNT10.csv
+2025-04-03 16:09:45.434 +05:30 [INF] Total time taken in process: 5.4302656 seconds
+2025-04-03 16:09:45.437 +05:30 [INF] Total time taken in moving: 0.0026416 seconds

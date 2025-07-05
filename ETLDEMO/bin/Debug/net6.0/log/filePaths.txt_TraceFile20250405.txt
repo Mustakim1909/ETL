@@ -1,0 +1,130 @@
+2025-04-05 11:22:47.169 +05:30 [INF] Application starting up
+2025-04-05 11:22:50.919 +05:30 [INF] Main thread ID: 1
+2025-04-05 11:22:50.920 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test1001.csv
+2025-04-05 11:22:50.922 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-05 11:23:37.128 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-05 11:23:37.128 +05:30 [ERR] Exception: 42883: procedure sbinsun_split_and_store_sbinvoice(p_invoice_number => text, p_totalamount => text, p_totallineitems => text, p_splitcount => text) does not exist
+
+POSITION: 6
+2025-04-05 11:34:03.737 +05:30 [INF] Application starting up
+2025-04-05 11:34:05.093 +05:30 [INF] Main thread ID: 1
+2025-04-05 11:34:05.093 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test1001.csv
+2025-04-05 11:34:05.095 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-05 11:34:21.168 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test1001.csv
+2025-04-05 11:34:21.168 +05:30 [INF] Process file name :- SBINSUN_11_v2_20250207_Test1001.csv
+2025-04-05 11:34:21.169 +05:30 [INF] Total time taken in process: 14.7309478 seconds
+2025-04-05 11:34:21.172 +05:30 [INF] Total time taken in moving: 0.00253 seconds
+2025-04-05 11:40:36.557 +05:30 [INF] Application starting up
+2025-04-05 11:40:36.833 +05:30 [INF] Main thread ID: 1
+2025-04-05 11:40:36.833 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test1001.csv
+2025-04-05 11:40:36.835 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-05 11:40:41.250 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test1001.csv
+2025-04-05 11:40:41.250 +05:30 [INF] Process file name :- SBINSUN_11_v2_20250207_Test1001.csv
+2025-04-05 11:40:41.250 +05:30 [INF] Total time taken in process: 2.9013473 seconds
+2025-04-05 11:40:41.252 +05:30 [INF] Total time taken in moving: 0.0017735 seconds
+2025-04-05 11:45:53.916 +05:30 [INF] Application starting up
+2025-04-05 11:45:54.877 +05:30 [INF] Main thread ID: 1
+2025-04-05 11:45:54.877 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test1001.csv
+2025-04-05 11:45:54.879 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-05 11:47:19.045 +05:30 [INF] Application starting up
+2025-04-05 11:47:20.437 +05:30 [INF] Main thread ID: 1
+2025-04-05 11:47:20.437 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test1001.csv
+2025-04-05 11:47:20.441 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-05 11:47:40.147 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test1001.csv
+2025-04-05 11:47:40.147 +05:30 [INF] Process file name :- SBINSUN_11_v2_20250207_Test1001.csv
+2025-04-05 11:47:40.148 +05:30 [INF] Total time taken in process: 17.999508 seconds
+2025-04-05 11:47:40.150 +05:30 [INF] Total time taken in moving: 0.0023065 seconds
+2025-04-05 12:00:28.938 +05:30 [INF] Application starting up
+2025-04-05 12:00:29.894 +05:30 [INF] Main thread ID: 1
+2025-04-05 12:00:29.894 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 12:00:29.897 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-05 12:00:41.910 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-05 12:00:41.910 +05:30 [ERR] Exception: 22001: value too long for type character varying(50)
+2025-04-05 12:00:53.673 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-04-05 12:00:53.673 +05:30 [ERR] Exception: 22001: value too long for type character varying(50)
+2025-04-05 12:06:56.914 +05:30 [INF] Application starting up
+2025-04-05 12:06:57.819 +05:30 [INF] Main thread ID: 1
+2025-04-05 12:06:57.819 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 12:06:57.822 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-05 12:07:53.562 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-05 12:07:53.563 +05:30 [ERR] Exception: 22001: value too long for type character varying(50)
+2025-04-05 12:08:17.585 +05:30 [INF] Application starting up
+2025-04-05 12:08:18.608 +05:30 [INF] Main thread ID: 1
+2025-04-05 12:08:18.608 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 12:08:18.610 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-05 12:08:26.542 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-05 12:08:26.542 +05:30 [ERR] Exception: 22001: value too long for type character varying(50)
+2025-04-05 14:53:38.387 +05:30 [INF] Application starting up
+2025-04-05 14:53:39.450 +05:30 [INF] Main thread ID: 1
+2025-04-05 14:53:39.450 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 14:53:39.453 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-05 14:53:48.153 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 14:53:48.153 +05:30 [INF] Process file name :- SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 14:53:48.154 +05:30 [INF] Total time taken in process: 7.0031382 seconds
+2025-04-05 14:53:48.158 +05:30 [INF] Total time taken in moving: 0.004525 seconds
+2025-04-05 15:11:43.318 +05:30 [INF] Application starting up
+2025-04-05 15:11:44.375 +05:30 [INF] Main thread ID: 1
+2025-04-05 15:11:44.375 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 15:11:44.378 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-05 15:27:59.419 +05:30 [INF] Application starting up
+2025-04-05 15:28:00.877 +05:30 [INF] Main thread ID: 1
+2025-04-05 15:28:00.886 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 15:28:00.889 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-05 15:28:10.140 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 15:28:10.140 +05:30 [INF] Process file name :- SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 15:28:10.140 +05:30 [INF] Total time taken in process: 7.5530544 seconds
+2025-04-05 15:28:10.143 +05:30 [INF] Total time taken in moving: 0.0022521 seconds
+2025-04-05 15:34:14.877 +05:30 [INF] Application starting up
+2025-04-05 15:34:15.550 +05:30 [INF] Main thread ID: 1
+2025-04-05 15:34:15.550 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 15:34:15.552 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-05 15:34:25.734 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 15:34:25.734 +05:30 [INF] Process file name :- SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 15:34:25.734 +05:30 [INF] Total time taken in process: 8.2485257 seconds
+2025-04-05 15:34:25.737 +05:30 [INF] Total time taken in moving: 0.0021782 seconds
+2025-04-05 15:37:10.229 +05:30 [INF] Application starting up
+2025-04-05 15:37:11.500 +05:30 [INF] Main thread ID: 1
+2025-04-05 15:37:11.500 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 15:37:11.503 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-05 15:37:50.514 +05:30 [INF] Application starting up
+2025-04-05 15:37:51.518 +05:30 [INF] Main thread ID: 1
+2025-04-05 15:37:51.519 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 15:37:51.534 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-05 15:38:23.701 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 15:38:23.701 +05:30 [INF] Process file name :- SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 15:38:23.701 +05:30 [INF] Total time taken in process: 30.1001768 seconds
+2025-04-05 15:38:23.704 +05:30 [INF] Total time taken in moving: 0.0023839 seconds
+2025-04-05 15:57:13.740 +05:30 [INF] Application starting up
+2025-04-05 15:57:14.085 +05:30 [INF] Main thread ID: 1
+2025-04-05 15:57:14.086 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 15:57:14.088 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-05 15:57:20.927 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-05 15:57:20.927 +05:30 [ERR] Exception: 42703: record "rec" has no field "cbcbsstregistrationnumber"
+2025-04-05 15:57:28.709 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-04-05 15:57:28.709 +05:30 [ERR] Exception: 42703: record "rec" has no field "cbcbsstregistrationnumber"
+2025-04-05 15:57:36.562 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 3
+2025-04-05 15:57:36.563 +05:30 [ERR] Exception: 42703: record "rec" has no field "cbcbsstregistrationnumber"
+2025-04-05 16:01:36.580 +05:30 [INF] Application starting up
+2025-04-05 16:01:36.855 +05:30 [INF] Main thread ID: 1
+2025-04-05 16:01:36.855 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 16:01:36.857 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-05 16:01:46.896 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-05 16:01:46.897 +05:30 [ERR] Exception: 42703: record "rec" has no field "buyercontactperson"
+2025-04-05 16:02:36.420 +05:30 [INF] Application starting up
+2025-04-05 16:02:36.956 +05:30 [INF] Main thread ID: 1
+2025-04-05 16:02:36.963 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 16:02:36.971 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-05 16:02:45.569 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-05 16:02:45.569 +05:30 [ERR] Exception: 42703: record "rec" has no field "buyerfaxno"
+2025-04-05 16:03:06.779 +05:30 [INF] Application starting up
+2025-04-05 16:03:07.047 +05:30 [INF] Main thread ID: 1
+2025-04-05 16:03:07.047 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 16:03:07.048 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-05 16:03:17.554 +05:30 [INF] Application starting up
+2025-04-05 16:03:17.837 +05:30 [INF] Main thread ID: 1
+2025-04-05 16:03:17.837 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 16:03:17.839 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-05 16:03:27.142 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 16:03:27.142 +05:30 [INF] Process file name :- SBINSUN_11_v2_20250207_Test2005.csv
+2025-04-05 16:03:27.142 +05:30 [INF] Total time taken in process: 8.1596921 seconds
+2025-04-05 16:03:27.144 +05:30 [INF] Total time taken in moving: 0.0017 seconds

@@ -1,0 +1,40 @@
+2025-06-09 10:48:06.872 +05:30 [INF] Application starting up
+2025-06-09 10:48:08.610 +05:30 [INF] Main thread ID: 1
+2025-06-09 10:48:08.611 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-09 10:48:08.617 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-09 10:48:15.723 +05:30 [INF] Application starting up
+2025-06-09 10:48:16.040 +05:30 [INF] Main thread ID: 1
+2025-06-09 10:48:16.040 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-09 10:48:16.042 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-09 10:48:31.116 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-09 10:48:31.116 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-09 10:48:31.117 +05:30 [INF] Total time taken in process: 7.2093324 seconds
+2025-06-09 10:48:31.119 +05:30 [INF] Total time taken in moving: 0.0022479 seconds
+2025-06-09 12:07:11.986 +05:30 [INF] Application starting up
+2025-06-09 12:07:13.709 +05:30 [INF] Main thread ID: 1
+2025-06-09 12:07:13.710 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-09 12:07:13.712 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-09 12:08:24.331 +05:30 [INF] Application starting up
+2025-06-09 12:08:25.881 +05:30 [INF] Main thread ID: 1
+2025-06-09 12:08:25.881 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-09 12:08:25.885 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-09 12:10:15.502 +05:30 [INF] Application starting up
+2025-06-09 12:10:17.206 +05:30 [INF] Main thread ID: 1
+2025-06-09 12:10:17.207 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-09 12:10:17.209 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-09 12:12:40.958 +05:30 [INF] Application starting up
+2025-06-09 12:12:41.583 +05:30 [INF] Main thread ID: 1
+2025-06-09 12:12:41.583 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-09 12:12:41.585 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-09 12:14:57.629 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-09 12:14:57.629 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-09 12:14:57.630 +05:30 [INF] Total time taken in process: 134.6827657 seconds
+2025-06-09 12:14:57.633 +05:30 [INF] Total time taken in moving: 0.002749 seconds
+2025-06-09 12:33:04.791 +05:30 [INF] Application starting up
+2025-06-09 12:33:05.099 +05:30 [INF] Main thread ID: 1
+2025-06-09 12:33:05.099 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-09 12:33:05.101 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-09 12:33:18.766 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-09 12:33:18.766 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-09 12:33:18.766 +05:30 [INF] Total time taken in process: 2.2010803 seconds
+2025-06-09 12:33:18.768 +05:30 [INF] Total time taken in moving: 0.0020679 seconds

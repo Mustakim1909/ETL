@@ -1,0 +1,277 @@
+2025-04-02 11:09:25.580 +05:30 [INF] Application starting up
+2025-04-02 11:09:25.883 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:09:25.883 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:09:25.885 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:09:28.422 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 11:09:28.422 +05:30 [ERR] Exception: 42804: column "lineid" is of type integer but expression is of type text
+2025-04-02 11:11:34.488 +05:30 [INF] Application starting up
+2025-04-02 11:11:34.758 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:11:34.760 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:11:34.761 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:11:37.168 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:11:37.168 +05:30 [INF] Process file name :- INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:11:37.168 +05:30 [INF] Total time taken in process: 1.4552374 seconds
+2025-04-02 11:11:37.170 +05:30 [INF] Total time taken in moving: 0.0021933 seconds
+2025-04-02 11:12:49.357 +05:30 [INF] Application starting up
+2025-04-02 11:12:50.049 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:12:50.049 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:12:50.052 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:16:49.194 +05:30 [INF] Application starting up
+2025-04-02 11:16:50.339 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:16:50.340 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:16:50.342 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:16:56.547 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "line_items" does not exist
+2025-04-02 11:16:56.618 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 11:16:56.619 +05:30 [ERR] Exception: 42703: column "line_items" does not exist
+2025-04-02 11:17:21.254 +05:30 [INF] Application starting up
+2025-04-02 11:17:21.524 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:17:21.524 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:17:21.526 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:17:23.998 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "line_items" does not exist
+2025-04-02 11:17:23.998 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 11:17:23.998 +05:30 [ERR] Exception: 42703: column "line_items" does not exist
+2025-04-02 11:17:39.067 +05:30 [INF] Application starting up
+2025-04-02 11:17:39.337 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:17:39.338 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:17:39.339 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:17:41.693 +05:30 [WRN] Exception In TempInsertStoreProc: 21000: query returned more than one row
+2025-04-02 11:17:41.694 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 11:17:41.694 +05:30 [ERR] Exception: 21000: query returned more than one row
+2025-04-02 11:17:54.239 +05:30 [INF] Application starting up
+2025-04-02 11:17:54.519 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:17:54.519 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:17:54.521 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:17:56.916 +05:30 [WRN] Exception In TempInsertStoreProc: P0001: hhh<NULL>
+2025-04-02 11:17:56.917 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 11:17:56.917 +05:30 [ERR] Exception: P0001: hhh<NULL>
+2025-04-02 11:18:15.417 +05:30 [INF] Application starting up
+2025-04-02 11:18:15.700 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:18:15.701 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:18:15.702 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:18:18.382 +05:30 [WRN] Exception In TempInsertStoreProc: P0001: hhh<NULL>
+2025-04-02 11:18:18.382 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 11:18:18.382 +05:30 [ERR] Exception: P0001: hhh<NULL>
+2025-04-02 11:18:30.419 +05:30 [INF] Application starting up
+2025-04-02 11:18:30.697 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:18:30.697 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:18:30.699 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:18:33.097 +05:30 [WRN] Exception In TempInsertStoreProc: P0001: hhh<NULL>
+2025-04-02 11:18:33.097 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 11:18:33.098 +05:30 [ERR] Exception: P0001: hhh<NULL>
+2025-04-02 11:18:42.679 +05:30 [INF] Application starting up
+2025-04-02 11:18:42.987 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:18:42.988 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:18:42.990 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:18:45.408 +05:30 [WRN] Exception In TempInsertStoreProc: P0001: hhh<NULL>
+2025-04-02 11:18:45.409 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 11:18:45.409 +05:30 [ERR] Exception: P0001: hhh<NULL>
+2025-04-02 11:19:13.625 +05:30 [INF] Application starting up
+2025-04-02 11:19:13.913 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:19:13.913 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:19:13.915 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:19:17.159 +05:30 [INF] Application starting up
+2025-04-02 11:19:18.130 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:19:18.130 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:19:18.133 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:20:38.871 +05:30 [INF] Application starting up
+2025-04-02 11:20:39.913 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:20:39.913 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:20:39.915 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:20:44.305 +05:30 [WRN] Exception In TempInsertStoreProc: 42804: column "lineid" is of type integer but expression is of type text
+2025-04-02 11:20:44.376 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 11:20:44.377 +05:30 [ERR] Exception: 42804: column "lineid" is of type integer but expression is of type text
+2025-04-02 11:21:23.130 +05:30 [INF] Application starting up
+2025-04-02 11:21:24.072 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:21:24.079 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:21:24.091 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:21:27.481 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:21:27.481 +05:30 [INF] Process file name :- INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:21:27.482 +05:30 [INF] Total time taken in process: 1.7339094 seconds
+2025-04-02 11:21:27.485 +05:30 [INF] Total time taken in moving: 0.002797 seconds
+2025-04-02 11:25:02.724 +05:30 [INF] Application starting up
+2025-04-02 11:25:02.987 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:25:02.987 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:25:02.989 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:25:06.242 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:25:06.242 +05:30 [INF] Process file name :- INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:25:06.243 +05:30 [INF] Total time taken in process: 2.1115538 seconds
+2025-04-02 11:25:06.245 +05:30 [INF] Total time taken in moving: 0.0020819 seconds
+2025-04-02 11:28:09.355 +05:30 [INF] Application starting up
+2025-04-02 11:28:09.619 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:28:09.619 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:28:09.621 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:28:12.346 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 11:28:12.347 +05:30 [ERR] Exception: 0A000: WITH query "inserted_line_items" does not have a RETURNING clause
+2025-04-02 11:28:35.102 +05:30 [INF] Application starting up
+2025-04-02 11:28:35.998 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:28:35.998 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:28:36.001 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:28:39.235 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:28:39.235 +05:30 [INF] Process file name :- INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 11:28:39.236 +05:30 [INF] Total time taken in process: 1.7029781 seconds
+2025-04-02 11:28:39.238 +05:30 [INF] Total time taken in moving: 0.0025135 seconds
+2025-04-02 11:33:41.221 +05:30 [INF] Application starting up
+2025-04-02 11:33:42.236 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:33:42.237 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 11:33:42.243 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:33:50.439 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 11:33:50.439 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 11:33:50.440 +05:30 [INF] Total time taken in process: 6.6443275 seconds
+2025-04-02 11:33:50.445 +05:30 [INF] Total time taken in moving: 0.0051154 seconds
+2025-04-02 11:37:18.199 +05:30 [INF] Application starting up
+2025-04-02 11:37:18.862 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:37:18.862 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 11:37:18.865 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:37:27.175 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 11:37:27.175 +05:30 [ERR] Exception: 0A000: WITH query "inserted_line_items" does not have a RETURNING clause
+2025-04-02 11:38:07.084 +05:30 [INF] Application starting up
+2025-04-02 11:38:07.354 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:38:07.354 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 11:38:07.356 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:38:15.117 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 11:38:15.118 +05:30 [ERR] Exception: 42702: column reference "invoiceid" is ambiguous
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+2025-04-02 11:38:50.986 +05:30 [INF] Application starting up
+2025-04-02 11:38:51.250 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:38:51.250 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 11:38:51.252 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:38:58.780 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 11:38:58.780 +05:30 [ERR] Exception: 42P01: relation "distinct_invoices" does not exist
+2025-04-02 11:40:30.614 +05:30 [INF] Application starting up
+2025-04-02 11:40:30.880 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:40:30.880 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 11:40:30.882 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:40:39.103 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 11:40:39.103 +05:30 [ERR] Exception: 42P01: relation "distinct_invoices" does not exist
+2025-04-02 11:46:18.422 +05:30 [INF] Application starting up
+2025-04-02 11:46:18.691 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:46:18.691 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 11:46:18.693 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:46:27.362 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 11:46:27.362 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 11:46:27.363 +05:30 [INF] Total time taken in process: 6.9834839 seconds
+2025-04-02 11:46:27.365 +05:30 [INF] Total time taken in moving: 0.0020517 seconds
+2025-04-02 11:49:32.403 +05:30 [INF] Application starting up
+2025-04-02 11:49:33.436 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:49:33.438 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 11:49:33.442 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:49:42.289 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 11:49:42.290 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 11:49:42.290 +05:30 [INF] Total time taken in process: 7.3438664 seconds
+2025-04-02 11:49:42.293 +05:30 [INF] Total time taken in moving: 0.0025723 seconds
+2025-04-02 11:51:15.267 +05:30 [INF] Application starting up
+2025-04-02 11:51:16.316 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:51:16.333 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 11:51:16.341 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:51:26.069 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 11:51:26.069 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 11:51:26.070 +05:30 [INF] Total time taken in process: 8.0631044 seconds
+2025-04-02 11:51:26.073 +05:30 [INF] Total time taken in moving: 0.0025694 seconds
+2025-04-02 11:53:59.399 +05:30 [INF] Application starting up
+2025-04-02 11:54:00.767 +05:30 [INF] Main thread ID: 1
+2025-04-02 11:54:00.771 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 11:54:00.773 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 11:54:10.152 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 11:54:10.152 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 11:54:10.152 +05:30 [INF] Total time taken in process: 7.6577049 seconds
+2025-04-02 11:54:10.155 +05:30 [INF] Total time taken in moving: 0.0025321 seconds
+2025-04-02 12:02:06.293 +05:30 [INF] Application starting up
+2025-04-02 12:02:07.265 +05:30 [INF] Main thread ID: 1
+2025-04-02 12:02:07.265 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 12:02:07.267 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 12:02:14.450 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 12:02:14.450 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 12:02:14.450 +05:30 [INF] Total time taken in process: 5.8018085 seconds
+2025-04-02 12:02:14.453 +05:30 [INF] Total time taken in moving: 0.0024659 seconds
+2025-04-02 12:06:02.817 +05:30 [INF] Application starting up
+2025-04-02 12:06:03.889 +05:30 [INF] Main thread ID: 1
+2025-04-02 12:06:03.890 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 12:06:03.893 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 12:09:45.414 +05:30 [INF] Application starting up
+2025-04-02 12:09:46.287 +05:30 [INF] Main thread ID: 1
+2025-04-02 12:09:46.287 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 12:09:46.289 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 12:09:55.467 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 12:09:55.467 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 12:09:55.467 +05:30 [INF] Total time taken in process: 7.6813244 seconds
+2025-04-02 12:09:55.470 +05:30 [INF] Total time taken in moving: 0.0025179 seconds
+2025-04-02 12:11:34.972 +05:30 [INF] Application starting up
+2025-04-02 12:11:36.228 +05:30 [INF] Main thread ID: 1
+2025-04-02 12:11:36.228 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 12:11:36.231 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 12:11:46.205 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 12:11:46.205 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 12:11:46.206 +05:30 [INF] Total time taken in process: 8.1889578 seconds
+2025-04-02 12:11:46.209 +05:30 [INF] Total time taken in moving: 0.0026687 seconds
+2025-04-02 12:29:47.495 +05:30 [INF] Application starting up
+2025-04-02 12:29:48.463 +05:30 [INF] Main thread ID: 1
+2025-04-02 12:29:48.464 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:29:48.466 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 12:30:32.474 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "accountno" of relation "intel_temp_invoice1" does not exist
+2025-04-02 12:30:32.547 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 12:30:32.548 +05:30 [ERR] Exception: 42703: column "accountno" of relation "intel_temp_invoice1" does not exist
+2025-04-02 12:31:39.726 +05:30 [INF] Application starting up
+2025-04-02 12:31:40.612 +05:30 [INF] Main thread ID: 1
+2025-04-02 12:31:40.612 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:31:40.614 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 12:31:46.222 +05:30 [WRN] Exception In TempInsertStoreProc: 42703: column "accountno" of relation "insun_temp_invoice1" does not exist
+2025-04-02 12:31:46.297 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 12:31:46.297 +05:30 [ERR] Exception: 42703: column "accountno" of relation "insun_temp_invoice1" does not exist
+2025-04-02 12:32:38.655 +05:30 [INF] Application starting up
+2025-04-02 12:32:38.941 +05:30 [INF] Main thread ID: 1
+2025-04-02 12:32:38.941 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:32:38.943 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 12:32:42.890 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:32:42.890 +05:30 [INF] Process file name :- INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:32:42.891 +05:30 [INF] Total time taken in process: 2.8746306 seconds
+2025-04-02 12:32:42.893 +05:30 [INF] Total time taken in moving: 0.0020266 seconds
+2025-04-02 12:34:48.304 +05:30 [INF] Application starting up
+2025-04-02 12:34:49.256 +05:30 [INF] Main thread ID: 1
+2025-04-02 12:34:49.265 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:34:49.270 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 12:34:54.977 +05:30 [WRN] Exception In TempInsertStoreProc: P0001: pdf {"ItemCode":"531211","TaxCode":"NST"}
+2025-04-02 12:34:55.052 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 12:34:55.053 +05:30 [ERR] Exception: P0001: pdf {"ItemCode":"531211","TaxCode":"NST"}
+2025-04-02 12:35:00.350 +05:30 [WRN] Exception In TempInsertStoreProc: P0001: pdf {"ItemCode":"531211","TaxCode":"NST"}
+2025-04-02 12:35:00.397 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-04-02 12:35:00.397 +05:30 [ERR] Exception: P0001: pdf {"ItemCode":"531211","TaxCode":"NST"}
+2025-04-02 12:35:48.015 +05:30 [INF] Application starting up
+2025-04-02 12:35:48.931 +05:30 [INF] Main thread ID: 1
+2025-04-02 12:35:48.932 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:35:48.934 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 12:35:52.270 +05:30 [WRN] Exception In TempInsertStoreProc: P0001: pdf {"ItemCode":"531211","TaxCode":"NST"}
+2025-04-02 12:35:52.348 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 12:35:52.349 +05:30 [ERR] Exception: P0001: pdf {"ItemCode":"531211","TaxCode":"NST"}
+2025-04-02 12:36:31.312 +05:30 [INF] Application starting up
+2025-04-02 12:36:32.254 +05:30 [INF] Main thread ID: 1
+2025-04-02 12:36:32.254 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:36:32.256 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 12:36:35.392 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:36:35.392 +05:30 [INF] Process file name :- INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:36:35.393 +05:30 [INF] Total time taken in process: 1.7047115 seconds
+2025-04-02 12:36:35.395 +05:30 [INF] Total time taken in moving: 0.0025517 seconds
+2025-04-02 12:38:43.435 +05:30 [INF] Application starting up
+2025-04-02 12:38:45.195 +05:30 [INF] Main thread ID: 1
+2025-04-02 12:38:45.195 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:38:45.197 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 12:38:48.969 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:38:48.969 +05:30 [INF] Process file name :- INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:38:48.970 +05:30 [INF] Total time taken in process: 2.0956348 seconds
+2025-04-02 12:38:48.972 +05:30 [INF] Total time taken in moving: 0.002486 seconds
+2025-04-02 12:53:37.756 +05:30 [INF] Application starting up
+2025-04-02 12:53:38.800 +05:30 [INF] Main thread ID: 1
+2025-04-02 12:53:38.800 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:53:38.804 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 12:53:42.193 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 12:53:42.193 +05:30 [ERR] Exception: 42702: column reference "invoiceid" is ambiguous
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+2025-04-02 12:54:25.361 +05:30 [INF] Application starting up
+2025-04-02 12:54:25.633 +05:30 [INF] Main thread ID: 1
+2025-04-02 12:54:25.633 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:54:25.635 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 12:54:28.747 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:54:28.747 +05:30 [INF] Process file name :- INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:54:28.747 +05:30 [INF] Total time taken in process: 1.94883 seconds
+2025-04-02 12:54:28.750 +05:30 [INF] Total time taken in moving: 0.0019929 seconds

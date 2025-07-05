@@ -1,0 +1,260 @@
+2025-07-03 18:03:07.608 +05:30 [INF] Application starting up
+2025-07-03 18:03:07.791 +05:30 [INF] Main thread ID: 1
+2025-07-03 18:03:07.792 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:03:07.793 +05:30 [INF] Processing files for domain: DemoDB, invoiceType: Advintek
+2025-07-03 18:03:09.783 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-07-03 18:03:09.783 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:03:15.019 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-07-03 18:03:15.019 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:03:20.213 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 3
+2025-07-03 18:03:20.213 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:03:25.418 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 4
+2025-07-03 18:03:25.418 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:03:30.640 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 5
+2025-07-03 18:03:30.640 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:03:36.140 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 6
+2025-07-03 18:03:36.140 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:03:41.378 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 7
+2025-07-03 18:03:41.378 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:03:46.649 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 8
+2025-07-03 18:03:46.649 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:03:51.861 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 9
+2025-07-03 18:03:51.861 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:03:57.128 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 10
+2025-07-03 18:03:57.128 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:04:02.513 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 11
+2025-07-03 18:04:02.513 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:04:07.789 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 12
+2025-07-03 18:04:07.789 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:04:13.095 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 13
+2025-07-03 18:04:13.095 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:04:18.290 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 14
+2025-07-03 18:04:18.290 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:04:23.524 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 15
+2025-07-03 18:04:23.524 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:04:28.731 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 16
+2025-07-03 18:04:28.731 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:04:33.940 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 17
+2025-07-03 18:04:33.940 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:04:39.152 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 18
+2025-07-03 18:04:39.152 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:04:44.342 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 19
+2025-07-03 18:04:44.342 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:04:49.560 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 20
+2025-07-03 18:04:49.560 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:04:54.861 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 21
+2025-07-03 18:04:54.861 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:05:00.140 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 22
+2025-07-03 18:05:00.140 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:05:05.474 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 23
+2025-07-03 18:05:05.474 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:05:10.814 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 24
+2025-07-03 18:05:10.814 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:05:16.123 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 25
+2025-07-03 18:05:16.123 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:05:21.461 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 26
+2025-07-03 18:05:21.461 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:05:26.745 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 27
+2025-07-03 18:05:26.745 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:05:31.959 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 28
+2025-07-03 18:05:31.959 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:05:37.681 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 29
+2025-07-03 18:05:37.681 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:05:43.092 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 30
+2025-07-03 18:05:43.092 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:05:48.397 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 31
+2025-07-03 18:05:48.397 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:05:54.374 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 32
+2025-07-03 18:05:54.374 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:05:59.606 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 33
+2025-07-03 18:05:59.606 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:06:04.825 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 34
+2025-07-03 18:06:04.825 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:06:10.430 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 35
+2025-07-03 18:06:10.430 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:06:15.724 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 36
+2025-07-03 18:06:15.724 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:06:20.997 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 37
+2025-07-03 18:06:20.997 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:06:26.237 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 38
+2025-07-03 18:06:26.237 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:06:31.621 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 39
+2025-07-03 18:06:31.621 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:06:36.890 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 40
+2025-07-03 18:06:36.890 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:06:42.179 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 41
+2025-07-03 18:06:42.179 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:06:47.447 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 42
+2025-07-03 18:06:47.447 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:06:53.240 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 43
+2025-07-03 18:06:53.240 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:06:58.521 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 44
+2025-07-03 18:06:58.521 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:07:03.781 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 45
+2025-07-03 18:07:03.781 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:07:09.066 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 46
+2025-07-03 18:07:09.066 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:07:14.271 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 47
+2025-07-03 18:07:14.271 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:07:19.479 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 48
+2025-07-03 18:07:19.479 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:07:25.176 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 49
+2025-07-03 18:07:25.176 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:07:30.472 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 50
+2025-07-03 18:07:30.472 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:07:35.772 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 51
+2025-07-03 18:07:35.772 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:07:41.076 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 52
+2025-07-03 18:07:41.076 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:07:46.370 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 53
+2025-07-03 18:07:46.370 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:07:51.669 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 54
+2025-07-03 18:07:51.669 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:07:56.944 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 55
+2025-07-03 18:07:56.944 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:08:02.234 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 56
+2025-07-03 18:08:02.234 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:08:07.538 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 57
+2025-07-03 18:08:07.538 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:08:13.230 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 58
+2025-07-03 18:08:13.230 +05:30 [ERR] Exception: 42703: column di.originalinvoiceirbmuniqueno does not exist
+2025-07-03 18:08:18.613 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 59
+2025-07-03 18:08:18.613 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:08:23.852 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 60
+2025-07-03 18:08:23.852 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:08:29.065 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 61
+2025-07-03 18:08:29.065 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:08:34.364 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 62
+2025-07-03 18:08:34.364 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:08:39.569 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 63
+2025-07-03 18:08:39.569 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:08:45.272 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 64
+2025-07-03 18:08:45.272 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:08:50.482 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 65
+2025-07-03 18:08:50.482 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:08:55.683 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 66
+2025-07-03 18:08:55.684 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:09:00.898 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 67
+2025-07-03 18:09:00.898 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:09:06.132 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 68
+2025-07-03 18:09:06.132 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:09:11.511 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 69
+2025-07-03 18:09:11.511 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:09:17.232 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 70
+2025-07-03 18:09:17.232 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:09:22.997 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 71
+2025-07-03 18:09:22.997 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:09:28.792 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 72
+2025-07-03 18:09:28.792 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:09:34.072 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 73
+2025-07-03 18:09:34.073 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:09:39.390 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 74
+2025-07-03 18:09:39.390 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:09:44.672 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 75
+2025-07-03 18:09:44.672 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:09:50.356 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 76
+2025-07-03 18:09:50.357 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:09:57.051 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 77
+2025-07-03 18:09:57.052 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:10:02.345 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 78
+2025-07-03 18:10:02.346 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:10:07.619 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 79
+2025-07-03 18:10:07.619 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:10:12.921 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 80
+2025-07-03 18:10:12.922 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:10:18.237 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 81
+2025-07-03 18:10:18.237 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:10:23.520 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 82
+2025-07-03 18:10:23.521 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:10:29.283 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 83
+2025-07-03 18:10:29.283 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:10:34.696 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 84
+2025-07-03 18:10:34.696 +05:30 [ERR] Exception: 42P01: relation "pdf_telis_cn" does not exist
+2025-07-03 18:10:40.027 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 85
+2025-07-03 18:10:40.027 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:10:45.347 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 86
+2025-07-03 18:10:45.347 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:10:50.683 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 87
+2025-07-03 18:10:50.683 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:10:55.984 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 88
+2025-07-03 18:10:55.984 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:11:01.311 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 89
+2025-07-03 18:11:01.312 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:11:06.608 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 90
+2025-07-03 18:11:06.608 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:11:11.910 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 91
+2025-07-03 18:11:11.910 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:11:17.188 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 92
+2025-07-03 18:11:17.188 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:11:22.492 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 93
+2025-07-03 18:11:22.492 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:11:28.095 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 94
+2025-07-03 18:11:28.095 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:11:33.474 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 95
+2025-07-03 18:11:33.474 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:11:38.849 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 96
+2025-07-03 18:11:38.849 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:11:44.240 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 97
+2025-07-03 18:11:44.240 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:11:49.620 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 98
+2025-07-03 18:11:49.620 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:11:55.000 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 99
+2025-07-03 18:11:55.000 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:12:00.514 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 100
+2025-07-03 18:12:00.515 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:12:05.960 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 101
+2025-07-03 18:12:05.960 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:12:11.339 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 102
+2025-07-03 18:12:11.339 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:12:16.625 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 103
+2025-07-03 18:12:16.625 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:12:21.927 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 104
+2025-07-03 18:12:21.927 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:12:27.232 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 105
+2025-07-03 18:12:27.232 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:12:32.506 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 106
+2025-07-03 18:12:32.507 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:12:37.797 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 107
+2025-07-03 18:12:37.797 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:12:43.661 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 108
+2025-07-03 18:12:43.661 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:12:48.931 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 109
+2025-07-03 18:12:48.932 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:12:54.219 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 110
+2025-07-03 18:12:54.219 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:12:59.502 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 111
+2025-07-03 18:12:59.502 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:13:04.797 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 112
+2025-07-03 18:13:04.797 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:13:10.091 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 113
+2025-07-03 18:13:10.091 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:13:15.812 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 114
+2025-07-03 18:13:15.813 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:13:21.063 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 115
+2025-07-03 18:13:21.063 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:13:26.271 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 116
+2025-07-03 18:13:26.271 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:13:31.492 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 117
+2025-07-03 18:13:31.492 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:13:36.713 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 118
+2025-07-03 18:13:36.713 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:13:41.921 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 119
+2025-07-03 18:13:41.921 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:13:47.303 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 120
+2025-07-03 18:13:47.303 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:13:52.522 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 121
+2025-07-03 18:13:52.522 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:13:57.766 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 122
+2025-07-03 18:13:57.766 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:14:02.987 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 123
+2025-07-03 18:14:02.987 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:14:08.203 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 124
+2025-07-03 18:14:08.203 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:14:13.425 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 125
+2025-07-03 18:14:13.426 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:14:18.641 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 126
+2025-07-03 18:14:18.641 +05:30 [ERR] Exception: 42P01: relation "inserted_invoices" does not exist
+2025-07-03 18:14:23.885 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\DemoDB\Advintek\Input\Source\Temp_Process\Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:14:23.885 +05:30 [INF] Process file name :- Advintek_02_V1_01312025_CN00001_WIP.csv
+2025-07-03 18:14:23.885 +05:30 [INF] Total time taken in process: 675.2460034 seconds
+2025-07-03 18:14:23.887 +05:30 [INF] Total time taken in moving: 0.0010847 seconds

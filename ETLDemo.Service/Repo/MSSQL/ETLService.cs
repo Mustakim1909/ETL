@@ -13,6 +13,9 @@ using Microsoft.Extensions.Options;
 using ETL.Service.Repo.Interface;
 using ETL.Service.Model;
 using Newtonsoft.Json;
+using Npgsql;
+using NpgsqlTypes;
+using Polly;
 
 namespace ETL.Service.Repo.MSSQL
 {
@@ -103,7 +106,7 @@ namespace ETL.Service.Repo.MSSQL
                         [eTemplateId] ,
                         [templateId] ,
                         [Status] ,
-                        [eInvoiceDateTime] ,
+                        [EInvoiceDateTime] ,
                         [invoiceValidator] ,
                         [taxOfficeSubmitter] ,
                         [WorkflowStatus] ,
@@ -400,7 +403,7 @@ namespace ETL.Service.Repo.MSSQL
                         @eTemplateId ,
                         @templateId ,
                         @Status ,
-                        @eInvoiceDateTime ,
+                        @EInvoiceDateTime ,
                         @invoiceValidator ,
                         @taxOfficeSubmitter ,
                         @WorkflowStatus ,
@@ -715,7 +718,7 @@ namespace ETL.Service.Repo.MSSQL
             QueryHelper.CreateSqlParameter("@eTemplateId", field.eTemplateId, SqlDbType.Int),
             QueryHelper.CreateSqlParameter("@templateId", field.templateId, SqlDbType.Int),
             QueryHelper.CreateSqlParameter("@Status", field.Status, SqlDbType.NVarChar),
-            QueryHelper.CreateSqlParameter("@eInvoiceDateTime", field.eInvoiceDateTime, SqlDbType.DateTime),
+            QueryHelper.CreateSqlParameter("@EInvoiceDateTime", field.EInvoiceDateTime, SqlDbType.DateTime),
             QueryHelper.CreateSqlParameter("@invoiceValidator", field.invoiceValidator, SqlDbType.NVarChar),
             QueryHelper.CreateSqlParameter("@taxOfficeSubmitter", field.TaxOfficeSubmitter, SqlDbType.NVarChar),
             QueryHelper.CreateSqlParameter("@WorkflowStatus", field.WorkflowStatus, SqlDbType.NVarChar),
@@ -1279,7 +1282,7 @@ namespace ETL.Service.Repo.MSSQL
                         [eTemplateId] ,
                         [templateId] ,
                         [Status] ,
-                        [eInvoiceDateTime] ,
+                        [EInvoiceDateTime] ,
                         [invoiceValidator] ,
                         [taxOfficeSubmitter] ,
                         [WorkflowStatus] ,
@@ -1578,7 +1581,7 @@ namespace ETL.Service.Repo.MSSQL
                         @eTemplateId ,
                         @templateId ,
                         @Status ,
-                        @eInvoiceDateTime ,
+                        @EInvoiceDateTime ,
                         @invoiceValidator ,
                         @taxOfficeSubmitter ,
                         @WorkflowStatus ,
@@ -1895,7 +1898,7 @@ namespace ETL.Service.Repo.MSSQL
             QueryHelper.CreateSqlParameter("@eTemplateId", field.eTemplateId, SqlDbType.Int),
             QueryHelper.CreateSqlParameter("@templateId", field.templateId, SqlDbType.Int),
             QueryHelper.CreateSqlParameter("@Status", field.Status, SqlDbType.NVarChar),
-            QueryHelper.CreateSqlParameter("@eInvoiceDateTime", field.eInvoiceDateTime, SqlDbType.DateTime),
+            QueryHelper.CreateSqlParameter("@EInvoiceDateTime", field.EInvoiceDateTime, SqlDbType.DateTime),
             QueryHelper.CreateSqlParameter("@invoiceValidator", field.invoiceValidator, SqlDbType.NVarChar),
             QueryHelper.CreateSqlParameter("@taxOfficeSubmitter", field.TaxOfficeSubmitter, SqlDbType.NVarChar),
             QueryHelper.CreateSqlParameter("@WorkflowStatus", field.WorkflowStatus, SqlDbType.NVarChar),
@@ -2459,7 +2462,7 @@ namespace ETL.Service.Repo.MSSQL
                         [eTemplateId] ,
                         [templateId] ,
                         [Status] ,
-                        [eInvoiceDateTime] ,
+                        [EInvoiceDateTime] ,
                         [invoiceValidator] ,
                         [taxOfficeSubmitter] ,
                         [WorkflowStatus] ,
@@ -2758,7 +2761,7 @@ namespace ETL.Service.Repo.MSSQL
                         @eTemplateId ,
                         @templateId ,
                         @Status ,
-                        @eInvoiceDateTime ,
+                        @EInvoiceDateTime ,
                         @invoiceValidator ,
                         @taxOfficeSubmitter ,
                         @WorkflowStatus ,
@@ -3075,7 +3078,7 @@ namespace ETL.Service.Repo.MSSQL
             QueryHelper.CreateSqlParameter("@eTemplateId", field.eTemplateId, SqlDbType.Int),
             QueryHelper.CreateSqlParameter("@templateId", field.templateId, SqlDbType.Int),
             QueryHelper.CreateSqlParameter("@Status", field.Status, SqlDbType.NVarChar),
-            QueryHelper.CreateSqlParameter("@eInvoiceDateTime", field.eInvoiceDateTime, SqlDbType.DateTime),
+            QueryHelper.CreateSqlParameter("@EInvoiceDateTime", field.EInvoiceDateTime, SqlDbType.DateTime),
             QueryHelper.CreateSqlParameter("@invoiceValidator", field.invoiceValidator, SqlDbType.NVarChar),
             QueryHelper.CreateSqlParameter("@taxOfficeSubmitter", field.TaxOfficeSubmitter, SqlDbType.NVarChar),
             QueryHelper.CreateSqlParameter("@WorkflowStatus", field.WorkflowStatus, SqlDbType.NVarChar),
@@ -3638,7 +3641,7 @@ namespace ETL.Service.Repo.MSSQL
                         [eTemplateId] ,
                         [templateId] ,
                         [Status] ,
-                        [eInvoiceDateTime] ,
+                        [EInvoiceDateTime] ,
                         [invoiceValidator] ,
                         [taxOfficeSubmitter] ,
                         [WorkflowStatus] ,
@@ -3833,7 +3836,7 @@ namespace ETL.Service.Repo.MSSQL
                         @eTemplateId ,
                         @templateId ,
                         @Status ,
-                        @eInvoiceDateTime ,
+                        @EInvoiceDateTime ,
                         @invoiceValidator ,
                         @taxOfficeSubmitter ,
                         @WorkflowStatus ,
@@ -4046,7 +4049,7 @@ namespace ETL.Service.Repo.MSSQL
             QueryHelper.CreateSqlParameter("@eTemplateId", field.eTemplateId, SqlDbType.Int),
             QueryHelper.CreateSqlParameter("@templateId", field.templateId, SqlDbType.Int),
             QueryHelper.CreateSqlParameter("@Status", field.Status, SqlDbType.NVarChar),
-            QueryHelper.CreateSqlParameter("@eInvoiceDateTime", field.eInvoiceDateTime, SqlDbType.DateTime),
+            QueryHelper.CreateSqlParameter("@EInvoiceDateTime", field.EInvoiceDateTime, SqlDbType.DateTime),
             QueryHelper.CreateSqlParameter("@invoiceValidator", field.invoiceValidator, SqlDbType.NVarChar),
             QueryHelper.CreateSqlParameter("@taxOfficeSubmitter", field.TaxOfficeSubmitter, SqlDbType.NVarChar),
             QueryHelper.CreateSqlParameter("@WorkflowStatus", field.WorkflowStatus, SqlDbType.NVarChar),
@@ -4469,7 +4472,7 @@ namespace ETL.Service.Repo.MSSQL
                         [eTemplateId] ,
                         [templateId] ,
                         [Status] ,
-                        [eInvoiceDateTime] ,
+                        [EInvoiceDateTime] ,
                         [invoiceValidator] ,
                         [taxOfficeSubmitter] ,
                         [WorkflowStatus] ,
@@ -4767,7 +4770,7 @@ namespace ETL.Service.Repo.MSSQL
                         @eTemplateId ,
                         @templateId ,
                         @Status ,
-                        @eInvoiceDateTime ,
+                        @EInvoiceDateTime ,
                         @invoiceValidator ,
                         @taxOfficeSubmitter ,
                         @WorkflowStatus ,
@@ -5082,7 +5085,7 @@ namespace ETL.Service.Repo.MSSQL
             QueryHelper.CreateSqlParameter("@eTemplateId", field.eTemplateId, SqlDbType.Int),
             QueryHelper.CreateSqlParameter("@templateId", field.templateId, SqlDbType.Int),
             QueryHelper.CreateSqlParameter("@Status", field.Status, SqlDbType.NVarChar),
-            QueryHelper.CreateSqlParameter("@eInvoiceDateTime", field.eInvoiceDateTime, SqlDbType.DateTime),
+            QueryHelper.CreateSqlParameter("@EInvoiceDateTime", field.EInvoiceDateTime, SqlDbType.DateTime),
             QueryHelper.CreateSqlParameter("@invoiceValidator", field.invoiceValidator, SqlDbType.NVarChar),
             QueryHelper.CreateSqlParameter("@taxOfficeSubmitter", field.TaxOfficeSubmitter, SqlDbType.NVarChar),
             QueryHelper.CreateSqlParameter("@WorkflowStatus", field.WorkflowStatus, SqlDbType.NVarChar),
@@ -5645,7 +5648,7 @@ namespace ETL.Service.Repo.MSSQL
                         [eTemplateId] ,
                         [templateId] ,
                         [Status] ,
-                        [eInvoiceDateTime] ,
+                        [EInvoiceDateTime] ,
                         [invoiceValidator] ,
                         [taxOfficeSubmitter] ,
                         [WorkflowStatus] ,
@@ -5944,7 +5947,7 @@ namespace ETL.Service.Repo.MSSQL
                         @eTemplateId ,
                         @templateId ,
                         @Status ,
-                        @eInvoiceDateTime ,
+                        @EInvoiceDateTime ,
                         @invoiceValidator ,
                         @taxOfficeSubmitter ,
                         @WorkflowStatus ,
@@ -6261,7 +6264,7 @@ namespace ETL.Service.Repo.MSSQL
             QueryHelper.CreateSqlParameter("@eTemplateId", field.eTemplateId, SqlDbType.Int),
             QueryHelper.CreateSqlParameter("@templateId", field.templateId, SqlDbType.Int),
             QueryHelper.CreateSqlParameter("@Status", field.Status, SqlDbType.NVarChar),
-            QueryHelper.CreateSqlParameter("@eInvoiceDateTime", field.eInvoiceDateTime, SqlDbType.DateTime),
+            QueryHelper.CreateSqlParameter("@EInvoiceDateTime", field.EInvoiceDateTime, SqlDbType.DateTime),
             QueryHelper.CreateSqlParameter("@invoiceValidator", field.invoiceValidator, SqlDbType.NVarChar),
             QueryHelper.CreateSqlParameter("@taxOfficeSubmitter", field.TaxOfficeSubmitter, SqlDbType.NVarChar),
             QueryHelper.CreateSqlParameter("@WorkflowStatus", field.WorkflowStatus, SqlDbType.NVarChar),
@@ -6823,7 +6826,7 @@ namespace ETL.Service.Repo.MSSQL
                         [eTemplateId] ,
                         [templateId] ,
                         [Status] ,
-                        [eInvoiceDateTime] ,
+                        [EInvoiceDateTime] ,
                         [invoiceValidator] ,
                         [taxOfficeSubmitter] ,
                         [WorkflowStatus] ,
@@ -7122,7 +7125,7 @@ namespace ETL.Service.Repo.MSSQL
                         @eTemplateId ,
                         @templateId ,
                         @Status ,
-                        @eInvoiceDateTime ,
+                        @EInvoiceDateTime ,
                         @invoiceValidator ,
                         @taxOfficeSubmitter ,
                         @WorkflowStatus ,
@@ -7439,7 +7442,7 @@ namespace ETL.Service.Repo.MSSQL
             QueryHelper.CreateSqlParameter("@eTemplateId", field.eTemplateId, SqlDbType.Int),
             QueryHelper.CreateSqlParameter("@templateId", field.templateId, SqlDbType.Int),
             QueryHelper.CreateSqlParameter("@Status", field.Status, SqlDbType.NVarChar),
-            QueryHelper.CreateSqlParameter("@eInvoiceDateTime", field.eInvoiceDateTime, SqlDbType.DateTime),
+            QueryHelper.CreateSqlParameter("@EInvoiceDateTime", field.EInvoiceDateTime, SqlDbType.DateTime),
             QueryHelper.CreateSqlParameter("@invoiceValidator", field.invoiceValidator, SqlDbType.NVarChar),
             QueryHelper.CreateSqlParameter("@taxOfficeSubmitter", field.TaxOfficeSubmitter, SqlDbType.NVarChar),
             QueryHelper.CreateSqlParameter("@WorkflowStatus", field.WorkflowStatus, SqlDbType.NVarChar),
@@ -8002,7 +8005,7 @@ namespace ETL.Service.Repo.MSSQL
                         [eTemplateId] ,
                         [templateId] ,
                         [Status] ,
-                        [eInvoiceDateTime] ,
+                        [EInvoiceDateTime] ,
                         [invoiceValidator] ,
                         [taxOfficeSubmitter] ,
                         [WorkflowStatus] ,
@@ -8303,7 +8306,7 @@ namespace ETL.Service.Repo.MSSQL
                         @eTemplateId ,
                         @templateId ,
                         @Status ,
-                        @eInvoiceDateTime ,
+                        @EInvoiceDateTime ,
                         @invoiceValidator ,
                         @taxOfficeSubmitter ,
                         @WorkflowStatus ,
@@ -8620,7 +8623,7 @@ namespace ETL.Service.Repo.MSSQL
             QueryHelper.CreateSqlParameter("@eTemplateId", field.eTemplateId, SqlDbType.Int),
             QueryHelper.CreateSqlParameter("@templateId", field.templateId, SqlDbType.Int),
             QueryHelper.CreateSqlParameter("@Status", field.Status, SqlDbType.NVarChar),
-            QueryHelper.CreateSqlParameter("@eInvoiceDateTime", field.eInvoiceDateTime, SqlDbType.DateTime),
+            QueryHelper.CreateSqlParameter("@EInvoiceDateTime", field.EInvoiceDateTime, SqlDbType.DateTime),
             QueryHelper.CreateSqlParameter("@invoiceValidator", field.invoiceValidator, SqlDbType.NVarChar),
             QueryHelper.CreateSqlParameter("@taxOfficeSubmitter", field.TaxOfficeSubmitter, SqlDbType.NVarChar),
             QueryHelper.CreateSqlParameter("@WorkflowStatus", field.WorkflowStatus, SqlDbType.NVarChar),
@@ -9552,29 +9555,138 @@ namespace ETL.Service.Repo.MSSQL
             throw new NotImplementedException();
         }
 
-        public Task<int> TempInsertStoreProc(List<InvoiceData> invoicedata)
+        public async Task<int> TempInsertStoreProc(List<InvoiceData> invoicedata, string documentType, object invfields, object invlinefields, string invoicetypecode)
+        {
+            {
+                try
+                {
+                    int totalCount = 0; // Initialize the total counter
+                    int chunkSize = 1000; // Adjust the chunk size as needed
+
+                    // Define a retry policy
+                    var retryPolicy = Policy
+                        .Handle<SqlException>() // Retry on database connection issues
+                        .WaitAndRetryAsync(3, retryAttempt =>
+                            TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)), // Exponential backoff
+                            (exception, timeSpan, retryCount, context) =>
+                            {
+                                Console.WriteLine($"Retry {retryCount} after {timeSpan.TotalSeconds} sec due to: {exception.Message}");
+                            });
+
+                    // Process each invoice in the list
+                    foreach (var invoice in invoicedata)
+                    {
+                        int invoiceCount = 0; // Counter for the current invoice
+
+                        // Split the InvoiceLineItems into smaller chunks
+                        var lineItemsChunks = invoice.InvoiceLineItems
+                            .Select((x, i) => new { Index = i, Value = x })
+                            .GroupBy(x => x.Index / chunkSize)
+                            .Select(x => x.Select(v => v.Value).ToList())
+                            .ToList();
+
+                        // Process each chunk of InvoiceLineItems for the current invoice
+                        foreach (var chunk in lineItemsChunks)
+                        {
+                            // Temporarily replace the InvoiceLineItems with the current chunk
+                            var originalLineItems = invoice.InvoiceLineItems; // Save the original list
+                            invoice.InvoiceLineItems = chunk; // Assign the current chunk
+
+                            // Serialize the modified invoice data to JSON
+                            var invoicedatajson = JsonConvert.SerializeObject(new List<InvoiceData> { invoice });
+                            var invfieldsJson = JsonConvert.SerializeObject(invfields);
+                            var invlinefieldsJson = JsonConvert.SerializeObject(invlinefields);
+
+                            // Create the parameter for the stored procedure
+                            var paramName1 = "@invoicedata";
+                            var paramName2 = "@invfield";
+                            var paramName3 = "@invlinfield";
+                            var parameters1 = new List<IDataParameter>
+                    {
+                        QueryHelper.CreateSqlParameter(paramName1, invoicedatajson, SqlDbType.NVarChar),
+                        QueryHelper.CreateSqlParameter(paramName2, invfieldsJson, SqlDbType.NVarChar),
+                        QueryHelper.CreateSqlParameter(paramName3, invlinefieldsJson, SqlDbType.NVarChar),
+                    };
+
+
+                            // Execute the stored procedure for the current chunk
+                            var exec = await _queryHelper.ExecuteStoredProc($"{documentType}_insert_temp_invoices", parameters1);
+                            invoiceCount += exec; // Increment the count for the current invoice
+                            totalCount += exec; // Increment the total count
+
+                            // Restore the original InvoiceLineItems for the next iteration
+                            invoice.InvoiceLineItems = originalLineItems;
+                        }
+
+                        Console.WriteLine("Finished processing Invoice");
+                    }
+
+                    Console.WriteLine("All invoices processed");
+                    return totalCount;
+                }
+                catch (Exception ex)
+                {
+                    Log.Warning($"Exception In TempInsertStoreProc: {ex.Message}");
+                    Console.WriteLine($"Exception In TempInsertStoreProc: {ex.Message}");
+                    throw ex;
+                }
+            }
+        }
+
+        public Task<int> InsertInvData(string InvoiceNumber, List<string> filepath, string documentType, string invoicetypecode)
         {
             throw new NotImplementedException();
         }
 
-        public Task<int> InsertInvData(string InvoiceNumber, List<string> filepath)
+        public Task<int> TempInsertStoreProc2(string InvoiceNumber, string TotalAmount, string TotalLines, string documentType, string invoicetypecode)
         {
             throw new NotImplementedException();
         }
 
-        public Task<int> TempInsertStoreProc2(string InvoiceNumber, string TotalAmount, string TotalLines)
+        public Task<int> InsertInvoiceData(string InvoiceNumber, string TotalAmount, string TotalLines, List<string> filepath, string documentType, string invoicetypecode)
         {
-            throw new NotImplementedException();
+            // Define a retry policy
+            var retryPolicy = Policy
+                .Handle<SqlException>() // Retry on database connection issues
+                .WaitAndRetryAsync(3, retryAttempt =>
+                    TimeSpan.FromSeconds(Math.Pow(2, retryAttempt)), // Exponential backoff
+                    (exception, timeSpan, retryCount, context) =>
+                    {
+                        Console.WriteLine($"Retry {retryCount} after {timeSpan.TotalSeconds} sec due to: {exception.Message}");
+                    });
+
+            var filepathjson = JsonConvert.SerializeObject(filepath);
+            var paramName1 = "p_invoice_number";
+            var paramName2 = "p_totalamount";
+            var paramName3 = "p_totallineitems";
+            var paramName4 = "filepath";
+            var parameters1 = new List<IDataParameter>
+                              {
+                               QueryHelper.CreateSqlParameter(paramName1, InvoiceNumber, SqlDbType.Text),
+                               QueryHelper.CreateSqlParameter(paramName2, TotalAmount, SqlDbType.Text),
+                               QueryHelper.CreateSqlParameter(paramName3, TotalLines, SqlDbType.Text),
+                                QueryHelper.CreateSqlParameter(paramName4, filepathjson, SqlDbType.NVarChar)
+                               };
+            var exec = _queryHelper.ExecuteStoredProc($"{documentType}_insert_{invoicetypecode}data", parameters1);
+            return exec;
         }
 
-        public Task<int> InsertInvoiceData(string InvoiceNumber, string TotalAmount, string TotalLines, List<string> filepath)
+        public async Task<List<CsvFieldConfiguration>> GetInvoiceMappingColumns(string documentType)
         {
-            throw new NotImplementedException();
-        }
+            string sql = $"SELECT * FROM InvoiceCsvFieldConfiguration WHERE Status = 'Active' AND SourceName = '{documentType}' ORDER BY Sequence";
 
-        public Task<List<CsvFieldConfiguration>> GetInvoiceMappingColumns(string documentType)
-        {
-            throw new NotImplementedException();
+            try
+            {
+                var data = (await _queryHelper.Read(sql, null, MappingColumnsList))?.ToList();
+
+                return data;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+
         }
 
         private readonly Func<IDataReader, InvoiceData> InvoiceByIdMake = reader =>
@@ -9587,6 +9699,14 @@ namespace ETL.Service.Repo.MSSQL
         new TenantDetails
         {
             ConnectionString = reader["ConnectionString"].ToString(),
+        };
+        private readonly Func<IDataReader, CsvFieldConfiguration> MappingColumnsList = reader =>
+        new CsvFieldConfiguration
+        {
+            CsvFieldName = reader["CsvFieldName"].ToString(),
+            TableFieldName = reader["TableFieldName"].ToString(),
+            Status = reader["Status"].ToString(),
+            TableName = reader["TableName"].ToString(),
         };
     }
 }

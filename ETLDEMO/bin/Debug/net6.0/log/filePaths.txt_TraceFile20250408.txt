@@ -1,0 +1,57 @@
+2025-04-08 08:22:22.123 +05:30 [INF] Application starting up
+2025-04-08 08:22:24.558 +05:30 [INF] Main thread ID: 1
+2025-04-08 08:22:24.558 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN10_WIP.csv
+2025-04-08 08:22:24.558 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN780_WIP.csv
+2025-04-08 08:22:24.558 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest10_WIP.csv
+2025-04-08 08:22:24.558 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest230_WIP.csv
+2025-04-08 08:22:24.559 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-08 08:22:24.559 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-08 08:22:24.559 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\CNSUN_02_v1_20250207_SUNCNT10_WIP.csv
+2025-04-08 08:22:24.559 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\CNSUN_02_v1_20250207_SUNCNT10101_WIP.csv
+2025-04-08 08:22:24.559 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\DNSUN\Input\Source\Temp_Process\DNSUN_03_v1_20250207_DNTestSun30_WIP.csv
+2025-04-08 08:22:24.559 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\DNSUN\Input\Source\Temp_Process\DNSUN_03_v1_20250207_DNTestSun400_WIP.csv
+2025-04-08 08:22:24.585 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-08 08:22:28.773 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN10_WIP.csv
+2025-04-08 08:22:28.774 +05:30 [INF] Process file name :- SBCNSUN_12_v1_20250207_TESTSBCN10_WIP.csv
+2025-04-08 08:22:28.777 +05:30 [INF] Total time taken in process: 2.5866342 seconds
+2025-04-08 08:22:28.779 +05:30 [INF] Total time taken in moving: 0.00212 seconds
+2025-04-08 08:22:32.941 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN780_WIP.csv
+2025-04-08 08:22:32.941 +05:30 [INF] Process file name :- SBCNSUN_12_v1_20250207_TESTSBCN780_WIP.csv
+2025-04-08 08:22:32.941 +05:30 [INF] Total time taken in process: 4.1618451 seconds
+2025-04-08 08:22:32.942 +05:30 [INF] Total time taken in moving: 0.0009698 seconds
+2025-04-08 08:22:32.942 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBDNSUN
+2025-04-08 08:22:33.505 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest10_WIP.csv
+2025-04-08 08:22:33.505 +05:30 [INF] Process file name :- SBDNSUN_13_v1_20250207_SBDTest10_WIP.csv
+2025-04-08 08:22:33.505 +05:30 [INF] Total time taken in process: 0.562634 seconds
+2025-04-08 08:22:33.506 +05:30 [INF] Total time taken in moving: 0.0010263 seconds
+2025-04-08 08:22:36.494 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest230_WIP.csv
+2025-04-08 08:22:36.494 +05:30 [INF] Process file name :- SBDNSUN_13_v1_20250207_SBDTest230_WIP.csv
+2025-04-08 08:22:36.494 +05:30 [INF] Total time taken in process: 2.9876565 seconds
+2025-04-08 08:22:36.495 +05:30 [INF] Total time taken in moving: 0.0009902 seconds
+2025-04-08 08:22:36.495 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-08 08:22:37.162 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-08 08:22:37.162 +05:30 [INF] Process file name :- INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-08 08:22:37.162 +05:30 [INF] Total time taken in process: 0.6670653 seconds
+2025-04-08 08:22:37.163 +05:30 [INF] Total time taken in moving: 0.000987 seconds
+2025-04-08 08:22:43.037 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-08 08:22:43.037 +05:30 [INF] Process file name :- INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-08 08:22:43.037 +05:30 [INF] Total time taken in process: 5.87401 seconds
+2025-04-08 08:22:43.038 +05:30 [INF] Total time taken in moving: 0.000986 seconds
+2025-04-08 08:22:43.038 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNSUN
+2025-04-08 08:22:44.008 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\CNSUN_02_v1_20250207_SUNCNT10_WIP.csv
+2025-04-08 08:22:44.008 +05:30 [INF] Process file name :- CNSUN_02_v1_20250207_SUNCNT10_WIP.csv
+2025-04-08 08:22:44.008 +05:30 [INF] Total time taken in process: 0.969537 seconds
+2025-04-08 08:22:44.009 +05:30 [INF] Total time taken in moving: 0.0009739 seconds
+2025-04-08 08:22:47.164 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\CNSUN_02_v1_20250207_SUNCNT10101_WIP.csv
+2025-04-08 08:22:47.164 +05:30 [INF] Process file name :- CNSUN_02_v1_20250207_SUNCNT10101_WIP.csv
+2025-04-08 08:22:47.164 +05:30 [INF] Total time taken in process: 3.1552147 seconds
+2025-04-08 08:22:47.165 +05:30 [INF] Total time taken in moving: 0.0006938 seconds
+2025-04-08 08:22:47.165 +05:30 [INF] Processing files for domain: PIL, invoiceType: DNSUN
+2025-04-08 08:22:47.726 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\DNSUN\Input\Source\Temp_Process\DNSUN_03_v1_20250207_DNTestSun30_WIP.csv
+2025-04-08 08:22:47.726 +05:30 [INF] Process file name :- DNSUN_03_v1_20250207_DNTestSun30_WIP.csv
+2025-04-08 08:22:47.726 +05:30 [INF] Total time taken in process: 0.5612768 seconds
+2025-04-08 08:22:47.727 +05:30 [INF] Total time taken in moving: 0.0006962 seconds
+2025-04-08 08:22:52.170 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\DNSUN\Input\Source\Temp_Process\DNSUN_03_v1_20250207_DNTestSun400_WIP.csv
+2025-04-08 08:22:52.170 +05:30 [INF] Process file name :- DNSUN_03_v1_20250207_DNTestSun400_WIP.csv
+2025-04-08 08:22:52.170 +05:30 [INF] Total time taken in process: 4.442785 seconds
+2025-04-08 08:22:52.171 +05:30 [INF] Total time taken in moving: 0.0010021 seconds

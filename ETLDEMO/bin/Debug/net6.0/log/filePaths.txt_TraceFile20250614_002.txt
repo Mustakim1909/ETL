@@ -1,0 +1,524 @@
+2025-06-14 09:06:06.691 +05:30 [INF] Application starting up
+2025-06-14 09:06:17.678 +05:30 [INF] Application starting up
+2025-06-14 09:07:05.823 +05:30 [INF] Application starting up
+2025-06-14 09:07:16.636 +05:30 [INF] Main thread ID: 1
+2025-06-14 09:07:16.636 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:07:16.638 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 09:07:17.787 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv'.
+2025-06-14 09:07:17.873 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv'.
+2025-06-14 09:07:17.944 +05:30 [INF] Error processing files for domain JPS: Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv'.
+2025-06-14 09:07:17.944 +05:30 [INF] The following files were not found and skipped:
+2025-06-14 09:07:17.945 +05:30 [INF] C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:07:42.630 +05:30 [INF] Application starting up
+2025-06-14 09:07:47.646 +05:30 [INF] Main thread ID: 1
+2025-06-14 09:07:47.647 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:07:47.649 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 09:08:08.226 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1268
+   Row: 2
+   RawRow: 2
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B23SKSI009,SHOES : MINI ANGELICA JB,#BLU000,Blue,29,29,,,,WEBMYONL,WEB,MY-ONLINE,1,81.33,89,89,89,81.33,,,81.33,0,0,,7.67,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,0,0,#Shoe,Jelly Bunny,#Fashion,,,Posted to GL,11820224,1124100050372,,2504244WQM0JPP,01
+
+
+2025-06-14 09:08:08.277 +05:30 [WRN] Skipping invalid record at row 2: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1609
+   Row: 3
+   RawRow: 3
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B23SKSI009,SHOES : MINI ANGELICA JB,#PNK100,Light Pink,29,29,,,,WEBMYONL,WEB,MY-ONLINE,1,72.64,89,89,89,72.64,,,72.64,0,0,,16.36,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,33.9258,33.93,#Shoe,Jelly Bunny,#Fashion,,,Posted to GL,11820224,1123000181308,,2504244WQM0JPP,01
+
+
+2025-06-14 09:08:08.335 +05:30 [WRN] Skipping invalid record at row 3: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1951
+   Row: 4
+   RawRow: 4
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B23WLBL006,SHOES : SOPHIE DEEP SUMMER,#BLK000,Black,40,40,,,,WEBMYONL,WEB,MY-ONLINE,1,86.17,89,89,89,86.17,,,86.17,0,0,,2.83,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,34.4504,34.45,#Shoe,Jelly Bunny,#Contemporary,,,Posted to GL,11820224,1123100010355,,2504244WQM0JPP,01
+
+
+2025-06-14 09:08:08.381 +05:30 [WRN] Skipping invalid record at row 4: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 2309
+   Row: 5
+   RawRow: 5
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B24WLBI016,SHOES : MORGANA GLITTER,#PNK950,Glitter Pink Variation 3,40,40,,,,WEBMYONL,WEB,MY-ONLINE,1,95.86,99,99,99,95.86,,,95.86,0,0,,3.14,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,27.2091,27.21,#Shoe,Jelly Bunny,#Contemporary,,,Posted to GL,11820224,1124100026407,,2504244WQM0JPP,01
+
+
+2025-06-14 09:08:08.385 +05:30 [INF] Invoice Number Not Match
+2025-06-14 09:08:08.413 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:08:08.413 +05:30 [INF] Process file name :- JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:08:08.421 +05:30 [INF] Total time taken in process: 19.8724761 seconds
+2025-06-14 09:08:08.429 +05:30 [INF] Total time taken in moving: 0.00458 seconds
+2025-06-14 09:09:25.243 +05:30 [INF] Application starting up
+2025-06-14 09:09:26.536 +05:30 [INF] Main thread ID: 1
+2025-06-14 09:09:26.536 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:09:26.538 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 09:10:47.952 +05:30 [INF] Application starting up
+2025-06-14 09:10:48.773 +05:30 [INF] Main thread ID: 1
+2025-06-14 09:10:48.774 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:10:48.777 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 09:12:20.626 +05:30 [INF] Application starting up
+2025-06-14 09:12:21.815 +05:30 [INF] Main thread ID: 1
+2025-06-14 09:12:21.815 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:12:21.819 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 09:13:36.172 +05:30 [INF] Application starting up
+2025-06-14 09:13:37.745 +05:30 [INF] Main thread ID: 1
+2025-06-14 09:13:37.745 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:13:37.747 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 09:15:24.961 +05:30 [INF] Application starting up
+2025-06-14 09:15:26.315 +05:30 [INF] Main thread ID: 1
+2025-06-14 09:15:26.316 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:15:26.318 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 09:20:06.747 +05:30 [INF] Application starting up
+2025-06-14 09:20:07.999 +05:30 [INF] Main thread ID: 1
+2025-06-14 09:20:07.999 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:20:08.001 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 09:36:13.107 +05:30 [INF] Application starting up
+2025-06-14 09:36:13.897 +05:30 [INF] Main thread ID: 1
+2025-06-14 09:36:13.897 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:36:13.904 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 09:36:49.482 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1268
+   Row: 2
+   RawRow: 2
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B23SKSI009,SHOES : MINI ANGELICA JB,#BLU000,Blue,29,29,,,,WEBMYONL,WEB,MY-ONLINE,1,81.33,89,89,89,81.33,,,81.33,0,0,,7.67,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,0,0,#Shoe,Jelly Bunny,#Fashion,,,Posted to GL,11820224,1124100050372,,2504244WQM0JPP,01
+
+
+2025-06-14 09:36:49.524 +05:30 [WRN] Skipping invalid record at row 2: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1609
+   Row: 3
+   RawRow: 3
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B23SKSI009,SHOES : MINI ANGELICA JB,#PNK100,Light Pink,29,29,,,,WEBMYONL,WEB,MY-ONLINE,1,72.64,89,89,89,72.64,,,72.64,0,0,,16.36,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,33.9258,33.93,#Shoe,Jelly Bunny,#Fashion,,,Posted to GL,11820224,1123000181308,,2504244WQM0JPP,01
+
+
+2025-06-14 09:36:49.565 +05:30 [WRN] Skipping invalid record at row 3: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1951
+   Row: 4
+   RawRow: 4
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B23WLBL006,SHOES : SOPHIE DEEP SUMMER,#BLK000,Black,40,40,,,,WEBMYONL,WEB,MY-ONLINE,1,86.17,89,89,89,86.17,,,86.17,0,0,,2.83,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,34.4504,34.45,#Shoe,Jelly Bunny,#Contemporary,,,Posted to GL,11820224,1123100010355,,2504244WQM0JPP,01
+
+
+2025-06-14 09:36:49.605 +05:30 [WRN] Skipping invalid record at row 4: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceTime
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 2309
+   Row: 5
+   RawRow: 5
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B24WLBI016,SHOES : MORGANA GLITTER,#PNK950,Glitter Pink Variation 3,40,40,,,,WEBMYONL,WEB,MY-ONLINE,1,95.86,99,99,99,95.86,,,95.86,0,0,,3.14,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,27.2091,27.21,#Shoe,Jelly Bunny,#Contemporary,,,Posted to GL,11820224,1124100026407,,2504244WQM0JPP,01
+
+
+2025-06-14 09:36:49.608 +05:30 [INF] Invoice Number Not Match
+2025-06-14 09:36:49.626 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:36:49.626 +05:30 [INF] Process file name :- JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:36:49.627 +05:30 [INF] Total time taken in process: 34.7139791 seconds
+2025-06-14 09:36:49.629 +05:30 [INF] Total time taken in moving: 0.0025086 seconds
+2025-06-14 09:37:17.069 +05:30 [INF] Application starting up
+2025-06-14 09:37:18.557 +05:30 [INF] Main thread ID: 1
+2025-06-14 09:37:18.571 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:37:18.578 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 09:37:20.276 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv'.
+2025-06-14 09:37:20.360 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv'.
+2025-06-14 09:37:20.430 +05:30 [INF] Error processing files for domain JPS: Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv'.
+2025-06-14 09:37:20.431 +05:30 [INF] The following files were not found and skipped:
+2025-06-14 09:37:20.431 +05:30 [INF] C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:37:42.531 +05:30 [INF] Application starting up
+2025-06-14 09:37:43.770 +05:30 [INF] Main thread ID: 1
+2025-06-14 09:37:43.771 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:37:43.773 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 09:51:11.408 +05:30 [INF] Application starting up
+2025-06-14 09:51:12.635 +05:30 [INF] Main thread ID: 1
+2025-06-14 09:51:12.636 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:51:12.639 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 09:51:57.967 +05:30 [INF] Application starting up
+2025-06-14 09:51:59.350 +05:30 [INF] Main thread ID: 1
+2025-06-14 09:51:59.350 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:51:59.353 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 09:55:12.962 +05:30 [INF] Application starting up
+2025-06-14 09:55:14.217 +05:30 [INF] Main thread ID: 1
+2025-06-14 09:55:14.217 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 09:55:14.219 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 10:04:30.932 +05:30 [INF] Application starting up
+2025-06-14 10:04:32.211 +05:30 [INF] Main thread ID: 1
+2025-06-14 10:04:32.212 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:04:32.215 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 10:04:56.235 +05:30 [ERR] Exception In ReadCsv
+2025-06-14 10:04:56.312 +05:30 [INF] Exception in ProcessTaskAsync : No mappings were specified in the CsvClassMap.
+2025-06-14 10:04:56.391 +05:30 [INF] Exception in ProcessFileAsync : No mappings were specified in the CsvClassMap.
+2025-06-14 10:04:56.459 +05:30 [INF] Error processing files for domain JPS: No mappings were specified in the CsvClassMap.
+2025-06-14 10:04:56.460 +05:30 [INF] The following files were not found and skipped:
+2025-06-14 10:04:56.460 +05:30 [INF] C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:05:18.658 +05:30 [INF] Application starting up
+2025-06-14 10:05:20.409 +05:30 [INF] Main thread ID: 1
+2025-06-14 10:05:20.410 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:05:20.412 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 10:06:23.453 +05:30 [INF] Application starting up
+2025-06-14 10:06:24.662 +05:30 [INF] Main thread ID: 1
+2025-06-14 10:06:24.662 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:06:24.665 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 10:06:52.311 +05:30 [INF] Application starting up
+2025-06-14 10:06:53.137 +05:30 [INF] Main thread ID: 1
+2025-06-14 10:06:53.138 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:06:53.141 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 10:24:48.831 +05:30 [INF] Application starting up
+2025-06-14 10:24:50.232 +05:30 [INF] Main thread ID: 1
+2025-06-14 10:24:50.238 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:24:50.241 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 10:29:55.587 +05:30 [INF] Application starting up
+2025-06-14 10:29:56.848 +05:30 [INF] Main thread ID: 1
+2025-06-14 10:29:56.849 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:29:56.852 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 10:29:58.694 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1268
+   Row: 2
+   RawRow: 2
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B23SKSI009,SHOES : MINI ANGELICA JB,#BLU000,Blue,29,29,,,,WEBMYONL,WEB,MY-ONLINE,1,81.33,89,89,89,81.33,,,81.33,0,0,,7.67,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,0,0,#Shoe,Jelly Bunny,#Fashion,,,Posted to GL,11820224,1124100050372,,2504244WQM0JPP,01
+
+
+2025-06-14 10:29:58.735 +05:30 [WRN] Skipping invalid record at row 2: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1609
+   Row: 3
+   RawRow: 3
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B23SKSI009,SHOES : MINI ANGELICA JB,#PNK100,Light Pink,29,29,,,,WEBMYONL,WEB,MY-ONLINE,1,72.64,89,89,89,72.64,,,72.64,0,0,,16.36,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,33.9258,33.93,#Shoe,Jelly Bunny,#Fashion,,,Posted to GL,11820224,1123000181308,,2504244WQM0JPP,01
+
+
+2025-06-14 10:29:58.774 +05:30 [WRN] Skipping invalid record at row 3: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1951
+   Row: 4
+   RawRow: 4
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B23WLBL006,SHOES : SOPHIE DEEP SUMMER,#BLK000,Black,40,40,,,,WEBMYONL,WEB,MY-ONLINE,1,86.17,89,89,89,86.17,,,86.17,0,0,,2.83,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,34.4504,34.45,#Shoe,Jelly Bunny,#Contemporary,,,Posted to GL,11820224,1123100010355,,2504244WQM0JPP,01
+
+
+2025-06-14 10:29:58.817 +05:30 [WRN] Skipping invalid record at row 4: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 2309
+   Row: 5
+   RawRow: 5
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B24WLBI016,SHOES : MORGANA GLITTER,#PNK950,Glitter Pink Variation 3,40,40,,,,WEBMYONL,WEB,MY-ONLINE,1,95.86,99,99,99,95.86,,,95.86,0,0,,3.14,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,27.2091,27.21,#Shoe,Jelly Bunny,#Contemporary,,,Posted to GL,11820224,1124100026407,,2504244WQM0JPP,01
+
+
+2025-06-14 10:29:58.820 +05:30 [INF] Invoice Number Not Match
+2025-06-14 10:29:58.839 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:29:58.839 +05:30 [INF] Process file name :- JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:29:58.839 +05:30 [INF] Total time taken in process: 0.9961466 seconds
+2025-06-14 10:29:58.841 +05:30 [INF] Total time taken in moving: 0.0020785 seconds
+2025-06-14 10:30:24.541 +05:30 [INF] Application starting up
+2025-06-14 10:30:25.478 +05:30 [INF] Main thread ID: 1
+2025-06-14 10:30:25.509 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:30:25.512 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 10:30:27.726 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1268
+   Row: 2
+   RawRow: 2
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B23SKSI009,SHOES : MINI ANGELICA JB,#BLU000,Blue,29,29,,,,WEBMYONL,WEB,MY-ONLINE,1,81.33,89,89,89,81.33,,,81.33,0,0,,7.67,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,0,0,#Shoe,Jelly Bunny,#Fashion,,,Posted to GL,11820224,1124100050372,,2504244WQM0JPP,01
+
+
+2025-06-14 10:30:27.765 +05:30 [WRN] Skipping invalid record at row 2: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1609
+   Row: 3
+   RawRow: 3
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B23SKSI009,SHOES : MINI ANGELICA JB,#PNK100,Light Pink,29,29,,,,WEBMYONL,WEB,MY-ONLINE,1,72.64,89,89,89,72.64,,,72.64,0,0,,16.36,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,33.9258,33.93,#Shoe,Jelly Bunny,#Fashion,,,Posted to GL,11820224,1123000181308,,2504244WQM0JPP,01
+
+
+2025-06-14 10:30:27.805 +05:30 [WRN] Skipping invalid record at row 3: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 1951
+   Row: 4
+   RawRow: 4
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B23WLBL006,SHOES : SOPHIE DEEP SUMMER,#BLK000,Black,40,40,,,,WEBMYONL,WEB,MY-ONLINE,1,86.17,89,89,89,86.17,,,86.17,0,0,,2.83,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,34.4504,34.45,#Shoe,Jelly Bunny,#Contemporary,,,Posted to GL,11820224,1123100010355,,2504244WQM0JPP,01
+
+
+2025-06-14 10:30:27.848 +05:30 [WRN] Skipping invalid record at row 4: The conversion cannot be performed.
+    Text: '24-04-2025 04:47:58 PM'
+    MemberName: InvoiceDate
+    MemberType: System.Nullable`1[[System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 49
+   CurrentIndex: 3
+   HeaderRecord:
+["Store Code","Store Name","Trans Hdr Docket Number","Trans Hdr Date","Prod Code","Prod Name","Clr Code","Clr Name","Size","Size Name","Promotion Number","Promotion Name","Promotion Type","Sales Rep Code","Sales Rep First Name","Sales Rep Surname","Trans Det Qty","Trans Det Price","Trans Det Current RRP inc Tax","Trans Det Original Price","Trans Det Amt ex Tax ex Disc e","Trans Det Amt ex Tax","Trans Det Disc Reason Code","Trans Det Disc Reason Name","Trans Det Amt inc Tax","Trans Det Mkd Amt ex Tax","Trans Det Mkd Tax Amt","Trans Det Disc %","Trans Det Disc Amt ex Tax","Trans Det Disc Tax Amt","Trans Det Tax Amt ex Disc ex M","Trans Det Tax Amt inc Disc inc","Trans Det Tax %","Trans Hdr Retail Type Code","Trans Hdr Sale Date","Trans Hdr GL Posted Date","Trans Det Std Unit Cost","Trans Det Total Cost","Product Group","Brand","Product Divisions","From Store Code","To Store Code","Trans Hdr Post Status","Trans Hdr Number","Product SKU Barcode","Transaction Header Notes 1","Trans Hdr Customer Order Numbe","Trans Hdr Docket Type"]
+IParser state:
+   ByteCount: 0
+   CharCount: 2309
+   Row: 5
+   RawRow: 5
+   Count: 49
+   RawRecord:
+M17,JB Shoppee,S2504244WQM0JPP,24-04-2025 04:47:58 PM,B24WLBI016,SHOES : MORGANA GLITTER,#PNK950,Glitter Pink Variation 3,40,40,,,,WEBMYONL,WEB,MY-ONLINE,1,95.86,99,99,99,95.86,,,95.86,0,0,,3.14,0,0,0,0,Sale,24-04-2025 12:00:00 AM,24-04-2025 04:47:59 PM,27.2091,27.21,#Shoe,Jelly Bunny,#Contemporary,,,Posted to GL,11820224,1124100026407,,2504244WQM0JPP,01
+
+
+2025-06-14 10:30:27.852 +05:30 [INF] Invoice Number Not Match
+2025-06-14 10:30:27.870 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:30:27.870 +05:30 [INF] Process file name :- JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:30:27.871 +05:30 [INF] Total time taken in process: 1.2016547 seconds
+2025-06-14 10:30:27.873 +05:30 [INF] Total time taken in moving: 0.0021475 seconds
+2025-06-14 10:30:50.067 +05:30 [INF] Application starting up
+2025-06-14 10:30:51.455 +05:30 [INF] Main thread ID: 1
+2025-06-14 10:30:51.455 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:30:51.458 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 10:34:28.437 +05:30 [INF] Application starting up
+2025-06-14 10:34:29.606 +05:30 [INF] Main thread ID: 1
+2025-06-14 10:34:29.606 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:34:29.608 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 10:36:32.197 +05:30 [INF] Application starting up
+2025-06-14 10:36:33.428 +05:30 [INF] Main thread ID: 1
+2025-06-14 10:36:33.428 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:36:33.430 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 10:39:13.778 +05:30 [INF] Application starting up
+2025-06-14 10:39:15.097 +05:30 [INF] Main thread ID: 1
+2025-06-14 10:39:15.097 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:39:15.104 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 10:44:04.424 +05:30 [INF] Application starting up
+2025-06-14 10:44:05.747 +05:30 [INF] Main thread ID: 1
+2025-06-14 10:44:05.747 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:44:05.758 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 10:44:37.105 +05:30 [INF] Application starting up
+2025-06-14 10:44:38.325 +05:30 [INF] Main thread ID: 1
+2025-06-14 10:44:38.325 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:44:38.331 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 10:46:33.673 +05:30 [INF] Application starting up
+2025-06-14 10:46:34.431 +05:30 [INF] Main thread ID: 1
+2025-06-14 10:46:34.432 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:46:34.433 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 10:46:49.763 +05:30 [INF] Application starting up
+2025-06-14 10:46:50.572 +05:30 [INF] Main thread ID: 1
+2025-06-14 10:46:50.572 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:46:50.575 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 10:53:35.278 +05:30 [INF] Application starting up
+2025-06-14 10:53:36.788 +05:30 [INF] Main thread ID: 1
+2025-06-14 10:53:36.789 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:53:36.794 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 10:54:24.434 +05:30 [INF] Exception in ProcessTaskAsync : Nullable object must have a value.
+2025-06-14 10:54:24.511 +05:30 [INF] Exception in ProcessFileAsync : Nullable object must have a value.
+2025-06-14 10:54:24.578 +05:30 [INF] Error processing files for domain JPS: Nullable object must have a value.
+2025-06-14 10:54:24.578 +05:30 [INF] The following files were not found and skipped:
+2025-06-14 10:54:24.578 +05:30 [INF] C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:54:41.525 +05:30 [INF] Application starting up
+2025-06-14 10:54:42.836 +05:30 [INF] Main thread ID: 1
+2025-06-14 10:54:42.836 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:54:42.838 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 10:54:44.821 +05:30 [INF] Exception in ProcessTaskAsync : Nullable object must have a value.
+2025-06-14 10:54:44.900 +05:30 [INF] Exception in ProcessFileAsync : Nullable object must have a value.
+2025-06-14 10:54:44.982 +05:30 [INF] Error processing files for domain JPS: Nullable object must have a value.
+2025-06-14 10:54:44.982 +05:30 [INF] The following files were not found and skipped:
+2025-06-14 10:54:44.983 +05:30 [INF] C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:55:10.544 +05:30 [INF] Application starting up
+2025-06-14 10:55:11.743 +05:30 [INF] Main thread ID: 1
+2025-06-14 10:55:11.743 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:55:11.745 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 10:57:00.216 +05:30 [INF] Application starting up
+2025-06-14 10:57:01.715 +05:30 [INF] Main thread ID: 1
+2025-06-14 10:57:01.715 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 10:57:01.729 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 11:03:40.690 +05:30 [INF] Application starting up
+2025-06-14 11:03:41.989 +05:30 [INF] Main thread ID: 1
+2025-06-14 11:03:41.990 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 11:03:41.992 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 11:04:35.711 +05:30 [INF] Application starting up
+2025-06-14 11:04:37.534 +05:30 [INF] Main thread ID: 1
+2025-06-14 11:04:37.534 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 11:04:37.554 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 11:06:34.321 +05:30 [INF] Application starting up
+2025-06-14 11:06:35.106 +05:30 [INF] Main thread ID: 1
+2025-06-14 11:06:35.106 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 11:06:35.109 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 11:11:34.226 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 11:11:34.226 +05:30 [INF] Process file name :- JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 11:11:34.227 +05:30 [INF] Total time taken in process: 298.1916206 seconds
+2025-06-14 11:11:34.230 +05:30 [INF] Total time taken in moving: 0.0029161 seconds
+2025-06-14 11:30:33.068 +05:30 [INF] Application starting up
+2025-06-14 11:30:33.394 +05:30 [INF] Main thread ID: 1
+2025-06-14 11:30:33.394 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 11:30:33.396 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-14 11:30:45.118 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 11:30:45.118 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 11:30:45.119 +05:30 [INF] Total time taken in process: 10.3600961 seconds
+2025-06-14 11:30:45.121 +05:30 [INF] Total time taken in moving: 0.0022796 seconds

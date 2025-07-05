@@ -1,0 +1,79 @@
+2025-06-03 08:01:21.601 +05:30 [INF] Application starting up
+2025-06-03 08:01:25.268 +05:30 [INF] Main thread ID: 1
+2025-06-03 08:01:25.269 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv
+2025-06-03 08:01:25.271 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-03 08:01:40.160 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv
+2025-06-03 08:01:40.160 +05:30 [INF] Process file name :- JPS_01_v1_20250530_449982_WIP.csv
+2025-06-03 08:01:40.161 +05:30 [INF] Total time taken in process: 10.1674368 seconds
+2025-06-03 08:01:40.165 +05:30 [INF] Total time taken in moving: 0.0020583 seconds
+2025-06-03 08:06:22.870 +05:30 [INF] Application starting up
+2025-06-03 08:06:24.209 +05:30 [INF] Main thread ID: 1
+2025-06-03 08:06:24.209 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv
+2025-06-03 08:06:24.212 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-03 08:06:26.288 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv'.
+2025-06-03 08:06:26.432 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv'.
+2025-06-03 08:06:26.610 +05:30 [INF] Error processing files for domain JPS: Could not find file 'C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv'.
+2025-06-03 08:06:26.610 +05:30 [INF] The following files were not found and skipped:
+2025-06-03 08:06:26.610 +05:30 [INF] C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv
+2025-06-03 08:06:46.942 +05:30 [INF] Application starting up
+2025-06-03 08:06:48.422 +05:30 [INF] Main thread ID: 1
+2025-06-03 08:06:48.423 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv
+2025-06-03 08:06:48.427 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-03 08:09:09.179 +05:30 [INF] Application starting up
+2025-06-03 08:09:12.362 +05:30 [INF] Main thread ID: 1
+2025-06-03 08:09:12.362 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv
+2025-06-03 08:09:12.364 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-03 08:16:01.757 +05:30 [INF] Application starting up
+2025-06-03 08:16:02.608 +05:30 [INF] Main thread ID: 1
+2025-06-03 08:16:02.608 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv
+2025-06-03 08:16:02.612 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-03 08:16:24.346 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_449982_WIP.csv
+2025-06-03 08:16:24.346 +05:30 [INF] Process file name :- JPS_01_v1_20250530_449982_WIP.csv
+2025-06-03 08:16:24.346 +05:30 [INF] Total time taken in process: 11.5435364 seconds
+2025-06-03 08:16:24.349 +05:30 [INF] Total time taken in moving: 0.0026267 seconds
+2025-06-03 15:25:30.639 +05:30 [INF] Application starting up
+2025-06-03 15:25:31.052 +05:30 [INF] Main thread ID: 1
+2025-06-03 15:25:31.053 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-03 15:25:31.056 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-03 15:25:33.122 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-06-03 15:25:33.122 +05:30 [ERR] Exception: Input string was not in a correct format.
+2025-06-03 15:25:38.133 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-06-03 15:25:38.134 +05:30 [ERR] Exception: Input string was not in a correct format.
+2025-06-03 15:25:43.148 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 3
+2025-06-03 15:25:43.148 +05:30 [ERR] Exception: Input string was not in a correct format.
+2025-06-03 15:25:48.161 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 4
+2025-06-03 15:25:48.161 +05:30 [ERR] Exception: Input string was not in a correct format.
+2025-06-03 15:25:53.163 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 5
+2025-06-03 15:25:53.163 +05:30 [ERR] Exception: Input string was not in a correct format.
+2025-06-03 15:25:58.176 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 6
+2025-06-03 15:25:58.177 +05:30 [ERR] Exception: Input string was not in a correct format.
+2025-06-03 15:26:03.193 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 7
+2025-06-03 15:26:03.193 +05:30 [ERR] Exception: Input string was not in a correct format.
+2025-06-03 15:26:08.194 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 8
+2025-06-03 15:26:08.194 +05:30 [ERR] Exception: Input string was not in a correct format.
+2025-06-03 15:26:13.197 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 9
+2025-06-03 15:26:13.197 +05:30 [ERR] Exception: Input string was not in a correct format.
+2025-06-03 15:26:18.198 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 10
+2025-06-03 15:26:18.198 +05:30 [ERR] Exception: Input string was not in a correct format.
+2025-06-03 15:26:23.220 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 11
+2025-06-03 15:26:23.220 +05:30 [ERR] Exception: Input string was not in a correct format.
+2025-06-03 15:26:28.235 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 12
+2025-06-03 15:26:28.235 +05:30 [ERR] Exception: Input string was not in a correct format.
+2025-06-03 15:26:33.255 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 13
+2025-06-03 15:26:33.255 +05:30 [ERR] Exception: Input string was not in a correct format.
+2025-06-03 15:27:09.518 +05:30 [INF] Application starting up
+2025-06-03 15:27:10.824 +05:30 [INF] Main thread ID: 1
+2025-06-03 15:27:10.824 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-03 15:27:10.827 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-03 15:30:07.553 +05:30 [INF] Application starting up
+2025-06-03 15:30:08.696 +05:30 [INF] Main thread ID: 1
+2025-06-03 15:30:08.696 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-03 15:30:08.699 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-03 16:05:20.043 +05:30 [INF] Application starting up
+2025-06-03 16:05:20.327 +05:30 [INF] Main thread ID: 1
+2025-06-03 16:05:20.328 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_-_Copy_WIP.csv
+2025-06-03 16:05:20.329 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-03 16:05:24.509 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_-_Copy_WIP.csv
+2025-06-03 16:05:24.509 +05:30 [INF] Process file name :- JPS_01_v1_20250530_S2504244WQM0JPP_-_Copy_WIP.csv
+2025-06-03 16:05:24.509 +05:30 [INF] Total time taken in process: 3.1258335 seconds
+2025-06-03 16:05:24.512 +05:30 [INF] Total time taken in moving: 0.0022848 seconds

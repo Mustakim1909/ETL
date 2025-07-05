@@ -1,50 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\BackOffice\\ETL\\",
+  "WorkspaceRootPath": "D:\\ETL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|c:\\backoffice\\etl\\etldemo\\etl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|solutionrelative:etldemo\\etl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|c:\\backoffice\\etl\\etldemo.service\\etl.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|solutionrelative:etldemo.service\\etl.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|c:\\backoffice\\etl\\etldemo\\etlhelperprocess\\etlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|solutionrelative:etldemo\\etlhelperprocess\\etlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|c:\\backoffice\\etl\\etldemo.service\\model\\invoicemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|solutionrelative:etldemo.service\\model\\invoicemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|c:\\backoffice\\etl\\etldemo\\etlworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|d:\\etl\\etldemo\\etlworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|solutionrelative:etldemo\\etlworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|c:\\backoffice\\etl\\etldemo.service\\repo\\postgresql\\etlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|solutionrelative:etldemo.service\\repo\\postgresql\\etlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|c:\\backoffice\\etl\\etldemo.service\\repo\\interface\\ietlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|solutionrelative:etldemo.service\\repo\\interface\\ietlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|c:\\backoffice\\etl\\etldemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|solutionrelative:etldemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|c:\\backoffice\\etl\\etldemo.service\\model\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|d:\\etl\\etldemo.service\\model\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|solutionrelative:etldemo.service\\model\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|c:\\backoffice\\etl\\etldemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|d:\\etl\\etldemo\\etlhelperprocess\\etlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|solutionrelative:etldemo\\etlhelperprocess\\etlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|d:\\etl\\etldemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|solutionrelative:etldemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|c:\\backoffice\\etl\\etldemo.service\\etlfactorysetting\\etlservicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|d:\\etl\\etldemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|solutionrelative:etldemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|d:\\etl\\etldemo.service\\repo\\postgresql\\etlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|solutionrelative:etldemo.service\\repo\\postgresql\\etlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|d:\\etl\\etldemo\\etl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|solutionrelative:etldemo\\etl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|d:\\etl\\etldemo.service\\model\\multiformatdatetimeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|solutionrelative:etldemo.service\\model\\multiformatdatetimeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|d:\\etl\\etldemo.service\\etlfactorysetting\\etlservicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|solutionrelative:etldemo.service\\etlfactorysetting\\etlservicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|d:\\etl\\etldemo.service\\model\\invoicemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|solutionrelative:etldemo.service\\model\\invoicemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|d:\\etl\\etldemo\\etlhelperprocess\\pdfmappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D1DF617-CF21-4D19-B506-131D4938BD87}|ETLDEMO\\ETL.csproj|solutionrelative:etldemo\\etlhelperprocess\\pdfmappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|d:\\etl\\etldemo.service\\model\\documentpdfmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|solutionrelative:etldemo.service\\model\\documentpdfmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|d:\\etl\\etldemo.service\\model\\invoicevalidationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54E70EB-FE75-4F7B-AB58-5E952B41DF2E}|ETLDemo.Service\\ETL.Service.csproj|solutionrelative:etldemo.service\\model\\invoicevalidationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,142 +65,176 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IETLService.cs",
-              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDemo.Service\\Repo\\Interface\\IETLService.cs",
-              "RelativeDocumentMoniker": "ETLDemo.Service\\Repo\\Interface\\IETLService.cs",
-              "ToolTip": "C:\\BackOffice\\ETL\\ETLDemo.Service\\Repo\\Interface\\IETLService.cs",
-              "RelativeToolTip": "ETLDemo.Service\\Repo\\Interface\\IETLService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA6wCQAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ETLWorker.cs",
+              "DocumentMoniker": "D:\\ETL\\ETLDEMO\\ETLWorker.cs",
+              "RelativeDocumentMoniker": "ETLDEMO\\ETLWorker.cs",
+              "ToolTip": "D:\\ETL\\ETLDEMO\\ETLWorker.cs",
+              "RelativeToolTip": "ETLDEMO\\ETLWorker.cs",
+              "ViewState": "AgIAAK4DAAAAAAAAAADgv78DAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T03:09:49.688Z"
+              "WhenOpened": "2025-03-19T02:38:55.35Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAP4UAAAAAAAAAAAIwBEVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-07-04T03:43:30.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DocumentPDFModel.cs",
+              "DocumentMoniker": "D:\\ETL\\ETLDemo.Service\\Model\\DocumentPDFModel.cs",
+              "RelativeDocumentMoniker": "ETLDemo.Service\\Model\\DocumentPDFModel.cs",
+              "ToolTip": "D:\\ETL\\ETLDemo.Service\\Model\\DocumentPDFModel.cs",
+              "RelativeToolTip": "ETLDemo.Service\\Model\\DocumentPDFModel.cs",
+              "ViewState": "AgIAAEEAAACAMjMzM5MwwIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T02:35:05.667Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDEMO\\Program.cs",
-              "RelativeDocumentMoniker": "ETLDEMO\\Program.cs",
-              "ToolTip": "C:\\BackOffice\\ETL\\ETLDEMO\\Program.cs",
-              "RelativeToolTip": "ETLDEMO\\Program.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAgwGcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T05:13:33.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "ETLServiceFactory.cs",
-              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDemo.Service\\ETLFactorySetting\\ETLServiceFactory.cs",
+              "DocumentMoniker": "D:\\ETL\\ETLDemo.Service\\ETLFactorySetting\\ETLServiceFactory.cs",
               "RelativeDocumentMoniker": "ETLDemo.Service\\ETLFactorySetting\\ETLServiceFactory.cs",
-              "ToolTip": "C:\\BackOffice\\ETL\\ETLDemo.Service\\ETLFactorySetting\\ETLServiceFactory.cs",
+              "ToolTip": "D:\\ETL\\ETLDemo.Service\\ETLFactorySetting\\ETLServiceFactory.cs",
               "RelativeToolTip": "ETLDemo.Service\\ETLFactorySetting\\ETLServiceFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T03:52:13.838Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ETL.Service.csproj",
-              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDemo.Service\\ETL.Service.csproj",
-              "RelativeDocumentMoniker": "ETLDemo.Service\\ETL.Service.csproj",
-              "ToolTip": "C:\\BackOffice\\ETL\\ETLDemo.Service\\ETL.Service.csproj",
-              "RelativeToolTip": "ETLDemo.Service\\ETL.Service.csproj",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwCYAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-08T03:48:09.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ETL.csproj",
-              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDEMO\\ETL.csproj",
-              "RelativeDocumentMoniker": "ETLDEMO\\ETL.csproj",
-              "ToolTip": "C:\\BackOffice\\ETL\\ETLDEMO\\ETL.csproj",
-              "RelativeToolTip": "ETLDEMO\\ETL.csproj",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-08T03:47:50.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ETLService.cs",
-              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDemo.Service\\Repo\\PostgreSql\\ETLService.cs",
-              "RelativeDocumentMoniker": "ETLDemo.Service\\Repo\\PostgreSql\\ETLService.cs",
-              "ToolTip": "C:\\BackOffice\\ETL\\ETLDemo.Service\\Repo\\PostgreSql\\ETLService.cs",
-              "RelativeToolTip": "ETLDemo.Service\\Repo\\PostgreSql\\ETLService.cs",
-              "ViewState": "AgIAACcGAAAAAAAAAAArwDQGAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T05:47:33.228Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDEMO\\appsettings.json",
-              "RelativeDocumentMoniker": "ETLDEMO\\appsettings.json",
-              "ToolTip": "C:\\BackOffice\\ETL\\ETLDEMO\\appsettings.json",
-              "RelativeToolTip": "ETLDEMO\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-28T10:01:03.169Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Invoice.cs",
-              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDemo.Service\\Model\\Invoice.cs",
-              "RelativeDocumentMoniker": "ETLDemo.Service\\Model\\Invoice.cs",
-              "ToolTip": "C:\\BackOffice\\ETL\\ETLDemo.Service\\Model\\Invoice.cs",
-              "RelativeToolTip": "ETLDemo.Service\\Model\\Invoice.cs",
-              "ViewState": "AgIAAHoBAAAAAAAAAADgv64BAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T03:40:18.08Z"
+              "WhenOpened": "2025-03-19T07:53:23.841Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "InvoiceMap.cs",
-              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDemo.Service\\Model\\InvoiceMap.cs",
-              "RelativeDocumentMoniker": "ETLDemo.Service\\Model\\InvoiceMap.cs",
-              "ToolTip": "C:\\BackOffice\\ETL\\ETLDemo.Service\\Model\\InvoiceMap.cs",
-              "RelativeToolTip": "ETLDemo.Service\\Model\\InvoiceMap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0BAAAtAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ETL\\ETLDEMO\\Program.cs",
+              "RelativeDocumentMoniker": "ETLDEMO\\Program.cs",
+              "ToolTip": "D:\\ETL\\ETLDEMO\\Program.cs",
+              "RelativeToolTip": "ETLDEMO\\Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAUwBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T03:55:51.993Z"
+              "WhenOpened": "2025-03-19T07:47:01.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ETLHelper.cs",
-              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDEMO\\ETLHelperProcess\\ETLHelper.cs",
-              "RelativeDocumentMoniker": "ETLDEMO\\ETLHelperProcess\\ETLHelper.cs",
-              "ToolTip": "C:\\BackOffice\\ETL\\ETLDEMO\\ETLHelperProcess\\ETLHelper.cs",
-              "RelativeToolTip": "ETLDEMO\\ETLHelperProcess\\ETLHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "D:\\ETL\\ETLDemo.Service\\Model\\Invoice.cs",
+              "RelativeDocumentMoniker": "ETLDemo.Service\\Model\\Invoice.cs",
+              "ToolTip": "D:\\ETL\\ETLDemo.Service\\Model\\Invoice.cs",
+              "RelativeToolTip": "ETLDemo.Service\\Model\\Invoice.cs",
+              "ViewState": "AgIAAEEBAAAAAAAAAAAYwFADAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T03:44:57.514Z",
+              "WhenOpened": "2025-02-17T03:40:18.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ETLWorker.cs",
-              "DocumentMoniker": "C:\\BackOffice\\ETL\\ETLDEMO\\ETLWorker.cs",
-              "RelativeDocumentMoniker": "ETLDEMO\\ETLWorker.cs",
-              "ToolTip": "C:\\BackOffice\\ETL\\ETLDEMO\\ETLWorker.cs",
-              "RelativeToolTip": "ETLDEMO\\ETLWorker.cs",
-              "ViewState": "AgIAAO0AAAAAAAAAAAAjwBEBAAA9AAAAAAAAAA==",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ETL\\ETLDEMO\\appsettings.json",
+              "RelativeDocumentMoniker": "ETLDEMO\\appsettings.json",
+              "ToolTip": "D:\\ETL\\ETLDEMO\\appsettings.json",
+              "RelativeToolTip": "ETLDEMO\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-19T02:54:48.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ETLHelper.cs",
+              "DocumentMoniker": "D:\\ETL\\ETLDEMO\\ETLHelperProcess\\ETLHelper.cs",
+              "RelativeDocumentMoniker": "ETLDEMO\\ETLHelperProcess\\ETLHelper.cs",
+              "ToolTip": "D:\\ETL\\ETLDEMO\\ETLHelperProcess\\ETLHelper.cs",
+              "RelativeToolTip": "ETLDEMO\\ETLHelperProcess\\ETLHelper.cs",
+              "ViewState": "AgIAAH4CAAAAAAAAAAAswJECAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T03:42:41.523Z"
+              "WhenOpened": "2025-04-03T06:32:58.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PDFMappingService.cs",
+              "DocumentMoniker": "D:\\ETL\\ETLDEMO\\ETLHelperProcess\\PDFMappingService.cs",
+              "RelativeDocumentMoniker": "ETLDEMO\\ETLHelperProcess\\PDFMappingService.cs",
+              "ToolTip": "D:\\ETL\\ETLDEMO\\ETLHelperProcess\\PDFMappingService.cs",
+              "RelativeToolTip": "ETLDEMO\\ETLHelperProcess\\PDFMappingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T02:56:26.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ETLService.cs",
+              "DocumentMoniker": "D:\\ETL\\ETLDemo.Service\\Repo\\PostgreSql\\ETLService.cs",
+              "RelativeDocumentMoniker": "ETLDemo.Service\\Repo\\PostgreSql\\ETLService.cs",
+              "ToolTip": "D:\\ETL\\ETLDemo.Service\\Repo\\PostgreSql\\ETLService.cs",
+              "RelativeToolTip": "ETLDemo.Service\\Repo\\PostgreSql\\ETLService.cs",
+              "ViewState": "AgIAANoAAAAAAAAAAADgv+sAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T04:41:23.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MultiFormatDateTimeConverter.cs",
+              "DocumentMoniker": "D:\\ETL\\ETLDemo.Service\\Model\\MultiFormatDateTimeConverter.cs",
+              "RelativeDocumentMoniker": "ETLDemo.Service\\Model\\MultiFormatDateTimeConverter.cs",
+              "ToolTip": "D:\\ETL\\ETLDemo.Service\\Model\\MultiFormatDateTimeConverter.cs",
+              "RelativeToolTip": "ETLDemo.Service\\Model\\MultiFormatDateTimeConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T11:20:56.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ETL.csproj",
+              "DocumentMoniker": "D:\\ETL\\ETLDEMO\\ETL.csproj",
+              "RelativeDocumentMoniker": "ETLDEMO\\ETL.csproj",
+              "ToolTip": "D:\\ETL\\ETLDEMO\\ETL.csproj",
+              "RelativeToolTip": "ETLDEMO\\ETL.csproj",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-03T10:10:11.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InvoiceMap.cs",
+              "DocumentMoniker": "D:\\ETL\\ETLDemo.Service\\Model\\InvoiceMap.cs",
+              "RelativeDocumentMoniker": "ETLDemo.Service\\Model\\InvoiceMap.cs",
+              "ToolTip": "D:\\ETL\\ETLDemo.Service\\Model\\InvoiceMap.cs",
+              "RelativeToolTip": "ETLDemo.Service\\Model\\InvoiceMap.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAA4wEUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T02:23:21.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InvoiceValidationResult.cs",
+              "DocumentMoniker": "D:\\ETL\\ETLDemo.Service\\Model\\InvoiceValidationResult.cs",
+              "RelativeDocumentMoniker": "ETLDemo.Service\\Model\\InvoiceValidationResult.cs",
+              "ToolTip": "D:\\ETL\\ETLDemo.Service\\Model\\InvoiceValidationResult.cs",
+              "RelativeToolTip": "ETLDemo.Service\\Model\\InvoiceValidationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:34:09.53Z"
             }
           ]
         }

@@ -1,0 +1,104 @@
+2025-03-27 15:47:58.405 +05:30 [INF] Application starting up
+2025-03-27 15:47:58.693 +05:30 [INF] Main thread ID: 1
+2025-03-27 15:47:58.693 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV01_WIP.csv
+2025-03-27 15:47:58.693 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV02_WIP.csv
+2025-03-27 15:47:58.693 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV03_WIP.csv
+2025-03-27 15:47:58.693 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-03-27 15:47:58.693 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TESTABC001_WIP.csv
+2025-03-27 15:47:58.694 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TESTABC002_WIP.csv
+2025-03-27 15:47:58.694 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TESTABC003_WIP.csv
+2025-03-27 15:47:58.694 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTFeb12-07_WIP.csv
+2025-03-27 15:47:58.694 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTINTEL-01_WIP.csv
+2025-03-27 15:47:58.694 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTINTEL-012_WIP.csv
+2025-03-27 15:47:58.694 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTINTEL-013_WIP.csv
+2025-03-27 15:47:58.694 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTINTEL-015_WIP.csv
+2025-03-27 15:47:58.694 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTINTEL-017_WIP.csv
+2025-03-27 15:47:58.694 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-03-27 15:47:58.694 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-06_WIP.csv
+2025-03-27 15:47:58.694 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-07_WIP.csv
+2025-03-27 15:47:58.694 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-08_WIP.csv
+2025-03-27 15:47:58.694 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-09_WIP.csv
+2025-03-27 15:47:58.694 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-10_WIP.csv
+2025-03-27 15:47:58.694 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20250206_Invtestfeb01_WIP.csv
+2025-03-27 15:47:58.696 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-03-27 15:48:01.043 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV01_WIP.csv
+2025-03-27 15:48:01.043 +05:30 [INF] Process file name :- INTEL_01_v1_20231208_TELINV01_WIP.csv
+2025-03-27 15:48:01.043 +05:30 [INF] Total time taken in process: 1.3792626 seconds
+2025-03-27 15:48:01.046 +05:30 [INF] Total time taken in moving: 0.0021464 seconds
+2025-03-27 15:48:01.419 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV02_WIP.csv
+2025-03-27 15:48:01.420 +05:30 [INF] Process file name :- INTEL_01_v1_20231208_TELINV02_WIP.csv
+2025-03-27 15:48:01.420 +05:30 [INF] Total time taken in process: 0.3738955 seconds
+2025-03-27 15:48:01.421 +05:30 [INF] Total time taken in moving: 0.0013006 seconds
+2025-03-27 15:48:01.526 +05:30 [INF] Invoice Number Not Match
+2025-03-27 15:48:01.537 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV03_WIP.csv
+2025-03-27 15:48:01.537 +05:30 [INF] Process file name :- INTEL_01_v1_20231208_TELINV03_WIP.csv
+2025-03-27 15:48:01.538 +05:30 [INF] Total time taken in process: 0.1164619 seconds
+2025-03-27 15:48:01.539 +05:30 [INF] Total time taken in moving: 0.0011682 seconds
+2025-03-27 15:48:01.893 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-03-27 15:48:01.893 +05:30 [INF] Process file name :- INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-03-27 15:48:01.893 +05:30 [INF] Total time taken in process: 0.3563061 seconds
+2025-03-27 15:48:01.894 +05:30 [INF] Total time taken in moving: 0.0010377 seconds
+2025-03-27 15:48:02.263 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TESTABC001_WIP.csv
+2025-03-27 15:48:02.263 +05:30 [INF] Process file name :- INTEL_01_v1_20231208_TESTABC001_WIP.csv
+2025-03-27 15:48:02.263 +05:30 [INF] Total time taken in process: 0.3690261 seconds
+2025-03-27 15:48:02.265 +05:30 [INF] Total time taken in moving: 0.0012141 seconds
+2025-03-27 15:48:02.637 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TESTABC002_WIP.csv
+2025-03-27 15:48:02.637 +05:30 [INF] Process file name :- INTEL_01_v1_20231208_TESTABC002_WIP.csv
+2025-03-27 15:48:02.637 +05:30 [INF] Total time taken in process: 0.3720608 seconds
+2025-03-27 15:48:02.638 +05:30 [INF] Total time taken in moving: 0.0010115 seconds
+2025-03-27 15:48:03.001 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TESTABC003_WIP.csv
+2025-03-27 15:48:03.001 +05:30 [INF] Process file name :- INTEL_01_v1_20231208_TESTABC003_WIP.csv
+2025-03-27 15:48:03.001 +05:30 [INF] Total time taken in process: 0.362927 seconds
+2025-03-27 15:48:03.002 +05:30 [INF] Total time taken in moving: 0.0009535 seconds
+2025-03-27 15:48:03.358 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTFeb12-07_WIP.csv
+2025-03-27 15:48:03.358 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTFeb12-07_WIP.csv
+2025-03-27 15:48:03.358 +05:30 [INF] Total time taken in process: 0.3563404 seconds
+2025-03-27 15:48:03.359 +05:30 [INF] Total time taken in moving: 0.0010156 seconds
+2025-03-27 15:48:03.759 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTINTEL-01_WIP.csv
+2025-03-27 15:48:03.759 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTINTEL-01_WIP.csv
+2025-03-27 15:48:03.759 +05:30 [INF] Total time taken in process: 0.3996364 seconds
+2025-03-27 15:48:03.760 +05:30 [INF] Total time taken in moving: 0.000968 seconds
+2025-03-27 15:48:04.162 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTINTEL-012_WIP.csv
+2025-03-27 15:48:04.162 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTINTEL-012_WIP.csv
+2025-03-27 15:48:04.163 +05:30 [INF] Total time taken in process: 0.4025438 seconds
+2025-03-27 15:48:04.164 +05:30 [INF] Total time taken in moving: 0.0009714 seconds
+2025-03-27 15:48:04.645 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTINTEL-013_WIP.csv
+2025-03-27 15:48:04.645 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTINTEL-013_WIP.csv
+2025-03-27 15:48:04.645 +05:30 [INF] Total time taken in process: 0.4818656 seconds
+2025-03-27 15:48:04.647 +05:30 [INF] Total time taken in moving: 0.0010023 seconds
+2025-03-27 15:48:05.046 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTINTEL-015_WIP.csv
+2025-03-27 15:48:05.046 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTINTEL-015_WIP.csv
+2025-03-27 15:48:05.047 +05:30 [INF] Total time taken in process: 0.4000153 seconds
+2025-03-27 15:48:05.048 +05:30 [INF] Total time taken in moving: 0.0009686 seconds
+2025-03-27 15:48:05.474 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTINTEL-017_WIP.csv
+2025-03-27 15:48:05.474 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTINTEL-017_WIP.csv
+2025-03-27 15:48:05.474 +05:30 [INF] Total time taken in process: 0.4266582 seconds
+2025-03-27 15:48:05.475 +05:30 [INF] Total time taken in moving: 0.0009926 seconds
+2025-03-27 15:48:08.769 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-03-27 15:48:08.769 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-03-27 15:48:08.769 +05:30 [INF] Total time taken in process: 3.2936008 seconds
+2025-03-27 15:48:08.770 +05:30 [INF] Total time taken in moving: 0.0012647 seconds
+2025-03-27 15:48:09.214 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-06_WIP.csv
+2025-03-27 15:48:09.215 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTJAN30-06_WIP.csv
+2025-03-27 15:48:09.215 +05:30 [INF] Total time taken in process: 0.4443624 seconds
+2025-03-27 15:48:09.216 +05:30 [INF] Total time taken in moving: 0.0009846 seconds
+2025-03-27 15:48:09.583 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-07_WIP.csv
+2025-03-27 15:48:09.583 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTJAN30-07_WIP.csv
+2025-03-27 15:48:09.583 +05:30 [INF] Total time taken in process: 0.367678 seconds
+2025-03-27 15:48:09.584 +05:30 [INF] Total time taken in moving: 0.0009945 seconds
+2025-03-27 15:48:10.080 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-08_WIP.csv
+2025-03-27 15:48:10.080 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTJAN30-08_WIP.csv
+2025-03-27 15:48:10.080 +05:30 [INF] Total time taken in process: 0.4955108 seconds
+2025-03-27 15:48:10.081 +05:30 [INF] Total time taken in moving: 0.0011931 seconds
+2025-03-27 15:48:10.504 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-09_WIP.csv
+2025-03-27 15:48:10.504 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTJAN30-09_WIP.csv
+2025-03-27 15:48:10.504 +05:30 [INF] Total time taken in process: 0.423229 seconds
+2025-03-27 15:48:10.505 +05:30 [INF] Total time taken in moving: 0.0010096 seconds
+2025-03-27 15:48:10.937 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-10_WIP.csv
+2025-03-27 15:48:10.937 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTJAN30-10_WIP.csv
+2025-03-27 15:48:10.937 +05:30 [INF] Total time taken in process: 0.4314714 seconds
+2025-03-27 15:48:10.938 +05:30 [INF] Total time taken in moving: 0.0009958 seconds
+2025-03-27 15:48:11.298 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20250206_Invtestfeb01_WIP.csv
+2025-03-27 15:48:11.298 +05:30 [INF] Process file name :- INTEL_01_V1_20250206_Invtestfeb01_WIP.csv
+2025-03-27 15:48:11.298 +05:30 [INF] Total time taken in process: 0.3603948 seconds
+2025-03-27 15:48:11.299 +05:30 [INF] Total time taken in moving: 0.0010104 seconds

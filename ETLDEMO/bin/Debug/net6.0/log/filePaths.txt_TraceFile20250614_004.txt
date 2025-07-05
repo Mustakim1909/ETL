@@ -1,0 +1,24 @@
+2025-06-14 11:34:40.426 +05:30 [INF] Application starting up
+2025-06-14 11:34:40.711 +05:30 [INF] Main thread ID: 1
+2025-06-14 11:34:40.711 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 11:34:40.713 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 11:34:43.711 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 11:34:43.711 +05:30 [INF] Process file name :- JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 11:34:43.711 +05:30 [INF] Total time taken in process: 2.2436822 seconds
+2025-06-14 11:34:43.714 +05:30 [INF] Total time taken in moving: 0.0021159 seconds
+2025-06-14 11:52:45.360 +05:30 [INF] Application starting up
+2025-06-14 11:52:45.640 +05:30 [INF] Main thread ID: 1
+2025-06-14 11:52:45.641 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 11:52:45.643 +05:30 [INF] Processing files for domain: JPS, invoiceType: JPS
+2025-06-14 11:52:50.815 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPS\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 11:52:50.815 +05:30 [INF] Process file name :- JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-14 11:52:50.815 +05:30 [INF] Total time taken in process: 4.3191961 seconds
+2025-06-14 11:52:50.818 +05:30 [INF] Total time taken in moving: 0.0021297 seconds
+2025-06-14 12:25:26.163 +05:30 [INF] Application starting up
+2025-06-14 12:25:26.445 +05:30 [INF] Main thread ID: 1
+2025-06-14 12:25:26.445 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\McGrawHill\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 12:25:26.446 +05:30 [INF] Processing files for domain: McGrawHill, invoiceType: SLV
+2025-06-14 12:25:27.505 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\McGrawHill\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 12:25:27.505 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 12:25:27.505 +05:30 [INF] Total time taken in process: 0.7414181 seconds
+2025-06-14 12:25:27.507 +05:30 [INF] Total time taken in moving: 0.0019998 seconds

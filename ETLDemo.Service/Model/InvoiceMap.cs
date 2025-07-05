@@ -30,7 +30,7 @@ public class InvoiceDataMap : ClassMap<InvoiceCSVData>
             {
                 foreach (var col in columnNames)
                 {
-                    _columnMappings[col.CsvFieldName] = col.TableFieldName;
+                    _columnMappings[col.TableFieldName.Trim()] = col.CsvFieldName.Trim();
                 }
             }
             else
@@ -48,32 +48,52 @@ public class InvoiceDataMap : ClassMap<InvoiceCSVData>
 
     private void ConfigureMapping()
     {
-
-        if (_columnMappings == null || !_columnMappings.Any())
-            return;
-
-        foreach (var mapping in _columnMappings)
+        try
         {
-            var csvField = mapping.Key;     // CSV column name
-            var modelField = mapping.Value; // Model property name
 
-            //if(modelField == "CbcInvoiceLineNetAmount")
-            //{
-            //    Console.WriteLine(modelField);
-            //}
+            if (_columnMappings == null || !_columnMappings.Any())
+                return;
 
-            //if (csvField == "Invoice line net amount")
-            //{
-            //    Console.WriteLine(modelField);
-            //}
-
-            // Use reflection to check if the property exists in InvoiceCSVData
-            var property = typeof(InvoiceCSVData).GetProperty(modelField, BindingFlags.Public | BindingFlags.Instance | BindingFlags.IgnoreCase);
-
-            if (property != null)
+            foreach (var mapping in _columnMappings)
             {
-                Map(typeof(InvoiceCSVData), property).Name(csvField);
+                var csvField = mapping.Value;     // CSV column name
+                var modelField = mapping.Key;
+                // Use reflection to check if the property exists in InvoiceCSVData
+                var property = typeof(InvoiceCSVData).GetProperty(modelField, BindingFlags.Public | BindingFlags.Instance);
+
+                if (property != null)
+                {
+                    var memberMap = Map(typeof(InvoiceCSVData), property).Name(csvField);
+                    if (property.PropertyType == typeof(DateTime) || property.PropertyType == typeof(DateTime?))
+                    {
+                        memberMap.TypeConverter(new MultiFormatDateTimeConverter());
+                    }
+                    // If it's a DateTime or Nullable<DateTime>, set format
+                    /* if (property.PropertyType == typeof(DateTime) || property.PropertyType == typeof(DateTime?))
+                     {
+                         if (property.Name.ToLower().Contains("datetime"))
+                         {
+                             memberMap.TypeConverterOption.Format("dd-MM-yyyy hh:mm:ss tt");
+                         }
+                         else if (property.Name.ToLower().Contains("date"))
+                         {
+                             memberMap.TypeConverterOption.Format("dd-MM-yyyy");
+                         }
+                         else if (property.Name.ToLower().Contains("time"))
+                         {
+                             memberMap.TypeConverterOption.Format("hh:mm:ss");
+                         }
+                         else
+                         {
+                             memberMap.TypeConverterOption.Format("dd-MM-yyyy hh:mm:ss tt");
+                         }
+                     }*/
+                }
             }
+        }catch(Exception ex)
+        {
+            Log.Information($"Exception in ConfigureMapping {ex.Message}");
+            Console.WriteLine($"Exception in ConfigureMapping {ex.Message}");
         }
     }
 }

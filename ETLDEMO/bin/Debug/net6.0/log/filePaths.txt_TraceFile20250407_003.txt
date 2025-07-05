@@ -1,0 +1,232 @@
+2025-04-07 12:59:22.698 +05:30 [INF] Application starting up
+2025-04-07 12:59:22.997 +05:30 [INF] Main thread ID: 1
+2025-04-07 12:59:22.997 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test1001_WIP.csv
+2025-04-07 12:59:22.997 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN10_WIP.csv
+2025-04-07 12:59:22.997 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest10_WIP.csv
+2025-04-07 12:59:22.997 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-07 12:59:22.999 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-07 12:59:22.999 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\CNSUN_02_v1_20250207_SUNCNT40000_WIP.csv
+2025-04-07 12:59:22.999 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT4000_WIP_WIP.csv
+2025-04-07 12:59:22.999 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\DNTEL\Input\Source\Temp_Process\DNTEL_03_V1_20250207_TelisDNT400_WIP_WIP.csv
+2025-04-07 12:59:22.999 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\DNSUN\Input\Source\Temp_Process\DNSUN_03_v1_20250207_DNTestSun400_WIP_WIP.csv
+2025-04-07 12:59:23.001 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-07 12:59:27.198 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test1001_WIP.csv
+2025-04-07 12:59:27.198 +05:30 [INF] Process file name :- SBINSUN_11_v2_20250207_Test1001_WIP.csv
+2025-04-07 12:59:27.198 +05:30 [INF] Total time taken in process: 2.590649 seconds
+2025-04-07 12:59:27.201 +05:30 [INF] Total time taken in moving: 0.0025468 seconds
+2025-04-07 12:59:27.201 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-07 12:59:27.873 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN10_WIP.csv
+2025-04-07 12:59:27.873 +05:30 [INF] Process file name :- SBCNSUN_12_v1_20250207_TESTSBCN10_WIP.csv
+2025-04-07 12:59:27.873 +05:30 [INF] Total time taken in process: 0.6718005 seconds
+2025-04-07 12:59:27.874 +05:30 [INF] Total time taken in moving: 0.0006909 seconds
+2025-04-07 12:59:27.874 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBDNSUN
+2025-04-07 12:59:28.499 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest10_WIP.csv
+2025-04-07 12:59:28.499 +05:30 [INF] Process file name :- SBDNSUN_13_v1_20250207_SBDTest10_WIP.csv
+2025-04-07 12:59:28.499 +05:30 [INF] Total time taken in process: 0.6255894 seconds
+2025-04-07 12:59:28.500 +05:30 [INF] Total time taken in moving: 0.0007262 seconds
+2025-04-07 12:59:28.500 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-07 12:59:29.005 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-07 12:59:29.005 +05:30 [INF] Process file name :- INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-07 12:59:29.005 +05:30 [INF] Total time taken in process: 0.5049303 seconds
+2025-04-07 12:59:29.006 +05:30 [INF] Total time taken in moving: 0.0009843 seconds
+2025-04-07 12:59:29.006 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-07 12:59:29.859 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-07 12:59:29.859 +05:30 [INF] Process file name :- INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-07 12:59:29.859 +05:30 [INF] Total time taken in process: 0.8524243 seconds
+2025-04-07 12:59:29.860 +05:30 [INF] Total time taken in moving: 0.0009603 seconds
+2025-04-07 12:59:29.860 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNSUN
+2025-04-07 12:59:30.576 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\CNSUN_02_v1_20250207_SUNCNT40000_WIP.csv
+2025-04-07 12:59:30.576 +05:30 [INF] Process file name :- CNSUN_02_v1_20250207_SUNCNT40000_WIP.csv
+2025-04-07 12:59:30.576 +05:30 [INF] Total time taken in process: 0.7163891 seconds
+2025-04-07 12:59:30.577 +05:30 [INF] Total time taken in moving: 0.0009298 seconds
+2025-04-07 12:59:30.577 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-07 12:59:30.714 +05:30 [WRN] Skipping invalid record at row 1: The conversion cannot be performed.
+    Text: 's'
+    MemberName: LineId
+    MemberType: System.Nullable`1[[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]
+    TypeConverter: 'CsvHelper.TypeConversion.NullableConverter'
+IReader state:
+   ColumnCount: 99
+   CurrentIndex: 71
+   HeaderRecord:
+["e-Invoice Version","e-Invoice Type Code","e-Invoice Number","e-Invoice Date","e-Invoice Time","Invoice Currency Code","Invoice IRBM Unique Identifier Number","InvoiceDocumentReference","Payment Mode","Supplier’s Bank Account Number","Supplier’s Name","Supplier’s TIN","Supplier’s Category","Supplier’s Busıness Registration Number","Supplier’s Identification Number / Passport Number","Supplier’s SST Registration Number","Supplier’s Tourism Tax Registration Number","Supplier’s e-mail","Supplier’s Malaysia Standard Industrial Classification (MSIC) Code","Supplier’s Business Activity Description","Supplier’s Contact Number","Supplier’s Address Line 0","Supplier’s Address Line 1","Supplier’s Address Line 2","Supplier’s Postal Zone","Supplier’s City Name","Supplier’s State","Supplier’s Country","Buyer’s Name","Buyer’s TIN","Buyer’s Category","Buyer’s Subcategory","Buyer’s Business Registration  Number","Buyer’s Identification Number / Passport Number","Buyer’s SST Registration Number","Buyer’s contact point (Person Name)","Buyer’s e-mail","Buyer’s Contact Number","Buyer’s Address Line 0","Buyer’s Address Line 1","Buyer’s Address Line 2","Buyer’s Postal Zone","Buyer’s City Name","Buyer’s State","Buyer’s Country","Sum of Invoice line net amount","Sum of allowances on document level","Total Fee / Charge Amount","Total Net Amount","Total Excluding Tax","Total Tax Amount","Total Including Tax","Paid amount","Rounding amount","Total Payable Amount","Total Discount Value","Invoice Additional Discount Amount","Invoice Additional Fee Amount","Total number of invoice lines","TAX category tax amount in accounting currency","No of lines based on TAX category code","TAX category code for tax category tax amount in accounting currency","Total Taxable Amount Per Tax Type","TaxCategory Id","TaxCategory schemeID","TaxCategory schemeAgencyID","TaxCategory schemeAgency code","Total Tax Amount Per Tax Type","TAX category rate","Amount Exempted from Tax","Details of Tax Exemption","InvoiceLineID","ClassificationCode","ClassificationClass","Product Tariff Code","Product Tariff Class","Description of Product or Service","Country of Origin","Unit Price","Quantity","Measurement","Subtotal","SST Tax Category","Tax Type","Tax Rate","Tax Amount","Total Excluding Tax2","Invoice line net amount","Nett Amount","Original Invoice Date","Credit Limit","Credit Term","Sales Person","Issued by","Total for Invoice","Reason for CN","Item Code","Tax Code","Account Number"]
+IParser state:
+   ByteCount: 0
+   CharCount: 2941
+   Row: 2
+   RawRow: 2
+   Count: 99
+   RawRecord:
+1.1,2,TelisCNT4000,07-02-2025,,MYR,NA,NA,113,HSBC BANK MALAYSIA BERHAD_300147287101,Premier Integrated Labs Sdn. Bhd.,C10284175060,BRN,1.99701E+11,,NA,NA,my.pil.ar.einvoice@ihhhealthcare.com,86902,Medical laboratories,60342979911,"4th Floor,Pantai Hospital Ampang,Jalan Perubatan 1",,"Pandan Indah, 60100 Kuala Lumpur",60100,Pandan Indah,14,MYS,KLINIK CARINGC/O - TAN & GAN WELLNESS SDN BHD,C23048536070,BRN,,2.01301E+11,,NA,,diwakar.karanam@advintek.com.sg,6063353426,NO 81,JALAN MP1,TAMAN MERDEKA PERMAI,75350,BATU BERENDAM,4,MYS,60,0,0,60,60,0,60,,,60,,,,10,0,,,,LineItem1,,1,1,,,,,s,,0,0,,,1,22,CLASS,,,EA,1,,,,6,0,02-02-2025,,,0,1,1,02-02-2025,RM11111,22D,UMAR
+
+
+2025-04-07 12:59:31.254 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT4000_WIP_WIP.csv
+2025-04-07 12:59:31.255 +05:30 [INF] Process file name :- CNTEL_02_v1_20250207_TelisCNT4000_WIP_WIP.csv
+2025-04-07 12:59:31.255 +05:30 [INF] Total time taken in process: 0.6772446 seconds
+2025-04-07 12:59:31.256 +05:30 [INF] Total time taken in moving: 0.0009298 seconds
+2025-04-07 12:59:31.256 +05:30 [INF] Processing files for domain: PIL, invoiceType: DNTEL
+2025-04-07 12:59:32.308 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\DNTEL\Input\Source\Temp_Process\DNTEL_03_V1_20250207_TelisDNT400_WIP_WIP.csv
+2025-04-07 12:59:32.308 +05:30 [INF] Process file name :- DNTEL_03_V1_20250207_TelisDNT400_WIP_WIP.csv
+2025-04-07 12:59:32.308 +05:30 [INF] Total time taken in process: 1.0522925 seconds
+2025-04-07 12:59:32.309 +05:30 [INF] Total time taken in moving: 0.0009604 seconds
+2025-04-07 12:59:32.309 +05:30 [INF] Processing files for domain: PIL, invoiceType: DNSUN
+2025-04-07 12:59:32.994 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\DNSUN\Input\Source\Temp_Process\DNSUN_03_v1_20250207_DNTestSun400_WIP_WIP.csv
+2025-04-07 12:59:32.995 +05:30 [INF] Process file name :- DNSUN_03_v1_20250207_DNTestSun400_WIP_WIP.csv
+2025-04-07 12:59:32.995 +05:30 [INF] Total time taken in process: 0.6855695 seconds
+2025-04-07 12:59:32.996 +05:30 [INF] Total time taken in moving: 0.0010121 seconds
+2025-04-07 13:10:29.478 +05:30 [INF] Application starting up
+2025-04-07 13:10:29.782 +05:30 [INF] Main thread ID: 1
+2025-04-07 13:10:29.783 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005_WIP.csv
+2025-04-07 13:10:29.783 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN780_WIP.csv
+2025-04-07 13:10:29.783 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest230_WIP.csv
+2025-04-07 13:10:29.783 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv
+2025-04-07 13:10:29.783 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-07 13:10:29.783 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\CNSUN_02_v1_20250207_SUNCNT10_WIP.csv
+2025-04-07 13:10:29.783 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10_WIP.csv
+2025-04-07 13:10:29.783 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\DNTEL\Input\Source\Temp_Process\DNTEL_03_V1_20250207_TelisDNT400_WIP.csv
+2025-04-07 13:10:29.783 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\DNSUN\Input\Source\Temp_Process\DNSUN_03_v1_20250207_DNTestSun400_WIP.csv
+2025-04-07 13:10:29.785 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-07 13:10:41.505 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005_WIP.csv
+2025-04-07 13:10:41.505 +05:30 [INF] Process file name :- SBINSUN_11_v2_20250207_Test2005_WIP.csv
+2025-04-07 13:10:41.505 +05:30 [INF] Total time taken in process: 10.2788504 seconds
+2025-04-07 13:10:41.507 +05:30 [INF] Total time taken in moving: 0.0018813 seconds
+2025-04-07 13:10:41.507 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-07 13:10:45.899 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN780_WIP.csv
+2025-04-07 13:10:45.899 +05:30 [INF] Process file name :- SBCNSUN_12_v1_20250207_TESTSBCN780_WIP.csv
+2025-04-07 13:10:45.899 +05:30 [INF] Total time taken in process: 4.3916146 seconds
+2025-04-07 13:10:45.900 +05:30 [INF] Total time taken in moving: 0.0007854 seconds
+2025-04-07 13:10:45.900 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBDNSUN
+2025-04-07 13:10:50.662 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest230_WIP.csv
+2025-04-07 13:10:50.662 +05:30 [INF] Process file name :- SBDNSUN_13_v1_20250207_SBDTest230_WIP.csv
+2025-04-07 13:10:50.662 +05:30 [INF] Total time taken in process: 4.7618712 seconds
+2025-04-07 13:10:50.662 +05:30 [INF] Total time taken in moving: 0.0007277 seconds
+2025-04-07 13:10:50.662 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-07 13:10:55.944 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv
+2025-04-07 13:10:55.944 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv
+2025-04-07 13:10:55.944 +05:30 [INF] Total time taken in process: 5.2818972 seconds
+2025-04-07 13:10:55.946 +05:30 [INF] Total time taken in moving: 0.0010405 seconds
+2025-04-07 13:10:55.946 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-07 13:11:04.063 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-07 13:11:04.064 +05:30 [INF] Process file name :- INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-07 13:11:04.064 +05:30 [INF] Total time taken in process: 8.1180539 seconds
+2025-04-07 13:11:04.065 +05:30 [INF] Total time taken in moving: 0.0013075 seconds
+2025-04-07 13:11:04.065 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNSUN
+2025-04-07 13:11:09.949 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\CNSUN\Input\Source\Temp_Process\CNSUN_02_v1_20250207_SUNCNT10_WIP.csv
+2025-04-07 13:11:09.949 +05:30 [INF] Process file name :- CNSUN_02_v1_20250207_SUNCNT10_WIP.csv
+2025-04-07 13:11:09.949 +05:30 [INF] Total time taken in process: 5.8843445 seconds
+2025-04-07 13:11:09.953 +05:30 [INF] Total time taken in moving: 0.0032864 seconds
+2025-04-07 13:11:09.953 +05:30 [INF] Processing files for domain: PIL, invoiceType: CNTEL
+2025-04-07 13:11:13.004 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\CNTEL\Input\Source\Temp_Process\CNTEL_02_v1_20250207_TelisCNT10_WIP.csv
+2025-04-07 13:11:13.004 +05:30 [INF] Process file name :- CNTEL_02_v1_20250207_TelisCNT10_WIP.csv
+2025-04-07 13:11:13.004 +05:30 [INF] Total time taken in process: 3.0513481 seconds
+2025-04-07 13:11:13.005 +05:30 [INF] Total time taken in moving: 0.0009971 seconds
+2025-04-07 13:11:13.005 +05:30 [INF] Processing files for domain: PIL, invoiceType: DNTEL
+2025-04-07 13:11:19.239 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\DNTEL\Input\Source\Temp_Process\DNTEL_03_V1_20250207_TelisDNT400_WIP.csv
+2025-04-07 13:11:19.239 +05:30 [INF] Process file name :- DNTEL_03_V1_20250207_TelisDNT400_WIP.csv
+2025-04-07 13:11:19.239 +05:30 [INF] Total time taken in process: 6.2337372 seconds
+2025-04-07 13:11:19.243 +05:30 [INF] Total time taken in moving: 0.0033717 seconds
+2025-04-07 13:11:19.243 +05:30 [INF] Processing files for domain: PIL, invoiceType: DNSUN
+2025-04-07 13:11:24.435 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\DNSUN\Input\Source\Temp_Process\DNSUN_03_v1_20250207_DNTestSun400_WIP.csv
+2025-04-07 13:11:24.435 +05:30 [INF] Process file name :- DNSUN_03_v1_20250207_DNTestSun400_WIP.csv
+2025-04-07 13:11:24.435 +05:30 [INF] Total time taken in process: 5.1927414 seconds
+2025-04-07 13:11:24.439 +05:30 [INF] Total time taken in moving: 0.0032425 seconds
+2025-04-07 13:22:03.777 +05:30 [INF] Application starting up
+2025-04-07 13:22:04.052 +05:30 [INF] Main thread ID: 1
+2025-04-07 13:22:04.052 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv
+2025-04-07 13:22:04.054 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-07 13:22:12.129 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv
+2025-04-07 13:22:12.129 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv
+2025-04-07 13:22:12.130 +05:30 [INF] Total time taken in process: 6.9878016 seconds
+2025-04-07 13:22:12.132 +05:30 [INF] Total time taken in moving: 0.0020476 seconds
+2025-04-07 13:23:09.645 +05:30 [INF] Application starting up
+2025-04-07 13:23:10.574 +05:30 [INF] Main thread ID: 1
+2025-04-07 13:23:10.574 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv
+2025-04-07 13:23:10.577 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-07 13:23:12.345 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv'.
+2025-04-07 13:23:12.491 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv'.
+2025-04-07 13:23:12.609 +05:30 [INF] Error processing files for domain PIL: Could not find file 'C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv'.
+2025-04-07 13:23:12.610 +05:30 [INF] The following files were not found and skipped:
+2025-04-07 13:23:12.610 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv
+2025-04-07 13:23:28.516 +05:30 [INF] Application starting up
+2025-04-07 13:23:29.643 +05:30 [INF] Main thread ID: 1
+2025-04-07 13:23:29.643 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv
+2025-04-07 13:23:29.646 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-07 13:25:18.009 +05:30 [INF] Application starting up
+2025-04-07 13:25:23.062 +05:30 [INF] Application starting up
+2025-04-07 13:25:23.932 +05:30 [INF] Main thread ID: 1
+2025-04-07 13:25:23.932 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv
+2025-04-07 13:25:23.934 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-07 13:28:13.144 +05:30 [INF] Application starting up
+2025-04-07 13:28:14.135 +05:30 [INF] Main thread ID: 1
+2025-04-07 13:28:14.136 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv
+2025-04-07 13:28:14.138 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-07 13:28:15.837 +05:30 [INF] Exception in ProcessTaskAsync : The process cannot access the file 'C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv' because it is being used by another process.
+2025-04-07 13:28:15.920 +05:30 [INF] Exception in ProcessFileAsync : The process cannot access the file 'C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv' because it is being used by another process.
+2025-04-07 13:28:15.985 +05:30 [INF] Error processing files for domain PIL: The process cannot access the file 'C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv' because it is being used by another process.
+2025-04-07 13:28:15.986 +05:30 [INF] The following files were not found and skipped:
+2025-04-07 13:28:15.986 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv
+2025-04-07 13:28:43.748 +05:30 [INF] Application starting up
+2025-04-07 13:28:44.755 +05:30 [INF] Main thread ID: 1
+2025-04-07 13:28:44.755 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv
+2025-04-07 13:28:44.757 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-07 13:30:08.148 +05:30 [INF] Application starting up
+2025-04-07 13:30:09.455 +05:30 [INF] Main thread ID: 1
+2025-04-07 13:30:09.455 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv
+2025-04-07 13:30:09.463 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-07 14:46:55.021 +05:30 [INF] Application starting up
+2025-04-07 14:46:55.333 +05:30 [INF] Main thread ID: 1
+2025-04-07 14:46:55.333 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test1001_WIP.csv
+2025-04-07 14:46:55.333 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005_WIP.csv
+2025-04-07 14:46:55.333 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN10_WIP.csv
+2025-04-07 14:46:55.333 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN780_WIP.csv
+2025-04-07 14:46:55.333 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest10_WIP.csv
+2025-04-07 14:46:55.333 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest230_WIP.csv
+2025-04-07 14:46:55.333 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-07 14:46:55.333 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv
+2025-04-07 14:46:55.333 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-07 14:46:55.333 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-07 14:46:55.336 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-07 14:46:58.967 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test1001_WIP.csv
+2025-04-07 14:46:58.967 +05:30 [INF] Process file name :- SBINSUN_11_v2_20250207_Test1001_WIP.csv
+2025-04-07 14:46:58.968 +05:30 [INF] Total time taken in process: 2.5621384 seconds
+2025-04-07 14:46:58.970 +05:30 [INF] Total time taken in moving: 0.0020106 seconds
+2025-04-07 14:47:08.291 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test2005_WIP.csv
+2025-04-07 14:47:08.291 +05:30 [INF] Process file name :- SBINSUN_11_v2_20250207_Test2005_WIP.csv
+2025-04-07 14:47:08.291 +05:30 [INF] Total time taken in process: 9.3214109 seconds
+2025-04-07 14:47:08.292 +05:30 [INF] Total time taken in moving: 0.0010861 seconds
+2025-04-07 14:47:08.293 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBCNSUN
+2025-04-07 14:47:08.819 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN10_WIP.csv
+2025-04-07 14:47:08.819 +05:30 [INF] Process file name :- SBCNSUN_12_v1_20250207_TESTSBCN10_WIP.csv
+2025-04-07 14:47:08.819 +05:30 [INF] Total time taken in process: 0.5265877 seconds
+2025-04-07 14:47:08.820 +05:30 [INF] Total time taken in moving: 0.0009653 seconds
+2025-04-07 14:47:12.306 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBCNSUN\Input\Source\Temp_Process\SBCNSUN_12_v1_20250207_TESTSBCN780_WIP.csv
+2025-04-07 14:47:12.306 +05:30 [INF] Process file name :- SBCNSUN_12_v1_20250207_TESTSBCN780_WIP.csv
+2025-04-07 14:47:12.306 +05:30 [INF] Total time taken in process: 3.4858849 seconds
+2025-04-07 14:47:12.307 +05:30 [INF] Total time taken in moving: 0.0009727 seconds
+2025-04-07 14:47:12.307 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBDNSUN
+2025-04-07 14:47:12.851 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest10_WIP.csv
+2025-04-07 14:47:12.851 +05:30 [INF] Process file name :- SBDNSUN_13_v1_20250207_SBDTest10_WIP.csv
+2025-04-07 14:47:12.851 +05:30 [INF] Total time taken in process: 0.544066 seconds
+2025-04-07 14:47:12.852 +05:30 [INF] Total time taken in moving: 0.0010789 seconds
+2025-04-07 14:47:16.396 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBDNSUN\Input\Source\Temp_Process\SBDNSUN_13_v1_20250207_SBDTest230_WIP.csv
+2025-04-07 14:47:16.396 +05:30 [INF] Process file name :- SBDNSUN_13_v1_20250207_SBDTest230_WIP.csv
+2025-04-07 14:47:16.396 +05:30 [INF] Total time taken in process: 3.5434219 seconds
+2025-04-07 14:47:16.397 +05:30 [INF] Total time taken in moving: 0.001185 seconds
+2025-04-07 14:47:16.397 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-07 14:47:16.941 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-07 14:47:16.941 +05:30 [INF] Process file name :- INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-07 14:47:16.941 +05:30 [INF] Total time taken in process: 0.5438464 seconds
+2025-04-07 14:47:16.942 +05:30 [INF] Total time taken in moving: 0.0010789 seconds
+2025-04-07 14:47:21.798 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv
+2025-04-07 14:47:21.798 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTJAN30-28_WIP.csv
+2025-04-07 14:47:21.798 +05:30 [INF] Total time taken in process: 4.8552286 seconds
+2025-04-07 14:47:21.799 +05:30 [INF] Total time taken in moving: 0.0013476 seconds
+2025-04-07 14:47:21.799 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-07 14:47:22.524 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-07 14:47:22.524 +05:30 [INF] Process file name :- INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-07 14:47:22.524 +05:30 [INF] Total time taken in process: 0.7253129 seconds
+2025-04-07 14:47:22.526 +05:30 [INF] Total time taken in moving: 0.0010235 seconds
+2025-04-07 14:47:29.662 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-07 14:47:29.662 +05:30 [INF] Process file name :- INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-07 14:47:29.662 +05:30 [INF] Total time taken in process: 7.1362921 seconds
+2025-04-07 14:47:29.663 +05:30 [INF] Total time taken in moving: 0.0010755 seconds

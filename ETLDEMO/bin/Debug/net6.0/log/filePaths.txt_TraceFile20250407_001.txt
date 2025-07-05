@@ -1,0 +1,8 @@
+2025-04-07 10:39:49.678 +05:30 [INF] Application starting up
+2025-04-07 10:39:49.952 +05:30 [INF] Main thread ID: 1
+2025-04-07 10:39:49.952 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test1001.csv
+2025-04-07 10:39:49.954 +05:30 [INF] Processing files for domain: PIL, invoiceType: SBINSUN
+2025-04-07 10:39:53.566 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\SBINSUN\Input\Source\Temp_Process\SBINSUN_11_v2_20250207_Test1001.csv
+2025-04-07 10:39:53.566 +05:30 [INF] Process file name :- SBINSUN_11_v2_20250207_Test1001.csv
+2025-04-07 10:39:53.567 +05:30 [INF] Total time taken in process: 2.5841476 seconds
+2025-04-07 10:39:53.570 +05:30 [INF] Total time taken in moving: 0.0017797 seconds

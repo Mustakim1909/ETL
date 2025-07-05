@@ -34,6 +34,8 @@ using Npgsql;
 using Polly;
 using Common.Security;
 using System;
+using ETL.ETLHelperProcess;
+using System.Reflection;
 
 namespace ETLDEMO
 {
@@ -42,6 +44,7 @@ namespace ETLDEMO
         private readonly IETLService _etlDemoService;
         private readonly ETLHelper _eTLHelper;
         private readonly ETLAppSettings _appSettings;
+        private readonly PDFMappingService pDFMappingService;
         private string _connectionString = null;
         private static readonly object _logLock = new object();
         public decimal totalInvoiceLineAmount = 0;
@@ -50,18 +53,26 @@ namespace ETLDEMO
         public int isLast=0;
         public List<List<InvoiceData>> finalinvoicedata = new List<List<InvoiceData>>();
 
-        public ETLWorker(IOptions<DbConfig> dbConfig, IETLService eTLDemoService, IOptions<ETLAppSettings> appsettings, ETLHelper eTLHelper)
+        public ETLWorker(IOptions<DbConfig> dbConfig, IETLService eTLDemoService, IOptions<ETLAppSettings> appsettings, ETLHelper eTLHelper,PDFMappingService pDFMapping)
         {
             _etlDemoService = eTLDemoService;
             _eTLHelper = eTLHelper;
             _appSettings = appsettings.Value;
+            pDFMappingService = pDFMapping;
             var initialConnectionString = ConnectionStringManager.IsConnectionStringCached()
                                    ? ConnectionStringManager.GetConnectionString()
                                    : dbConfig.Value.ConnectionString;
             var encPassword = string.Empty;
             var password = string.Empty;
-            encPassword = initialConnectionString.Split(';')[3].Substring(9);
-            password = SecurityHelper.DecryptWithEmbedKey(encPassword);
+            if(dbConfig.Value.DataProvider.ToLower() == "sqlserver")
+            {
+                encPassword = initialConnectionString.Split(';')[3].Substring(10);
+            }
+           else
+            {
+                encPassword = initialConnectionString.Split(';')[3].Substring(9);
+            }
+                password = SecurityHelper.DecryptWithEmbedKey(encPassword);
 
             initialConnectionString = initialConnectionString.Replace(encPassword, password);
             _connectionString = initialConnectionString;
@@ -74,6 +85,7 @@ namespace ETLDEMO
                 Console.WriteLine("Start");
 
                 var commandArguments = Environment.GetCommandLineArgs();
+                Console.WriteLine($"Command Arguments : {commandArguments[1]}");
                 string filePathsFilePath = commandArguments[1];
 
                 // Check if the file exists
@@ -82,19 +94,29 @@ namespace ETLDEMO
                     Console.WriteLine("Error: The file with file paths does not exist.");
                     return;
                 }
-
                 // Read the contents of the file
-                string filePathsJson = File.ReadAllText(filePathsFilePath);
 
-                // Deserialize the JSON content back into the original file path array
-                string[] filePaths = JsonConvert.DeserializeObject<string[]>(filePathsJson);
-
+                string  filePathsJson = File.ReadAllText(filePathsFilePath);
+                Console.WriteLine($"Filepathjson : {filePathsJson}");
+                string[] filePaths = null;
+            try
+            {
+                // Deserialize the JSON content back into the original file path array  
+                 filePaths = JsonConvert.DeserializeObject<string[]>(filePathsJson);
+           }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Exception in filePathsJson : {ex.ToString()}");
+                }
                 var arg = filePaths;
 
                 //List<string> args = JsonConvert.DeserializeObject<List<string>>(commandArguments[1]);
-                List<string> taskTypes = arg
-           .Select(path => path.Replace("\\\\", "\\"))  // Replace escaped backslashes with single backslashes
-           .ToList();
+      //          List<string> taskTypes = arg
+      //.Select(path => path.Contains("\\\\") ? path.Replace("\\\\", "\\") : path)
+      //.ToList()
+     
+      List<string> taskTypes = arg.ToList();
+
                 LogThreadSafe($"Main thread ID: {Thread.CurrentThread.ManagedThreadId}");
 
                 // Log all arguments
@@ -236,6 +258,7 @@ namespace ETLDEMO
         {
             try
             {
+                string invtypecode = string.Empty;
                 int count = 0;
                 string totalamount;
                 HashSet<string> processedInvoiceNumbers = new HashSet<string>();
@@ -312,8 +335,9 @@ namespace ETLDEMO
                             CbcAmount = invoiceCSVData.Select(x => x.CbcAmount).FirstOrDefault(),
                             CacAddress = invoiceCSVData.Select(x => x.CacAddress).FirstOrDefault(),
                             //InvoiceDate = item.InvoiceDate,
-                            //InvoiceDate = invoiceCSVData.Select(x => x.InvoiceDate).FirstOrDefault(),
-                            InvoiceTime = invoiceCSVData.Select(x => x.InvoiceTime).FirstOrDefault(),
+                            EInvoiceDateTime = invoiceCSVData.Select(x => x.EInvoiceDateTime).FirstOrDefault(),
+                            //InvoiceDate = invoiceCSVData.Select(x => x.InvoiceDate).FirstOrDefault().Value.Date,
+                            //InvoiceTime = invoiceCSVData.Select(x => x.InvoiceTime).FirstOrDefault(),
                             RefNo = invoiceCSVData.Select(x => x.RefNo).FirstOrDefault(),
                             BP_CODE = invoiceCSVData.Select(x => x.BP_CODE).FirstOrDefault(),
                             TaxCategoryUNECE5153 = invoiceCSVData.Select(x => x.TaxCategoryUNECE5153).FirstOrDefault(),
@@ -329,22 +353,15 @@ namespace ETLDEMO
                             InvoiceAdditionalDiscount = invoiceCSVData.Select(x => x.InvoiceAdditionalDiscount).FirstOrDefault(),
                             InvoiceAdditionalFee = invoiceCSVData.Select(x => x.InvoiceAdditionalFee).FirstOrDefault(),
                             CacPostalSellerAddress = invoiceCSVData.Select(x => x.CacPostalSellerAddress).FirstOrDefault(),
-                            CacPostalBuyerAddress = invoiceCSVData.Select(x => x.CacPostalBuyerAddress).FirstOrDefault(),
                             CacPrice = invoiceCSVData.Select(x => x.CacPrice).FirstOrDefault(),
                             CacTaxTotal = invoiceCSVData.Select(x => x.CacTaxTotal).FirstOrDefault(),
                             CbcBaseAmount = invoiceCSVData.Select(x => x.CbcBaseAmount).FirstOrDefault(),
                             CbcBaseQuantity = invoiceCSVData.Select(x => x.CbcBaseQuantity).FirstOrDefault(),
-                            CbcBuyerReference = invoiceCSVData.Select(x => x.CbcBuyerReference).FirstOrDefault(),
-                            CbcSellerCompanyID = invoiceCSVData.Select(x => x.CbcSellerCompanyID).FirstOrDefault(),
-                            CbcBuyerCompanyID = invoiceCSVData.Select(x => x.CbcBuyerCompanyID).FirstOrDefault(),
-                            CbcSellerVATID = "C26072927020",
-                            CbcBuyerVATID = invoiceCSVData.Select(x => x.CbcBuyerVATID).FirstOrDefault(),
+                          
                             CbcCompanyLegalForm = invoiceCSVData.Select(x => x.CbcCompanyLegalForm).FirstOrDefault(),
                             CbcDescription = invoiceCSVData.Select(x => x.CbcDescription).FirstOrDefault(),
                             CbcDescriptionCode = invoiceCSVData.Select(x => x.CbcDescriptionCode).FirstOrDefault(),
                             CbcDocumentCurrencyCode = invoiceCSVData.Select(x => x.CbcDocumentCurrencyCode).FirstOrDefault(),
-                            CbcSellerElectronicMail = " info@advintek.com.my",
-                            CbcBuyerElectronicMail = invoiceCSVData.Select(x => x.CbcBuyerElectronicMail).FirstOrDefault(),
                             CbcIDInvoiceNumber = invoiceCSVData.Select(x => x.CbcIDInvoiceNumber).FirstOrDefault(),
                             CbcPrecedingInvoicenumber = invoiceCSVData.Select(x => x.CbcPrecedingInvoicenumber).FirstOrDefault(),
                             CbcIDPaymentAccountIdentifier = invoiceCSVData.Select(x => x.CbcIDPaymentAccountIdentifier).FirstOrDefault(),
@@ -354,31 +371,24 @@ namespace ETLDEMO
                             CbcInvoiceTypeCode = invoiceCSVData.Select(x => x.CbcInvoiceTypeCode).FirstOrDefault(),
                             CbcIssueDate = invoiceCSVData.Select(x => x.CbcIssueDate).FirstOrDefault(),
                             CbcLineExtensionAmount = invoiceCSVData.Select(x => x.CbcLineExtensionAmount).FirstOrDefault(),
-                            CbcSellerName = "Advintek Consulting Services Sdn. Bhd.",
-                            CbcBuyerName = invoiceCSVData.Select(x => x.CbcBuyerName).FirstOrDefault(),
                             CbcNameDeliverToPartyName = invoiceCSVData.Select(x => x.CbcNameDeliverToPartyName).FirstOrDefault(),
                             CbcNote = invoiceCSVData.Select(x => x.CbcNote).FirstOrDefault(),
                             CbcPayableAmount = invoiceCSVData.Select(x => x.CbcPayableAmount).FirstOrDefault(),
                             CbcPaymentID = invoiceCSVData.Select(x => x.CbcPaymentID).FirstOrDefault(),
                             CbcPercent = invoiceCSVData.Select(x => x.CbcPercent).FirstOrDefault(),
-                            CbcSellerRegnName = invoiceCSVData.Select(x => x.CbcSellerRegnName).FirstOrDefault(),
-                            CbcBuyerRegnName = invoiceCSVData.Select(x => x.CbcBuyerRegnName).FirstOrDefault(),
+                            
                             CbcTaxableAmount = invoiceCSVData.Select(x => x.CbcTaxableAmount).FirstOrDefault(),
                             CbcTaxCurrencyCode = invoiceCSVData.Select(x => x.CbcTaxCurrencyCode).FirstOrDefault(),
                             CbcTaxExclusiveAmount = invoiceCSVData.Select(x => x.CbcTaxExclusiveAmount).FirstOrDefault(),
                             CbcTaxExemptionReason = invoiceCSVData.Select(x => x.CbcTaxExemptionReason).FirstOrDefault(),
                             CbcTaxInclusiveAmount = invoiceCSVData.Select(x => x.CbcTaxInclusiveAmount).FirstOrDefault(),
                             CbcTaxPointDate = invoiceCSVData.Select(x => x.CbcTaxPointDate).FirstOrDefault(),
-                            CbcSellerTelephone = "+60122672127",
-                            CbcBuyerTelephone = invoiceCSVData.Select(x => x.CbcBuyerTelephone).FirstOrDefault(),
                             NamePaymentMeansText = invoiceCSVData.Select(x => x.NamePaymentMeansText).FirstOrDefault(),
                             SchemeID = invoiceCSVData.Select(x => x.SchemeID).FirstOrDefault(),
                             UnitCode = invoiceCSVData.Select(x => x.UnitCode).FirstOrDefault(),
                             IRBMUniqueNo = invoiceCSVData.Select(x => x.IRBMUniqueNo).FirstOrDefault(),
                             PaymentDueDate = invoiceCSVData.Select(x => x.paymentDueDate).FirstOrDefault(),
                             CbcPaymentCurrencyCode = invoiceCSVData.Select(x => x.CbcPaymentCurrencyCode).FirstOrDefault(),
-                            CbcBusinessActivityDesc = "Information Communication Technology",
-                            CbcMsicCode = "62091",
                             TotalLineAmount = invoiceCSVData.Select(x => x.CbcSumOfInvoiceLineNetAmount).FirstOrDefault(),
                             TotalChangeAmount = invoiceCSVData.Select(x => x.TotalChangeAmount).FirstOrDefault(),
                             TotalAllowanceAmount = invoiceCSVData.Select(x => x.TotalAllowanceAmount).FirstOrDefault(),
@@ -391,7 +401,7 @@ namespace ETLDEMO
                             eTemplateId = invoiceCSVData.Select(x => x.eTemplateId).FirstOrDefault(),
                             templateId = invoiceCSVData.Select(x => x.templateId).FirstOrDefault(),
                             Status = invoiceCSVData.Select(x => x.Status).FirstOrDefault(),
-                            //eInvoiceDateTime = Convert.ToDateTime(item.InvoiceDateTime),
+                            //EInvoiceDateTime = Convert.ToDateTime(item.InvoiceDateTime),
                             invoiceValidator = invoiceCSVData.Select(x => x.invoiceValidator).FirstOrDefault(),
                             TaxOfficeSubmitter = invoiceCSVData.Select(x => x.TaxOfficeSubmitter).FirstOrDefault(),
                             WorkflowStatus = invoiceCSVData.Select(x => x.WorkflowStatus).FirstOrDefault(),
@@ -405,7 +415,6 @@ namespace ETLDEMO
                             Checke2ActionTime = invoiceCSVData.Select(x => x.Checke2ActionTime).FirstOrDefault(),
                             SubmittedToIRBDate = invoiceCSVData.Select(x => x.SubmittedToIRBDate).FirstOrDefault(),
                             IRBResponseDate = invoiceCSVData.Select(x => x.IRBResponseDate).FirstOrDefault(),
-                            BuyerSentDate = invoiceCSVData.Select(x => x.BuyerSentDate).FirstOrDefault(),
                             PdfBlob = invoiceCSVData.Select(x => x.PdfBlob).FirstOrDefault(),
                             PdfXml = invoiceCSVData.Select(x => x.PdfXml).FirstOrDefault(),
                             Priority = invoiceCSVData.Select(x => x.Priority).FirstOrDefault(),
@@ -425,23 +434,6 @@ namespace ETLDEMO
                             EInvoiceNumber = invoiceCSVData.Select(x => x.EInvoiceNumber).FirstOrDefault(),
                             TaxOfficeSchedulerId = invoiceCSVData.Select(x => x.TaxOfficeSchedulerId).FirstOrDefault(),
                             InvoiceVersion = invoiceCSVData.Select(x => x.InvoiceVersion).FirstOrDefault(),
-                            CbcSellerSSTRegistrationNumber = invoiceCSVData.Select(x => x.CbcSellerSSTRegistrationNumber).FirstOrDefault(),
-                            CbcSellerTourismTaxRegistrationNumber = invoiceCSVData.Select(x => x.CbcSellerTourismTaxRegistrationNumber).FirstOrDefault(),
-                            CbcSStreetName = "Menara Centara",
-                            CbcSAdditionalStreetName1 = "Level 20 Unit 1,360,Jalan Tuanku Abdul",
-                            CbcSAdditionalStreetName2 = "Rahman Kuala Lumpur 50100  Malaysia",
-                            CbcSPostalZone = "50100",
-                            CbcSCityName = "Kuala Lumpur",
-                            CbcSCountrySubentity = "01",
-                            CbcSCountryIdentificationCode = "MYS",
-                            CbcBStreetName = invoiceCSVData.Select(x => x.CbcBStreetName).FirstOrDefault(),
-                            CbcBAdditionalStreetName1 = invoiceCSVData.Select(x => x.CbcBAdditionalStreetName1).FirstOrDefault(),
-                            CbcBAdditionalStreetName2 = invoiceCSVData.Select(x => x.CbcBAdditionalStreetName2).FirstOrDefault(),
-                            CbcBPostalZone = invoiceCSVData.Select(x => x.CbcBPostalZone).FirstOrDefault(),
-                            CbcBCityName = invoiceCSVData.Select(x => x.CbcBCityName).FirstOrDefault(),
-                            CbcBCountrySubentity = invoiceCSVData.Select(x => x.CbcBCountrySubentity).FirstOrDefault(),
-                            CbcBCountryIdentificationCode = invoiceCSVData.Select(x => x.CbcBCountryIdentificationCode).FirstOrDefault(),
-                            CbcBSSTRegistrationNumber = invoiceCSVData.Select(x => x.CbcBSSTRegistrationNumber).FirstOrDefault(),
                             CbcDStreetName = invoiceCSVData.Select(x => x.CbcDStreetName).FirstOrDefault(),
                             CbcDAdditionalStreetName1 = invoiceCSVData.Select(x => x.CbcDAdditionalStreetName1).FirstOrDefault(),
                             CbcDAdditionalStreetName2 = invoiceCSVData.Select(x => x.CbcDAdditionalStreetName2).FirstOrDefault(),
@@ -462,14 +454,8 @@ namespace ETLDEMO
                             CbcCalculationRate = invoiceCSVData.Select(x => x.CbcCalculationRate).FirstOrDefault(),
                             CbcStartDate = invoiceCSVData.Select(x => x.CbcStartDate).FirstOrDefault(),
                             CbcEndDate = invoiceCSVData.Select(x => x.CbcEndDate).FirstOrDefault(),
-                            CbcSCategory = "BRN",
-                            CbcSSubCategory = invoiceCSVData.Select(x => x.CbcSSubCategory).FirstOrDefault(),
-                            CbcSBRNNumber = "201901029037",
-                            CbcSNRIC = invoiceCSVData.Select(x => x.CbcSNRIC).FirstOrDefault(),
-                            CbcBCategory = invoiceCSVData.Select(x => x.CbcBCategory).FirstOrDefault(),
-                            CbcBSubCategory = invoiceCSVData.Select(x => x.CbcBSubCategory).FirstOrDefault(),
-                            CbcBBRNNumber = invoiceCSVData.Select(x => x.CbcBBRNNumber).FirstOrDefault(),
-                            CbcBNRIC = invoiceCSVData.Select(x => x.CbcBNRIC).FirstOrDefault(),
+                           
+                           
                             CbcShipRecipientCategory = invoiceCSVData.Select(x => x.CbcShipRecipientCategory).FirstOrDefault(),
                             CbcShipRecipientSubCategory = invoiceCSVData.Select(x => x.CbcShipRecipientSubCategory).FirstOrDefault(),
                             CbcShipRecipientBRNNumber = invoiceCSVData.Select(x => x.CbcShipRecipientBRNNumber).FirstOrDefault(),
@@ -501,12 +487,7 @@ namespace ETLDEMO
                             CbcPartyTaxSchemeID = invoiceCSVData.Select(x => x.CbcPartyTaxSchemeID).FirstOrDefault(),
                             CbcPartyLegalEntityCompanyID = invoiceCSVData.Select(x => x.CbcPartyLegalEntityCompanyID).FirstOrDefault(),
                             CbcPartyLegalEntityCompanyLegalForm = invoiceCSVData.Select(x => x.CbcPartyLegalEntityCompanyLegalForm).FirstOrDefault(),
-                            CbcBuyerEndpointId = invoiceCSVData.Select(x => x.CbcBuyerEndpointId).FirstOrDefault(),
-                            CbcBuyerEndpointIdschemeID = invoiceCSVData.Select(x => x.CbcBuyerEndpointIdschemeID).FirstOrDefault(),
-                            CbcBuyerPartyTaxSchemeID = invoiceCSVData.Select(x => x.CbcBuyerPartyTaxSchemeID).FirstOrDefault(),
-                            CbcBuyerPartyTaxSchemeCompanyID = invoiceCSVData.Select(x => x.CbcBuyerPartyTaxSchemeCompanyID).FirstOrDefault(),
-                            CbcBuyerPartyLegalEntityCompanyID = invoiceCSVData.Select(x => x.CbcBuyerPartyLegalEntityCompanyID).FirstOrDefault(),
-                            CbcBuyerPartyLegalEntityCompanyLegalForm = invoiceCSVData.Select(x => x.CbcBuyerPartyLegalEntityCompanyLegalForm).FirstOrDefault(),
+                           
                             CbcActualDeliveryDate = invoiceCSVData.Select(x => x.CbcActualDeliveryDate).FirstOrDefault(),
                             CbcDeliveryLocationId = invoiceCSVData.Select(x => x.CbcDeliveryLocationId).FirstOrDefault(),
                             CbcDeliveryStreetName = invoiceCSVData.Select(x => x.CbcDeliveryStreetName).FirstOrDefault(),
@@ -629,7 +610,7 @@ namespace ETLDEMO
                             OriginalInvoiceNumber = invoiceCSVData.Select(x => x.OriginalInvoiceNumber).FirstOrDefault(),
                             ExportAuthorizationNumber = invoiceCSVData.Select(x => x.ExportAuthorizationNumber).FirstOrDefault(),
                             OutputFileName = invoiceCSVData.Select(x => x.OutputFileName).FirstOrDefault(),
-                            BuyerContactPerson = invoiceCSVData.Select(x => x.BuyerContactPerson).FirstOrDefault(),
+                          
                             SellerContactPerson = invoiceCSVData.Select(x => x.SellerContactPerson).FirstOrDefault(),
                             //NetAmount = item.NetAmount,
                             NetAmount = invoiceCSVData.Select(x => x.NetAmount).FirstOrDefault(),
@@ -638,11 +619,115 @@ namespace ETLDEMO
                             //TotalAmount = totalamount,
                             TotalSourceInvoiceAmount = totalInvoiceLineAmount.ToString(),
                         };
-                        Console.WriteLine("Invoicedata");
-                        InvoiceCSVData.InvoiceDate = DateParser.TryParseDate(invoiceCSVData.Select(x => x.InvoiceDateTime).FirstOrDefault());
+                        if(InvoiceCSVData.InvoiceVersion == null)
+                        {
+                            InvoiceCSVData.InvoiceVersion = "1.0";
+                        }
+                        if(InvoiceCSVData.EInvoiceDateTime != null)
+                        {
+                            InvoiceCSVData.InvoiceDate = InvoiceCSVData.EInvoiceDateTime.Value.Date;
+    InvoiceCSVData.InvoiceTime = InvoiceCSVData.EInvoiceDateTime.Value;  
+                        }
+                        else
+                        {
+                            InvoiceCSVData.InvoiceDate = DateTime.Parse(invoiceCSVData.Select(x => x.InvoiceDate).FirstOrDefault()?.Date.ToString("yyyy-MM-dd"));
+                            InvoiceCSVData.InvoiceTime = invoiceCSVData.Select(x => x.InvoiceTime).FirstOrDefault();
+                        }
+
+                            Console.WriteLine("Invoicedata");
+                       // InvoiceCSVData.InvoiceDate = DateParser.TryParseDate(invoiceCSVData.Select(x => x.InvoiceDateTime).FirstOrDefault());
                         InvoiceCSVData.PaymentDueDate = DateParser.TryParseDate(invoiceCSVData.Select(x => x.PaymentDueDate).FirstOrDefault());
+                        invtypecode = InvoiceCSVData.CbcInvoiceTypeCode;
+
+                        if (invtypecode == "11" || invtypecode == "12" || invtypecode == "13" || invtypecode == "14")
+                        {
+                            InvoiceCSVData.CacPostalSellerAddress = invoiceCSVData.Select(x => x.CacPostalSellerAddress).FirstOrDefault();
+                            InvoiceCSVData.CbcSellerCompanyID = invoiceCSVData.Select(x => x.CbcSellerCompanyID).FirstOrDefault();
+                            InvoiceCSVData.CbcSellerVATID = invoiceCSVData.Select(x => x.CbcSellerVATID).FirstOrDefault();
+                            InvoiceCSVData.CbcSellerElectronicMail = invoiceCSVData.Select(x => x.CbcSellerElectronicMail).FirstOrDefault();
+                            InvoiceCSVData.CbcSellerName = invoiceCSVData.Select(x => x.CbcSellerName).FirstOrDefault();
+                            InvoiceCSVData.CbcSellerRegnName = invoiceCSVData.Select(x => x.CbcSellerRegnName).FirstOrDefault();
+                            InvoiceCSVData.CbcSellerTelephone = invoiceCSVData.Select(x => x.CbcSellerTelephone).FirstOrDefault();
+                            InvoiceCSVData.CbcEndpointId = invoiceCSVData.Select(x => x.CbcEndpointId).FirstOrDefault();
+                            InvoiceCSVData.CbcEndpointIdschemeID = invoiceCSVData.Select(x => x.CbcEndpointIdschemeID).FirstOrDefault();
+                            InvoiceCSVData.CbcPartyTaxSchemeID = invoiceCSVData.Select(x => x.CbcPartyTaxSchemeID).FirstOrDefault();
+                            InvoiceCSVData.CbcPartyTaxSchemeCompanyID = invoiceCSVData.Select(x => x.CbcPartyTaxSchemeCompanyID).FirstOrDefault();
+                            InvoiceCSVData.CbcPartyLegalEntityCompanyID = invoiceCSVData.Select(x => x.CbcPartyLegalEntityCompanyID).FirstOrDefault();
+                            InvoiceCSVData.CbcPartyLegalEntityCompanyLegalForm = invoiceCSVData.Select(x => x.CbcPartyLegalEntityCompanyLegalForm).FirstOrDefault();
+                            InvoiceCSVData.SellerContactPerson = invoiceCSVData.Select(x => x.SellerContactPerson).FirstOrDefault();
+                            InvoiceCSVData.CbcSStreetName = invoiceCSVData.Select(x => x.CbcSStreetName).FirstOrDefault();
+                            InvoiceCSVData.CbcSAdditionalStreetName1 = invoiceCSVData.Select(x => x.CbcSAdditionalStreetName1).FirstOrDefault();
+                            InvoiceCSVData.CbcSAdditionalStreetName2 = invoiceCSVData.Select(x => x.CbcSAdditionalStreetName2).FirstOrDefault();
+                            InvoiceCSVData.CbcSPostalZone = invoiceCSVData.Select(x => x.CbcSPostalZone).FirstOrDefault();
+                            InvoiceCSVData.CbcSCityName = invoiceCSVData.Select(x => x.CbcSCityName).FirstOrDefault();
+                            InvoiceCSVData.CbcSCountrySubentity = invoiceCSVData.Select(x => x.CbcSCountrySubentity).FirstOrDefault();
+                            InvoiceCSVData.CbcSCountryIdentificationCode = invoiceCSVData.Select(x => x.CbcSCountryIdentificationCode).FirstOrDefault();
+                            InvoiceCSVData.CbcSCategory = invoiceCSVData.Select(x => x.CbcSCategory).FirstOrDefault();
+                            InvoiceCSVData.CbcSellerSSTRegistrationNumber = invoiceCSVData.Select(x => x.CbcSellerSSTRegistrationNumber).FirstOrDefault();
+                            InvoiceCSVData.CbcSBRNNumber = invoiceCSVData.Select(x => x.CbcSBRNNumber).FirstOrDefault();
+                            InvoiceCSVData.CbcSSubCategory = invoiceCSVData.Select(x => x.CbcSSubCategory).FirstOrDefault();
+                            InvoiceCSVData.CbcSellerTourismTaxRegistrationNumber = invoiceCSVData.Select(x => x.CbcSellerTourismTaxRegistrationNumber).FirstOrDefault();
+                            InvoiceCSVData.CbcSellerRegnName = invoiceCSVData.Select(x => x.CbcSellerRegnName).FirstOrDefault();
+                            InvoiceCSVData.CbcSellerCompanyID = invoiceCSVData.Select(x => x.CbcSellerCompanyID).FirstOrDefault();
+                            InvoiceCSVData.CbcSNRIC = invoiceCSVData.Select(x => x.CbcSNRIC).FirstOrDefault();
+                        }
+                        else
+                        {
+                            InvoiceCSVData.CacPostalBuyerAddress = invoiceCSVData.Select(x => x.CacPostalBuyerAddress).FirstOrDefault();
+                            InvoiceCSVData.CbcBuyerReference = invoiceCSVData.Select(x => x.CbcBuyerReference).FirstOrDefault();
+                            InvoiceCSVData.CbcBuyerCompanyID = invoiceCSVData.Select(x => x.CbcBuyerCompanyID).FirstOrDefault();
+                            InvoiceCSVData.CbcBuyerVATID = invoiceCSVData.Select(x => x.CbcBuyerVATID).FirstOrDefault();
+                            InvoiceCSVData.CbcBuyerElectronicMail = invoiceCSVData.Select(x => x.CbcBuyerElectronicMail).FirstOrDefault();
+                            InvoiceCSVData.CbcBuyerName = invoiceCSVData.Select(x => x.CbcBuyerName).FirstOrDefault();
+                            InvoiceCSVData.CbcBuyerRegnName = invoiceCSVData.Select(x => x.CbcBuyerRegnName).FirstOrDefault();
+                            InvoiceCSVData.CbcBuyerTelephone = invoiceCSVData.Select(x => x.CbcBuyerTelephone).FirstOrDefault();
+                            InvoiceCSVData.BuyerSentDate = invoiceCSVData.Select(x => x.BuyerSentDate).FirstOrDefault();
+                            InvoiceCSVData.CbcBuyerEndpointId = invoiceCSVData.Select(x => x.CbcBuyerEndpointId).FirstOrDefault();
+                            InvoiceCSVData.CbcBuyerEndpointIdschemeID = invoiceCSVData.Select(x => x.CbcBuyerEndpointIdschemeID).FirstOrDefault();
+                            InvoiceCSVData.CbcBuyerPartyTaxSchemeID = invoiceCSVData.Select(x => x.CbcBuyerPartyTaxSchemeID).FirstOrDefault();
+                            InvoiceCSVData.CbcBuyerPartyTaxSchemeCompanyID = invoiceCSVData.Select(x => x.CbcBuyerPartyTaxSchemeCompanyID).FirstOrDefault();
+                            InvoiceCSVData.CbcBuyerPartyLegalEntityCompanyID = invoiceCSVData.Select(x => x.CbcBuyerPartyLegalEntityCompanyID).FirstOrDefault();
+                            InvoiceCSVData.CbcBuyerPartyLegalEntityCompanyLegalForm = invoiceCSVData.Select(x => x.CbcBuyerPartyLegalEntityCompanyLegalForm).FirstOrDefault();
+                            InvoiceCSVData.BuyerContactPerson = invoiceCSVData.Select(x => x.BuyerContactPerson).FirstOrDefault();
+                            InvoiceCSVData.CbcBCategory = invoiceCSVData.Select(x => x.CbcBCategory).FirstOrDefault();
+                            InvoiceCSVData.CbcBSubCategory = invoiceCSVData.Select(x => x.CbcBSubCategory).FirstOrDefault();
+                            InvoiceCSVData.CbcBBRNNumber = invoiceCSVData.Select(x => x.CbcBBRNNumber).FirstOrDefault();
+                            InvoiceCSVData.CbcBNRIC = invoiceCSVData.Select(x => x.CbcBNRIC).FirstOrDefault();
+                            InvoiceCSVData.CbcBStreetName = invoiceCSVData.Select(x => x.CbcBStreetName).FirstOrDefault();
+                            InvoiceCSVData.CbcBAdditionalStreetName1 = invoiceCSVData.Select(x => x.CbcBAdditionalStreetName1).FirstOrDefault();
+                            InvoiceCSVData.CbcBAdditionalStreetName2 = invoiceCSVData.Select(x => x.CbcBAdditionalStreetName2).FirstOrDefault();
+                            InvoiceCSVData.CbcBPostalZone = invoiceCSVData.Select(x => x.CbcBPostalZone).FirstOrDefault();
+                            InvoiceCSVData.CbcBCityName = invoiceCSVData.Select(x => x.CbcBCityName).FirstOrDefault();
+                            InvoiceCSVData.CbcBCountrySubentity = invoiceCSVData.Select(x => x.CbcBCountrySubentity).FirstOrDefault();
+                            InvoiceCSVData.CbcBCountryIdentificationCode = invoiceCSVData.Select(x => x.CbcBCountryIdentificationCode).FirstOrDefault();
+                            InvoiceCSVData.CbcBSSTRegistrationNumber = invoiceCSVData.Select(x => x.CbcBSSTRegistrationNumber).FirstOrDefault();
+                        }
                         //Create Json
-                        invoicedatajson = JsonConvert.SerializeObject(InvoiceCSVData);
+                        if (invtypecode == "01")
+                        {
+                            invtypecode = "Invoice";
+                        }
+                        else if(invtypecode == "02")
+                        {
+                            invtypecode = "CreditNote";
+                        }
+                        else if(invtypecode == "03")
+                        {
+                            invtypecode = "DebitNote";
+                        } 
+                        else if(invtypecode == "11")
+                        {
+                            invtypecode = "SBInvoice";
+                        }
+                        else if(invtypecode == "12")
+                        {
+                            invtypecode = "SBCreditNote";
+                        }
+                        else if(invtypecode == "13")
+                        {
+                            invtypecode = "SBDebitNote";
+                        }
+                            invoicedatajson = JsonConvert.SerializeObject(InvoiceCSVData);
 
                         finalinvoice = JsonConvert.SerializeObject(invoicedata);
                         InvoiceData invoicedata1 = new InvoiceData();
@@ -688,20 +773,27 @@ namespace ETLDEMO
                             if (invoicelineitemdata.Count() > 0)
                             {
                                 int lineId = 0;
-                                List<string> taxtype = new List<string> { "01", "02", "03", "04", "05", "06", "E" };
+                                //List<string> taxtype = new List<string> { "01", "02", "03", "04", "05", "06", "E" };
                                 Console.WriteLine("Invoice Line Items");
-                                if (!invoiceCSVData.Any(x => taxtype.Contains(x.CbcTaxType)))
-                                {
-                                    invoiceCSVData.ForEach(x => x.CbcTaxType = null);
-                                    invoiceCSVData.ForEach(x => x.CbcTaxSchemeAgencyCode = null);
-                                    invoiceCSVData.ForEach(x => x.CbcTaxSchemeID = null);
-                                }
-                                else
-                                {
-                                    invoiceCSVData.ForEach(x => x.CbcTaxType = "6");
-                                    invoiceCSVData.ForEach(x => x.CbcTaxSchemeAgencyCode = "OTH");
-                                    invoiceCSVData.ForEach(x => x.CbcTaxSchemeID = "UN/ECE 5153");
-                                }
+                                //invoiceCSVData.ForEach(x =>
+                                //{
+                                //    if (!string.IsNullOrEmpty(x.CbcTaxType) && x.CbcTaxType.Length < 2)
+                                //    {
+                                //        x.CbcTaxType = x.CbcTaxType.PadLeft(2, '0');
+                                //    }
+                                //});
+                                //if (!invoiceCSVData.Any(x => taxtype.Contains(x.CbcTaxType)))
+                                //{
+                                //    invoiceCSVData.ForEach(x => x.CbcTaxType = null);
+                                //    invoiceCSVData.ForEach(x => x.CbcTaxSchemeAgencyCode = null);
+                                //    invoiceCSVData.ForEach(x => x.CbcTaxSchemeID = null);
+                                //}
+                                //else
+                                //{
+                                //    invoiceCSVData.ForEach(x => x.CbcTaxType = "6");
+                                //    invoiceCSVData.ForEach(x => x.CbcTaxSchemeAgencyCode = "OTH");
+                                //    invoiceCSVData.ForEach(x => x.CbcTaxSchemeID = "UN/ECE 5153");
+                                //}
                                 var invoicelineitem12 = invoicelineitemdata.Select(itemline => new InvoiceLineItems
                                 {
                                     InvoiceId = invoicedata1.Id,
@@ -722,7 +814,7 @@ namespace ETLDEMO
                                     CreatedDate = itemline.CreatedDate,
                                     UpdatedBy = itemline.UpdatedBy,
                                     UpdatedDate = itemline.UpdatedDate,
-                                    LineId = ++lineId,
+                                    LineId = itemline.LineId    ,
                                     CbcDiscountRate = itemline.CbcDiscountRate,
                                     CbcDiscountAmount = itemline.CbcDiscountAmount,
                                     CbcTaxType = itemline.CbcTaxType,
@@ -747,9 +839,11 @@ namespace ETLDEMO
                                     CbcTotalExcludingTax = itemline.CbcTotalExcludingTax,
                                     CbcItemClassificationCode = itemline.CbcItemClassificationCode,
                                     CbcProductTariffClass = itemline.CbcProductTariffClass,
-                                    CbcTaxSchemeID = invoiceCSVData.Select(x => x.CbcTaxSchemeID).FirstOrDefault(),
-                                    CbcTaxSchemeAgencyID = invoiceCSVData.Select(x => x.CbcTaxSchemeAgencyID).FirstOrDefault(),
-                                    CbcTaxSchemeAgencyCode = invoiceCSVData.Select(x => x.CbcTaxSchemeID).FirstOrDefault(),
+                                   // CbcTaxSchemeID = invoiceCSVData.Select(x => x.CbcTaxSchemeID).FirstOrDefault(),
+                                    CbcItemTaxCategory = invoiceCSVData.Select(x => x.CbcItemTaxCategory).FirstOrDefault(),
+                                    //CbcTaxSchemeAgencyID = invoiceCSVData.Select(x => x.CbcTaxSchemeAgencyID).FirstOrDefault(),
+                                    CbcItemTaxSchemeAgencyID = invoiceCSVData.Select(x => x.CbcItemTaxSchemeAgencyID).FirstOrDefault(),
+                                    CbcItemTaxSchemeAgencyCode = invoiceCSVData.Select(x => x.CbcItemTaxSchemeAgencyCode).FirstOrDefault(),
                                     CbcInvoiceLineNetAmount = itemline.CbcInvoiceLineNetAmount,
                                     CbcNetAmount = itemline.CbcNetAmount,
                                     ProductId = itemline.ProductId,
@@ -759,7 +853,7 @@ namespace ETLDEMO
                                     CbcProductTariffCode = itemline.CbcProductTariffCode,
                                     CbcSubtotal = itemline.CbcSubtotal,
                                     CbcSSTTaxCategory = itemline.CbcSSTTaxCategory,
-                                    CbcBaseQuantity = itemline.CbcBaseQuantity,
+                                    CbcBaseQuantity = itemline.CbcBaseQuantity,                                  
                                 }).ToList();
 
                                 /* foreach (var itemline in invoicelineitemdata)
@@ -894,8 +988,9 @@ namespace ETLDEMO
                             //SBRefundNoteLineItemId=invoicelineitemdata1.Id, 
                             CategoryTaxSchemeId = invoiceCSVData.Select(x => x.CategoryTaxSchemeId).FirstOrDefault(),
                             AmountExemptedFromTax = invoiceCSVData.Select(x => x.AmountExemptedFromTax).FirstOrDefault(),
-                            CbcTaxSchemeAgencyId = invoiceCSVData.Select(x => x.CbcTaxSchemeAgencyId).FirstOrDefault(),
+                            CbcTaxSchemeAgencyId = invoiceCSVData.Select(x => x.CbcTaxSchemeAgencyID).FirstOrDefault(),
                             CbcTaxSchemeAgencyCode = invoiceCSVData.Select(x => x.CbcTaxSchemeAgencyCode).FirstOrDefault(),
+                            CbcTaxSchemeID = invoiceCSVData.Select(x => x.CbcTaxSchemeID).FirstOrDefault(),
                         };
                         doctaxsubtotaljson = JsonConvert.SerializeObject(docTaxSubTotal1);
                         doctaxsubtotal.Add(docTaxSubTotal1);
@@ -905,12 +1000,127 @@ namespace ETLDEMO
                         DocTaxSubTotal docTaxSubTotal = new DocTaxSubTotal();
 
                         #endregion DocTaxSubTotal
-                        
+
+                        #region PDF Fields
+                        string invmethod = $"{invoicetype}InvLMapping";
+                        string invlinemethod = $"{invoicetype}LineMapping";
+                    
+                        var invfields = await InvokeDynamicMethodAsync(pDFMappingService, invmethod, invoiceCSVData);
+                        var invlinefields = await InvokeDynamicMethodAsync(pDFMappingService, invlinemethod, invoiceCSVData);
+            
+                        #endregion PDF Fields
+
                         file = Path.Combine(_appSettings.ProcessedFolderPath, domainname, invoicetype, "Input", "DataError", $"{extractedInvoiceNumber}", $"{filename}_{DateTime.Now:yyyyMMdd_HHmmss}" + ".csv");
                         var directory = Path.GetDirectoryName(file);
                         if (!Directory.Exists(directory))
                         {
                             Directory.CreateDirectory(directory);
+                        }
+                        if (csvRecords.Count - 1 > _appSettings.LineSplitCount)
+                        {
+                            var totalamount1 = invoiceCSVData.Select(x => Convert.ToDecimal(x.CbcInvoiceLineNetAmount)).Sum().ToString();
+
+                            var einvnum = invoiceCSVData.Select(x => x.EInvoiceNumber).FirstOrDefault();
+                            var totallines = invoiceCSVData.Count.ToString();
+
+                            int retryCount = 0;
+                            bool success = false;
+
+                            while (!success)
+                            {
+                                try
+                                {
+                                    await _etlDemoService.TempInsertStoreProc(invoicedata, invoicetype, invfields, invlinefields,invtypecode);
+                                    await _etlDemoService.TempInsertStoreProc2(einvnum, totalamount1, totallines, invoicetype, invtypecode);
+                                   await _etlDemoService.InsertInvData(invoiceCSVData.Select(x => x.EInvoiceNumber).FirstOrDefault().ToString(), filepath, invoicetype, invtypecode);
+
+                                    success = true; // If all operations succeed, exit the loop
+                                }
+                                catch (Exception ex)
+                                {
+                                    retryCount++;
+                                    Console.WriteLine($"Connection failed. Retrying in 5 seconds... Attempt {retryCount}");
+                                    Log.Error($"Connection failed. Retrying in 5 seconds... Attempt {retryCount}");
+                                    Console.WriteLine($"Exception: {ex.Message}");
+                                    Log.Error($"Exception: {ex.Message}");
+                                    await Task.Delay(5000); // Wait for 5 seconds before retrying
+                                }
+                            }
+
+
+                            //int retryCount = 0;
+                            //bool success = false;
+                            //while (!success && retryCount < 2) // Allow one retry
+                            //{
+                            //    try
+                            //    {
+                            //        await _etlDemoService.TempInsertStoreProc(invoicedata);
+                            //        success = true; // If execution succeeds, exit loop
+                            //    }
+                            //    catch (Exception ex)
+                            //    {
+                            //        retryCount++;
+                            //        await Task.Delay(5000);  // Wait for 5 second before retrying
+                            //        if (retryCount >= 2)
+                            //        {
+                            //            throw; // Rethrow the exception after max retries
+                            //        }
+                            //    }
+
+
+
+                            //    retryCount = 0;
+                            //    success = false;
+                            //    while (!success && retryCount < 2) // Allow one retry
+                            //    {
+                            //        try
+                            //        {
+                            //            await _etlDemoService.TempInsertStoreProc2(einvnum, totalamount1, totallines);
+                            //            success = true; // If execution succeeds, exit loop
+                            //        }
+                            //        catch (Exception ex)
+                            //        {
+                            //            retryCount++;
+                            //            await Task.Delay(5000);  // Wait for 5 second before retrying
+                            //            if (retryCount >= 2)
+                            //            {
+                            //                throw; // Rethrow the exception after max retries
+                            //            }
+                            //        }
+                            //    }
+                            //}
+
+
+                            // await _etlDemoService.InsertInvData(invoiceCSVData.Select(x => x.EInvoiceNumber).FirstOrDefault().ToString(), filepath);
+                            //await _etlDemoService.InsertStoreProc(res, filepath);
+                            //domainFiles.AddRange(res);
+                        }
+                        else
+                        {
+                            int retryCount = 0;
+                            bool success = false;
+
+                            while (!success)
+                            {
+                                try
+                                {
+                                    var totalamount1 = invoiceCSVData.Select(x => Convert.ToDecimal(x.CbcInvoiceLineNetAmount)).Sum().ToString();
+                                    var totallines = invoiceCSVData.Count.ToString();
+
+                                    await _etlDemoService.TempInsertStoreProc(invoicedata, invoicetype, invfields,invlinefields, invtypecode);
+                                   await _etlDemoService.InsertInvoiceData(invoiceCSVData.Select(x => x.EInvoiceNumber).FirstOrDefault().ToString(), totalamount1, totallines, filepath, invoicetype, invtypecode);
+                                    success = true; // If all operations succeed, exit the loop
+                                }
+                                catch (Exception ex)
+                                {
+                                    retryCount++;
+                                    Console.WriteLine($"Connection failed. Retrying in 5 seconds... Attempt {retryCount}");
+                                    Log.Error($"Connection failed. Retrying in 5 seconds... Attempt {retryCount}");
+                                    Console.WriteLine($"Exception: {ex.Message}");
+                                    Log.Error($"Exception: {ex.Message}");
+                                    await Task.Delay(5000); // Wait for 5 seconds before retrying
+                                }
+                            }
                         }
                     }
 
@@ -961,112 +1171,7 @@ namespace ETLDEMO
                 Log.Information($"Total time taken in process: {stopwatch.Elapsed.TotalSeconds} seconds");
                 Console.WriteLine($"Total time taken in process: {stopwatch.Elapsed.TotalSeconds} seconds");
 
-                if (csvRecords.Count > _appSettings.LineSplitCount)
-                {
-                    var totalamount1 = invoiceCSVData.Select(x => Convert.ToDecimal(x.CbcInvoiceLineNetAmount)).Sum().ToString();
-
-                    var einvnum = invoiceCSVData.Select(x => x.EInvoiceNumber).FirstOrDefault();
-                    var totallines = invoiceCSVData.Count.ToString();
-
-                    int retryCount = 0;
-                    bool success = false;
-
-                    while (!success)
-                    {
-                        try
-                        {
-                            await _etlDemoService.TempInsertStoreProc(invoicedata);
-                            await _etlDemoService.TempInsertStoreProc2(einvnum, totalamount1, totallines);
-                            await _etlDemoService.InsertInvData(invoiceCSVData.Select(x => x.EInvoiceNumber).FirstOrDefault().ToString(), filepath);
-
-                            success = true; // If all operations succeed, exit the loop
-                        }
-                        catch (Exception ex)
-                        {
-                            retryCount++;
-                            Console.WriteLine($"Connection failed. Retrying in 5 seconds... Attempt {retryCount}");
-                            Log.Error($"Connection failed. Retrying in 5 seconds... Attempt {retryCount}");
-                            Console.WriteLine($"Exception: {ex.Message}");
-                            Log.Error($"Exception: {ex.Message}");
-                            await Task.Delay(5000); // Wait for 5 seconds before retrying
-                        }
-                    }
-                    
-
-                    //int retryCount = 0;
-                    //bool success = false;
-                    //while (!success && retryCount < 2) // Allow one retry
-                    //{
-                    //    try
-                    //    {
-                    //        await _etlDemoService.TempInsertStoreProc(invoicedata);
-                    //        success = true; // If execution succeeds, exit loop
-                    //    }
-                    //    catch (Exception ex)
-                    //    {
-                    //        retryCount++;
-                    //        await Task.Delay(5000);  // Wait for 5 second before retrying
-                    //        if (retryCount >= 2)
-                    //        {
-                    //            throw; // Rethrow the exception after max retries
-                    //        }
-                    //    }
-
-
-
-                    //    retryCount = 0;
-                    //    success = false;
-                    //    while (!success && retryCount < 2) // Allow one retry
-                    //    {
-                    //        try
-                    //        {
-                    //            await _etlDemoService.TempInsertStoreProc2(einvnum, totalamount1, totallines);
-                    //            success = true; // If execution succeeds, exit loop
-                    //        }
-                    //        catch (Exception ex)
-                    //        {
-                    //            retryCount++;
-                    //            await Task.Delay(5000);  // Wait for 5 second before retrying
-                    //            if (retryCount >= 2)
-                    //            {
-                    //                throw; // Rethrow the exception after max retries
-                    //            }
-                    //        }
-                    //    }
-                    //}
-
-
-                    // await _etlDemoService.InsertInvData(invoiceCSVData.Select(x => x.EInvoiceNumber).FirstOrDefault().ToString(), filepath);
-                    //await _etlDemoService.InsertStoreProc(res, filepath);
-                    //domainFiles.AddRange(res);
-                }
-                else
-                {                  
-                    int retryCount = 0;
-                    bool success = false;
-
-                    while (!success)
-                    {
-                        try
-                        {
-                            var totalamount1 = invoiceCSVData.Select(x => Convert.ToDecimal(x.CbcInvoiceLineNetAmount)).Sum().ToString();
-                            var totallines = invoiceCSVData.Count.ToString();
-
-                            await _etlDemoService.TempInsertStoreProc(invoicedata);
-                             await _etlDemoService.InsertInvoiceData(invoiceCSVData.Select(x => x.EInvoiceNumber).FirstOrDefault().ToString(), totalamount1, totallines, filepath);
-                            success = true; // If all operations succeed, exit the loop
-                        }
-                        catch (Exception ex)
-                        {
-                            retryCount++;
-                             Console.WriteLine($"Connection failed. Retrying in 5 seconds... Attempt {retryCount}");
-                            Log.Error($"Connection failed. Retrying in 5 seconds... Attempt {retryCount}");
-                            Console.WriteLine($"Exception: {ex.Message}");
-                            Log.Error($"Exception: {ex.Message}");
-                            await Task.Delay(5000); // Wait for 5 seconds before retrying
-                        }
-                    }
-                }
+                
 
                 finalinvoicedata.Add(invoicedata);
 
@@ -1115,6 +1220,27 @@ namespace ETLDEMO
                 throw;
             }
 
+        }
+
+        public async Task<object?> InvokeDynamicMethodAsync(object service, string methodName, object parameter)
+        {
+            var methodInfo = service.GetType().GetMethod(methodName);
+
+            if (methodInfo != null)
+            {
+                // Invoke the method dynamically
+                var task = (Task)methodInfo.Invoke(service, new object[] { parameter });
+
+                // Await the task result
+                await task.ConfigureAwait(false);
+
+                // Extract the result if the method returns a value
+                var resultProperty = task.GetType().GetProperty("Result");
+                return resultProperty?.GetValue(task);
+            }
+
+            Console.WriteLine($"Method {methodName} not found in {service.GetType().Name}.");
+            return null;
         }
 
 

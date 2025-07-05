@@ -1,0 +1,24 @@
+2025-06-17 17:02:23.974 +05:30 [INF] Application starting up
+2025-06-17 17:02:24.282 +05:30 [INF] Main thread ID: 1
+2025-06-17 17:02:24.282 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPSIH\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-17 17:02:24.284 +05:30 [INF] Processing files for domain: JPSIH, invoiceType: JPS
+2025-06-17 17:02:25.192 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPSIH\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-17 17:02:25.193 +05:30 [INF] Process file name :- JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-17 17:02:25.193 +05:30 [INF] Total time taken in process: 0.6006366 seconds
+2025-06-17 17:02:25.196 +05:30 [INF] Total time taken in moving: 0.0022437 seconds
+2025-06-17 17:03:41.608 +05:30 [INF] Application starting up
+2025-06-17 17:03:41.889 +05:30 [INF] Main thread ID: 1
+2025-06-17 17:03:41.889 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPSIH\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-17 17:03:41.891 +05:30 [INF] Processing files for domain: JPSIH, invoiceType: JPS
+2025-06-17 17:03:42.783 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPSIH\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-17 17:03:42.783 +05:30 [INF] Process file name :- JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-17 17:03:42.784 +05:30 [INF] Total time taken in process: 0.548576 seconds
+2025-06-17 17:03:42.786 +05:30 [INF] Total time taken in moving: 0.0021586 seconds
+2025-06-17 17:05:47.845 +05:30 [INF] Application starting up
+2025-06-17 17:05:48.119 +05:30 [INF] Main thread ID: 1
+2025-06-17 17:05:48.119 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\JPSIH\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-17 17:05:48.121 +05:30 [INF] Processing files for domain: JPSIH, invoiceType: JPS
+2025-06-17 17:05:48.952 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\JPSIH\JPS\Input\Source\Temp_Process\JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-17 17:05:48.952 +05:30 [INF] Process file name :- JPS_01_v1_20250530_S2504244WQM0JPP_WIP.csv
+2025-06-17 17:05:48.952 +05:30 [INF] Total time taken in process: 0.5156027 seconds
+2025-06-17 17:05:48.955 +05:30 [INF] Total time taken in moving: 0.0021029 seconds

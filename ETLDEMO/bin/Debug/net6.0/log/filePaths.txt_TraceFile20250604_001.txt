@@ -1,0 +1,44 @@
+2025-06-04 15:41:52.076 +05:30 [INF] Application starting up
+2025-06-04 15:41:53.604 +05:30 [INF] Main thread ID: 1
+2025-06-04 15:41:53.604 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 15:41:53.606 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 15:46:20.574 +05:30 [INF] Application starting up
+2025-06-04 15:46:21.509 +05:30 [INF] Main thread ID: 1
+2025-06-04 15:46:21.512 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 15:46:21.525 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 15:48:34.616 +05:30 [INF] Application starting up
+2025-06-04 15:48:36.046 +05:30 [INF] Main thread ID: 1
+2025-06-04 15:48:36.046 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 15:48:36.048 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 15:56:15.299 +05:30 [INF] Application starting up
+2025-06-04 15:56:16.548 +05:30 [INF] Main thread ID: 1
+2025-06-04 15:56:16.554 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 15:56:16.557 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 15:58:40.059 +05:30 [INF] Application starting up
+2025-06-04 15:58:41.125 +05:30 [INF] Main thread ID: 1
+2025-06-04 15:58:41.125 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 15:58:41.128 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 15:59:49.028 +05:30 [INF] Application starting up
+2025-06-04 15:59:50.259 +05:30 [INF] Main thread ID: 1
+2025-06-04 15:59:50.259 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 15:59:50.261 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 16:00:33.782 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 16:00:33.782 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 16:00:33.783 +05:30 [INF] Total time taken in process: 42.10775 seconds
+2025-06-04 16:00:33.786 +05:30 [INF] Total time taken in moving: 0.0027699 seconds
+2025-06-04 16:03:58.049 +05:30 [INF] Application starting up
+2025-06-04 16:03:59.041 +05:30 [INF] Main thread ID: 1
+2025-06-04 16:03:59.041 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 16:03:59.043 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 16:04:32.447 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 16:04:32.447 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 16:04:32.447 +05:30 [INF] Total time taken in process: 31.4644679 seconds
+2025-06-04 16:04:32.450 +05:30 [INF] Total time taken in moving: 0.0025823 seconds
+2025-06-04 16:18:44.750 +05:30 [INF] Application starting up
+2025-06-04 16:18:45.060 +05:30 [INF] Main thread ID: 1
+2025-06-04 16:18:45.060 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 16:18:45.062 +05:30 [INF] Processing files for domain: Silva, invoiceType: SLV
+2025-06-04 16:18:49.989 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\Silva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 16:18:49.989 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-04 16:18:49.989 +05:30 [INF] Total time taken in process: 3.4928849 seconds
+2025-06-04 16:18:49.992 +05:30 [INF] Total time taken in moving: 0.0021273 seconds

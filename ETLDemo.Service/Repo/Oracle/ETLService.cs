@@ -208,22 +208,22 @@ namespace ETL.Service.Repo.Oracle
             throw new NotImplementedException();
         }
 
-        public Task<int> TempInsertStoreProc(List<InvoiceData> invoicedata)
+        public Task<int> TempInsertStoreProc(List<InvoiceData> invoicedata, string documentType, object invfields, object invlinefields, string invoicetypecode)
         {
             throw new NotImplementedException();
         }
 
-        public Task<int> InsertInvData(string InvoiceNumber, List<string> filepath)
+        public Task<int> InsertInvData(string InvoiceNumber, List<string> filepath, string documentType, string invoicetypecode)
         {
             throw new NotImplementedException();
         }
 
-        public Task<int> TempInsertStoreProc2(string InvoiceNumber, string TotalAmount, string TotalLines)
+        public Task<int> TempInsertStoreProc2(string InvoiceNumber, string TotalAmount, string TotalLines, string documentType, string invoicetypecode)
         {
             throw new NotImplementedException();
         }
 
-        public Task<int> InsertInvoiceData(string InvoiceNumber,  string TotalAmount, string TotalLines, List<string> filepath)
+        public Task<int> InsertInvoiceData(string InvoiceNumber,  string TotalAmount, string TotalLines, List<string> filepath, string documentType, string invoicetypecode)
         {
             throw new NotImplementedException();
         }

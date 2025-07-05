@@ -1,0 +1,8 @@
+2025-06-18 13:12:36.922 +05:30 [INF] Application starting up
+2025-06-18 13:12:37.258 +05:30 [INF] Main thread ID: 1
+2025-06-18 13:12:37.259 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\Allied_Sirva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-18 13:12:37.261 +05:30 [INF] Processing files for domain: Allied_Sirva, invoiceType: SLV
+2025-06-18 13:12:40.458 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\Allied_Sirva\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-18 13:12:40.459 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-18 13:12:40.459 +05:30 [INF] Total time taken in process: 2.2840764 seconds
+2025-06-18 13:12:40.462 +05:30 [INF] Total time taken in moving: 0.0021412 seconds

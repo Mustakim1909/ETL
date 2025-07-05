@@ -29,22 +29,22 @@
 
 	<ItemGroup>
 		<Reference Include="Common.Config">
-			<HintPath>..\..\Common\bin\Release\net6.0\Common.Config.dll</HintPath>
+			<HintPath>D:\Common\bin\Release\net6.0\Common.Config.dll</HintPath>
 		</Reference>
 		<Reference Include="Common.DataAccess">
-			<HintPath>..\..\Common\bin\Release\net6.0\Common.DataAccess.dll</HintPath>
+			<HintPath>D:\Common\bin\Release\net6.0\Common.DataAccess.dll</HintPath>
 		</Reference>
 		<Reference Include="Common.DataAccess.MsSql">
-			<HintPath>..\..\Common\bin\Release\net6.0\Common.DataAccess.MsSql.dll</HintPath>
+			<HintPath>D:\Common\bin\Release\net6.0\Common.DataAccess.MsSql.dll</HintPath>
 		</Reference>
 		<Reference Include="Common.DataAccess.Oracle">
-			<HintPath>..\..\Common\bin\Release\net6.0\Common.DataAccess.Oracle.dll</HintPath>
+			<HintPath>D:\Common\bin\Release\net6.0\Common.DataAccess.Oracle.dll</HintPath>
 		</Reference>
 		<Reference Include="Common.DataAccess.PostgreSql">
-			<HintPath>..\..\Common\bin\Release\net6.0\Common.DataAccess.PostgreSql.dll</HintPath>
+			<HintPath>D:\Common\bin\Release\net6.0\Common.DataAccess.PostgreSql.dll</HintPath>
 		</Reference>
 		<Reference Include="Common.DataAccess.Oracle">
-			<HintPath>..\..\Common\bin\Release\net6.0\Common.Security.dll</HintPath>
+			<HintPath>D:\Common\bin\Release\net6.0\Common.Security.dll</HintPath>
 		</Reference>
 
 	</ItemGroup>

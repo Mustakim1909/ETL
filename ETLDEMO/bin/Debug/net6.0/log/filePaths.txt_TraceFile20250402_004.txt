@@ -1,0 +1,169 @@
+2025-04-02 12:57:58.610 +05:30 [INF] Application starting up
+2025-04-02 12:57:59.384 +05:30 [INF] Main thread ID: 1
+2025-04-02 12:57:59.385 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:57:59.387 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 12:58:03.914 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:58:03.914 +05:30 [INF] Process file name :- INSUN_01_v1_20250221_INVSTest-15_WIP.csv
+2025-04-02 12:58:03.915 +05:30 [INF] Total time taken in process: 3.1586701 seconds
+2025-04-02 12:58:03.920 +05:30 [INF] Total time taken in moving: 0.0026678 seconds
+2025-04-02 13:13:10.716 +05:30 [INF] Application starting up
+2025-04-02 13:13:12.009 +05:30 [INF] Main thread ID: 1
+2025-04-02 13:13:12.011 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 13:13:12.023 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 13:13:19.702 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 13:13:19.702 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:14:32.039 +05:30 [INF] Application starting up
+2025-04-02 13:14:32.311 +05:30 [INF] Main thread ID: 1
+2025-04-02 13:14:32.311 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 13:14:32.313 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 13:14:37.618 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 13:14:37.618 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:14:46.163 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-04-02 13:14:46.163 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:14:53.498 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 3
+2025-04-02 13:14:53.499 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:16:01.852 +05:30 [INF] Application starting up
+2025-04-02 13:16:02.691 +05:30 [INF] Main thread ID: 1
+2025-04-02 13:16:02.692 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 13:16:02.695 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 13:16:11.258 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 13:16:11.258 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:16:21.932 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-04-02 13:16:21.932 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:16:29.933 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 3
+2025-04-02 13:16:29.933 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:16:37.857 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 4
+2025-04-02 13:16:37.857 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:16:46.459 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 5
+2025-04-02 13:16:46.460 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:16:54.804 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 6
+2025-04-02 13:16:54.805 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:17:03.403 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 7
+2025-04-02 13:17:03.403 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:17:12.492 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 8
+2025-04-02 13:17:12.493 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:17:21.703 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 9
+2025-04-02 13:17:21.703 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:17:30.074 +05:30 [INF] Application starting up
+2025-04-02 13:17:30.381 +05:30 [INF] Main thread ID: 1
+2025-04-02 13:17:30.381 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 13:17:30.383 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 13:17:37.138 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 13:17:37.138 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:18:27.921 +05:30 [INF] Application starting up
+2025-04-02 13:18:28.184 +05:30 [INF] Main thread ID: 1
+2025-04-02 13:18:28.184 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 13:18:28.186 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 13:18:44.068 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 13:18:44.068 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:23:25.558 +05:30 [INF] Application starting up
+2025-04-02 13:23:25.833 +05:30 [INF] Main thread ID: 1
+2025-04-02 13:23:25.834 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 13:23:25.835 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 13:23:31.793 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 13:23:31.793 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:23:40.946 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 2
+2025-04-02 13:23:40.946 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:23:49.042 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 3
+2025-04-02 13:23:49.043 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:34:50.305 +05:30 [INF] Application starting up
+2025-04-02 13:34:50.573 +05:30 [INF] Main thread ID: 1
+2025-04-02 13:34:50.573 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 13:34:50.575 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 13:34:58.545 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 13:34:58.545 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:36:35.887 +05:30 [INF] Application starting up
+2025-04-02 13:36:36.949 +05:30 [INF] Main thread ID: 1
+2025-04-02 13:36:36.950 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 13:36:36.952 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 13:36:48.243 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 13:36:48.243 +05:30 [ERR] Exception: 42P01: missing FROM-clause entry for table "upplier_rec"
+2025-04-02 13:37:02.924 +05:30 [INF] Application starting up
+2025-04-02 13:37:03.784 +05:30 [INF] Main thread ID: 1
+2025-04-02 13:37:03.784 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 13:37:03.787 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 13:39:38.127 +05:30 [INF] Application starting up
+2025-04-02 13:39:39.256 +05:30 [INF] Main thread ID: 1
+2025-04-02 13:39:39.256 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 13:39:39.260 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 14:35:39.524 +05:30 [INF] Application starting up
+2025-04-02 14:35:42.975 +05:30 [INF] Main thread ID: 1
+2025-04-02 14:35:42.975 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 14:35:42.979 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 14:35:52.040 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 14:35:52.040 +05:30 [ERR] Exception: 42702: column reference "invoiceid" is ambiguous
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+2025-04-02 14:52:30.054 +05:30 [INF] Application starting up
+2025-04-02 14:52:31.047 +05:30 [INF] Main thread ID: 1
+2025-04-02 14:52:31.047 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 14:52:31.050 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 14:52:38.862 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 14:52:38.862 +05:30 [INF] Process file name :- INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 14:52:38.862 +05:30 [INF] Total time taken in process: 5.5252256 seconds
+2025-04-02 14:52:38.866 +05:30 [INF] Total time taken in moving: 0.0029846 seconds
+2025-04-02 14:55:26.352 +05:30 [INF] Application starting up
+2025-04-02 14:55:27.202 +05:30 [INF] Main thread ID: 1
+2025-04-02 14:55:27.202 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 14:55:27.205 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 14:55:33.476 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 14:55:33.476 +05:30 [INF] Process file name :- INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 14:55:33.476 +05:30 [INF] Total time taken in process: 4.5728324 seconds
+2025-04-02 14:55:33.479 +05:30 [INF] Total time taken in moving: 0.0029697 seconds
+2025-04-02 15:07:07.261 +05:30 [INF] Application starting up
+2025-04-02 15:07:08.078 +05:30 [INF] Main thread ID: 1
+2025-04-02 15:07:08.078 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 15:07:08.084 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 15:07:09.678 +05:30 [INF] Exception in ProcessTaskAsync : Could not find file 'C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv'.
+2025-04-02 15:07:09.754 +05:30 [INF] Exception in ProcessFileAsync : Could not find file 'C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv'.
+2025-04-02 15:07:09.822 +05:30 [INF] Error processing files for domain PIL: Could not find file 'C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv'.
+2025-04-02 15:07:09.822 +05:30 [INF] The following files were not found and skipped:
+2025-04-02 15:07:09.822 +05:30 [INF] C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 15:07:20.871 +05:30 [INF] Application starting up
+2025-04-02 15:07:21.829 +05:30 [INF] Main thread ID: 1
+2025-04-02 15:07:21.830 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 15:07:21.835 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 15:07:28.079 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 15:07:28.079 +05:30 [INF] Process file name :- INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 15:07:28.080 +05:30 [INF] Total time taken in process: 4.7937552 seconds
+2025-04-02 15:07:28.083 +05:30 [INF] Total time taken in moving: 0.0029185 seconds
+2025-04-02 15:14:25.712 +05:30 [INF] Application starting up
+2025-04-02 15:14:26.676 +05:30 [INF] Main thread ID: 1
+2025-04-02 15:14:26.677 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 15:14:26.681 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 15:14:36.476 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 15:14:36.477 +05:30 [ERR] Exception: P0001: Supplier (,,,,,,,,,,,,,,,)
+2025-04-02 15:15:27.272 +05:30 [INF] Application starting up
+2025-04-02 15:15:28.042 +05:30 [INF] Main thread ID: 1
+2025-04-02 15:15:28.042 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 15:15:28.044 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 15:15:35.661 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 15:15:35.661 +05:30 [ERR] Exception: P0001: Supplier <NULL>
+2025-04-02 15:33:39.197 +05:30 [INF] Application starting up
+2025-04-02 15:33:40.278 +05:30 [INF] Main thread ID: 1
+2025-04-02 15:33:40.279 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 15:33:40.283 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 15:33:47.427 +05:30 [ERR] Connection failed. Retrying in 5 seconds... Attempt 1
+2025-04-02 15:33:47.427 +05:30 [ERR] Exception: P0001: Supplier Advintek Consulting Services Sdn. Bhd.
+2025-04-02 15:34:22.712 +05:30 [INF] Application starting up
+2025-04-02 15:34:23.703 +05:30 [INF] Main thread ID: 1
+2025-04-02 15:34:23.704 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 15:34:23.706 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 15:34:32.106 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 15:34:32.106 +05:30 [INF] Process file name :- INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 15:34:32.106 +05:30 [INF] Total time taken in process: 7.0125436 seconds
+2025-04-02 15:34:32.109 +05:30 [INF] Total time taken in moving: 0.0027438 seconds
+2025-04-02 15:39:42.747 +05:30 [INF] Application starting up
+2025-04-02 15:39:43.044 +05:30 [INF] Main thread ID: 1
+2025-04-02 15:39:43.044 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 15:39:43.045 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 15:39:43.047 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-04-02 15:39:49.377 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 15:39:49.377 +05:30 [INF] Process file name :- INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-04-02 15:39:49.378 +05:30 [INF] Total time taken in process: 5.2723351 seconds
+2025-04-02 15:39:49.380 +05:30 [INF] Total time taken in moving: 0.0021082 seconds
+2025-04-02 15:39:49.380 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 15:39:52.189 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 15:39:52.189 +05:30 [INF] Process file name :- INTEL_01_V1_20231208_TESTJAN30-02_WIP.csv
+2025-04-02 15:39:52.189 +05:30 [INF] Total time taken in process: 2.8088858 seconds
+2025-04-02 15:39:52.190 +05:30 [INF] Total time taken in moving: 0.0011273 seconds

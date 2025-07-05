@@ -1,0 +1,8 @@
+2025-04-02 10:57:58.113 +05:30 [INF] Application starting up
+2025-04-02 10:57:58.381 +05:30 [INF] Main thread ID: 1
+2025-04-02 10:57:58.381 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 10:57:58.383 +05:30 [INF] Processing files for domain: PIL, invoiceType: INTEL
+2025-04-02 10:58:00.877 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INTEL\Input\Source\Temp_Process\INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 10:58:00.877 +05:30 [INF] Process file name :- INTEL_01_v1_20231208_TELINV04_WIP.csv
+2025-04-02 10:58:00.877 +05:30 [INF] Total time taken in process: 1.4284022 seconds
+2025-04-02 10:58:00.881 +05:30 [INF] Total time taken in moving: 0.0021064 seconds

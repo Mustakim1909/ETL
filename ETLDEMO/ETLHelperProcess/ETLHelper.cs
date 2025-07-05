@@ -1179,11 +1179,11 @@ namespace ETLDEMO.ETLHelperProcess
                 stopwatch.Stop();   
                 Log.Information($"Total time taken in ETLprocess: {stopwatch.Elapsed.TotalSeconds} seconds");
                 Console.WriteLine($"Total time taken in ETLprocess: {stopwatch.Elapsed.TotalSeconds} seconds");
-                //InvoiceDate = string.IsNullOrEmpty(data.eInvoiceDateTime) ? "Invoice Date Null" : data.eInvoiceDateTime.  ? "Success" : "Invalid Invoice Type Code",
+                //InvoiceDate = string.IsNullOrEmpty(data.EInvoiceDateTime) ? "Invoice Date Null" : data.EInvoiceDateTime.  ? "Success" : "Invalid Invoice Type Code",
                 //Console.WriteLine(data.InvoiceDateTime.Value.ToShortDateString());
-                //Console.WriteLine(data.eInvoiceDateTime.Value.ToString());
-                // Console.WriteLine(data.eInvoiceDateTime.Value.ToString("yyyy-dd-MM"));
-                // Console.WriteLine(data.eInvoiceDateTime.Value.ToShortDateString()==data.eInvoiceDateTime.Value.ToString("yyyy-dd-MM"));
+                //Console.WriteLine(data.EInvoiceDateTime.Value.ToString());
+                // Console.WriteLine(data.EInvoiceDateTime.Value.ToString("yyyy-dd-MM"));
+                // Console.WriteLine(data.EInvoiceDateTime.Value.ToShortDateString()==data.EInvoiceDateTime.Value.ToString("yyyy-dd-MM"));
                 return etlprocess;
 
             }

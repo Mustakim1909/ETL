@@ -1,0 +1,33 @@
+2025-06-14 12:30:16.603 +05:30 [INF] Application starting up
+2025-06-14 12:30:17.850 +05:30 [INF] Main thread ID: 1
+2025-06-14 12:30:17.850 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\McGrawHill\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 12:30:17.858 +05:30 [INF] Processing files for domain: McGrawHill, invoiceType: SLV
+2025-06-14 12:30:53.561 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\McGrawHill\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 12:30:53.872 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 12:30:57.291 +05:30 [INF] Total time taken in process: 37.7929065 seconds
+2025-06-14 12:31:00.793 +05:30 [INF] Total time taken in moving: 1.7245809 seconds
+2025-06-14 12:42:49.079 +05:30 [INF] Application starting up
+2025-06-14 12:42:50.964 +05:30 [INF] Main thread ID: 1
+2025-06-14 12:42:50.965 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\McGrawHill\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 12:42:50.967 +05:30 [INF] Processing files for domain: McGrawHill, invoiceType: SLV
+2025-06-14 12:43:11.118 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\McGrawHill\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 12:43:11.119 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 12:43:11.120 +05:30 [INF] Total time taken in process: 19.561922 seconds
+2025-06-14 12:43:11.123 +05:30 [INF] Total time taken in moving: 0.0027208 seconds
+2025-06-14 13:24:19.111 +05:30 [INF] Application starting up
+2025-06-14 13:31:25.264 +05:30 [INF] Application starting up
+2025-06-14 13:31:37.969 +05:30 [INF] Main thread ID: 1
+2025-06-14 13:31:37.969 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\McGrawHill\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 13:31:37.972 +05:30 [INF] Processing files for domain: McGrawHill, invoiceType: SLV
+2025-06-14 13:31:51.820 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\McGrawHill\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 13:31:51.820 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 13:31:51.821 +05:30 [INF] Total time taken in process: 13.3528386 seconds
+2025-06-14 13:31:51.823 +05:30 [INF] Total time taken in moving: 0.002545 seconds
+2025-06-14 13:49:05.795 +05:30 [INF] Application starting up
+2025-06-14 13:49:06.079 +05:30 [INF] Main thread ID: 1
+2025-06-14 13:49:06.079 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\McGrawHill\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 13:49:06.081 +05:30 [INF] Processing files for domain: McGrawHill, invoiceType: SLV
+2025-06-14 13:49:07.072 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\McGrawHill\SLV\Input\Source\Temp_Process\SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 13:49:07.072 +05:30 [INF] Process file name :- SLV_01_v1_20250530_INV01_WIP.csv
+2025-06-14 13:49:07.073 +05:30 [INF] Total time taken in process: 0.6509575 seconds
+2025-06-14 13:49:07.075 +05:30 [INF] Total time taken in moving: 0.0019935 seconds

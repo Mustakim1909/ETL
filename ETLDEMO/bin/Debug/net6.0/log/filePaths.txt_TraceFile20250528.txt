@@ -1,0 +1,9 @@
+2025-05-28 10:34:20.769 +05:30 [INF] Application starting up
+2025-05-28 14:07:35.375 +05:30 [INF] Application starting up
+2025-05-28 14:07:35.745 +05:30 [INF] Main thread ID: 1
+2025-05-28 14:07:35.746 +05:30 [INF] ARGS:- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-05-28 14:07:35.747 +05:30 [INF] Processing files for domain: PIL, invoiceType: INSUN
+2025-05-28 14:07:49.661 +05:30 [INF] Process file path :- C:\BackOffice\ETL_Replacement\PIL\INSUN\Input\Source\Temp_Process\INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-05-28 14:07:49.661 +05:30 [INF] Process file name :- INSUN_01_v1_20250307_TESTINGINSUN00145_WIP.csv
+2025-05-28 14:07:49.662 +05:30 [INF] Total time taken in process: 12.2661656 seconds
+2025-05-28 14:07:49.664 +05:30 [INF] Total time taken in moving: 0.0025595 seconds

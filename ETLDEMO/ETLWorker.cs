@@ -229,7 +229,7 @@ namespace ETLDEMO
                     }));
 
                     // Wait for the batch to finish before starting the next one
-                    if (tasks.Count >= batchSize)
+                     if (tasks.Count >= batchSize)
                     {
                         await Task.WhenAll(tasks);  // Await all tasks concurrently
                         tasks.Clear();  // Clear the tasks list after processing the batch
@@ -289,6 +289,7 @@ namespace ETLDEMO
                 var filename = Path.GetFileNameWithoutExtension(tasktype); // Get the file name without the extension
                 var extractedInvoiceNumber = ExtractInvoiceNumberFromFileName(filename);
                 var extractInvoiceTypeCode = ExtractInvoiceTypeFromFileName(filename);
+                var sourcename = ExtractSourceNameFromFileName(filename);
                 // var domainname = ExtractDomainNameFromFileName(taskType);
 
                 // var con = _etlDemoService.GetConnectionString(domainname);
@@ -336,6 +337,7 @@ namespace ETLDEMO
                             CacAddress = invoiceCSVData.Select(x => x.CacAddress).FirstOrDefault(),
                             //InvoiceDate = item.InvoiceDate,
                             EInvoiceDateTime = invoiceCSVData.Select(x => x.EInvoiceDateTime).FirstOrDefault(),
+                            SourceName = sourcename,
                             //InvoiceDate = invoiceCSVData.Select(x => x.InvoiceDate).FirstOrDefault().Value.Date,
                             //InvoiceTime = invoiceCSVData.Select(x => x.InvoiceTime).FirstOrDefault(),
                             RefNo = invoiceCSVData.Select(x => x.RefNo).FirstOrDefault(),
@@ -357,16 +359,16 @@ namespace ETLDEMO
                             CacTaxTotal = invoiceCSVData.Select(x => x.CacTaxTotal).FirstOrDefault(),
                             CbcBaseAmount = invoiceCSVData.Select(x => x.CbcBaseAmount).FirstOrDefault(),
                             CbcBaseQuantity = invoiceCSVData.Select(x => x.CbcBaseQuantity).FirstOrDefault(),
-                          
+
                             CbcCompanyLegalForm = invoiceCSVData.Select(x => x.CbcCompanyLegalForm).FirstOrDefault(),
-                            CbcDescription = invoiceCSVData.Select(x => x.CbcDescription).FirstOrDefault(),
+                            //CbcDescription = invoiceCSVData.Select(x => x.CbcDescription).FirstOrDefault(),
                             CbcDescriptionCode = invoiceCSVData.Select(x => x.CbcDescriptionCode).FirstOrDefault(),
                             CbcDocumentCurrencyCode = invoiceCSVData.Select(x => x.CbcDocumentCurrencyCode).FirstOrDefault(),
                             CbcIDInvoiceNumber = invoiceCSVData.Select(x => x.CbcIDInvoiceNumber).FirstOrDefault(),
                             CbcPrecedingInvoicenumber = invoiceCSVData.Select(x => x.CbcPrecedingInvoicenumber).FirstOrDefault(),
                             CbcIDPaymentAccountIdentifier = invoiceCSVData.Select(x => x.CbcIDPaymentAccountIdentifier).FirstOrDefault(),
                             CbcIDVATcategoryCode = invoiceCSVData.Select(x => x.CbcIDVATcategoryCode).FirstOrDefault(),
-                            CbcIDItemCountryOfOrigin = invoiceCSVData.Select(x => x.CbcIDItemCountryOfOrigin).FirstOrDefault(),
+                            //CbcIDItemCountryOfOrigin = invoiceCSVData.Select(x => x.CbcIDItemCountryOfOrigin).FirstOrDefault(),
                             CbcIdentificationCode = invoiceCSVData.Select(x => x.CbcIdentificationCode).FirstOrDefault(),
                             CbcInvoiceTypeCode = invoiceCSVData.Select(x => x.CbcInvoiceTypeCode).FirstOrDefault(),
                             CbcIssueDate = invoiceCSVData.Select(x => x.CbcIssueDate).FirstOrDefault(),
@@ -376,7 +378,7 @@ namespace ETLDEMO
                             CbcPayableAmount = invoiceCSVData.Select(x => x.CbcPayableAmount).FirstOrDefault(),
                             CbcPaymentID = invoiceCSVData.Select(x => x.CbcPaymentID).FirstOrDefault(),
                             CbcPercent = invoiceCSVData.Select(x => x.CbcPercent).FirstOrDefault(),
-                            
+
                             CbcTaxableAmount = invoiceCSVData.Select(x => x.CbcTaxableAmount).FirstOrDefault(),
                             CbcTaxCurrencyCode = invoiceCSVData.Select(x => x.CbcTaxCurrencyCode).FirstOrDefault(),
                             CbcTaxExclusiveAmount = invoiceCSVData.Select(x => x.CbcTaxExclusiveAmount).FirstOrDefault(),
@@ -391,10 +393,10 @@ namespace ETLDEMO
                             CbcPaymentCurrencyCode = invoiceCSVData.Select(x => x.CbcPaymentCurrencyCode).FirstOrDefault(),
                             TotalLineAmount = invoiceCSVData.Select(x => x.CbcSumOfInvoiceLineNetAmount).FirstOrDefault(),
                             TotalChangeAmount = invoiceCSVData.Select(x => x.TotalChangeAmount).FirstOrDefault(),
-                            TotalAllowanceAmount = invoiceCSVData.Select(x => x.TotalAllowanceAmount).FirstOrDefault(),
-                            TotalTaxAmount = invoiceCSVData.Select(x => x.TotalTaxAmount).FirstOrDefault(),
-                            PayableRoundingAmount = invoiceCSVData.Select(x => x.PayableRoundingAmount).FirstOrDefault(),
-                            PrePaidAmount = invoiceCSVData.Select(x => x.PrePaidAmount).FirstOrDefault(),
+                            TotalAllowanceAmount = string.IsNullOrEmpty(invoiceCSVData.Select(x => x.TotalAllowanceAmount).FirstOrDefault()) ? "0" : invoiceCSVData.Select(x => x.TotalAllowanceAmount).FirstOrDefault(),
+                            TaxAmount = invoiceCSVData.Select(x => x.TaxAmount).FirstOrDefault(),
+                            PayableRoundingAmount = string.IsNullOrEmpty(invoiceCSVData.Select(x => x.PayableRoundingAmount).FirstOrDefault()) ? "0" : invoiceCSVData.Select(x => x.PayableRoundingAmount).FirstOrDefault(),
+                            PaidAmount = invoiceCSVData.Select(x => x.PaidAmount).FirstOrDefault(),
                             TotalAmountDue = invoiceCSVData.Select(x => x.TotalAmountDue).FirstOrDefault(),
                             Mode = invoiceCSVData.Select(x => x.Mode).FirstOrDefault(),
                             EInvoiceType = invoiceCSVData.Select(x => x.EInvoiceType).FirstOrDefault(),
@@ -433,7 +435,7 @@ namespace ETLDEMO
                             ReltedInvoiceId = invoiceCSVData.Select(x => x.ReltedInvoiceId).FirstOrDefault(),
                             EInvoiceNumber = invoiceCSVData.Select(x => x.EInvoiceNumber).FirstOrDefault(),
                             TaxOfficeSchedulerId = invoiceCSVData.Select(x => x.TaxOfficeSchedulerId).FirstOrDefault(),
-                            InvoiceVersion = invoiceCSVData.Select(x => x.InvoiceVersion).FirstOrDefault(),
+                            InvoiceVersion = _appSettings.InvoiceVersion,
                             CbcDStreetName = invoiceCSVData.Select(x => x.CbcDStreetName).FirstOrDefault(),
                             CbcDAdditionalStreetName1 = invoiceCSVData.Select(x => x.CbcDAdditionalStreetName1).FirstOrDefault(),
                             CbcDAdditionalStreetName2 = invoiceCSVData.Select(x => x.CbcDAdditionalStreetName2).FirstOrDefault(),
@@ -454,8 +456,8 @@ namespace ETLDEMO
                             CbcCalculationRate = invoiceCSVData.Select(x => x.CbcCalculationRate).FirstOrDefault(),
                             CbcStartDate = invoiceCSVData.Select(x => x.CbcStartDate).FirstOrDefault(),
                             CbcEndDate = invoiceCSVData.Select(x => x.CbcEndDate).FirstOrDefault(),
-                           
-                           
+
+
                             CbcShipRecipientCategory = invoiceCSVData.Select(x => x.CbcShipRecipientCategory).FirstOrDefault(),
                             CbcShipRecipientSubCategory = invoiceCSVData.Select(x => x.CbcShipRecipientSubCategory).FirstOrDefault(),
                             CbcShipRecipientBRNNumber = invoiceCSVData.Select(x => x.CbcShipRecipientBRNNumber).FirstOrDefault(),
@@ -487,7 +489,7 @@ namespace ETLDEMO
                             CbcPartyTaxSchemeID = invoiceCSVData.Select(x => x.CbcPartyTaxSchemeID).FirstOrDefault(),
                             CbcPartyLegalEntityCompanyID = invoiceCSVData.Select(x => x.CbcPartyLegalEntityCompanyID).FirstOrDefault(),
                             CbcPartyLegalEntityCompanyLegalForm = invoiceCSVData.Select(x => x.CbcPartyLegalEntityCompanyLegalForm).FirstOrDefault(),
-                           
+
                             CbcActualDeliveryDate = invoiceCSVData.Select(x => x.CbcActualDeliveryDate).FirstOrDefault(),
                             CbcDeliveryLocationId = invoiceCSVData.Select(x => x.CbcDeliveryLocationId).FirstOrDefault(),
                             CbcDeliveryStreetName = invoiceCSVData.Select(x => x.CbcDeliveryStreetName).FirstOrDefault(),
@@ -506,7 +508,6 @@ namespace ETLDEMO
                             IRBMValidationTime = invoiceCSVData.Select(x => x.IRBMValidationTime).FirstOrDefault(),
                             RemainingHours = invoiceCSVData.Select(x => x.RemainingHours).FirstOrDefault(),
                             SourceFileName = invoiceCSVData.Select(x => x.SourceFileName).FirstOrDefault(),
-                            SourceName = invoiceCSVData.Select(x => x.SourceName).FirstOrDefault(),
                             FıleName = invoiceCSVData.Select(x => x.FıleName).FirstOrDefault(),
                             DataTıme = invoiceCSVData.Select(x => x.DataTıme).FirstOrDefault(),
                             FolderName = invoiceCSVData.Select(x => x.FolderName).FirstOrDefault(),
@@ -574,7 +575,7 @@ namespace ETLDEMO
                             CbcFrequencyofBilling = invoiceCSVData.Select(x => x.CbcFrequencyofBilling).FirstOrDefault(),
                             CbcBillingPeriodStartDate = invoiceCSVData.Select(x => x.CbcBillingPeriodStartDate).FirstOrDefault(),
                             CbcBillingPeriodEndDate = invoiceCSVData.Select(x => x.CbcBillingPeriodEndDate).FirstOrDefault(),
-                            PaymentMode = invoiceCSVData.Select(x => x.PaymentMode).FirstOrDefault(),
+                            PaymentMode = (invoiceCSVData.Select(x => x.PaymentMode).FirstOrDefault()).Length < 2 ? "0" + invoiceCSVData.Select(x => x.PaymentMode).FirstOrDefault() : invoiceCSVData.Select(x => x.PaymentMode).FirstOrDefault(),
                             CbcSupplierBankAccountNumber = invoiceCSVData.Select(x => x.CbcSupplierBankAccountNumber).FirstOrDefault(),
                             CbcBillReferenceNumber = invoiceCSVData.Select(x => x.CbcBillReferenceNumber).FirstOrDefault(),
                             SourceCalculationMode = invoiceCSVData.Select(x => x.SourceCalculationMode).FirstOrDefault(),
@@ -610,7 +611,7 @@ namespace ETLDEMO
                             OriginalInvoiceNumber = invoiceCSVData.Select(x => x.OriginalInvoiceNumber).FirstOrDefault(),
                             ExportAuthorizationNumber = invoiceCSVData.Select(x => x.ExportAuthorizationNumber).FirstOrDefault(),
                             OutputFileName = invoiceCSVData.Select(x => x.OutputFileName).FirstOrDefault(),
-                          
+
                             SellerContactPerson = invoiceCSVData.Select(x => x.SellerContactPerson).FirstOrDefault(),
                             //NetAmount = item.NetAmount,
                             NetAmount = invoiceCSVData.Select(x => x.NetAmount).FirstOrDefault(),
@@ -833,17 +834,21 @@ namespace ETLDEMO
                                     CbcChargeBaseAmount = itemline.CbcChargeBaseAmount,
                                     CbcChargeMultiplierFactor = itemline.CbcChargeMultiplierFactor,
                                     CbcChargeAmount = itemline.CbcChargeAmount,
-                                    CbcPrice = itemline.UnitPrice,
+                                    CbcPrice = itemline.CbcPrice,
                                     CbcTaxExemptionDetails = itemline.CbcTaxExemptionDetails,
                                     CbcTaxExemptedAmount = itemline.CbcTaxExemptedAmount,
                                     CbcTotalExcludingTax = itemline.CbcTotalExcludingTax,
-                                    CbcItemClassificationCode = itemline.CbcItemClassificationCode,
+                                    CbcItemClassificationCode = itemline.CbcItemClassificationCode.Length == 1
+    ? "00" + itemline.CbcItemClassificationCode
+    : itemline.CbcItemClassificationCode.Length == 2
+        ? "0" + itemline.CbcItemClassificationCode
+        : itemline.CbcItemClassificationCode,   
                                     CbcProductTariffClass = itemline.CbcProductTariffClass,
-                                   // CbcTaxSchemeID = invoiceCSVData.Select(x => x.CbcTaxSchemeID).FirstOrDefault(),
-                                    CbcItemTaxCategory = invoiceCSVData.Select(x => x.CbcItemTaxCategory).FirstOrDefault(),
+                                    CbcTaxSchemeID = string.IsNullOrEmpty(invoiceCSVData.Select(x => x.CbcTaxSchemeID).FirstOrDefault()) ? "UN/ECE 5153" : invoiceCSVData.Select(x => x.CbcTaxSchemeID).FirstOrDefault(),
+                                   CbcItemTaxCategory = invoiceCSVData.Select(x => x.CbcItemTaxCategory).FirstOrDefault(),
                                     //CbcTaxSchemeAgencyID = invoiceCSVData.Select(x => x.CbcTaxSchemeAgencyID).FirstOrDefault(),
-                                    CbcItemTaxSchemeAgencyID = invoiceCSVData.Select(x => x.CbcItemTaxSchemeAgencyID).FirstOrDefault(),
-                                    CbcItemTaxSchemeAgencyCode = invoiceCSVData.Select(x => x.CbcItemTaxSchemeAgencyCode).FirstOrDefault(),
+                                    CbcItemTaxSchemeAgencyID = string.IsNullOrEmpty(invoiceCSVData.Select(x => x.CbcItemTaxSchemeAgencyID).FirstOrDefault()) ? "6" : invoiceCSVData.Select(x => x.CbcItemTaxSchemeAgencyID).FirstOrDefault(),
+                                    CbcItemTaxSchemeAgencyCode = string.IsNullOrEmpty(invoiceCSVData.Select(x => x.CbcItemTaxSchemeAgencyCode).FirstOrDefault()) ? "OTH" : invoiceCSVData.Select(x => x.CbcItemTaxSchemeAgencyCode).FirstOrDefault(),
                                     CbcInvoiceLineNetAmount = itemline.CbcInvoiceLineNetAmount,
                                     CbcNetAmount = itemline.CbcNetAmount,
                                     ProductId = itemline.ProductId,
@@ -969,7 +974,7 @@ namespace ETLDEMO
                             SBCreditNoteId = invoicedata1.Id,
                             SBDebitNoteId = invoicedata1.Id,
                             SBRefundNoteId = invoicedata1.Id,
-                            TaxAmount = invoiceCSVData.Select(x => x.TaxAmount).FirstOrDefault(),
+                            //TaxAmount = invoiceCSVData.Select(x => x.TaxAmount).FirstOrDefault(),
                             CategoryTotalLines = invoiceCSVData.Select(x => x.CategoryTotalLines).FirstOrDefault(),
                             CategoryTaxCategory = invoiceCSVData.Select(x => x.CategoryTaxCategory).FirstOrDefault(),
                             TaxCatCodeForTaxAmount = invoiceCSVData.Select(x => x.TaxCatCodeForTaxAmount).FirstOrDefault(),
@@ -986,10 +991,10 @@ namespace ETLDEMO
                             //SBCreditNoteLineItemId=invoicelineitemdata1.Id, 
                             //SBDebitNoteLineItemId=invoicelineitemdata1.Id, 
                             //SBRefundNoteLineItemId=invoicelineitemdata1.Id, 
-                            CategoryTaxSchemeId = invoiceCSVData.Select(x => x.CategoryTaxSchemeId).FirstOrDefault(),
+                            CategoryTaxSchemeId = string.IsNullOrEmpty(invoiceCSVData.Select(x => x.CategoryTaxSchemeId).FirstOrDefault()) ? "UN/ECE 5153" : invoiceCSVData.Select(x => x.CategoryTaxSchemeId).FirstOrDefault(),
                             AmountExemptedFromTax = invoiceCSVData.Select(x => x.AmountExemptedFromTax).FirstOrDefault(),
-                            CbcTaxSchemeAgencyId = invoiceCSVData.Select(x => x.CbcTaxSchemeAgencyID).FirstOrDefault(),
-                            CbcTaxSchemeAgencyCode = invoiceCSVData.Select(x => x.CbcTaxSchemeAgencyCode).FirstOrDefault(),
+                            CbcTaxSchemeAgencyId = string.IsNullOrEmpty(invoiceCSVData.Select(x => x.CbcTaxSchemeAgencyID).FirstOrDefault()) ? "6" : invoiceCSVData.Select(x => x.CbcTaxSchemeAgencyID).FirstOrDefault(),
+                            CbcTaxSchemeAgencyCode = string.IsNullOrEmpty(invoiceCSVData.Select(x => x.CbcTaxSchemeAgencyCode).FirstOrDefault()) ? "OTH" : invoiceCSVData.Select(x => x.CbcTaxSchemeAgencyCode).FirstOrDefault(),
                             CbcTaxSchemeID = invoiceCSVData.Select(x => x.CbcTaxSchemeID).FirstOrDefault(),
                         };
                         doctaxsubtotaljson = JsonConvert.SerializeObject(docTaxSubTotal1);
@@ -1278,7 +1283,8 @@ namespace ETLDEMO
             {
                 return string.Empty; // Return empty if the pattern doesn't match
             }
-        } private string ExtractInvoiceTypeFromFileName(string filename)
+        } 
+        private string ExtractInvoiceTypeFromFileName(string filename)
         {
             var parts = filename.Split('_');
             if (parts.Length > 1)
@@ -1286,6 +1292,20 @@ namespace ETLDEMO
                 // Extract the part that contains the invoice number, in your case the 4th part of the file name
                 var invoicetype = parts[1];// Adjust this if needed based on your file naming pattern
                 return invoicetype;
+            }
+            else
+            {
+                return string.Empty; // Return empty if the pattern doesn't match
+            }
+        }
+        private string ExtractSourceNameFromFileName(string filename)
+        {
+            var parts = filename.Split('_');
+            if (parts.Length > 1)
+            {
+                // Extract the part that contains the invoice number, in your case the 4th part of the file name
+                var sourcename = parts[0];// Adjust this if needed based on your file naming pattern
+                return sourcename;
             }
             else
             {

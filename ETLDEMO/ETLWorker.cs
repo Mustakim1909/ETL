@@ -164,14 +164,15 @@ namespace ETLDEMO
                             
 
                             await ProcessFileAsync(domainFiles, domainName, invoiceType, temp);
-                            // Pass all files for the domain and invoice type in a single call to ProcessFileAsync
+                        // Pass all files for the domain and invoice type in a single call to ProcessFileAsync
+                        Environment.Exit(0); // exit successfully after processing;
 
-                        
                     }
                     catch (Exception ex)
                     {   
                         LogThreadSafe($"Error processing files for domain {domainName}: {ex.Message}");
                         failedTasks.AddRange(domainFiles);  // Add all files from this domain group to failed tasks
+                        Environment.Exit(1); // exit with error code;
                     }
                 }
 
@@ -189,7 +190,7 @@ namespace ETLDEMO
             {
                 // Handle general exceptions
                 LogThreadSafe($"Exception in StartAsync: {ex.Message}");
-                throw;
+                Environment.Exit(1); // exit with error code;
             }
         }
 
@@ -234,6 +235,7 @@ namespace ETLDEMO
                         await Task.WhenAll(tasks);  // Await all tasks concurrently
                         tasks.Clear();  // Clear the tasks list after processing the batch
                     }
+                    return;
                 }
 
                 // Await remaining tasks (if any)
@@ -241,7 +243,7 @@ namespace ETLDEMO
                 {
                     await Task.WhenAll(tasks);
                 }
-
+                return;
             }
             catch (Exception ex)
             {
@@ -367,7 +369,12 @@ namespace ETLDEMO
                             CbcIDInvoiceNumber = invoiceCSVData.Select(x => x.CbcIDInvoiceNumber).FirstOrDefault(),
                             CbcPrecedingInvoicenumber = invoiceCSVData.Select(x => x.CbcPrecedingInvoicenumber).FirstOrDefault(),
                             CbcIDPaymentAccountIdentifier = invoiceCSVData.Select(x => x.CbcIDPaymentAccountIdentifier).FirstOrDefault(),
-                            CbcIDVATcategoryCode = invoiceCSVData.Select(x => x.CbcIDVATcategoryCode).FirstOrDefault(),
+                        CbcIDVATcategoryCode = invoiceCSVData
+    .Select(x => x.CbcIDVATcategoryCode)
+    .Where(x => !string.IsNullOrEmpty(x))
+    .Select(x => x.Length < 2 && x.All(char.IsDigit) ? x.PadLeft(2, '0') : x)
+    .FirstOrDefault(),
+
                             //CbcIDItemCountryOfOrigin = invoiceCSVData.Select(x => x.CbcIDItemCountryOfOrigin).FirstOrDefault(),
                             CbcIdentificationCode = invoiceCSVData.Select(x => x.CbcIdentificationCode).FirstOrDefault(),
                             CbcInvoiceTypeCode = invoiceCSVData.Select(x => x.CbcInvoiceTypeCode).FirstOrDefault(),
@@ -434,7 +441,7 @@ namespace ETLDEMO
                             CacSellerEmail = invoiceCSVData.Select(x => x.CbcSellerElectronicMail).FirstOrDefault(),
                             ReltedInvoiceId = invoiceCSVData.Select(x => x.ReltedInvoiceId).FirstOrDefault(),
                             EInvoiceNumber = invoiceCSVData.Select(x => x.EInvoiceNumber).FirstOrDefault(),
-                            TaxOfficeSchedulerId = invoiceCSVData.Select(x => x.TaxOfficeSchedulerId).FirstOrDefault(),
+                            //TaxOfficeSchedulerId = invoiceCSVData.Select(x => x.TaxOfficeSchedulerId).FirstOrDefault(),
                             InvoiceVersion = _appSettings.InvoiceVersion,
                             CbcDStreetName = invoiceCSVData.Select(x => x.CbcDStreetName).FirstOrDefault(),
                             CbcDAdditionalStreetName1 = invoiceCSVData.Select(x => x.CbcDAdditionalStreetName1).FirstOrDefault(),
@@ -619,6 +626,8 @@ namespace ETLDEMO
                             TotalSourceLineItems = invoiceCSVData.Count.ToString(),
                             //TotalAmount = totalamount,
                             TotalSourceInvoiceAmount = totalInvoiceLineAmount.ToString(),
+                            taxofficeschedulerid = invoiceCSVData.Select(x => x.taxofficeschedulerid).FirstOrDefault(),
+                            Delivery_SendEmail = invoiceCSVData.Select(x => x.Delivery_SendEmail).FirstOrDefault()
                         };
                         if(InvoiceCSVData.InvoiceVersion == null)
                         {
@@ -774,15 +783,17 @@ namespace ETLDEMO
                             if (invoicelineitemdata.Count() > 0)
                             {
                                 int lineId = 0;
-                                //List<string> taxtype = new List<string> { "01", "02", "03", "04", "05", "06", "E" };
+                                List<string> taxtype = new List<string> { "01", "02", "03", "04", "05", "06", "E" };
                                 Console.WriteLine("Invoice Line Items");
-                                //invoiceCSVData.ForEach(x =>
-                                //{
-                                //    if (!string.IsNullOrEmpty(x.CbcTaxType) && x.CbcTaxType.Length < 2)
-                                //    {
-                                //        x.CbcTaxType = x.CbcTaxType.PadLeft(2, '0');
-                                //    }
-                                //});
+                                invoiceCSVData.ForEach(x =>
+                                {
+                                    if (!string.IsNullOrEmpty(x.CbcTaxType)
+                                        && x.CbcTaxType.Length < 2
+                                        && x.CbcTaxType.All(char.IsDigit)) // Only pad if it's numeric
+                                    {
+                                        x.CbcTaxType = x.CbcTaxType.PadLeft(2, '0');
+                                    }
+                                });
                                 //if (!invoiceCSVData.Any(x => taxtype.Contains(x.CbcTaxType)))
                                 //{
                                 //    invoiceCSVData.ForEach(x => x.CbcTaxType = null);
@@ -976,7 +987,11 @@ namespace ETLDEMO
                             SBRefundNoteId = invoicedata1.Id,
                             //TaxAmount = invoiceCSVData.Select(x => x.TaxAmount).FirstOrDefault(),
                             CategoryTotalLines = invoiceCSVData.Select(x => x.CategoryTotalLines).FirstOrDefault(),
-                            CategoryTaxCategory = invoiceCSVData.Select(x => x.CategoryTaxCategory).FirstOrDefault(),
+                            CategoryTaxCategory = invoiceCSVData
+    .Select(x => x.CategoryTaxCategory)
+    .Where(x => !string.IsNullOrEmpty(x))
+    .Select(x => x.Length < 2 && x.All(char.IsDigit) ? x.PadLeft(2, '0') : x)
+    .FirstOrDefault(),
                             TaxCatCodeForTaxAmount = invoiceCSVData.Select(x => x.TaxCatCodeForTaxAmount).FirstOrDefault(),
                             CategoryTaxableAmount = invoiceCSVData.Select(x => x.CategoryTaxableAmount).FirstOrDefault(),
                             CategoryTaxAmount = invoiceCSVData.Select(x => x.CategoryTaxAmount).FirstOrDefault(),
@@ -1007,7 +1022,7 @@ namespace ETLDEMO
                         #endregion DocTaxSubTotal
 
                         #region PDF Fields
-                        string invmethod = $"{invoicetype}InvLMapping";
+                                string invmethod = $"{invoicetype}InvLMapping";
                         string invlinemethod = $"{invoicetype}LineMapping";
                     
                         var invfields = await InvokeDynamicMethodAsync(pDFMappingService, invmethod, invoiceCSVData);
@@ -1216,6 +1231,7 @@ namespace ETLDEMO
                 stopwatch1.Stop();
                 Console.WriteLine($"Total time taken in moving: {stopwatch1.Elapsed.TotalSeconds} seconds");
                 Log.Information($"Total time taken in moving: {stopwatch1.Elapsed.TotalSeconds} seconds");
+                return;
             }
             catch (Exception ex)
             {
